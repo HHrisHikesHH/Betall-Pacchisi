@@ -4,9 +4,20 @@ This guide explains how stories should be written and judged. It applies decisio
 
 ## 1. The narrator
 
-**APPROVED (D-007, D-008)**
+**APPROVED (D-007, D-008, D-033)**
 
-The narrator is **not a character standing outside the story to explain it**. The narrator is the way the story is told, and that way changes with what each story and each moment needs.
+The narrator is **not a character standing outside the story to explain it**. The narrator is the way the story is told. Two things need to be kept apart:
+
+| | Constant or changing? | What it is |
+|---|---|---|
+| **Underlying sensibility** (D-033) | Constant | Deeply wise, well-read, observant, introspective, and perceptive: a mature mind that notices what others pass over. |
+| **Manner of telling** (D-007) | Changes with each story and moment | Suspenseful, humorous, quiet, warm, contemplative, dramatic, or whatever the moment deserves. |
+
+The sensibility shows in **what the narration notices**: a revealing gesture, an irony in a character's choice, the detail that will matter later. It should not show in a solemn tone or in explanation. A funny passage can be just as perceptive as a contemplative one. Readers should *occasionally* find an insight they would have missed on an ordinary reading. They should never feel the narrator is announcing its wisdom or explaining every hidden meaning.
+
+The narrator's gender, identity, biography, and whether it is presented as human or AI are **OPEN** (`Q-005`). Do not invent them.
+
+### Manner of telling
 
 | The moment calls for… | The narration may become… |
 |---|---|
@@ -17,7 +28,7 @@ The narrator is **not a character standing outside the story to explain it**. Th
 | A choice that exposes a character | Challenging, turning the question back on the reader |
 | An image that needs room | Spare, or silent |
 
-The story decides the voice. A narrator who sounds the same in every tale, or who always reaches for profundity, has failed this guideline.
+The story decides the voice. A narrator who sounds the same in every tale, or who always reaches for profundity, has failed this guideline, even though the perceptive sensibility beneath it never changes.
 
 ### Direct address to the reader
 
@@ -58,6 +69,8 @@ Every addition must stay faithful to the story's:
 
 ### Testing an addition
 
+*PROPOSED checklist for applying D-009.*
+
 Before keeping an invented passage, ask:
 
 1. Does it make the reader see, feel, or understand something the story *needs*?
@@ -78,6 +91,8 @@ Before keeping an invented passage, ask:
 
 ## 4. Literary standards
 
+*PROPOSED checklist. It expands the review criteria approved for Drafts 2 and 3 (D-019, [STORY_WORKFLOW.md](STORY_WORKFLOW.md) §3). The specific items have not been separately approved.*
+
 A finished story should have:
 
 - **A compelling opening** that makes the reader want to continue.
@@ -95,9 +110,12 @@ A finished story should have:
 **APPROVED (D-012, D-013)**
 
 - Hindi is written first and should read as **natural, literary Hindi**. *What register of Hindi to use (for example, how Sanskritised or colloquial) is OPEN: see `Q-402` in [OPEN_QUESTIONS.md](OPEN_QUESTIONS.md).*
-- English is a **literary adaptation** of the approved Hindi. It is not a translation. It should carry the same emotional impact, meaning, atmosphere, and depth, and it may reshape sentences, idioms, and rhythm to do so. It must not add or remove story events, change interpretations, or move the tone away from the Hindi.
+- **APPROVED (D-013):** English is a **natural literary adaptation** of the approved Hindi story, not a word-for-word translation. It must preserve the story's meaning, emotional impact, atmosphere, and depth. Like all writing for the project, it stays faithful to the story's identity and essential events (D-009).
+- **PROPOSED (P-007), not yet approved:** the adapter has freedom to reshape sentences, imagery, idiom, rhythm, and emphasis so the story lives in English. As a working guideline, the English should not introduce new plot events or settle interpretations that the Hindi deliberately leaves open. Where the adaptation departs noticeably from the Hindi, record the departure and its reason so a reviewer can judge it. The aim is a story that works in English, not a line-by-line match.
 
 ## 5. What to avoid
+
+The user explicitly asked to avoid preaching, forced morals, filler, generic prose, artificial dialogue, unrelated digressions, and forced philosophy (D-006, D-009). Uniform narration follows from D-007, and imitation from D-018. **Over-modernising is PROPOSED.** The "Instead" column is guidance, not decision.
 
 | Avoid | What it looks like | Instead |
 |---|---|---|

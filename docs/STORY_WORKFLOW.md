@@ -15,6 +15,8 @@ This document describes the process every story goes through, from research to a
 
 ## 2. Roles
 
+*Role separation is APPROVED (D-020). The specific "Must not" limits for the researcher and critic are PROPOSED.*
+
 | Role | Responsibility | Must not |
 |---|---|---|
 | **Researcher** | Finds and compares sources, and prepares the blueprint (Stage 1). | Present unverified claims as fact. |
@@ -38,7 +40,7 @@ Produced by the researcher and shared by both languages.
   - the riddle or dilemma, and Vikram's resolution,
   - the essential events that any retelling must keep.
 - Note the emotional and thematic **possibilities**, without imposing a fixed interpretation.
-- Note candidate atmosphere moments (time, weather, setting, intensity) and candidate illustration moments. These are notes for later work and not decisions.
+- *PROPOSED:* note candidate atmosphere moments (time, weather, setting, intensity) and candidate illustration moments. These are notes for later work and not decisions.
 - List the open questions this tale raises.
 
 **Exit:** a blueprint the writer can work from, with sources cited.
@@ -91,11 +93,12 @@ Produced by the writer in response to Critique 2. Examine:
 Begins **only after the Hindi story is APPROVED**. (D-012)
 
 - Adapt from the **approved Hindi text**, using the shared blueprint for context.
-- The adaptation is literary, not word-for-word (D-013). It goes through its own writer and critic iterations, followed by a **faithfulness check against the approved Hindi** and the user's approval. *How many iterations the English version needs, and who checks faithfulness, is OPEN: see `Q-403`.*
+- The adaptation is literary, not word-for-word (D-013). See [EDITORIAL_GUIDE.md](EDITORIAL_GUIDE.md) §4 for its approved requirements and the proposed working guidelines (P-007).
+- **PROPOSED:** the English version goes through its own writer and critic iterations, then a check that it preserves the meaning, impact, atmosphere, and depth of the approved Hindi, then the user's approval. *The number of iterations and who does the check are OPEN: see `Q-403`.*
 
 ### After approval
 
-If an approved Hindi story is changed later, the change must go through critique and the user's approval again. **Whether and how the English adaptation is then updated is OPEN** (`Q-403`).
+*PROPOSED:* if an approved Hindi story is changed later, the change should go through critique and the user's approval again. **Whether and how the English adaptation is then updated is OPEN** (`Q-403`).
 
 ## 4. Story status values
 

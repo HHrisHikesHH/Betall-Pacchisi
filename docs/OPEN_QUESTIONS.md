@@ -28,6 +28,7 @@ This is the organised list of unresolved decisions. **None of these may be treat
 | Q-002 | How is the outer frame story of King Vikram and the Betal presented around the individual tales: as a story of its own, as an introduction, or woven between tales? | OPEN | The answer depends partly on Q-401. |
 | Q-003 | In what order will the tales be produced and released? Does the experience launch with all 25 tales, or with a subset? | OPEN | |
 | Q-004 | Who is the intended audience (age range, familiarity with the tales), and should any tales or content be handled differently for younger readers? | OPEN | Some tales may involve mature themes. RESEARCH REQUIRED once sources are compared. |
+| Q-005 | What is the narrator's identity, if any: gender, persona, biography, and whether it is presented as human or AI? Or does it remain an unnamed storytelling presence? | OPEN | The sensibility is approved (D-033). The identity is not. |
 
 ## Product and reading experience
 
@@ -40,8 +41,8 @@ This is the organised list of unresolved decisions. **None of these may be treat
 | Q-103 | How often do illustrations appear, and how does the rhythm vary between scenes? | OPEN | Must follow cinematic pacing (D-023). |
 | Q-104 | How do illustrations enter, stay, and change as the reader moves through a scene? | OPEN | |
 | Q-105 | What are the typography and visual treatment for Hindi (Devanagari) and English text? | OPEN | Both scripts must read beautifully. |
-| Q-106 | How does reading behave on mobile, given the preferred text-left, illustrations-right layout? | OPEN | D-032 is a preference, not a decision. |
-| Q-107 | **Reading layout:** confirm or revise the text-left, illustrations-right composition, and decide whether it varies by scene. | OPEN | A major future discussion. Reference: D-031. |
+| Q-106 | How does reading behave on mobile, given the preferred text-left, illustrations-right layout? | OPEN | PREF-001 is a preference, not a decision. |
+| Q-107 | **Reading layout:** confirm or revise the text-left, illustrations-right composition, and decide whether it varies by scene. | OPEN | A major future discussion. Reference: D-031. Preference: PREF-001. |
 | Q-108 | How many shared atmosphere themes are there (for example, combinations of time, weather, and setting), and how are they defined? | OPEN | Atmosphere is story-led (D-026). |
 | Q-109 | How does atmosphere show in the interface itself (colour, light, texture, motion) beyond the illustrations and audio? | OPEN | |
 | Q-110 | How does the language toggle behave: where it sits, whether it keeps the reader's position, and whether it remembers a preference? | OPEN | Toggle approved (D-011). Behaviour not decided. |
@@ -62,7 +63,7 @@ This is the organised list of unresolved decisions. **None of these may be treat
 
 | ID | Question | Status | Notes |
 |---|---|---|---|
-| Q-301 | What is the musical direction (instruments, traditions, character)? | OPEN / RESEARCH REQUIRED | Must suit the Indian identity of the work and avoid lyrics (D-027). |
+| Q-301 | What is the musical direction (instruments, traditions, character)? | OPEN / RESEARCH REQUIRED | Guardrails such as avoiding lyrics are PROPOSED (P-006). |
 | Q-302 | How do sound transitions behave, and how do they line up with the reader's position? | OPEN | |
 | Q-303 | What is the audio preloading and loading strategy? | OPEN | Preloading expected (D-028). Not everything should load at first page load. |
 | Q-304 | What sound controls do readers get, and is sound on or off by default? | OPEN | |

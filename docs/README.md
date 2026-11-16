@@ -8,6 +8,8 @@ These documents exist so that any collaborator can understand what the project i
 
 ## Status labels
 
+### Project status labels (used in every document)
+
 Every substantial point in these documents carries one of four labels:
 
 | Label | Meaning |
@@ -17,7 +19,20 @@ Every substantial point in these documents carries one of four labels:
 | **OPEN** | Needs further discussion. No answer should be assumed. |
 | **RESEARCH REQUIRED** | Needs evidence, source checking, or verification before anyone relies on it. |
 
-A point with no label should be read as descriptive context, not as a decision.
+A point with no label should be read as descriptive context, not as a decision. Where a section derives guidance from an approved decision without the user having approved the specific wording, it is labelled PROPOSED.
+
+### Decision lifecycle states (used only in DECISIONS.md)
+
+[DECISIONS.md](DECISIONS.md) also uses two **historical** states for register entries that are no longer current:
+
+- **SUPERSEDED**: replaced by a later decision.
+- **REJECTED**: a proposal the user declined.
+
+These are not project status labels. They record what happened to an entry, and they do not apply to points in other documents.
+
+### Recorded user preferences
+
+A **recorded preference** (`PREF-###`, kept in [DECISIONS.md](DECISIONS.md#recorded-user-preferences)) notes what the user currently leans towards. **It is not a decision.** The related question stays OPEN.
 
 ## Documents and what each one governs
 

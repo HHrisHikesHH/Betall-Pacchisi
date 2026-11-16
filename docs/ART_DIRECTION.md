@@ -1,6 +1,6 @@
 # Art Direction
 
-This document records the visual direction for the project's illustrations. It applies decisions D-023 to D-026 and D-031 to D-032 in [DECISIONS.md](DECISIONS.md). **The final art style and reading layout are not decided.** The questions are tracked in [OPEN_QUESTIONS.md](OPEN_QUESTIONS.md) (`Q-1xx`, `Q-2xx`).
+This document records the visual direction for the project's illustrations. It applies decisions D-023 to D-026 and D-031 in [DECISIONS.md](DECISIONS.md), and notes the layout preference PREF-001. **The final art style and reading layout are not decided.** The questions are tracked in [OPEN_QUESTIONS.md](OPEN_QUESTIONS.md) (`Q-1xx`, `Q-2xx`).
 
 ## 1. Purpose of illustration
 
@@ -84,7 +84,7 @@ A rainy night in dense forest should look different from a clear, quiet night in
 
 **OPEN**
 
-- The user **currently likes** text on the left with **one or two relevant illustrations on the right**, arranged with deliberate composition. (D-032) This is a stated preference and **not** a final layout.
+- **Recorded user preference (PREF-001), not a decision:** the user currently likes text on the left with one or two relevant illustrations on the right, arranged with deliberate composition. No layout has been approved.
 - The reference `https://visualsarkarsm.com/work-detail/118` is useful for illustrated storytelling and composition. **It is not a design to copy.** (D-031)
 - Undecided: continuous scroll, page-turn, or a hybrid (`Q-101`); mobile behaviour (`Q-106`); typography and visual treatment (`Q-105`).
 

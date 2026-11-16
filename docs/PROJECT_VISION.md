@@ -17,7 +17,7 @@ We take storytelling seriously. The aim is not to put old stories online. It is 
 - *The surface story.* Anyone can follow and enjoy the tale with no philosophical background: the characters, the strangeness, the suspense, and the riddle at the end.
 - *The deeper story.* A more attentive reader finds layers of meaning, human psychology, and perspectives that invite reflection and reward rereading. These layers should **emerge from the story**. They should not be attached to it.
 
-**It should be narrated, not lectured.** The narrator's voice changes with the story. Sometimes it is quiet, sometimes playful, sometimes tense. It is never a fixed sage delivering commentary. (D-007, D-008; see [EDITORIAL_GUIDE.md](EDITORIAL_GUIDE.md))
+**It should be narrated, not lectured.** Beneath the telling is a deeply wise, observant, and perceptive storyteller. The manner of telling changes with the story: sometimes quiet, sometimes playful, sometimes tense. The insight shows in what the narration notices, never in commentary. (D-007, D-008, D-033; see [EDITORIAL_GUIDE.md](EDITORIAL_GUIDE.md))
 
 **It should be seen.** Illustrations follow a cinematic rhythm. They are held through a scene, and dedicated artwork marks turning points. They should be unmistakably Indian in character. (D-023, D-024; see [ART_DIRECTION.md](ART_DIRECTION.md))
 

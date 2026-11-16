@@ -23,22 +23,25 @@ Full wording and IDs are in [DECISIONS.md](DECISIONS.md).
 
 - **Scope:** the 25 Betal Pachisi tales only, for now. Other folk stories are future scope. No name chosen.
 - **Experience:** an immersive story, not a conventional website. Layered reading. No forced morals, and room for several interpretations.
-- **Narration:** an adaptive narrator whose voice suits each moment. Occasional purposeful direct address, never lectures.
+- **Narration:** the manner of telling adapts to each moment. Occasional purposeful direct address, never lectures.
 - **Creative freedom:** *broad imagination, disciplined relevance*.
 - **Language:** Hindi and English at launch, switched with a toggle (not side by side). **Hindi is written, verified, and approved first, and only then adapted into English.** English is a literary adaptation. More languages later, such as Marathi and Kannada.
 - **Sources:** research and compare the traditions before choosing a foundation. Cite editions, track variants, and separate source material from additions. Osho may be studied for technique only: no impersonation, attribution, fabricated quotes, or implied endorsement.
 - **Workflow:** research and blueprint, then Drafts 1 to 3 (a minimum), then independent verification, then the user's approval. Separate writer, critic, and verifier roles. Keep every record.
 - **Illustration:** cinematic pacing. AI-generated and unmistakably Indian. Traditions to research, not to combine blindly. Coherent direction and consistent characters.
 - **Atmosphere:** led by the story (time, weather, setting, emotion, intensity). Changes happen naturally and are not chosen by the reader.
-- **Audio:** ambience, instrumental music, sparing accents, and silence. No lyrics or spikes. Assets prepared and preloaded, with the loading strategy still to be designed. Licensing checked for every asset.
+- **Audio:** ambience, instrumental music, narrative sound accents, and deliberate silence, all supporting the reading. Assets prepared and preloaded, with the loading strategy still to be designed. Licensing checked for every asset. (Guardrails such as no lyrics are PROPOSED, P-006.)
 - **Technology:** nothing chosen. Keep it simple and maintainable. Creative content is kept separate from code.
-- **Layout:** the user currently *likes* text on the left with one or two illustrations on the right. This is a preference, not a decision.
+- **Narrator sensibility:** a deeply wise, observant, perceptive storyteller beneath every voice. Insight emerges from the story and is never announced. Narrator identity is undecided.
+
+**Recorded preference, not a decision (PREF-001):** the user currently likes text on the left with one or two illustrations on the right.
 
 ## Completed work
 
 | Date | Work |
 |---|---|
-| 2026-11-16 | Created the documentation foundation in `docs/` on branch `docs/project-foundation`. |
+| 2026-11-16 | Created the documentation foundation in `docs/` on branch `docs/project-foundation` (PR #1). |
+| 2026-11-16 | Refinement pass after the user's review: added the narrator sensibility (D-033), corrected the source attribution, and corrected status labels (see *Register corrections* in DECISIONS.md). |
 
 ## Major unresolved questions
 
@@ -53,7 +56,7 @@ The full list is in [OPEN_QUESTIONS.md](OPEN_QUESTIONS.md). The most consequenti
 
 ## Proposals waiting for the user's decision
 
-P-001 to P-005 in [DECISIONS.md](DECISIONS.md#proposals-awaiting-the-users-decision): story record structure, project bibliography, character model sheets, audio asset register, and making source comparison the next task.
+P-001 to P-007 in [DECISIONS.md](DECISIONS.md#proposals-awaiting-the-users-decision): story record structure, project bibliography, character model sheets, audio asset register, source comparison as the next task, sound-design guardrails, and English adaptation guidelines.
 
 ## Recommended next task
 

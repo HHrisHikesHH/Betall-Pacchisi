@@ -1,6 +1,12 @@
 # Audio Direction
 
-This document records the role of sound in the reading experience. It applies decisions D-026 to D-029 in [DECISIONS.md](DECISIONS.md). **Approved direction** (set by the user) is kept separate from **implementation recommendations** (PROPOSED), which are not binding.
+This document records the role of sound in the reading experience. It applies decisions D-026 to D-029 in [DECISIONS.md](DECISIONS.md). It separates three kinds of content:
+
+| Kind | Sections | Status |
+|---|---|---|
+| Experience direction set by the user | §1, §2, §4, §5 (first part), §7 (first part) | APPROVED |
+| Sound-design recommendations | §3 | PROPOSED (P-006) |
+| Implementation considerations: loading, controls, asset register | §5 (second part), §6, §7 (second part) | PROPOSED or OPEN |
 
 ## 1. Role of audio
 
@@ -21,19 +27,16 @@ Background music and environmental sound are **important parts of the experience
 
 Silence is a **choice**, not a gap. Some moments are strongest with nothing playing.
 
-## 3. What audio must avoid
+## 3. Sound-design guardrails
 
-**APPROVED (D-027)**
+**PROPOSED (P-006).** These came up as recommendations in project discussions. They follow from the approved principle that audio supports reading, but the user has not separately confirmed them.
 
-- **Lyrics.** Words in music compete with words on the page.
-- **Distracting volume spikes.**
-- **Constant, unnecessary music.** Music should not play just because it can.
-
-PROPOSED, consistent with the approved direction but not separately approved:
-
-- Avoid sound accents so frequent that they become a gimmick.
-- Avoid audio that contradicts the scene, such as birdsong during a midnight storm.
-- Avoid music whose cultural character clashes with the Indian identity of the work. *The musical direction itself is OPEN (`Q-301`).*
+- **No lyrics.** Words in music compete with words on the page.
+- **No distracting volume spikes.**
+- **No constant or unnecessary music.** Music should not play just because it can.
+- **Sparing sound accents**, so they do not become a gimmick.
+- **No audio that contradicts the scene**, such as birdsong during a midnight storm.
+- **No music whose cultural character clashes with the Indian identity of the work.** *The musical direction itself is OPEN (`Q-301`).*
 
 ## 4. Story-led changes
 

@@ -12,7 +12,9 @@ Betal Pachisi exists in several textual traditions. **Do not assume they are ide
 
 **RESEARCH REQUIRED.** No source has been chosen.
 
-The user has named the traditions below as starting points. Nothing about them has yet been verified by this project, including dates, authorship, language, number and order of tales, frame story, conclusions, or available editions and translations. Do not state such details in project material until they have been verified and cited.
+The traditions below are **initial research candidates** that came up during project planning and research discussions. The user has **not selected** any of them as a source and has not approved the list as complete. Research may add traditions to it or remove them.
+
+Nothing about these traditions has yet been verified by this project, including dates, authorship, language, number and order of tales, frame story, conclusions, or available editions and translations. Do not state such details in project material until they have been verified and cited. **No primary foundation may be chosen until the comparison is done** (D-016, `Q-401`).
 
 | Tradition | Project status |
 |---|---|
@@ -53,7 +55,7 @@ Which tradition becomes the **primary foundation** for the project's retellings 
 
 **APPROVED (D-017)**
 
-Every source actually consulted must be recorded with enough detail for someone else to find the same text:
+Every source actually consulted must be recorded with enough detail for someone else to find the same text. *The field list below is PROPOSED.*
 
 - author, compiler, or translator,
 - title, in the original script and transliterated where relevant,
@@ -102,6 +104,8 @@ Detail that is clearly invented atmosphere does not need a citation. It must sti
 
 ## 8. Copyright caution
 
+*PROPOSED general guidance. The approved copyright requirement for Osho material is in §9 (D-018).*
+
 - Older primary texts may be in the public domain, but **modern editions, translations, commentaries, and critical apparatus may still be protected**. Check before reproducing any of them. (RESEARCH REQUIRED, case by case.)
 - Do not reproduce substantial passages of any modern translation or retelling in project content.
 - Studying a protected work for structure and technique is different from copying its expression. The project does the former only.
@@ -132,6 +136,8 @@ The following are **required**:
 The aim is to learn what makes storytelling effective, not to copy anyone's identity or writing. This principle applies to every storyteller the project studies, not only Osho.
 
 ## 10. Use of AI in research
+
+*The rule that AI output needs independent review is APPROVED (D-020). The specific practices below are PROPOSED.*
 
 - AI tools may help find leads, summarise *verified* material, and draft comparison tables.
 - AI output is **not evidence**. Every factual or textual claim must be traced to a cited source by a human or an independent verification step (see the verifier role in [STORY_WORKFLOW.md](STORY_WORKFLOW.md)).
