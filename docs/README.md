@@ -47,6 +47,7 @@ A **recorded preference** (`PREF-###`, kept in [DECISIONS.md](DECISIONS.md#recor
 | [ART_DIRECTION.md](ART_DIRECTION.md) | Visual identity, illustration pacing, character consistency, and atmosphere in visual form. |
 | [AUDIO_DIRECTION.md](AUDIO_DIRECTION.md) | Music, ambience, sound accents, silence, preloading expectations, and audio licensing. |
 | [OPEN_QUESTIONS.md](OPEN_QUESTIONS.md) | The organised list of unresolved creative, product, research, and technical questions. |
+| [research/](research/) | Research reports, such as [SOURCE_TRADITIONS_COMPARISON.md](research/SOURCE_TRADITIONS_COMPARISON.md). They supply evidence for decisions but never make them; their status labels show what has been verified. |
 
 ## Maintenance rules
 

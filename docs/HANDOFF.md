@@ -6,9 +6,10 @@ Read this first when you start a new session on this project. It summarises the 
 
 ## Current status
 
-**The project is at its foundation stage.** Only documentation exists.
+**The project is at its foundation stage.** Only documentation and research exist.
 
-- No story research, blueprints, or drafts have been produced.
+- An **initial comparative study of the source traditions** has been compiled ([research/SOURCE_TRADITIONS_COMPARISON.md](research/SOURCE_TRADITIONS_COMPARISON.md)). It is **not yet independently reviewed**, and Q-401 remains unresolved.
+- No story blueprints or drafts have been produced.
 - No art style, artwork, or audio exists.
 - No technology has been chosen and no application code exists.
 - The application has **no approved name**. "Betall-Pacchisi" is only the repository name.
@@ -42,12 +43,14 @@ Full wording and IDs are in [DECISIONS.md](DECISIONS.md).
 |---|---|
 | 2026-11-16 | Created the documentation foundation in `docs/` on branch `docs/project-foundation` (PR #1). |
 | 2026-11-16 | Refinement pass after the user's review: added the narrator sensibility (D-033), corrected the source attribution, and corrected status labels (see *Register corrections* in DECISIONS.md). |
+| 2026-11-16 | Initial comparative research into the Vetālapañcaviṃśati / Betal Pachisi traditions, on branch `research/source-traditions-comparison`. Covers Somadeva, Kṣemendra, Śivadāsa, Jambhaladatta, the Braj/Hindi lineage, and other witnesses. Partly complete: Kṣemendra's text, the Newari version, and the Bhaviṣya Purāṇa version were not read directly (see the report's §15). |
 
 ## Major unresolved questions
 
 The full list is in [OPEN_QUESTIONS.md](OPEN_QUESTIONS.md). The most consequential are:
 
-- **Q-401**: which source tradition is the primary literary foundation (RESEARCH REQUIRED).
+- **Q-401**: which source tradition is the primary literary foundation (RESEARCH REQUIRED; initial research compiled, awaiting independent review).
+- **Q-410**: how the approved "25 tales" are counted, given that the traditions differ.
 - **Q-101 / Q-107**: book behaviour (scroll, page-turn, or hybrid) and the reading layout.
 - **Q-201 / Q-203**: the final art style and the look of Vikram and Betal.
 - **Q-002**: how the frame story is presented.
@@ -60,17 +63,13 @@ P-001 to P-007 in [DECISIONS.md](DECISIONS.md#proposals-awaiting-the-users-decis
 
 ## Recommended next task
 
-**PROPOSED (P-005):** *Comparative survey of the Betal Pachisi source traditions.*
+**Independent review of the source comparison report**, as required by D-020.
 
-Following [SOURCE_AND_RESEARCH_POLICY.md](SOURCE_AND_RESEARCH_POLICY.md), produce a cited research document that, for each candidate tradition (Kshemendra, Somadeva's *Kathasaritsagara*, Shivadasa, Jambhaladatta, Lallū Lāl and other Braj/Hindi adaptations, and any others found):
+A reviewer who did not compile the report should work through the *Independent Review Required* checklist in [research/SOURCE_TRADITIONS_COMPARISON.md](research/SOURCE_TRADITIONS_COMPARISON.md#independent-review-required). That reviewer could be a separate AI session, a different model, or a human specialist. Priorities 1–3 come first: claims affecting the choice, tale counts, and changed answers. The reviewer should record confirmations and corrections, without resolving Q-401.
 
-1. identifies accessible editions and translations with full bibliographic details,
-2. compares the frame story, the number and order of tales, and the conclusions,
-3. notes significant differences in characterisation and resolution,
-4. marks every claim as verified (with citation) or unverified,
-5. ends with options for Q-401 (the primary foundation) for the user to decide, **without deciding it**.
+After review, the **user decides Q-401** (and Q-410), using the options in §13 and the questions in §14 of the report. P-005 (making the source comparison the next task) has not been formally approved; the research was carried out at the user's request.
 
-This is a research task. It should not produce any story drafts. Its findings should then be reviewed independently before the user makes a decision.
+**Do not begin writing any story** until the research has been independently reviewed and the user has chosen the literary foundation.
 
 ## Notes for the next session
 

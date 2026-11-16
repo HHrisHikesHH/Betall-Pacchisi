@@ -73,7 +73,7 @@ This is the organised list of unresolved decisions. **None of these may be treat
 
 | ID | Question | Status | Notes |
 |---|---|---|---|
-| Q-401 | Which source tradition (or combination) is the primary literary foundation? | RESEARCH REQUIRED | Decide only after comparing traditions (D-016). |
+| Q-401 | Which source tradition (or combination) is the primary literary foundation? | RESEARCH REQUIRED | Decide only after comparing traditions (D-016). An initial comparison is in [research/SOURCE_TRADITIONS_COMPARISON.md](research/SOURCE_TRADITIONS_COMPARISON.md). It is awaiting independent review and does not resolve this question. |
 | Q-402 | What register of Hindi is used (how Sanskritised, how colloquial), and does it vary by story or character? | OPEN | |
 | Q-403 | How many iterations does the English adaptation need, who checks its faithfulness to the Hindi, and how are later Hindi revisions carried into English? | OPEN | |
 | Q-404 | Should readers be shown which parts are source and which are our additions, or does this stay internal? | OPEN | Recording it internally is required (D-017). |
@@ -82,6 +82,7 @@ This is the organised list of unresolved decisions. **None of these may be treat
 | Q-407 | What target length or range should a story have? | OPEN | Length should follow the story (no filler, D-006). |
 | Q-408 | Which source hierarchy is adopted? | OPEN | Draft hierarchy is PROPOSED in [SOURCE_AND_RESEARCH_POLICY.md](SOURCE_AND_RESEARCH_POLICY.md) §3. |
 | Q-409 | What are the copyright position and permissions for any Osho material the project might reference? | RESEARCH REQUIRED | D-018 |
+| Q-410 | How should the approved "25 tales" (D-001) be counted, given that traditions differ? Somadeva has 24 tales plus a concluding 25th; the Hindi has 25 with a doublet; Jambhaladatta has 25 narrated tales, 27 originally per Emeneau. | OPEN | Depends on Q-401. Raised by the source comparison (§6, §14). This does not change D-001. |
 
 ## Technical
 
