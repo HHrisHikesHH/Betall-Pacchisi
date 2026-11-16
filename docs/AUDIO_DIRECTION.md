@@ -12,9 +12,9 @@ This document records the role of sound in the reading experience. It applies de
 
 **APPROVED (D-027)**
 
-Background music and environmental sound are **important parts of the experience**. They help the reader *be inside* the story.
+Background music and environmental sound are **important parts of the experience**. They are meant to make reading more engaging and immersive, helping the reader *be inside* the story.
 
-**PROPOSED (P-006):** audio supports reading and does not compete with it.
+**PROPOSED (P-006), not an approved requirement:** audio should support reading and never compete with it. This guardrail was recommended during discussions and has not been confirmed by the user.
 
 ## 2. Elements
 
