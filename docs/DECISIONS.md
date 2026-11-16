@@ -105,7 +105,7 @@ Applied in [AUDIO_DIRECTION.md](AUDIO_DIRECTION.md).
 
 | ID | Decision | Status |
 |---|---|---|
-| D-027 | **Background music and environmental sound are important** to the experience. Potential elements are environmental sound (rain, wind, leaves, water, thunder, fire, birds), instrumental music that follows the emotional movement, carefully placed narrative sound accents, and silence used deliberately. Audio supports reading and does not compete with it. *Specific sound-design guardrails are PROPOSED (P-006), not part of this decision.* | APPROVED |
+| D-027 | **Background music and environmental sound are important** to the experience. Potential elements are environmental sound (rain, wind, leaves, water, thunder, fire, birds), instrumental music that follows the emotional movement, carefully placed narrative sound accents, and silence used deliberately. *The principle that audio supports reading without competing with it, and the specific sound-design guardrails, are PROPOSED (P-006). They are not part of this decision.* | APPROVED |
 | D-028 | Music and sound assets are **prepared and preloaded** for reading. The loading approach still needs to be designed, and it must not be assumed that every large asset downloads on the first page load. | APPROVED |
 | D-029 | **Usage rights and licensing must be checked for every audio asset.** | APPROVED |
 
@@ -141,7 +141,7 @@ These recommendations were made while writing this documentation. They are **not
 | P-003 | Keep a character visual reference ("model sheet") for each recurring character before producing story illustrations at scale. | ART_DIRECTION.md | PROPOSED |
 | P-004 | Keep an audio asset register that records each asset's source, licence, and attribution requirements. | AUDIO_DIRECTION.md | PROPOSED |
 | P-005 | Make a source comparison of the major Betal Pachisi traditions the next major task (see [HANDOFF.md](HANDOFF.md)). | HANDOFF.md | PROPOSED |
-| P-006 | Sound-design guardrails: no lyrics; avoid distracting volume spikes; avoid constant or unnecessary music; use sound accents sparingly; avoid sound that contradicts the scene. | AUDIO_DIRECTION.md §3 | PROPOSED |
+| P-006 | Sound-design principle and guardrails: audio supports reading and does not compete with it; no lyrics; avoid distracting volume spikes; avoid constant or unnecessary music; use sound accents sparingly; avoid sound that contradicts the scene. | AUDIO_DIRECTION.md §3 | PROPOSED |
 | P-007 | Working guidelines for the English adaptation: freedom to reshape language, imagery, and rhythm; no new plot events; do not settle interpretations the Hindi leaves open; record and review noticeable departures. | EDITORIAL_GUIDE.md §4 | PROPOSED |
 
 ## Rejected proposals
@@ -158,7 +158,7 @@ These corrections were made before the register was first merged, during the use
 
 | Entry | Correction |
 |---|---|
-| D-027 | The guardrails on lyrics, volume spikes, and constant music were moved out of the approved decision into P-006, because they were recommendations the user had not separately confirmed. |
+| D-027 | The principle "audio supports reading and does not compete with it" and the guardrails on lyrics, volume spikes, and constant music were moved out of the approved decision into P-006. The user had not separately confirmed them, and confirmed this reclassification on 2026-11-16. |
 | D-032 → PREF-001 | The layout preference moved out of the approved decisions into *Recorded user preferences*. |
 | D-033 | Added at the user's direction: the narrator's underlying sensibility, from earlier project discussions. |
 | P-007 | The English adaptation restrictions in EDITORIAL_GUIDE.md were reclassified from approved to PROPOSED. |

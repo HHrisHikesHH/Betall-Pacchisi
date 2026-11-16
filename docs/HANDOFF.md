@@ -30,7 +30,7 @@ Full wording and IDs are in [DECISIONS.md](DECISIONS.md).
 - **Workflow:** research and blueprint, then Drafts 1 to 3 (a minimum), then independent verification, then the user's approval. Separate writer, critic, and verifier roles. Keep every record.
 - **Illustration:** cinematic pacing. AI-generated and unmistakably Indian. Traditions to research, not to combine blindly. Coherent direction and consistent characters.
 - **Atmosphere:** led by the story (time, weather, setting, emotion, intensity). Changes happen naturally and are not chosen by the reader.
-- **Audio:** ambience, instrumental music, narrative sound accents, and deliberate silence, all supporting the reading. Assets prepared and preloaded, with the loading strategy still to be designed. Licensing checked for every asset. (Guardrails such as no lyrics are PROPOSED, P-006.)
+- **Audio:** ambience, instrumental music, narrative sound accents, and deliberate silence. Assets prepared and preloaded, with the loading strategy still to be designed. Licensing checked for every asset. (The principle that audio supports reading without competing, and guardrails such as no lyrics, are PROPOSED: P-006.)
 - **Technology:** nothing chosen. Keep it simple and maintainable. Creative content is kept separate from code.
 - **Narrator sensibility:** a deeply wise, observant, perceptive storyteller beneath every voice. Insight emerges from the story and is never announced. Narrator identity is undecided.
 

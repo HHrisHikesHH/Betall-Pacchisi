@@ -23,7 +23,7 @@ We take storytelling seriously. The aim is not to put old stories online. It is 
 
 **It should be felt in its environment.** Time of day, weather, setting, emotional atmosphere, and dramatic intensity shape the reading experience. The story leads these changes, and they happen at natural moments. (D-026)
 
-**It should be heard, gently.** Ambient sound, instrumental music, sparing sound accents, and deliberate silence support the reading and never compete with it. (D-027; see [AUDIO_DIRECTION.md](AUDIO_DIRECTION.md))
+**It should be heard.** Ambient sound, instrumental music, carefully placed sound accents, and deliberate silence are part of the experience (D-027). That audio should support the reading without competing with it is PROPOSED (P-006). See [AUDIO_DIRECTION.md](AUDIO_DIRECTION.md).
 
 **It should be readable in Hindi and English.** Hindi is written first. English is a literary adaptation in its own right. (D-010 to D-013)
 
