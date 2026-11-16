@@ -313,7 +313,7 @@ Statuses used: **VERIFIED** (applied, and the revised wording matches the source
 | C12 | §8.1, §8.3, §8.4 and their labels | **PARTIALLY VERIFIED** | The citations are correct. The report says the XV interlinear wording "was not located"; it is on **Barker p. 270** (page image), so omitting it was unnecessary but not wrong. **More important (see A1 and A2):** the page images show that Barker's printed Hindi supports the report's framing in IX, but only partly in XV and XX. The report's phrase "Hindi original not read" is still accurate for the 1805 and Forbes texts. |
 | C13 | §8.1 Location row; §8.1 J column | **VERIFIED** | Emeneau pp. 66–73, with the answer on p. 73 (page image). **However**, the report's checklist row R2 still says "note 40". The page image shows **note 10** on p. 71. This review's own R2 text had the same OCR error (§7.6). |
 
-**Summary.** All thirteen corrections were applied. Nine are verified as applied. Three (C2, C6, C12) are partially verified: the applied text is correct, but a residual or new problem remains. None is unapplied or contradicted by the source.
+**Summary.** All thirteen corrections were applied. Ten are verified as applied. Three (C2, C6, C12) are partially verified: the applied text is correct, but a residual or new problem remains. None is unapplied or contradicted by the source.
 
 ---
 
