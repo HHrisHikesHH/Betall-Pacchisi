@@ -28,6 +28,8 @@
 
 ## 1. Purpose and decision boundary
 
+> **The user's editorial decision (2026-11-17), recorded after this research:** Hindi XXII and XXIV count as **one candidate family and one slot (TC-023), with two distinct recorded source variants.** This is an **application of D-035 to TC-023**. It is **not** a new general decision, D-035 is unchanged, it is **not** a selection of TC-023 for the final collection, and **Q-411 remains open**. This decision is the user's and is **distinct from this document's research recommendation** (§13), which was advisory and reached the same direction (a weak lean to one slot). The analysis in §§10–13 is preserved unchanged as the evidence record, and the question is closed.
+
 D-035 (approved) says a repeated underlying plot counts as a separate tale only if it has a **genuinely different central dilemma** or is **substantially different as a story**. The Hindi *Baitāl Pachīsī* tells a body-entering plot twice (XXII and XXIV). The merged report and catalogue had read only the openings, endings and a few passages of these tales. This document reads **both tales in full** and compares them with KSS 23 and Ś 22, so the user can judge.
 
 **Evidence labels used here** (in addition to the report's labels):
@@ -369,7 +371,9 @@ Neither test is clearly met on the Hindi tales **as printed**. Test B is the str
 
 **Confidence.** **Low to moderate.** The factual findings in §§3–9 are well supported (both tales read in full, in translation and on page images; the Sanskrit read in full). The **classification** is a literary judgement on which reasonable readers can differ, and the Hindi reading is not specialist.
 
-**Outcome category:** **unresolved on the evidence, with a weak lean to one slot.** The decision is the user's.
+**Outcome category (research recommendation):** **unresolved on the evidence, with a weak lean to one slot.**
+
+**User's editorial decision (2026-11-17):** **one slot, two recorded variants** (TC-023). Distinct from the research recommendation above: the recommendation was advisory and tentative; the decision is final for the catalogue. It does not select TC-023 for the final 25 and leaves Q-411 open.
 
 ---
 

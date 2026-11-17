@@ -64,7 +64,7 @@ The **working title** of each record is the English title given in Penzer's cont
 
 ## 2. The pool at a glance
 
-27 candidate story families are catalogued: **24 shared core families** and **3 Jambhaladatta-only**. One core family (TC-023) carries an **open D-035 distinctness question** that could make the count 28; that question is the user's (§5.A).
+27 candidate story families are catalogued: **24 shared core families** and **3 Jambhaladatta-only**. The Hindi body-entering plot (XXII and XXIV) is **one family, TC-023**, with two recorded variants, by the user's editorial decision (§5.A). The count is therefore 27.
 
 ### 2.1 Concordance
 
@@ -117,7 +117,7 @@ The match codes are the report's. The 18 "E" records have **not** been tested fo
 
 ### 2.3 What the pool size means for Q-411 (preliminary)
 
-The pool has 27 families (possibly 28), against a target of 25 tales. That leaves **a margin of two or three**, so the choice is not wide, and it is narrowed by whatever the user decides about TC-023, the J-only tales and any tale that research shows to be unsuitable. Two other facts bear on the count and are for the user's judgement: in both Somadeva and Śivadāsa the 25th *unit* is the frame's conclusion, not a narrated tale, and TC-024 is a riddle that is unanswered by design (§6.4).
+The pool has 27 families, against a target of 25 tales. That leaves **a margin of two or three**, so the choice is not wide, and it is narrowed by whatever the user decides about the J-only tales and any tale that research shows to be unsuitable. Two other facts bear on the count and are for the user's judgement: in both Somadeva and Śivadāsa the 25th *unit* is the frame's conclusion, not a narrated tale, and TC-024 is a riddle that is unanswered by design (§6.4).
 
 ---
 
@@ -473,7 +473,7 @@ See the dedicated analysis in **§5.A**. See also the full reading in [HINDI_XXI
 |---|---|
 | **Appearances** | KSS 12.30.1–48 (ch. 97) · BKM 23 (prov.) · Ś **22** (Uhle text pp. 57–58) · J **20** · Hindi **XXII** (Platts p. 167) and **XXIV** (Platts pp. 175–176; Barker p. 359) · Ryder 21. |
 | **Correspondence** | **P** (report §7, §8.5). |
-| **Distinctness** | **Open D-035 question, for the user's judgement (§5.A).** |
+| **Distinctness** | **One family and one slot (user's editorial decision, 2026-11-17, applying D-035; §5.A).** Hindi XXII and XXIV are recorded as **two distinct source variants** of TC-023. Not a selection for the final 25. |
 | **Evidence** | KSS and Ś: VERIFIED — primary text. Hindi XXII and XXIV: VERIFIED — translation (Platts and Barker); the XXIV Hindi wording is PROVISIONAL (AI reading of Barker p. 359). |
 
 ### TC-024. The father who marries the daughter and the son who marries the mother (the final riddle)
@@ -556,7 +556,9 @@ What is established about all three:
 
 ### 5.A The Hindi body-entering plot: XXII and XXIV (TC-023)
 
-**What the question is.** The Hindi has 25 numbered tales, and two of them (XXII and XXIV) tell a body-entering plot: an aged man who knows the art takes a younger body. D-035 says a repeated plot is a separate tale only if it has a **genuinely different central dilemma** or is **substantially different as a story**. The report establishes some, not all, of what is needed to apply that test. **This catalogue does not decide it.**
+**Status: SETTLED by the user's editorial decision.** **User's editorial decision (2026-11-17, an application of D-035 to TC-023; not a new decision and not a change to D-035):** the Hindi tellings XXII and XXIV count as **one candidate family and one slot, TC-023**, with **two distinct recorded source variants**. This is **not** a selection of TC-023 for the final collection; **Q-411 remains open**. The analysis below is preserved as the record of the evidence. The two variants are (a) **Hindi XXII** (Ś-type: the aged brahman Nārāyan of Biswapur, motive enjoyment, announces he has become a yogī, sermon and pilgrimage, no death stated; he himself weeps and laughs) and (b) **Hindi XXIV** (KSS/Kaliṅga-type: the dead prodigy, the cremation ground, the ascetic's entry, the father who becomes a *bairāg*; the father laughs and weeps). All their documented differences are in the comparison document §§3–9 and in the table below.
+
+**What the question was.** The Hindi has 25 numbered tales, and two of them (XXII and XXIV) tell a body-entering plot: an aged man who knows the art takes a younger body. D-035 says a repeated plot is a separate tale only if it has a **genuinely different central dilemma** or is **substantially different as a story**. The report establishes some, not all, of what is needed to apply that test. **This catalogue does not decide it.**
 
 **What is known** (report §3 item 7, §6, §8.5; Platts and Barker; labels as in the report).
 
@@ -589,13 +591,13 @@ KSS 23 differs from both: Kaliṅga, the city Śobhāvatī, the brahman Yajñaso
 4. The **reason** the Hindi tells it twice (PROVISIONAL; report §8.5 suggests that it keeps Śivadāsa's XXII and adds a Kaliṅga-setting variant as XXIV, bringing its narrated tales to 25).
 5. Whether Hindi XXIV's wording reads as the report's AI reading suggests (a specialist question).
 
-**Possible ways to see it (for the user's judgement; none recommended).**
+**Possible ways to see it (as framed before the decision; the user chose the first).**
 
 - **One tale (TC-023), XXIV treated as a variant.** The plot is the same, and XXIV supplies an alternative riddle subject and answer, which D-034 would let the project use or combine.
 - **Two tales.** The riddle's subject and the reflection it draws (the ascetic's own farewell to his past against an onlooker's recognition of his own mortality) might be judged distinct dilemmas, although both answers also turn on the art's success. Costs: a closely related plot in a 25-tale collection that needs variety (D-035). Benefit: it would let the 25 be filled entirely from the 24 core families plus this one, without relying on the unread J-only tales (§2.3, §6.4). Another cost, if kept as one tale: the pool shrinks to 27 and the margin to two variety (D-035).
 - **Either way, the XXIV material is available as a recorded variant** if the user chooses one tale.
 
-**Evidence needed before the user decides:** a full reading of XXII and XXIV (Platts, then Barker's Hindi), a specialist Hindi reading of XXIV, and a comparison with KSS 23 and Ś 22 at the level of events and not only of the riddle (N2).
+**Evidence (done):** the full reading and comparison are in [HINDI_XXII_XXIV_COMPARISON.md](HINDI_XXII_XXIV_COMPARISON.md). A specialist Hindi/Braj reading of XXIV and XXII (and a Sanskritist's check) remains recommended for the variant record, not for the classification.
 
 ### 5.B Jambhaladatta's three additional tales (TC-025 to TC-027)
 
@@ -725,7 +727,7 @@ D-035 requires "meaningful variety across dilemmas, characters, conflicts, emoti
 
 1. **Complete the facts first.** For each candidate, record the recorded question, answer and essential events (N1), so that lenses A to G are filled from evidence and not from titles.
 2. **Tag, in words.** For each candidate, write a short plain-language tag per lens. No numbers, no weights.
-3. **Lay the pool out.** Arrange all 27 (or 28) in a grid by lens. Clusters of near-identical tags show **repetition**; empty regions show **gaps**.
+3. **Lay the pool out.** Arrange all 27 in a grid by lens. Clusters of near-identical tags show **repetition**; empty regions show **gaps**.
 4. **Test repetition against D-035.** Where two candidates share a tag on lenses A and B and C, ask whether their central dilemmas are genuinely different. §6 starts that list.
 5. **Treat variants as options.** Where a candidate has variants (§5.C), record how each variant would change its tags. This is where D-034 widens the choice.
 6. **Present options, not a verdict.** The user decides which 25, and whether any gap justifies stepping outside the pool (Q-411, D-001, D-002).
@@ -734,7 +736,7 @@ D-035 requires "meaningful variety across dilemmas, characters, conflicts, emoti
 
 - **It cannot yet show balance.** For most candidates only a title and a position are known. Any claim about variety at this stage would repeat the titles.
 - **It can already show where to look first**: the reaction riddles (§6.1), the self-sacrifice cluster (§6.3), and the suitor pair (§6.2).
-- **A pool of 27 (or 28) against 25 leaves little room to remove repetition without removing variety.** If research shows several candidates overlap (for example if TC-020 proves to be a reaction riddle like TC-014 and TC-023), the margin may shrink and the user may have to look beyond the examined pool (§7).
+- **A pool of 27 against 25 leaves little room to remove repetition without removing variety.** If research shows several candidates overlap (for example if TC-020 proves to be a reaction riddle like TC-014 and TC-023), the margin may shrink and the user may have to look beyond the examined pool (§7).
 - **Gender portrayal** is a collection-level matter the report raises: many tales treat women as the source of the dilemma and some carry gendered generalisations (§3 item 10 of the report). That is a lens the user may want to add (it touches D-006), and the catalogue does not rule on it.
 
 ---
@@ -750,7 +752,7 @@ This is an ordered list of missing research that could materially change how can
 | # | Research | Why it matters | Report basis |
 |---|---|---|---|
 | **N1** | **Extract each core tale's question, answer and essential events** from the KSS Sanskrit (GRETIL S02) and Tawney/Penzer, with verse references, and set each beside Ś (Uhle) and the Hindi (Platts). The report author read these verses but recorded them for only part of the pool. | Without them, lenses A to G (§9) cannot be filled and the repetition risks in §6 cannot be judged. | §2.2, §7 |
-| **N2** | **Read Hindi XXII and XXIV in full** (Platts and Barker, with the printed Hindi), and compare them with KSS 23 and Ś 22 at the level of events. | The D-035 distinctness question (§5.A) cannot be judged without it. | §8.5, §15 |
+| **N2** | **Read Hindi XXII and XXIV in full** (Platts and Barker, with the printed Hindi), and compare them with KSS 23 and Ś 22 at the level of events. | *Done:* see [HINDI_XXII_XXIV_COMPARISON.md](HINDI_XXII_XXIV_COMPARISON.md). The question is settled by the user's decision (§5.A). | §8.5, §15 |
 | **N3** | **Read J 21, 22 and 23** in Emeneau's text and translation (respecting the rights caution), with the Newari parallels (Jørgensen). | Three candidates are title-only. | §4.D, §11 |
 | **N4** | **Read the other J tales' content**, in particular J 24 (TC-016), 25 and any tale in which J's endings or answers differ. | The report read J 10 and J 25 only; Emeneau says J's details "differ widely" from the others'. | §4.D, §15 |
 | **N5** | **Hindi/Braj specialist reading (a recommendation in the report, not a requirement; listed here as the author's suggestion for the user to weigh)** of Hindi IX (TC-010), XV (TC-016), XX (TC-021) and XXIV (TC-023). | These four readings rest on one printed text, read by AI readers on page images. Recommended in the report. | §14 Q9, §15 |
