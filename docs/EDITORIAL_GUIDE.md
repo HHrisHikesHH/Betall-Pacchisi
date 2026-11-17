@@ -1,6 +1,6 @@
 # Editorial Guide
 
-This guide explains how stories should be written and judged. It applies decisions D-005 to D-009 and D-012 to D-013 in [DECISIONS.md](DECISIONS.md). The process (drafts, roles, approvals) is in [STORY_WORKFLOW.md](STORY_WORKFLOW.md). Rules on sources are in [SOURCE_AND_RESEARCH_POLICY.md](SOURCE_AND_RESEARCH_POLICY.md).
+This guide explains how stories should be written and judged. It applies decisions D-005 to D-009 and D-012 to D-013 in [DECISIONS.md](DECISIONS.md). The project's overall storytelling identity and a reviewer checklist are in [STORYTELLING_NORTH_STAR.md](STORYTELLING_NORTH_STAR.md) (PROPOSED, P-008). The process (drafts, roles, approvals) is in [STORY_WORKFLOW.md](STORY_WORKFLOW.md). Rules on sources are in [SOURCE_AND_RESEARCH_POLICY.md](SOURCE_AND_RESEARCH_POLICY.md).
 
 ## 1. The narrator
 

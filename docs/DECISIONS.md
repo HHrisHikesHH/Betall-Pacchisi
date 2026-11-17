@@ -23,7 +23,7 @@ The first four statuses are the project status labels used across all documents 
 - A **recorded preference** is not a decision. See [Recorded user preferences](#recorded-user-preferences).
 - To change an approved decision, add a new entry that supersedes it. Do not edit the original wording.
 
-**Source of all approvals below:** the user's project foundation brief, 2026-11-16.
+**Source of approvals:** the user's project foundation brief, 2026-11-16, for D-001 to D-033. **D-034 and D-035** record agreements the user stated in the task brief of 2026-11-17 (the user's own words in chat). The register wording is a collaborator's formalisation of them, so the user is asked to confirm the exact wording (see HANDOFF.md).
 
 ---
 
@@ -34,6 +34,7 @@ The first four statuses are the project status labels used across all documents 
 | ID | Decision | Status |
 |---|---|---|
 | D-001 | The project begins with the **25 tales associated with Vikram–Betal (Betal Pachisi)**. | APPROVED |
+| D-035 | **Definition of "the 25 tales"** (refines D-001; added 2026-11-17). The collection is **25 distinct tales narrated by Betal**. The outer Vikram–Betal frame narrative is separate and **not counted** among the 25. A repeated underlying plot is **not automatically a separate tale**; it may count separately only if it has a **genuinely different central dilemma** or is **substantially different as a story**. The final collection must have **meaningful variety** across dilemmas, characters, conflicts, emotions and forms of storytelling. This is the project's editorial definition. It does not claim that any historical tradition counts this way, and it is **not** a selection of which 25 tales (`Q-411`). | APPROVED |
 | D-002 | Other Indian folk stories may come later but are **outside the current scope**. | APPROVED |
 | D-003 | **The application's final name has not been decided.** Do not invent a name, and do not treat any working title (including the repository name) as approved. | APPROVED |
 | D-004 | The experience as a whole should feel like **entering a beautifully narrated, illustrated Indian story**. It is not a conventional website that happens to contain stories. | APPROVED |
@@ -76,6 +77,7 @@ Applied in [SOURCE_AND_RESEARCH_POLICY.md](SOURCE_AND_RESEARCH_POLICY.md).
 | D-016 | The textual traditions of Betal Pachisi must be **researched and compared before a primary literary foundation is chosen**. The familiar modern version is not automatically the oldest or the definitive one. | APPROVED |
 | D-017 | Research must identify the actual source and edition used, record differences between important variants, separate source material from our own additions, record bibliographic details, and verify historical and textual claims before they appear in a final story. | APPROVED |
 | D-018 | Osho's storytelling and discourses may be studied for technique, layered interpretation, and narrative effectiveness. Never impersonate him, attribute new passages or opinions to him, fabricate quotations, or imply his endorsement. Keep genuine references distinct from our own interpretation, and check copyright before reproducing protected material. | APPROVED |
+| D-034 | **Source adaptation: no single-recension binding** (added 2026-11-17). The project is not bound rigidly to one recension or textual tradition. A tale may draw its setup, characters, plot development, dilemma or ending from different traditions, including combinations that never existed historically as one version. Combinations must not be random or merely novel. They must preserve the tale's essential identity and central dilemma, and its causality, character motivation and emotional logic, and be chosen because they make a stronger story. Source editions, variants, borrowed elements and creative additions are tracked internally (D-017). A creative invention is **never presented as historically attested**. This does **not** choose a primary tradition, a source hierarchy, or the frame's source (`Q-401`, `Q-408`, `Q-002` remain open). | APPROVED |
 
 ### Editorial workflow
 
@@ -143,6 +145,7 @@ These recommendations were made while writing this documentation. They are **not
 | P-005 | Make a source comparison of the major Betal Pachisi traditions the next major task (see [HANDOFF.md](HANDOFF.md)). | HANDOFF.md | PROPOSED |
 | P-006 | Sound-design principle and guardrails: audio should support reading and never compete with it; no lyrics; avoid distracting volume spikes; avoid constant or unnecessary music; use sound accents sparingly; avoid sound that contradicts the scene. | AUDIO_DIRECTION.md §1, §3 | PROPOSED |
 | P-007 | Working guidelines for the English adaptation: freedom to reshape language, imagery, and rhythm; no new plot events; do not settle interpretations the Hindi leaves open; record and review noticeable departures. | EDITORIAL_GUIDE.md §4 | PROPOSED |
+| P-008 | Adopt [STORYTELLING_NORTH_STAR.md](STORYTELLING_NORTH_STAR.md) as the central creative reference for writers and reviewers, including its emphasis on entertainment first (guiding line: "Entertainment draws the reader in. Storytelling holds them there. Reflection is what may stay with them."), its checklist in §10, and its wording as a whole. Its content rests on D-005 to D-009, D-012, D-013, D-033 to D-035 and the user's brief of 2026-11-17, but the document as a synthesis is not yet approved. | STORYTELLING_NORTH_STAR.md | PROPOSED |
 
 ## Rejected proposals
 
