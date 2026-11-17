@@ -117,7 +117,7 @@ The match codes are the report's. The 18 "E" records have **not** been tested fo
 
 ### 2.3 What the pool size means for Q-411 (preliminary)
 
-The pool has 27 families, against a target of 25 tales. That leaves **a margin of two or three**, so the choice is not wide, and it is narrowed by whatever the user decides about the J-only tales and any tale that research shows to be unsuitable. Two other facts bear on the count and are for the user's judgement: in both Somadeva and Śivadāsa the 25th *unit* is the frame's conclusion, not a narrated tale, and TC-024 is a riddle that is unanswered by design (§6.4).
+The pool has 27 families, against a target of 25 tales. That leaves **a margin of two**, so the choice is not wide, and it is narrowed by whatever the user decides about the J-only tales and any tale that research shows to be unsuitable. Two other facts bear on the count and are for the user's judgement: in both Somadeva and Śivadāsa the 25th *unit* is the frame's conclusion, not a narrated tale, and TC-024 is a riddle that is unanswered by design (§6.4).
 
 ---
 
@@ -594,7 +594,7 @@ KSS 23 differs from both: Kaliṅga, the city Śobhāvatī, the brahman Yajñaso
 **Possible ways to see it (as framed before the decision; the user chose the first).**
 
 - **One tale (TC-023), XXIV treated as a variant.** The plot is the same, and XXIV supplies an alternative riddle subject and answer, which D-034 would let the project use or combine.
-- **Two tales.** The riddle's subject and the reflection it draws (the ascetic's own farewell to his past against an onlooker's recognition of his own mortality) might be judged distinct dilemmas, although both answers also turn on the art's success. Costs: a closely related plot in a 25-tale collection that needs variety (D-035). Benefit: it would let the 25 be filled entirely from the 24 core families plus this one, without relying on the unread J-only tales (§2.3, §6.4). Another cost, if kept as one tale: the pool shrinks to 27 and the margin to two variety (D-035).
+- **Two tales.** The riddle's subject and the reflection it draws (the ascetic's own farewell to his past against an onlooker's recognition of his own mortality) might be judged distinct dilemmas, although both answers also turn on the art's success. Costs: a closely related plot in a 25-tale collection that needs variety (D-035). Benefit: it would let the 25 be filled entirely from the 24 core families plus this one, without relying on the unread J-only tales (§2.3, §6.4). Another cost, if kept as one tale: the pool shrinks to 27 and the margin to two.
 - **Either way, the XXIV material is available as a recorded variant** if the user chooses one tale.
 
 **Evidence (done):** the full reading and comparison are in [HINDI_XXII_XXIV_COMPARISON.md](HINDI_XXII_XXIV_COMPARISON.md). A specialist Hindi/Braj reading of XXIV and XXII (and a Sanskritist's check) remains recommended for the variant record, not for the classification.

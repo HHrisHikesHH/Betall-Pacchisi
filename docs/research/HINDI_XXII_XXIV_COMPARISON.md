@@ -4,7 +4,7 @@
 |---|---|
 | **Status** | Research document. **Advisory only. The user makes the editorial decision.** AI-assisted work, **not specialist Hindi or Sanskrit verification** (§2.3, §14). |
 | **Compiled** | 2026-11-17, by an AI session (Claude Code). The session could not switch itself to Opus; see §2.3. |
-| **Decision supported** | The open D-035 distinctness question for TC-023 in [CANDIDATE_TALE_CATALOGUE.md](CANDIDATE_TALE_CATALOGUE.md) §5.A (research priority N2). It also bears on **Q-411**. |
+| **Decision supported** | The D-035 distinctness question for TC-023 (now settled by the user's decision, §1) in [CANDIDATE_TALE_CATALOGUE.md](CANDIDATE_TALE_CATALOGUE.md) §5.A (research priority N2). It also bears on **Q-411**. |
 | **Does not decide** | Q-411, Q-401, Q-408, Q-002, the final 25, a primary tradition, or any story draft. D-035 is applied here, not changed. |
 
 ## Contents
@@ -281,7 +281,7 @@ These are not minor and they affect the D-035 question.
 Narrow, factual, no change of classification:
 
 - **Report §8.5** (`SOURCE_TRADITIONS_COMPARISON.md`): the "What is shared and what differs" paragraph is replaced by a corrected version, **and the table cell for Hindi XXII's "Who weeps and laughs" now reads "The brahman Nārāyan" with a note** (an aged brahman householder, not yet an ascetic).
-- **Catalogue §5.A** (`CANDIDATE_TALE_CATALOGUE.md`): the "Shared plot elements (established)" bullet, the XXII table cell, the "(partly established)" reasoning bullet, the stale items under "What cannot be established" (1–2) and the TC-023 lines are corrected, and a pointer to this document is added. **The catalogue's classification of TC-023 as an open question is unchanged.**
+- **Catalogue §5.A** (`CANDIDATE_TALE_CATALOGUE.md`): the "Shared plot elements (established)" bullet, the XXII table cell, the "(partly established)" reasoning bullet, the stale items under "What cannot be established" (1–2) and the TC-023 lines are corrected, and a pointer to this document is added. **The catalogue's classification of TC-023 as an open question was unchanged by these corrections (the user's later decision, §1, has since been recorded in catalogue §5.A).**
 
 ---
 
