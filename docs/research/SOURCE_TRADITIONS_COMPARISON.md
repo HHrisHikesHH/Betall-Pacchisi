@@ -447,7 +447,7 @@ Full bibliographic entries are in §17. Types: **P** = primary text; **SE** = sc
 | S07 | Emeneau 1934 | SE + T + SS | Preface; Introduction; frame; story 10; contents | Bengali recension only; OCR of tables unreliable |
 | S08 | BKM, Kāvyamālā 69 (1901) | SE | Contents only (OCR) | Devanagari OCR unusable for close reading |
 | S09 | Ryder 1917 | T | Contents; frame; tale 1 opening | Source not stated in front matter; omits two tales |
-| S10 | Barker & Eastwick 1855 | Hindi text + interlinear T + free T | Preface; the 1805 introduction; Stories IX, XV, XX, XXIV in translation; Hindi of XV and XX on page images | Preface contains a factual error (§4.E); Hindi text unreadable in OCR but **readable on page images** |
+| S10 | Barker & Eastwick 1855 | Hindi text + interlinear T + free T | Preface; the 1805 introduction; Stories IX, XV, XX, XXIV in translation; printed Hindi of IX (p. 182), XV (p. 270), XX (p. 332) and XXIV (p. 359) on page images (AI readings, not specialist Hindi readings) | Preface contains a factual error (§4.E); Hindi text unreadable in OCR but **readable on page images** |
 | S11 | Platts 1871 (translating Forbes's Hindi text) | T (of the Hindi) | Tale openings and endings; frame in part | Hindi original not checked |
 | S12 | Otter 2021, Newari reader | SS + P (selections) | NOT ACCESSIBLE (site blocks automated access) | Known only through a search summary |
 | S13 | Jørgensen 1921, *ZDMG* 75 | SS + P (two Newari tales) | pp. 213–214 (OCR) | Only the introduction's opening pages read |
