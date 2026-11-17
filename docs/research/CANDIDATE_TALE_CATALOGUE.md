@@ -495,7 +495,7 @@ See the dedicated analysis in **§5.A**. In brief: in KSS an old ascetic enters 
 
 ## 4. Jambhaladatta-only candidates (TC-025 to TC-027)
 
-**These three are recorded because the comparison found them in no other Sanskrit version examined. That is a fact about the examined editions, not a reason to select them.** The report has **not read their content**: Emeneau's contents list supplied the titles. J 10 and J 25 and the frame are the only J passages the report read in detail (report §2.2). So their plots, dilemmas, answers and literary qualities are **unknown to this catalogue**.
+**These three are recorded because the comparison found them in no other Sanskrit version examined. That is a fact about the examined editions, not a reason to select them.** The report has **not read their content**: Emeneau's contents list supplied the titles. J 10 and J 25 and the frame are the only J passages the report read in detail (report §§2.2, 5, 15; see the coverage note in §1.4). So their plots, dilemmas, answers and literary qualities are **unknown to this catalogue**.
 
 What is established about all three:
 
