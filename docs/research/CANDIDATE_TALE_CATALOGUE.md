@@ -4,7 +4,7 @@
 |---|---|
 | **Status** | Research inventory. **Not a selection, not a ranking, and not a decision.** Compiled 2026-11-17 by an AI session (Claude Code) from the existing comparison report. It has not yet had a human specialist review. |
 | **Purpose** | To give the user a reliable map of the story candidates identified so far, so that the eventual choice of 25 tales (**Q-411**) can be made on evidence, with variety in view (D-035). |
-| **Evidence base** | [SOURCE_TRADITIONS_COMPARISON.md](SOURCE_TRADITIONS_COMPARISON.md) (the "report"), after the independent reviews in [SOURCE_TRADITIONS_REVIEW.md](SOURCE_TRADITIONS_REVIEW.md). **No new primary-source reading was done for this catalogue.** Everything here is taken from the report, so every limitation recorded there applies here. |
+| **Evidence base** | [SOURCE_TRADITIONS_COMPARISON.md](SOURCE_TRADITIONS_COMPARISON.md) (the "report"), after the independent reviews in [SOURCE_TRADITIONS_REVIEW.md](SOURCE_TRADITIONS_REVIEW.md). **No new primary-source reading was done for this catalogue.** Everything here is taken from the report, so every limitation recorded there applies here. *Later addition (N1, 2026-11-17):* a primary-text reading of all 24 core families is in [SOMADEVA_TALE_EVIDENCE.md](SOMADEVA_TALE_EVIDENCE.md); facts taken from it are marked "N1". |
 | **Governing decisions** | D-034 (no rigid single-recension binding), D-035 (what "the 25 tales" means), D-036 ([STORYTELLING_NORTH_STAR.md](../STORYTELLING_NORTH_STAR.md)) in [DECISIONS.md](../DECISIONS.md). |
 | **Left open (not decided here)** | **Q-401** (primary foundation), **Q-408** (source hierarchy), **Q-411** (which 25 tales), **Q-002** (how the outer frame is presented). |
 
@@ -123,7 +123,7 @@ The pool has 27 families, against a target of 25 tales. That leaves **a margin o
 
 ## 3. Core story families (TC-001 to TC-024)
 
-Each record is limited to what the report establishes. "Not recorded" means the report does not record it; the underlying text may contain it (see §10, item N1).
+Each record is limited to what the report establishes. "Not recorded" means the report does not record it; the underlying text may contain it (see §10, item N1). **N1 is now done:** the KSS question, answer and essential events of every core family, with Ś and Hindi comparisons, are in [SOMADEVA_TALE_EVIDENCE.md](SOMADEVA_TALE_EVIDENCE.md). The rows below were changed only where that evidence adds a concise fact or corrects one; such changes are marked "N1".
 
 ### TC-001. The prince who won a wife with his minister's son's help (Padmāvatī)
 
@@ -132,13 +132,13 @@ Each record is limited to what the report establishes. "Not recorded" means the 
 | **Identity** | The story that opens the cycle in KSS. Tawney's title names Padmāvatī and the prince–minister's-son partnership. No further plot is recorded in the report. |
 | **Appearances** | KSS 12.8.59–196 (ch. 75) · BKM 1 (prov.) · Ś 1 · J 1 · Hindi I · Ryder 1. Ryder's first-tale opening corresponds closely to KSS 12.8.59–60 (report §4.G). |
 | **Correspondence** | E in all columns. |
-| **Plot and dilemma** | Question and answer not recorded in the report. |
+| **Plot and dilemma** | **N1 (KSS 12.8.186–195):** the question asks what sin, for the death of Padmāvatī's parents, falls to the minister's son, the prince or Padmāvatī; the answer is none of them: the sin is King Karṇotpala's, who banished her without inquiry. |
 | **Variants** | None recorded. |
 | **Distinctness** | Separate family. No D-035 question identified. |
 | **Literary opportunities** | None established in consulted material. |
 | **Collection contribution** | Not assessable from the evidence. |
 | **Evidence** | Standard. |
-| **Gaps** | Question, answer and plot to be extracted (N1). Position as the cycle's opener may matter to Q-002 and sequencing, which are not decided. |
+| **Gaps** | Question, answer and plot were to be extracted (N1, now done: see [SOMADEVA_TALE_EVIDENCE.md](SOMADEVA_TALE_EVIDENCE.md)). Position as the cycle's opener may matter to Q-002 and sequencing, which are not decided. |
 
 ### TC-002. Three young brahmans who restored a dead girl to life
 
@@ -147,13 +147,13 @@ Each record is limited to what the report establishes. "Not recorded" means the 
 | **Identity** | Tawney's title: three young brahmans and the restoration of a dead girl. No further plot is recorded. |
 | **Appearances** | KSS 12.9.1–42 (ch. 76) · BKM 2 (prov.) · Ś 2 · J 2 · Hindi II · Ryder 2. KSS closes with a narrator's maxim at 12.9.42 (report §4.B). |
 | **Correspondence** | E in all columns. |
-| **Plot and dilemma** | Question and answer not recorded in the report. |
-| **Variants** | None recorded. |
+| **Plot and dilemma** | **N1 (12.9.36–40):** the question is whose wife she is; the answer: the one who kept vigil on her ashes is her husband, the reviver acted as her father and the bone-bearer as her son. |
+| **Variants** | **N1:** in Ś 2 a suitor dies on her pyre and is counted her brother; there is no Ganges bone-bearer. |
 | **Distinctness** | Separate family. |
 | **Literary opportunities** | None established. |
 | **Collection contribution** | Not assessable. |
 | **Evidence** | Standard. |
-| **Gaps** | Question, answer and plot to be extracted (N1). |
+| **Gaps** | Question, answer and plot were to be extracted (N1, now done: see [SOMADEVA_TALE_EVIDENCE.md](SOMADEVA_TALE_EVIDENCE.md)). |
 
 ### TC-003. The king and the two wise birds: are men or women worse?
 
@@ -162,13 +162,13 @@ Each record is limited to what the report establishes. "Not recorded" means the 
 | **Identity** | Tawney's title: the king and two wise birds, and the question whether men or women are worse (the report elsewhere calls it the parrot-and-mynah tale). |
 | **Appearances** | KSS 12.10.1–95 (ch. 77) · BKM 3 (prov.) · Ś 3 · J 3 · Hindi **IV** · Ryder 3. |
 | **Correspondence** | E. The Hindi swaps the order of this tale and TC-004. |
-| **Plot and dilemma** | The answer at KSS 12.10.93–94 contains a gendered generalisation (report §3 item 10). The full question, answer and plot are not recorded. |
+| **Plot and dilemma** | The answer at KSS 12.10.93–94 contains a gendered generalisation (report §3 item 10). **N1 (12.10.92–94):** the question is whether men or women are wicked; the answer is women: a man may occasionally be so, women generally always. |
 | **Variants** | Order swap in the Hindi only. |
 | **Distinctness** | Separate family. |
 | **Literary opportunities** | None established. |
 | **Collection contribution** | Handling note, not an evaluation: the report singles out this tale's answer as an example of the moralising and gendered generalisations that the project would have to reconcile with D-006 (report §3 item 10). |
 | **Evidence** | Standard. |
-| **Gaps** | Extract the exact question, answer and reasoning (N1) and examine the gendered material before any judgement (N9). |
+| **Gaps** | Extract the exact question, answer and reasoning (N1 done: see [SOMADEVA_TALE_EVIDENCE.md](SOMADEVA_TALE_EVIDENCE.md)) and examine the gendered material before any judgement (N9). |
 
 ### TC-004. Vīravara, who sacrificed his family for King Śūdraka
 
@@ -177,13 +177,13 @@ Each record is limited to what the report establishes. "Not recorded" means the 
 | **Identity** | Tawney's title: Vīravara, who sacrificed his family for King Śūdraka. No further plot is recorded. |
 | **Appearances** | KSS 12.11.1–132 (ch. 78) · BKM 4 (prov.) · Ś 4 · J 4 · Hindi **III** · Ryder 4. |
 | **Correspondence** | E. In the Hindi the king is named "Rupsen", not Śūdraka. |
-| **Plot and dilemma** | Question and answer not recorded in the report. |
+| **Plot and dilemma** | **N1 (12.11.121–131):** the question is who was the greatest hero; the answer is King Śūdraka, because the servant, his wife and son did what their roles required, while kings usually protect themselves with their servants' lives. |
 | **Variants** | King's name differs (Hindi). Order swap in the Hindi. |
 | **Distinctness** | Separate family. A title-level thematic proximity to TC-007 and TC-016 (service, loyalty, self-risk) is flagged in §6.3 **for checking only**. |
 | **Literary opportunities** | None established. |
 | **Collection contribution** | Not assessable. |
 | **Evidence** | Standard. |
-| **Gaps** | Question, answer and plot (N1). |
+| **Gaps** | Question, answer and plot (N1 done: see [SOMADEVA_TALE_EVIDENCE.md](SOMADEVA_TALE_EVIDENCE.md)). |
 
 ### TC-005. Somaprabhā and her three suitors
 
@@ -192,13 +192,13 @@ Each record is limited to what the report establishes. "Not recorded" means the 
 | **Identity** | Tawney's title: Somaprabhā and three suitors. No further plot is recorded. |
 | **Appearances** | KSS 12.12.1–50 (ch. 79) · BKM 5 (prov.) · Ś 5 · J **6** · Hindi V · Ryder 5. |
 | **Correspondence** | E. J places it sixth, not fifth. |
-| **Plot and dilemma** | Question and answer not recorded in the report. |
+| **Plot and dilemma** | **N1 (12.12.46–49):** the question is to whom she should be given; the answer is the hero who killed the Rākṣasa at the risk of his life; the seer and the craftsman were instruments. |
 | **Variants** | None recorded beyond position. |
 | **Distinctness** | Separate family. **Counting risk:** TC-009 is also a woman with suitors (four). The report itself warns that matching numbers can mislead: "tale 7" is the four-suitors tale in Ś and Hindi (§6). The report treats them as different stories, but the contents were not compared for shared dilemma. See §6.2. |
 | **Literary opportunities** | None established. |
 | **Collection contribution** | Not assessable. |
 | **Evidence** | Standard. |
-| **Gaps** | Plot, question and answer for TC-005 and TC-009 side by side (N1). |
+| **Gaps** | Plot, question and answer for TC-005 and TC-009 side by side (N1 done: see [SOMADEVA_TALE_EVIDENCE.md](SOMADEVA_TALE_EVIDENCE.md)). |
 
 ### TC-006. The woman who switched her husband's and brother's heads
 
@@ -207,13 +207,13 @@ Each record is limited to what the report establishes. "Not recorded" means the 
 | **Identity** | Tawney's title: a woman who switches the heads of her husband and her brother. No further plot is recorded. |
 | **Appearances** | KSS 12.13.1–54 (ch. 80) · BKM 6 (prov.) · Ś 6 · J **8** · Hindi VI · Ryder 6. |
 | **Correspondence** | E. J places it eighth. |
-| **Plot and dilemma** | Question and answer not recorded in the report. |
+| **Plot and dilemma** | **N1 (12.13.51–53):** the question is which of the two is her husband; the answer is the one bearing the husband's head, the head being the chief limb and the seat of recognition. |
 | **Variants** | None recorded beyond position. |
 | **Distinctness** | Separate family. |
 | **Literary opportunities** | None established. |
 | **Collection contribution** | Not assessable. |
 | **Evidence** | Standard. |
-| **Gaps** | Question, answer and plot (N1). |
+| **Gaps** | Question, answer and plot (N1 done: see [SOMADEVA_TALE_EVIDENCE.md](SOMADEVA_TALE_EVIDENCE.md)). |
 
 ### TC-007. The king who married his dependant to a Nereid (Sattvaśīla)
 
@@ -222,13 +222,13 @@ Each record is limited to what the report establishes. "Not recorded" means the 
 | **Identity** | Tawney's title: a king who marries his dependant (Sattvaśīla) to a Nereid. J's version is identified in the report as the Pracaṇḍasiṃha–Sattvaśīla story. |
 | **Appearances** | KSS 12.14.1–115 (ch. 81) · BKM 7 (prov.) · Ś **8** · J 7 · Hindi **VIII** · Ryder 7. |
 | **Correspondence** | E. |
-| **Plot and dilemma** | The comparison is between the servant and the king. Somadeva, Śivadāsa and the Hindi judge the **servant** (Sattvaśīla or equivalent) greater. KSS's reason: the servant leapt into the sea without knowing what lay there, while the king knew (KSS 12.14.110–113; report §8.6). **Report inconsistency:** §7 says the answer is the servant "in all four checked", but §8.6 lists three traditions; J's answer is therefore **not independently documented**. The question is implied as "who is greater" and is not quoted in the report. |
-| **Variants** | No difference in answer was found; the report records this as a "checked non-difference" (§8.6). |
+| **Plot and dilemma** | The comparison is between the servant and the king. Somadeva, Śivadāsa and the Hindi judge the **servant** (Sattvaśīla or equivalent) greater. KSS's reason: the servant leapt into the sea without knowing what lay there, while the king knew (KSS 12.14.110–113; report §8.6). **Report inconsistency:** §7 says the answer is the servant "in all four checked", but §8.6 lists three traditions; J's answer is therefore **not independently documented**. **N1:** the KSS question is which of the two showed greater courage in leaping into the sea (12.14.110). |
+| **Variants** | No difference in answer was found; the report records this as a "checked non-difference" (§8.6). **N1:** Ś 8 and Hindi VIII give the same answer for different reasons. |
 | **Distinctness** | Separate family. |
 | **Literary opportunities** | KSS's king reasons through the answer at length (12.14.112–113). Beyond that, none established. |
 | **Collection contribution** | Preliminary: a judgement between a king and a servant, with the answer favouring the lower-status party. Not assessed further. |
 | **Evidence** | KSS answer and reasoning: VERIFIED — primary text. Hindi: translation. J: title and the report's §7 note only. |
-| **Gaps** | Confirm J's answer. Plot of the Nereid episode (N1). |
+| **Gaps** | Confirm J's answer. Plot of the Nereid episode (N1 done: see [SOMADEVA_TALE_EVIDENCE.md](SOMADEVA_TALE_EVIDENCE.md)). |
 
 ### TC-008. The three fastidious men (food, women, bed)
 
@@ -237,13 +237,13 @@ Each record is limited to what the report establishes. "Not recorded" means the 
 | **Identity** | Tawney's title: three men who are fastidious about food, women and bed. |
 | **Appearances** | KSS 12.15.1–52 (ch. 82) · BKM 8 (prov.) · Ś **23** · J **5** · Hindi **XXIII** · Ryder 8. |
 | **Correspondence** | E. The tale sits at position 8 (KSS, BKM, Ryder), 23 (Ś, Hindi) and 5 (J). |
-| **Plot and dilemma** | The answer is the **bed-connoisseur** (KSS 12.15.50; Ś; Hindi). The question is not quoted in the report. |
+| **Plot and dilemma** | The answer is the **bed-connoisseur** (KSS 12.15.50; Ś; Hindi). **N1:** the question is which of the three is the most fastidious (12.15.49); the reason given is that only the bed-connoisseur's mark was seen directly on his body (12.15.51). |
 | **Variants** | Position only. |
 | **Distinctness** | Separate family. Title-level similarity to TC-011 (both titles turn on fastidiousness or delicacy) is flagged in §6.3 for checking only. |
 | **Literary opportunities** | Report §9 notes humour and play in this tale, "observed in outline" in KSS. |
 | **Collection contribution** | Preliminary: one of the few tales the report associates with humour. |
 | **Evidence** | Answer: VERIFIED — primary text (KSS, Ś), translation (Hindi). Humour: observation in outline only. |
-| **Gaps** | Plot and question (N1). J 5, this tale's J number, is one of the three J riddle solutions Emeneau calls careless (report §4.D). |
+| **Gaps** | Plot and question (N1 done: see [SOMADEVA_TALE_EVIDENCE.md](SOMADEVA_TALE_EVIDENCE.md)). J 5, this tale's J number, is one of the three J riddle solutions Emeneau calls careless (report §4.D). |
 
 ### TC-009. Anaṅgarati and her four suitors
 
@@ -252,13 +252,13 @@ Each record is limited to what the report establishes. "Not recorded" means the 
 | **Identity** | Tawney's title: Anaṅgarati and four suitors. |
 | **Appearances** | KSS 12.16.1–39 (ch. 83) · BKM 9 (prov.) · Ś **7** · J 9 · Hindi **VII** · Ryder 9. |
 | **Correspondence** | E. |
-| **Plot and dilemma** | The answer is the **warrior-suitor** in KSS, Ś, J and the Hindi, per report §7. **Basis for J's answer is not documented** (the report says J content was read only for J 10 and J 25, as with TC-007). The question is not quoted. |
-| **Variants** | Order only (Ś and the Hindi place it seventh). |
+| **Plot and dilemma** | The answer is the **warrior-suitor** in KSS, Ś, J and the Hindi, per report §7. **Basis for J's answer is not documented** (the report says J content was read only for J 10 and J 25, as with TC-007). **N1 (12.16.33–38):** the question is to which of the four she should be given; KSS rules out the Śūdra and the Vaiśya by caste, animal speech as useless, and the brahman reviver as fallen from his caste duty, and chooses the Kṣatriya as her equal. |
+| **Variants** | Order (Ś and the Hindi place it seventh). **N1:** Ś 7 and Hindi VII have no suitor who revives the dead; the brahman appears to be a learned man (PROVISIONAL in Ś, an OCR reading). |
 | **Distinctness** | Separate family. See the suitors counting risk at TC-005 and §6.2. |
 | **Literary opportunities** | None established. |
 | **Collection contribution** | Not assessable. |
 | **Evidence** | Answer in all four: as recorded in report §7. |
-| **Gaps** | Plot and question (N1). Confirm J's answer (basis undocumented). |
+| **Gaps** | Plot and question (N1 done: see [SOMADEVA_TALE_EVIDENCE.md](SOMADEVA_TALE_EVIDENCE.md)). Confirm J's answer (basis undocumented). |
 
 ### TC-010. Madanasenā and her rash promise (KSS 10; the "promise tale")
 
@@ -291,14 +291,14 @@ Each record is limited to what the report establishes. "Not recorded" means the 
 |---|---|
 | **Identity** | Tawney's title: a king's three delicate wives. |
 | **Appearances** | KSS 12.18.1–39 (ch. 85) · BKM 11 (prov.) · Ś **10** · J 11 · Hindi **X** · Ryder 10. |
-| **Correspondence** | **E/P.** In Ś and the Hindi the king is Guṇaśekhara with a Jaina minister (Abhayacandra, report §4.E). |
-| **Plot and dilemma** | The answer is the queen hurt by the mere sound of a pestle. The injury differs: blisters on her hands in KSS (12.18.37–38); a headache and a faint in the Hindi (translation). The Ś injury is not recorded. The question is not quoted. |
-| **Variants** | King's name and minister (Ś, Hindi). The nature of the injury. |
+| **Correspondence** | **E/P.** In Ś and the Hindi a prelude tells of King Guṇaśekhara and his Jaina minister Abhayacandra (report §4.E); the husband of the three queens is Guṇaśekhara's son **Dharmadhvaja**, as in KSS (*corrected by N1*; the earlier wording said the king was Guṇaśekhara). |
+| **Plot and dilemma** | The answer is the queen hurt by the mere sound of a pestle. The injury differs: marks on her hands in KSS (*kiṇa*, Penzer "bruises", 12.18.26–28, 37–38; the blisters, *visphoṭa*, are the second queen's; *corrected by N1*); a headache and a faint in the Hindi (translation). In Ś 10 she gets pain in her hand (N1). **N1:** the question is which queen was the most delicate (12.18.36). |
+| **Variants** | A Jaina prelude with King Guṇaśekhara, Dharmadhvaja's father (Ś, Hindi). The nature of the injuries (in Ś and the Hindi the lotus hurts the first queen's foot; N1). |
 | **Distinctness** | Separate family. Title-level similarity to TC-008 flagged in §6.3. |
 | **Literary opportunities** | None established. |
 | **Collection contribution** | Preliminary: the Jaina-coloured details in Ś and the Hindi are a distinctive feature (report §9). |
 | **Evidence** | Standard. |
-| **Gaps** | Plot, Ś's injury detail, and the question (N1). |
+| **Gaps** | Plot, Ś's injury detail, and the question (N1 done: see [SOMADEVA_TALE_EVIDENCE.md](SOMADEVA_TALE_EVIDENCE.md)). |
 
 ### TC-012. King Yaśaḥketu, his Vidyādharī wife, and his faithful minister
 
@@ -307,13 +307,13 @@ Each record is limited to what the report establishes. "Not recorded" means the 
 | **Identity** | Tawney's title: King Yaśaḥketu, his Vidyādharī wife and his faithful minister. Long (171 verses in KSS). |
 | **Appearances** | KSS 12.19.1–171 (ch. 86) · BKM 12 (prov.) · Ś **11** (cross-checked against Emeneau's stated equivalence, Bṛhatkathā 12 = Ś 11) · J **— (absent from the Bengali text; present in W)** · Hindi **XI** · Ryder 11. |
 | **Correspondence** | E. |
-| **Plot and dilemma** | Question and answer not recorded in the report. |
+| **Plot and dilemma** | **N1 (12.19.164–170):** a "why" question: why did the minister's heart burst at his master's success, from grief at not winning the divine woman, or from wanting the kingdom? The answer is neither: he despaired that a king who had neglected the kingdom for ordinary women would neglect it more for a divine one. |
 | **Variants** | Presence or absence in J depends on the recension. |
 | **Distinctness** | Separate family. |
 | **Literary opportunities** | None established. |
 | **Collection contribution** | Not assessable. Of note: with 171 verses it is the second-longest KSS tale by verse range (after TC-016). Length is not a literary finding. |
 | **Evidence** | Standard. |
-| **Gaps** | Plot (N1). The J Nepali text (W) is "very corrupt" and was not read for this tale. |
+| **Gaps** | Plot (N1 done: see [SOMADEVA_TALE_EVIDENCE.md](SOMADEVA_TALE_EVIDENCE.md)). The J Nepali text (W) is "very corrupt" and was not read for this tale. |
 
 ### TC-013. Harisvāmin, who died of poisoned food
 
@@ -322,13 +322,13 @@ Each record is limited to what the report establishes. "Not recorded" means the 
 | **Identity** | Tawney's title: Harisvāmin and poisoned food. |
 | **Appearances** | KSS 12.20.1–60 (ch. 87) · BKM 13 (prov.) · Ś **12** · J **12** · Hindi **XII** · Ryder 12. |
 | **Correspondence** | E. |
-| **Plot and dilemma** | The answer: whoever blames any party out of ignorance is the sinner (KSS 12.20.56–59; Ś; Hindi). The question is not quoted. |
-| **Variants** | None recorded. |
+| **Plot and dilemma** | The answer: whoever blames any party out of ignorance is the sinner (KSS 12.20.56–59; Ś; Hindi). **N1:** the question is whose the brahman-murder is: the snake's, the hawk's or the food-givers' (12.20.53–54). |
+| **Variants** | **N1:** Ś 12 has no hawk; the poison drips from a snake in the tree. |
 | **Distinctness** | Separate family. |
 | **Literary opportunities** | None established. |
 | **Collection contribution** | Preliminary: the answer, as the report records it, concerns where blame lies. The report records no other tale with this question form (but see the limits in §9.3). |
 | **Evidence** | Standard. |
-| **Gaps** | Plot and question (N1). |
+| **Gaps** | Plot and question (N1 done: see [SOMADEVA_TALE_EVIDENCE.md](SOMADEVA_TALE_EVIDENCE.md)). |
 
 ### TC-014. The merchant's daughter and the thief who wept and laughed (KSS 14)
 
@@ -352,13 +352,13 @@ Each record is limited to what the report establishes. "Not recorded" means the 
 | **Identity** | Tawney's title: a magic pill, with Manaḥsvāmin appearing as a woman. |
 | **Appearances** | KSS 12.22.1–115 (ch. 89) · BKM 15 (prov.) · Ś **14** · J **13** · Hindi **XIV** · Ryder 14. |
 | **Correspondence** | E. |
-| **Plot and dilemma** | The answer is Śaśin, the lawful husband. The question is not quoted. |
-| **Variants** | None recorded. |
+| **Plot and dilemma** | The answer is Śaśin, the lawful husband. **N1:** the question is whose wife she properly is (12.22.111); the reason: her father gave her to Śaśin openly by the proper rite, while Manaḥsvāmin took her by stealth, and a thief has no right to another's property (12.22.113–114). |
+| **Variants** | **N1:** Ś 14 and Hindi XIV add that she is pregnant by the lover and that the child will perform Śaśin's funeral rites. |
 | **Distinctness** | Separate family. |
 | **Literary opportunities** | Report §9: humour and play, "observed in outline" in KSS. |
 | **Collection contribution** | Preliminary: one of the few tales the report associates with humour. |
 | **Evidence** | Standard. |
-| **Gaps** | Plot and question (N1). |
+| **Gaps** | Plot and question (N1 done: see [SOMADEVA_TALE_EVIDENCE.md](SOMADEVA_TALE_EVIDENCE.md)). |
 
 ### TC-016. The sacrifice of Jīmūtavāhana
 
@@ -382,13 +382,13 @@ Each record is limited to what the report establishes. "Not recorded" means the 
 | **Identity** | Tawney's title: the beautiful Unmādinī. |
 | **Appearances** | KSS 12.24.1–61 (ch. 91; maxim at 12.24.61) · BKM 17 (prov.; the story appears at about the 17th heading on one page image checked by the reviewer) · Ś **16** · J **14** · Hindi **XVI** · Ryder 16. |
 | **Correspondence** | E. The Nepali J manuscript (W) omits it. |
-| **Plot and dilemma** | The answer is the king. The question is not quoted. |
-| **Variants** | None recorded. |
+| **Plot and dilemma** | The answer is the king. **N1:** the question is which of the two, king or general, was greater in courage (12.24.47); the answer is the king, who died rather than leave the path of dharma, whereas the general's sacrifice was a servant's duty (12.24.48–60). |
+| **Variants** | **N1:** in Ś 16 and Hindi XVI Unmādinī also enters the fire, and three people are compared. |
 | **Distinctness** | Separate family. |
 | **Literary opportunities** | None established. |
 | **Collection contribution** | Not assessable. |
 | **Evidence** | Standard. |
-| **Gaps** | Plot and question (N1). |
+| **Gaps** | Plot and question (N1 done: see [SOMADEVA_TALE_EVIDENCE.md](SOMADEVA_TALE_EVIDENCE.md)). |
 
 ### TC-018. The brahman's son who failed to gain the magic power
 
@@ -397,13 +397,13 @@ Each record is limited to what the report establishes. "Not recorded" means the 
 | **Identity** | Tawney's title: a brahman's son who fails to gain a magic power. |
 | **Appearances** | KSS 12.25.1–87 (ch. 92) · BKM 18 (prov.) · Ś **17** · J **15** · Hindi **XVII** · Ryder 17. The Nepali J manuscript (W) omits it. |
 | **Correspondence** | **E/P**: a wavering mind is the cause in all; the Hindi adds fate (report §7). |
-| **Plot and dilemma** | Question and answer not recorded beyond the wavering-mind point. |
-| **Variants** | The Hindi adds fate to the explanation. |
+| **Plot and dilemma** | **N1 (12.25.82–86):** the question is why the science was lost to both although the rite was done as instructed; the answer: success needs a mind free of wavering, the pupil wavered even after he was awakened, and the teacher lost the science by giving it to an unworthy pupil. |
+| **Variants** | The Hindi adds fate to the explanation (relative to KSS; Ś 17 already closes with a verse on *karma*; N1). |
 | **Distinctness** | Separate family. |
 | **Literary opportunities** | None established. |
 | **Collection contribution** | Not assessable. Emeneau notes carelessness in J's riddle solutions for J 5, 15 and 16 (report §4.D); J 15 is this tale. |
 | **Evidence** | Standard. |
-| **Gaps** | Plot, question, and the nature of the Hindi addition (N1). |
+| **Gaps** | Plot, question, and the nature of the Hindi addition (N1 done: see [SOMADEVA_TALE_EVIDENCE.md](SOMADEVA_TALE_EVIDENCE.md)). |
 
 ### TC-019. The thief's son: to whom should the funeral offering go?
 
@@ -412,13 +412,13 @@ Each record is limited to what the report establishes. "Not recorded" means the 
 | **Identity** | Tawney's title poses the dilemma directly: to whom should the funeral offering go? |
 | **Appearances** | KSS 12.26.1–102 (ch. 93) · BKM 19 (prov.) · Ś **18** · J **16** · Hindi **XVIII** · **Ryder omits (KSS 19)**. |
 | **Correspondence** | E. |
-| **Plot and dilemma** | The answer is the thief. The rest of the plot is not recorded. |
+| **Plot and dilemma** | The answer is the thief. **N1 (12.26.93–101):** the son is the thief's *kṣetraja*; the begetter was paid for one night and the foster father by the gold left with the child. |
 | **Variants** | None recorded. |
 | **Distinctness** | Separate family. |
 | **Literary opportunities** | None established. |
 | **Collection contribution** | Preliminary: by title only, the question form appears to be an allocation ("to whom should…"), which differs from the superlative comparison and the "why did X react" forms. |
 | **Evidence** | Standard. Ryder's reason for omitting it is **unverified**. |
-| **Gaps** | Plot and the reasoning (N1). J 16, this tale's J number, is one of the three J riddle solutions Emeneau calls careless (report §4.D). |
+| **Gaps** | Plot and the reasoning (N1 done: see [SOMADEVA_TALE_EVIDENCE.md](SOMADEVA_TALE_EVIDENCE.md)). J 16, this tale's J number, is one of the three J riddle solutions Emeneau calls careless (report §4.D). |
 
 ### TC-020. The brahman boy who laughed at his sacrifice
 
@@ -427,19 +427,19 @@ Each record is limited to what the report establishes. "Not recorded" means the 
 | **Identity** | Tawney's title: a brahman boy who laughed at his own sacrifice. Ryder's version is titled "the boy who laughed" in the report's reading of his contents. |
 | **Appearances** | KSS 12.27.1–137 (ch. 94) · BKM 20 (prov.) · Ś **19** · J **17** · Hindi **XIX** · Ryder 18. |
 | **Correspondence** | E. |
-| **Plot and dilemma** | Question and answer **not recorded** in the report. Whether the riddle concerns the laugh is **inferred from the title only** and is not established. |
-| **Variants** | None recorded. |
+| **Plot and dilemma** | **N1 (12.27.126–136):** the question is why the boy laughed at the moment of death (a reaction riddle, as the title suggested); the answer: his parents (for wealth), the king and the deity, who should have protected him, were all about to kill him, and seeing such delusion, with his own wish fulfilled, he laughed. **KSS does not narrate whether he dies.** |
+| **Variants** | **N1:** in Hindi XIX the king beheads the boy; in Ś 19 and Hindi XIX the parents give their middle son. |
 | **Distinctness** | Separate family. Counting risk: a laugh at a moment of mortal danger, which may overlap in kind with TC-014 and TC-023 (§6.1). |
 | **Literary opportunities** | None established. |
 | **Collection contribution** | Not assessable. |
 | **Evidence** | Standard. |
-| **Gaps** | Question, answer and plot (N1). |
+| **Gaps** | Question, answer and plot (N1 done: see [SOMADEVA_TALE_EVIDENCE.md](SOMADEVA_TALE_EVIDENCE.md)). |
 
 ### TC-021. Anaṅgamañjarī, Maṇivarman and Kamalākara
 
 | | |
 |---|---|
-| **Identity** | Anaṅgamañjarī, her husband Maṇivarman, and a third figure, Kamalākara. Two lovers die of mutual passion; the husband, seeing his wife dead for another man, dies of grief (report §8.4). |
+| **Identity** | Anaṅgamañjarī, her husband Maṇivarman, and a third figure, Kamalākara. Two lovers die of mutual passion; the husband, seeing his wife dead for another man, dies of grief (report §8.4). **N1:** the goddess Caṇḍī then revives all three, their passion stilled (12.28.86–91). |
 | **Appearances** | KSS 12.28.1–97 (ch. 95; question and answer 12.28.92–96) · BKM 21 (prov.) · Ś **20** · J **18** · Hindi **XX** (Barker p. 332) · Ryder 19. |
 | **Correspondence** | **P**: the question is reframed in the Hindi. |
 | **Plot and dilemma** | KSS: among these, who was most deluded by passion (*moho 'nurāgamūḍheṣu*)? Ś: who was blind with desire (*kāmāndhaḥ*)? Hindi (Barker): who was *adhik kāmī*, roughly "most full of desire"? The English translators render it as love ("whose love was greatest"). The answer in all three is the **husband, Maṇivarman**. |
@@ -457,13 +457,13 @@ Each record is limited to what the report establishes. "Not recorded" means the 
 | **Identity** | Tawney's title: four brothers who revive a lion. In J and the Hindi the animal is a **tiger**. |
 | **Appearances** | KSS 12.29.1–51 (ch. 96) · BKM 22 (prov.) · Ś **21** · J **19** · Hindi **XXI** · Ryder 20. |
 | **Correspondence** | E. |
-| **Plot and dilemma** | Question and answer not recorded in the report. |
-| **Variants** | Lion in KSS; tiger in J and the Hindi. Ś's animal is not recorded. |
+| **Plot and dilemma** | **N1 (12.29.45–50):** the question is which of the four was guilty; the answer is the one who gave the lion life, having seen its form; the others did not know what animal it was. |
+| **Variants** | Lion in KSS; tiger in J and the Hindi. Ś's animal is a lion. **N1:** Ś 21 and Hindi XXI ask who was the greatest fool, not who was guilty. |
 | **Distinctness** | Separate family. A title-level resemblance to TC-025 ("four brothers and the harlot") is noted in §6.2 only because the names share "four brothers". The plots are named differently and nothing else links them. |
 | **Literary opportunities** | None established. |
 | **Collection contribution** | Not assessable. |
 | **Evidence** | Standard. |
-| **Gaps** | Plot, question and answer (N1). |
+| **Gaps** | Plot, question and answer (N1 done: see [SOMADEVA_TALE_EVIDENCE.md](SOMADEVA_TALE_EVIDENCE.md)). |
 
 ### TC-023. The old ascetic who enters a dead youth's body (KSS 23; Hindi XXII and XXIV)
 
@@ -483,7 +483,7 @@ See the dedicated analysis in **§5.A**. See also the full reading in [HINDI_XXI
 | **Identity** | Tawney's title: father marries the daughter, son marries the mother. The riddle asks what their children are to each other. |
 | **Appearances** | KSS 12.31.1–75 (ch. 98) · BKM 24 (prov.) · Ś **24** · J **25** · Hindi **XXV** · Ryder 22. |
 | **Correspondence** | E. |
-| **Plot and dilemma** | **Vikrama falls silent** (KSS 12.31.60): the report records this as the only riddle left unanswered by design (§9). J omits the key marriage detail (Emeneau §6). |
+| **Plot and dilemma** | **Vikrama falls silent** (KSS 12.31.60): the report records this as the only riddle left unanswered by design (§9). **N1:** the KSS text says Vikrama did not know the answer (12.31.60, 62); "by design" is an interpretation of the narrative, not a statement of the text. J omits the key marriage detail (Emeneau §6). |
 | **Variants** | The tale's role in the frame differs. In KSS, Vikrama's silence at 12.31.60 begins the cycle's ending (the Vetāla then warns him about the monk, 12.31.61–74). In the Hindi the final riddle and the frame's conclusion are both inside XXV. In J the tale is the 25th narrated tale, followed by the conclusion. |
 | **Distinctness** | Separate family. The catalogue's own observation (not the report's or Q-411's): it is the riddle after which the frame's ending begins in KSS. KSS counts it among the 24 question-tales (12.32.24–27). Nothing is decided here. |
 | **Literary opportunities** | The riddle is a kinship puzzle that Vikrama cannot answer, a different effect from the other riddles. The report does not assess further. |
@@ -613,14 +613,21 @@ The report documents several places where the traditions diverge in ending, answ
 | **TC-016** (KSS 16 / Ś 15 / Hindi XV) | Same answer (Śaṅkhacūḍa) in KSS, Ś and the Hindi, with different grounds: many births (KSS), practice across births (Ś), practice grounded in caste (Hindi) | The reasoning, and so the hero's characterisation | §3, TC-016 |
 | **TC-021** (KSS 21 / Ś 20 / Hindi XX) | Same answer (the husband), with the question reframed: deluded (KSS), blind with desire (Ś), *adhik kāmī* (Hindi) | The framing of the dilemma | §3, TC-021 |
 | **TC-023** (KSS 23 / Ś 22 / Hindi XXII, XXIV) | Riddle subject and reasoning differ; KSS has the ascetic dance, others laugh; the Hindi has a second telling | See §5.A | §5.A |
-| **TC-011** | Injury differs; king's name and minister differ in Ś and Hindi | Detail, not the answer | §3 |
+| **TC-002** (Ś 2) | A suitor dies on her pyre and is counted her brother; no bone-bearer (N1) | The roles in the answer | §3 |
+| **TC-007** (Ś 8 / Hindi VIII) | Same answer, different reasons (N1) | The reasoning | §3 |
+| **TC-009** (Ś 7 / Hindi VII) | No suitor who revives the dead (N1) | The cast of suitors | §3 |
+| **TC-015** (Ś 14 / Hindi XIV) | Pregnancy by the lover; the child's funeral rites in the answer (N1) | The reasoning | §3 |
+| **TC-017** (Ś 16 / Hindi XVI) | Unmādinī enters the fire; three compared (N1) | The ending and the question | §3 |
+| **TC-020** (Hindi XIX; Ś 19) | The boy is killed in the Hindi; KSS leaves the outcome untold; the parents give their middle son (Ś, Hindi) (N1) | The ending | §3 |
+| **TC-022** (Ś 21 / Hindi XXI) | "Who is the fool?" instead of "who is guilty?" (N1) | The question | §3 |
+| **TC-011** | Injury differs; a Jaina prelude with Dharmadhvaja's father Guṇaśekhara in Ś and Hindi (wording corrected by N1) | Detail, not the answer | §3 |
 | **TC-014** | The Hindi adds "God's ways are inscrutable" to the laugh | Small shift of reasoning | §3 |
-| **TC-018** | The Hindi adds fate | The explanation | §3 |
+| **TC-018** | The Hindi adds fate (Ś 17 already has a *karma* verse; N1) | The explanation | §3 |
 | **TC-022** | Lion (KSS) vs tiger (J, Hindi) | Detail | §3 |
 | **TC-012, TC-014** | Absent from J's Bengali text | Availability, not content | §2.1 |
 | **TC-024** | Role in the frame differs; J omits the key marriage detail | The tale's function and clarity | §3 |
 
-Report §§7, 8 and 12 document these. No difference is claimed that the report does not record, and the report itself warns that every claimed difference should be checked as it checked the Nereid tale (§8.6).
+Report §§7, 8 and 12 document these, and the rows marked N1 come from [SOMADEVA_TALE_EVIDENCE.md](SOMADEVA_TALE_EVIDENCE.md). No difference is claimed that the report or N1 does not record, and the report itself warns that every claimed difference should be checked as it checked the Nereid tale (§8.6).
 
 ---
 
@@ -630,13 +637,13 @@ Everything in this section is an observation to prompt checking. **None is a fin
 
 ### 6.1 Reaction riddles ("why did X weep, laugh or dance?")
 
-The report records the question in this form for **TC-014** (thief weeps then laughs), **TC-023** (ascetic weeps then dances or laughs; XXIV, the father laughs then weeps). **TC-020**'s title (the brahman boy who laughed at his sacrifice) suggests the same form, but its question is **not recorded**. If TC-020 shares the form, three or four candidates (and four or five tellings) would rest on an unexpected laugh or tear. How different the dilemmas are can only be judged after N1. This is the clearest repetition risk in the pool.
+The report records the question in this form for **TC-014** (thief weeps then laughs), **TC-023** (ascetic weeps then dances or laughs; XXIV, the father laughs then weeps). **TC-020**'s title (the brahman boy who laughed at his sacrifice) suggests the same form, but its question is **not recorded**. If TC-020 shares the form, three or four candidates (and four or five tellings) would rest on an unexpected laugh or tear. How different the dilemmas are can only be judged after N1. This is the clearest repetition risk in the pool. **N1 update:** the KSS questions confirm TC-020 ("why did the boy laugh?", 12.27.127) and add **TC-012** ("why did the minister's heart burst?", 12.19.165–166), so four core families use the reaction form; TC-018 asks why a rite failed, a related causal form. See [SOMADEVA_TALE_EVIDENCE.md](SOMADEVA_TALE_EVIDENCE.md) §4.1 and §4.6.
 
 ### 6.2 Possible duplicates by title
 
 | Group | Why flagged | Status |
 |---|---|---|
-| TC-005 and TC-009 | A woman with suitors (three; four). | Both are E-matched and treated as different stories in the report. Their dilemmas were not compared. |
+| TC-005 and TC-009 | A woman with suitors (three; four). | Both are E-matched and treated as different stories in the report. **N1:** now comparable at the level of events: TC-005's answer turns on risk of life after a joint rescue, TC-009's on caste and usefulness, with no rescue ([SOMADEVA_TALE_EVIDENCE.md](SOMADEVA_TALE_EVIDENCE.md) §4.6). Whether that is a different dilemma under D-035 is the user's judgement. |
 | TC-022 and TC-025 | "Four brothers" in both titles. | Shared words only. J 21 is unread. |
 | TC-001 and TC-026 | A bride won with a companion's help (titles only). | J 22 is unread. |
 | TC-010 and TC-027 | Both feature an ogre in J (J 10's brahman-ogre; J 23's ogre). | Shared figure only. |
@@ -715,7 +722,7 @@ D-035 requires "meaningful variety across dilemmas, characters, conflicts, emoti
 
 | Lens | What to record for a candidate (in plain words, not a score) | What the pool allows now |
 |---|---|---|
-| **A. Type of central dilemma or riddle** | The question form (for example: a superlative judgement "who was most…"; a "why did X react so?" riddle; an allocation "to whom should…"; a relational or kinship puzzle; an unanswered riddle; a judgement of blame) and what the answer turns on. | The report quotes a question for only six core tales (TC-010, 014, 016, 021, 023, 024) and records an answer, or its absence, for about fifteen (TC-007–011, 013–019, 021, 023, 024). Question forms seen: superlative or comparative (TC-007, 010, 016, 021); "why did X react?" (TC-014, 023); allocation (TC-019, by title); blame (TC-013); kinship, unanswered (TC-024). Incomplete. |
+| **A. Type of central dilemma or riddle** | The question form (for example: a superlative judgement "who was most…"; a "why did X react so?" riddle; an allocation "to whom should…"; a relational or kinship puzzle; an unanswered riddle; a judgement of blame) and what the answer turns on. | The report quotes a question for only six core tales (TC-010, 014, 016, 021, 023, 024) and records an answer, or its absence, for about fifteen (TC-007–011, 013–019, 021, 023, 024). Question forms seen: superlative or comparative (TC-007, 010, 016, 021); "why did X react?" (TC-014, 023); allocation (TC-019, by title); blame (TC-013); kinship, unanswered (TC-024). Incomplete. **N1:** the KSS question and answer are now recorded for all 24 core families ([SOMADEVA_TALE_EVIDENCE.md](SOMADEVA_TALE_EVIDENCE.md) §2 and §4.1). |
 | **B. Characters and relationships** | Who the central figures are (rank, calling, gender) and the relationship that creates the dilemma (spouses, lovers, rival suitors, master and servant, parent and child, sovereign and subject). | By titles only. The report notes recurring types (kings, ministers, merchants, brahmans, thieves, courtesans, Vidyādharas, ascetics; women often drive the dilemma, §9). |
 | **C. Conflict and stakes** | What is at risk (life, honour, love, fortune, the soul) and what drives the conflict (loyalty, desire, duty, deceit, fate). | By titles only. |
 | **D. Emotional experience** | The experience the reader may have (wonder, dread, humour, grief, tenderness, unease, delight), described as an observation, not a promised effect. | The report notes humour and play in TC-008 and TC-015 only. The rest is unassessed. |
@@ -751,7 +758,7 @@ This is an ordered list of missing research that could materially change how can
 
 | # | Research | Why it matters | Report basis |
 |---|---|---|---|
-| **N1** | **Extract each core tale's question, answer and essential events** from the KSS Sanskrit (GRETIL S02) and Tawney/Penzer, with verse references, and set each beside Ś (Uhle) and the Hindi (Platts). The report author read these verses but recorded them for only part of the pool. | Without them, lenses A to G (§9) cannot be filled and the repetition risks in §6 cannot be judged. | §2.2, §7 |
+| **N1** | **Extract each core tale's question, answer and essential events** from the KSS Sanskrit (GRETIL S02) and Tawney/Penzer, with verse references, and set each beside Ś (Uhle) and the Hindi (Platts). The report author read these verses but recorded them for only part of the pool. | *Done (2026-11-17):* see [SOMADEVA_TALE_EVIDENCE.md](SOMADEVA_TALE_EVIDENCE.md). Without them, lenses A to G (§9) cannot be filled and the repetition risks in §6 cannot be judged. | §2.2, §7 |
 | **N2** | **Read Hindi XXII and XXIV in full** (Platts and Barker, with the printed Hindi), and compare them with KSS 23 and Ś 22 at the level of events. | *Done:* see [HINDI_XXII_XXIV_COMPARISON.md](HINDI_XXII_XXIV_COMPARISON.md). The question is settled by the user's decision (§5.A). | §8.5, §15 |
 | **N3** | **Read J 21, 22 and 23** in Emeneau's text and translation (respecting the rights caution), with the Newari parallels (Jørgensen). | Three candidates are title-only. | §4.D, §11 |
 | **N4** | **Read the other J tales' content**, in particular J 24 (TC-016), 25 and any tale in which J's endings or answers differ. | The report read J 10 and J 25 only; Emeneau says J's details "differ widely" from the others'. | §4.D, §15 |
