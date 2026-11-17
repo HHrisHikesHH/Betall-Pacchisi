@@ -13,7 +13,7 @@ Read this first when you start a new session on this project. It summarises the 
   - **PR #3** contains an independent review by a separate AI session (`docs/research/SOURCE_TRADITIONS_REVIEW.md`, on PR #3's branch). It has now covered **all checklist items R1–R24** and the report's **§§9–14**.
   - The review's first-round corrections **C1–C13** were applied to PR #2. The reviewer found 10 verified and 3 partially verified (C2, C6, C12).
   - Its second-round corrections **A1–A12**, and the three residual issues, are incorporated into PR #2.
-  - **The final independent confirmation is complete** (PR #3 §8, on PR #2 at `ede52de`). It found C1–C13 and A1–A12 in place and listed nine minor citation, consistency and wording issues (**R-1 to R-9**), which have now been applied to PR #2. Those last fixes have not themselves been re-reviewed. The reviewer judged the report sufficient for the user to **begin discussing** Q-401 and Q-410, not to treat a decision as settled.
+  - **The final independent confirmation is complete** (PR #3 §8, on PR #2 at `ede52de`). It found C1–C13 and A1–A12 applied (C12, C13, A6 and A10 were marked "Applied, needs qualification" in PR #3 §8.2; the review did not independently establish every underlying historical finding) and listed nine minor citation, consistency and wording issues (**R-1 to R-9**), which were then applied to PR #2. A subsequent independent review at `6a2e67a` checked R-1 to R-9; the polish at `1f21961` was separately reviewed and its remaining issues are corrected in the latest revision. The reviewer judged the report sufficient for the user to **begin discussing** Q-401 and Q-410, not to treat a decision as settled.
   - The independent review is an AI review, **not a human specialist review**. Some claims remain unverified because editions (the 1805 Hindi print, Forbes's text, the Braj, the 1915 KSS print, Kṣemendra's text) or specialist language review were not available.
   - **Q-401** (primary source tradition) and **Q-410** (how the 25 tales are counted) remain open. No source tradition has been selected.
 - **No story drafting has begun.**
@@ -78,7 +78,6 @@ P-001 to P-007 in [DECISIONS.md](DECISIONS.md#proposals-awaiting-the-users-decis
 
 1. **Decide whether to commission specialist readings** (recommended, not an approved requirement): a Hindi/Braj reader for Hindi IX, XV, XX and XXIV, and ideally the 1805 print or Forbes's text; a Sanskritist to spot-check the KSS and Śivadāsa readings; the Durgaprasad–Parab print of the KSS; and Kṣemendra's text.
 2. **The user then discusses and decides Q-401 and Q-410**, using the options in §13 and the questions in §14 of the report. The final confirmation (PR #3 §8) judged the report sufficient to begin that discussion, not to treat a decision as settled.
-3. **Optionally**, have the R-1 to R-9 fixes spot-checked by someone other than the author; they change wording and citations, not findings.
 
 P-005 (making the source comparison the next task) has not been formally approved; the research was carried out at the user's request. Neither PR #2 nor PR #3 has been merged.
 
