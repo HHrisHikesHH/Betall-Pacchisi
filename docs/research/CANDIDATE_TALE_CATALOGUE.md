@@ -253,7 +253,7 @@ Each record is limited to what the report establishes. "Not recorded" means the 
 | **Appearances** | KSS 12.16.1–39 (ch. 83) · BKM 9 (prov.) · Ś **7** · J 9 · Hindi **VII** · Ryder 9. |
 | **Correspondence** | E. |
 | **Plot and dilemma** | The answer is the **warrior-suitor** in KSS, Ś, J and the Hindi, per report §7. **Basis for J's answer is not documented** (the report says J content was read only for J 10 and J 25, as with TC-007). **N1 (12.16.33–38):** the question is to which of the four she should be given; KSS rules out the Śūdra and the Vaiśya by caste, animal speech as useless, and the brahman reviver as fallen from his caste duty, and chooses the Kṣatriya as her equal. |
-| **Variants** | Order (Ś and the Hindi place it seventh). **N1:** Ś 7 and Hindi VII have no suitor who revives the dead; the brahman is a learned man. |
+| **Variants** | Order (Ś and the Hindi place it seventh). **N1:** Ś 7 and Hindi VII have no suitor who revives the dead; the brahman appears to be a learned man (PROVISIONAL in Ś, an OCR reading). |
 | **Distinctness** | Separate family. See the suitors counting risk at TC-005 and §6.2. |
 | **Literary opportunities** | None established. |
 | **Collection contribution** | Not assessable. |
