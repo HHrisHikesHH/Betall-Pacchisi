@@ -6,7 +6,7 @@
 
 > **Entertainment draws the reader in. Storytelling holds them there. Reflection is what may stay with them.**
 
-The line is the order of priority. A reader must first want to keep reading. The telling must then be good enough to keep them. Reflection is a possible after-effect, never the purpose, and never a duty placed on the reader.
+The line is the order of priority. A reader must first want to keep reading. The telling must then be good enough to keep them. Reflection is what may stay with the reader. It is welcome and, for the attentive reader, rewarding (D-005), but it is never forced, never a duty placed on the reader, and never the price of enjoying the story.
 
 ## 2. The central purpose (brief)
 
@@ -16,8 +16,8 @@ An **immersive, entertaining, beautifully told retelling of Betal Pachisi.** The
 
 | It is not… | In practice |
 |---|---|
-| **A self-help project** | No tale is written to improve, fix or transform the reader. No "what this teaches you about your life". |
-| **A philosophy lecture** | No platform for prescribed morals or doctrine. Ideas live inside events, characters and choices. |
+| **A self-help project** (brief) | No tale is written to improve, fix or transform the reader. No "what this teaches you about your life". |
+| **A philosophy lecture** (brief) | No platform for prescribed morals or doctrine. Ideas live inside events, characters and choices. |
 | **A moral-of-the-story collection** | D-006. A tale may end on a dilemma, an image or a question, and may support several honest readings. |
 | **An imitation of anyone** | D-018. Techniques may be studied. Voices and identities are not copied. |
 
@@ -32,21 +32,22 @@ Do not force a lesson, a transformation or an interpretation onto the reader. Th
 
 ### 5.1 What is approved
 
-- The **manner of telling changes** with the story and the moment: quiet, playful, tense, warm, challenging (D-007).
-- Beneath every voice the storyteller is **deeply perceptive, observant and introspective** (D-033).
+- The **manner of telling changes** with the story and the moment: contemplative, expressive, humorous, suspenseful, warm, challenging or quiet (D-007). The narrator is not an outside lecturer or a fixed philosophical character.
+- Beneath every voice the storyteller is **deeply wise, well-read, observant, introspective and perceptive** (D-033), so that readers occasionally find an insight an ordinary reading would miss.
 - The wisdom is **shown by what the narration notices**: a gesture, an irony, the detail that will matter later. It is never declared. A funny passage can be as perceptive as a solemn one.
-- **Occasional direct address** is welcome when it brings the reader closer to the character's situation, feeling or dilemma (D-008). Test: after the aside, is the reader nearer the character, or nearer the narrator's opinions? If the latter, cut it.
+- **Occasional direct address** is welcome when it brings the reader closer to the character's situation, feeling or dilemma (D-008). *Proposed operationalisation of D-008, not an approved rule:* after the aside, is the reader nearer the character, or nearer the narrator's opinions? If the latter, cut it.
 
 ### 5.2 What stays open
 
 - **The narrator's identity** (gender, persona, biography, human or AI) is **not decided** (Q-005). Do not invent one, and do not write in a way that quietly fixes one.
-- **Betal remains central** to the storytelling identity. He is the one who poses the riddles and holds the night. This document does not create a new narrator concept. How Betal relates to the narrating voice is part of Q-005 and Q-002 and stays open.
+- **Betal remains central** to the storytelling identity (brief). He is the one who poses the riddles and holds the night. This document does not create a new narrator concept. How Betal relates to the narrating voice is part of Q-005 and Q-002 and stays open.
 
 ## 6. Creative freedom: broad imagination, disciplined relevance (D-009)
 
-Imagination is welcome wherever it strengthens the story: sensory detail, psychology, atmosphere, dialogue, tension. Every addition must preserve the tale's:
+Imagination is welcome wherever it strengthens the story: sensory detail, psychology, atmosphere, dialogue, tension, and the philosophical implications the events already carry (D-009). Every addition must preserve the tale's:
 
-- **essential identity**: it is still recognisably this tale,
+- **essential identity and purpose**: it is still recognisably this tale, doing what it does,
+- **essential events**,
 - **central dilemma**,
 - **coherence and causality**,
 - **emotional logic**: characters act for reasons the reader can feel.
@@ -65,11 +66,11 @@ The project is **not bound to one recension**. Multiple versions exist, and the 
 4. **Record every borrowing and addition** in the story's variant record (see [SOURCE_AND_RESEARCH_POLICY.md](SOURCE_AND_RESEARCH_POLICY.md) §§5–6): edition, tradition, which element, and why.
 5. **Never present an invention as attested.** A combination of elements is our composition, and is labelled so internally. Anything reader-facing about sources is subject to Q-404 and the verification rules of D-017.
 
-**Not decided here:** a primary tradition, a source hierarchy (Q-408), the frame story's source (Q-002), or the tradition used for any particular tale (Q-401).
+D-034 does not exclude a single primary tradition with recorded borrowings; the options in report §13 stay open. **Not decided here:** a primary tradition, a source hierarchy (Q-408), the frame story's source (Q-002), or the tradition used for any particular tale (Q-401).
 
 ## 8. What counts as "the 25 tales" (D-035)
 
-- The collection is **25 distinct tales narrated by Betal**.
+- The collection is **25 distinct tales narrated by Betal** (Betal as teller within the story world; this does not decide the project's narrating voice, `Q-005`).
 - The **outer Vikram–Betal frame is separate** and is not counted among the 25.
 - A repeated underlying plot is **not automatically a separate tale**. It counts separately only if it has a **genuinely different central dilemma** or is **substantially different as a story**.
 - The final collection needs **meaningful variety** across dilemmas, characters, conflicts, emotions and forms of storytelling.

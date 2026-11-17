@@ -49,13 +49,13 @@ Full wording and IDs are in [DECISIONS.md](DECISIONS.md).
 | 2026-11-16 | Independent review of R1–R14 by a separate AI session (PR #3). Its corrections C1–C13 were re-checked against the sources and incorporated into the report on PR #2, together with qualified wording on the copyright of historical texts (§11). |
 | 2026-11-17 | Second independent-review pass (PR #3 §7) covering the applied C1–C13, R15–R24 and §§9–14. Its corrections A1–A12 and the residual issues in C2, C6 and C12 were re-checked where possible and incorporated into the report on PR #2. Main changes: the Hindi readings in tales XV and XX are now described as partial, translation-sensitive shifts needing a Hindi specialist; Śivadāsa's printed ending is shown to be textually mixed; Kṣemendra's date and priority are marked as not established; the Newari relationship is described as compatible views, not a dispute; evaluative wording in §§9, 12–14 neutralised. |
 | 2026-11-17 | Final independent confirmation (PR #3 §8) of the report at `ede52de`: the reviewer found the earlier corrections applied (C12, C13, A6 and A10 were marked "Applied, needs qualification" in PR #3 §8.2; the review did not independently establish every underlying historical finding); nine minor issues R-1 to R-9 listed. All nine applied to PR #2 (unsupported 11th-century dating removed; Kṣemendra count wording aligned between §§6 and 12.A; contradictory phrases in §§12.A and 12.C fixed; Emeneau pp. 66–73 and Barker pp. 182 and 359 cited; authorial inferences labelled; specialist review worded consistently as a recommendation; status statements updated). Later commits `db86261` (Barker coverage row, report §2.2) and `6a2e67a` (S10 source-register entry, report §10) aligned the Barker records with the four page-image passages (IX p. 182, XV p. 270, XX p. 332, XXIV p. 359). |
-| 2026-11-17 | PRs #2 and #3 merged into `main` (merge commits `4f545d8`, `3cf6b93`). Started the North Star task: created STORYTELLING_NORTH_STAR.md, added D-034, D-035, P-008 and Q-411, resolved Q-410, and cross-referenced the other documents. An independent read-only review of the branch follows (recorded below once complete). |
+| 2026-11-17 | PRs #2 and #3 merged into `main` (merge commits `4f545d8`, `3cf6b93`). Started the North Star task: created STORYTELLING_NORTH_STAR.md, added D-034, D-035, P-008 and Q-411, resolved Q-410, and cross-referenced the other documents. An independent read-only Opus review of the branch found no blockers, 4 moderate and 6 minor issues (restated approved wording incomplete; entertainment-first labelling; D-035 vs Q-005; Q-401 over-narrowed; wording-confirmation caveat; source labels; authority pointers; Q-411 piecemeal risk; stale research-report lines; README status). All were corrected in the follow-up commit. |
 
 ## Major unresolved questions
 
 The full list is in [OPEN_QUESTIONS.md](OPEN_QUESTIONS.md). The most consequential are:
 
-- **Q-401**: which tradition(s) anchor the frame and each tale (RESEARCH REQUIRED; narrowed by D-034, which removes the single-recension requirement but not the need to decide).
+- **Q-401**: which tradition (or combination) is the primary literary foundation (RESEARCH REQUIRED; D-034 removes rigid single-recension binding but does not exclude a single primary tradition with recorded borrowings).
 - **Q-411**: which 25 tales form the collection under D-035 (Q-410, the counting definition, is resolved).
 - **Q-101 / Q-107**: book behaviour (scroll, page-turn, or hybrid) and the reading layout.
 - **Q-201 / Q-203**: the final art style and the look of Vikram and Betal.
@@ -71,8 +71,9 @@ P-001 to P-008 in [DECISIONS.md](DECISIONS.md#proposals-awaiting-the-users-decis
 
 **The user reviews the North Star and the wording of D-034, D-035 and P-008**, and confirms or corrects them. Then, in the user's order:
 
+0. Confirm or close **P-005** (source comparison as next task, now overtaken by the completed research).
 1. Decide whether to commission specialist readings (recommended, not required): a Hindi/Braj reader for Hindi IX, XV, XX and XXIV; a Sanskritist to spot-check KSS and Śivadāsa readings; Kṣemendra's text. See the report's §15.
-2. Discuss Q-401 (anchors for frame and tales), Q-408 (source hierarchy) and Q-411 (which 25 tales), using the report's §§13–14. The report did not settle any of them.
+2. Discuss Q-401 (primary foundation or combination; report §13 options 1–6 all remain open), Q-408 (source hierarchy) and Q-411 (which 25 tales), using the report's §§13–14. The report did not settle any of them.
 
 **Do not begin writing any story or choose a final tradition, the narrator's identity (Q-005), Hindi register (Q-402), art, audio, layout or technology** until the user decides.
 
