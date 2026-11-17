@@ -1,6 +1,6 @@
 # Handoff
 
-*Last updated: 2026-11-17*
+*Last updated: 2026-11-17 (North Star task)*
 
 Read this first when you start a new session on this project. It summarises the current state and links to the authoritative documents. **It is never the authority on a decision.** [DECISIONS.md](DECISIONS.md) is.
 
@@ -8,15 +8,8 @@ Read this first when you start a new session on this project. It summarises the 
 
 **The project is at its foundation stage.** Only documentation and research exist.
 
-- **Source research is in progress, in two open pull requests.**
-  - **PR #2** contains the comparative report ([research/SOURCE_TRADITIONS_COMPARISON.md](research/SOURCE_TRADITIONS_COMPARISON.md)).
-  - **PR #3** contains an independent review by a separate AI session (`docs/research/SOURCE_TRADITIONS_REVIEW.md`, on PR #3's branch). It has now covered **all checklist items R1–R24** and the report's **§§9–14**.
-  - The review's first-round corrections **C1–C13** were applied to PR #2. The reviewer found 10 verified and 3 partially verified (C2, C6, C12).
-  - Its second-round corrections **A1–A12**, and the three residual issues, are incorporated into PR #2.
-  - **The final independent confirmation is complete** (PR #3 §8, on PR #2 at `ede52de`). It found C1–C13 and A1–A12 applied (C12, C13, A6 and A10 were marked "Applied, needs qualification" in PR #3 §8.2; the review did not independently establish every underlying historical finding) and listed nine minor citation, consistency and wording issues (**R-1 to R-9**), which were then applied to PR #2. A subsequent independent review at `6a2e67a` checked R-1 to R-9; the polish at `1f21961` was separately reviewed and its remaining issues are corrected in the latest revision. The reviewer judged the report sufficient for the user to **begin discussing** Q-401 and Q-410, not to treat a decision as settled.
-  - The independent review is an AI review, **not a human specialist review**. Some claims remain unverified because editions (the 1805 Hindi print, Forbes's text, the Braj, the 1915 KSS print, Kṣemendra's text) or specialist language review were not available.
-  - **Q-401** (primary source tradition) and **Q-410** (how the 25 tales are counted) remain open. No source tradition has been selected.
-- **No story drafting has begun.**
+- **Source research is complete and merged.** PR #1 (foundation), PR #2 (comparative report, [research/SOURCE_TRADITIONS_COMPARISON.md](research/SOURCE_TRADITIONS_COMPARISON.md)) and PR #3 (independent AI review, [research/SOURCE_TRADITIONS_REVIEW.md](research/SOURCE_TRADITIONS_REVIEW.md)) are all merged into `main`. The review's corrections were applied and confirmed. **Limitations remain:** the review was by a separate AI session, not a human specialist. Kṣemendra's text, the Newari version and the Bhaviṣya Purāṇa version were not read directly, and several language-sensitive readings (Hindi IX, XV, XX, XXIV) still need a Hindi/Braj specialist. See the report's §15. No tradition has been selected.
+- **Current phase (2026-11-17): establishing the Storytelling North Star** (branch `docs/storytelling-north-star`, PR to `main`). This adds [STORYTELLING_NORTH_STAR.md](STORYTELLING_NORTH_STAR.md) (PROPOSED, P-008) and records two agreements the user stated: **D-034** (no single-recension binding; combine across traditions under stated rules) and **D-035** (what "the 25 tales" means). **Q-410 is resolved by D-035.** **Q-411** (which 25 tales) is new. Q-401 is narrowed, not resolved.
 - No story blueprints have been produced.
 - No art style, artwork, or audio exists.
 - No technology has been chosen and no application code exists.
@@ -30,11 +23,12 @@ This is an immersive, illustrated, sound-supported retelling of the 25 Vikram–
 
 Full wording and IDs are in [DECISIONS.md](DECISIONS.md).
 
-- **Scope:** the 25 Betal Pachisi tales only, for now. Other folk stories are future scope. No name chosen.
+- **Scope:** the 25 Betal Pachisi tales only, for now. **"25 tales" means 25 distinct tales narrated by Betal, with the outer frame not counted (D-035).** Other folk stories are future scope. No name chosen.
 - **Experience:** an immersive story, not a conventional website. Layered reading. No forced morals, and room for several interpretations.
 - **Narration:** the manner of telling adapts to each moment. Occasional purposeful direct address, never lectures.
 - **Creative freedom:** *broad imagination, disciplined relevance*.
 - **Language:** Hindi and English at launch, switched with a toggle (not side by side). **Hindi is written, verified, and approved first, and only then adapted into English.** English is a literary adaptation. More languages later, such as Marathi and Kannada.
+- **Source adaptation (D-034):** not bound to one recension. Elements from different traditions may be combined for a stronger story, with essential identity, dilemma, causality and emotional logic preserved, everything recorded, and no invention presented as attested. No primary tradition has been chosen.
 - **Sources:** research and compare the traditions before choosing a foundation. Cite editions, track variants, and separate source material from additions. Osho may be studied for technique only: no impersonation, attribution, fabricated quotes, or implied endorsement.
 - **Workflow:** research and blueprint, then Drafts 1 to 3 (a minimum), then independent verification, then the user's approval. Separate writer, critic, and verifier roles. Keep every record.
 - **Illustration:** cinematic pacing. AI-generated and unmistakably Indian. Traditions to research, not to combine blindly. Coherent direction and consistent characters.
@@ -55,13 +49,14 @@ Full wording and IDs are in [DECISIONS.md](DECISIONS.md).
 | 2026-11-16 | Independent review of R1–R14 by a separate AI session (PR #3). Its corrections C1–C13 were re-checked against the sources and incorporated into the report on PR #2, together with qualified wording on the copyright of historical texts (§11). |
 | 2026-11-17 | Second independent-review pass (PR #3 §7) covering the applied C1–C13, R15–R24 and §§9–14. Its corrections A1–A12 and the residual issues in C2, C6 and C12 were re-checked where possible and incorporated into the report on PR #2. Main changes: the Hindi readings in tales XV and XX are now described as partial, translation-sensitive shifts needing a Hindi specialist; Śivadāsa's printed ending is shown to be textually mixed; Kṣemendra's date and priority are marked as not established; the Newari relationship is described as compatible views, not a dispute; evaluative wording in §§9, 12–14 neutralised. |
 | 2026-11-17 | Final independent confirmation (PR #3 §8) of the report at `ede52de`: the reviewer found the earlier corrections applied (C12, C13, A6 and A10 were marked "Applied, needs qualification" in PR #3 §8.2; the review did not independently establish every underlying historical finding); nine minor issues R-1 to R-9 listed. All nine applied to PR #2 (unsupported 11th-century dating removed; Kṣemendra count wording aligned between §§6 and 12.A; contradictory phrases in §§12.A and 12.C fixed; Emeneau pp. 66–73 and Barker pp. 182 and 359 cited; authorial inferences labelled; specialist review worded consistently as a recommendation; status statements updated). Later commits `db86261` (Barker coverage row, report §2.2) and `6a2e67a` (S10 source-register entry, report §10) aligned the Barker records with the four page-image passages (IX p. 182, XV p. 270, XX p. 332, XXIV p. 359). |
+| 2026-11-17 | PRs #2 and #3 merged into `main` (merge commits `4f545d8`, `3cf6b93`). Started the North Star task: created STORYTELLING_NORTH_STAR.md, added D-034, D-035, P-008 and Q-411, resolved Q-410, and cross-referenced the other documents. An independent read-only review of the branch follows (recorded below once complete). |
 
 ## Major unresolved questions
 
 The full list is in [OPEN_QUESTIONS.md](OPEN_QUESTIONS.md). The most consequential are:
 
-- **Q-401**: which source tradition is the primary literary foundation (RESEARCH REQUIRED; research compiled, independently reviewed by an AI session, see Current status).
-- **Q-410**: how the approved "25 tales" are counted, given that the traditions differ.
+- **Q-401**: which tradition(s) anchor the frame and each tale (RESEARCH REQUIRED; narrowed by D-034, which removes the single-recension requirement but not the need to decide).
+- **Q-411**: which 25 tales form the collection under D-035 (Q-410, the counting definition, is resolved).
 - **Q-101 / Q-107**: book behaviour (scroll, page-turn, or hybrid) and the reading layout.
 - **Q-201 / Q-203**: the final art style and the look of Vikram and Betal.
 - **Q-002**: how the frame story is presented.
@@ -70,18 +65,16 @@ The full list is in [OPEN_QUESTIONS.md](OPEN_QUESTIONS.md). The most consequenti
 
 ## Proposals waiting for the user's decision
 
-P-001 to P-007 in [DECISIONS.md](DECISIONS.md#proposals-awaiting-the-users-decision): story record structure, project bibliography, character model sheets, audio asset register, source comparison as the next task, sound-design guardrails, and English adaptation guidelines.
+P-001 to P-008 in [DECISIONS.md](DECISIONS.md#proposals-awaiting-the-users-decision): story record structure, project bibliography, character model sheets, audio asset register, source comparison as the next task, sound-design guardrails, and English adaptation guidelines, and **P-008 (adopt the North Star as the central creative reference, wording to be confirmed)**.
 
 ## Recommended next task
 
-**Finish verifying the source research before Q-401 is decided.**
+**The user reviews the North Star and the wording of D-034, D-035 and P-008**, and confirms or corrects them. Then, in the user's order:
 
-1. **Decide whether to commission specialist readings** (recommended, not an approved requirement): a Hindi/Braj reader for Hindi IX, XV, XX and XXIV, and ideally the 1805 print or Forbes's text; a Sanskritist to spot-check the KSS and Śivadāsa readings; the Durgaprasad–Parab print of the KSS; and Kṣemendra's text.
-2. **The user then discusses and decides Q-401 and Q-410**, using the options in §13 and the questions in §14 of the report. The final confirmation (PR #3 §8) judged the report sufficient to begin that discussion, not to treat a decision as settled.
+1. Decide whether to commission specialist readings (recommended, not required): a Hindi/Braj reader for Hindi IX, XV, XX and XXIV; a Sanskritist to spot-check KSS and Śivadāsa readings; Kṣemendra's text. See the report's §15.
+2. Discuss Q-401 (anchors for frame and tales), Q-408 (source hierarchy) and Q-411 (which 25 tales), using the report's §§13–14. The report did not settle any of them.
 
-P-005 (making the source comparison the next task) has not been formally approved; the research was carried out at the user's request. Neither PR #2 nor PR #3 has been merged.
-
-**Do not begin writing any story** until the research has been confirmed and the user has chosen the literary foundation.
+**Do not begin writing any story or choose a final tradition, the narrator's identity (Q-005), Hindi register (Q-402), art, audio, layout or technology** until the user decides.
 
 ## Notes for the next session
 
