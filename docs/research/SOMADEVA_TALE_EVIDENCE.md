@@ -552,7 +552,7 @@ These are observations from the KSS evidence, not decisions.
 
 ## 6. Corrections and additions to the catalogue and the report
 
-Found in this task. The catalogue has been updated narrowly where stated; the report (SOURCE_TRADITIONS_COMPARISON.md) has **not** been edited, and its affected lines are listed for the user to decide on.
+Found in this task. The catalogue has been updated narrowly where stated. **Rows 1–6 were then corrected in the report (SOURCE_TRADITIONS_COMPARISON.md) on 2026-11-18 at the user's request**, each marked in place and logged in the report's revision history; the "Report" column below records what the report said before.
 
 | # | Where | Finding | Catalogue | Report |
 |---|---|---|---|---|
