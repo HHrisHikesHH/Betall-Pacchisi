@@ -9,6 +9,7 @@
 | **Governing policy** | [SOURCE_AND_RESEARCH_POLICY.md](../SOURCE_AND_RESEARCH_POLICY.md) |
 | **Does not** | Resolve Q-401, change any decision or proposal status, rewrite the report, or contain story content. Corrections are *proposed* in §3 for the report's author or the user to apply. |
 | **Follow-up** | §7 (added 2026-11-16) reviews the revised report at commit `ae61239`. It covers the disposition of C1–C13, R15–R24, and the report's §§9–14, and corrects two statements in §§2–4 of this review. Sections 1–6 below are the first review, kept as written apart from two marked corrections. |
+| **Final confirmation** | §8 (added 2026-11-17) confirms the report at commit `ede52de57c8587dfc059bd92038f3b1918071e22`, covering C1–C13, A1–A12 and the three editorial cleanups, with nine minor remaining issues (R-1 to R-9). §§1–7 are unchanged. |
 
 **Verdicts used:** **CONFIRMED** (the claim matches the cited source); **CORRECTED** (the source shows something different; evidence given); **COULD NOT CHECK** (with the reason). Several items are confirmed in part and corrected or unchecked in part; each part is labelled.
 
@@ -480,3 +481,194 @@ Three things are not yet established:
 3. **The report's evaluative language in §§9, 12.D and 13** ("best-verifiable", "lowest burden", "richest", "familiar to Hindi readers") is **not neutral evidence**. The user should read the options against the factual tables in §§5–8, not against those adjectives (A10).
 
 This review does not rank the traditions or recommend an option.
+
+---
+
+## 8. Final confirmation of the report at `ede52de`
+
+### 8.1 What was reviewed
+
+| | |
+|---|---|
+| **Report commit reviewed** | `ede52de57c8587dfc059bd92038f3b1918071e22` ("docs: qualify Option 1 copyright, Kṣemendra overview, and literary-potential rows"), head of PR #2 on `research/source-traditions-comparison`. Confirmed with `git cat-file` and against `gh pr view 2` (headRefOid). It follows `03c2d3f` (A1–A12) and `ae61239` (C1–C13). |
+| **What was read** | The whole report at that commit (783 lines), extracted with `git show` from the commit itself. Not used: a local working copy, the PR description, or the author's revision-history summary. Also checked: the commit's changes to `OPEN_QUESTIONS.md` and `HANDOFF.md`, and that `DECISIONS.md` is unchanged against `main`. |
+| **Method** | Each correction was checked in the current passages against the source, not against this review's earlier wording. The three cleanups in `ede52de` were checked for wording and for evidence. The whole report was then read for consistency between §§3–5, §§6–7, §8, §§9–14 and §§15–17. |
+
+**Sources used in this pass**
+
+*Newly examined:*
+
+- **Emeneau 1934, p. xiv**, page image. This is the passage the new §12.A row cites for Kṣemendra's count.
+- **OCR re-checks of details the revised report newly cites:**
+  - Emeneau p. 5 n. 2 (the BKM king's name).
+  - Uhle pp. XVI–XVII (692 verses, 113 narrative).
+  - Penzer vol. 6, title page ("Chas. J. Sawyer Ltd., Grafton House … MCMXXVI") and p. 242 (Francke).
+  - Barker 1855, title page ("Printed and published by Stephen Austin").
+  - Tawney vol. 2, title page (Calcutta; J. W. Thomas at the Baptist Mission Press; 1884).
+  - ZDMG 75 (1921), pp. 213–214 (Jørgensen: two tales edited; "a quick comparison").
+
+*Relied on from §7 without re-fetching in this pass:*
+
+- **Page images:** Emeneau pp. 71, 73, 145–147 and 155; Uhle pp. XXII–XXIII and text p. 62; Barker pp. 182, 270, 332 and 359; BKM contents p. 2 and two text pages.
+- **E-text:** the S02 KSS e-text.
+
+Nothing was read beyond these passages. The 1805 print, Forbes's text, any Braj text, the 1915 KSS print, Lévi, Uhle 1914, Vidyasagara 1873, Otter 2021 and the Kṣemendra text (beyond two pages) remain unconsulted.
+
+---
+
+### 8.2 Verdicts
+
+Categories:
+
+- **Confirmed**: correctly applied and supported by the cited evidence.
+- **Applied, needs qualification**: applied, but still inaccurate, incomplete or insufficiently qualified somewhere.
+- **Not applied.**
+- **Could not verify**, with the reason.
+
+**First-round corrections C1–C13**
+
+| # | Verdict | Remarks (current report locations) |
+|---|---|---|
+| C1 | **Confirmed** | §5 J column, §4.D, §9, §12.C. Matches Emeneau pp. 145–147 and 155 and Uhle p. XXII (page images). Uhle's source for his differing summary is correctly left unresolved. |
+| C2 | **Confirmed**; residual resolved | §3 item 7 now says KSS 23's ascetic "weeps and then **dances**", consistent with §8.5 and S02 12.30.33 and 43. |
+| C3 | **Confirmed** | §8.5 Ś column. |
+| C4 | **Confirmed** | §4.A. The contents page image shows p. 215 and pp. 287–384. |
+| C5 | **Confirmed** | §5 KSS column. 12.31.60–74 and 12.32.21–38 match S02. |
+| C6 | **Confirmed**; residual resolved | §4.C "Printed frame ending" and §5 Ś column now give the content of Uhle's text p. 62. Checked against the page image: the *digambara*; the blood offered to the Vetāla; the eight great *siddhis*; the Gandharvas' flower-rain and boon; the request that the collection become famous and that the Vetāla obey the king (*mamā 'jñākārī bhavatv ayam*); the trimūrti; Śiva naming the king as Vikramāditya and granting Vidyādhara fortune. The report also states Uhle's p. XIV attribution of vv. 2–4 to Kṣemendra, with the right consequence ("mixed witness"). *Minor:* "the king asking for the Vetāla as servant (two)" is listed among the variants, although the printed text also has it. That is Uhle's own list, so it is not an error, but a reader may take it for a non-base reading (R-1 below). |
+| C7 | **Confirmed** | §8.4. |
+| C8 | **Confirmed** | §3 item 8, §4.G, §6, §7. |
+| C9 | **Confirmed** | §3 item 8, §4.G. |
+| C10 | **Confirmed** | §4.E, §6. |
+| C11 | **Confirmed** | §8.1 KSS column. Also consistent with Emeneau p. 73 n. 11 (page image). |
+| C12 | **Applied, needs qualification**; residual mostly resolved | §8.3 and §8.4 now cite Barker's printed Hindi for XV (p. 270) and XX (p. 332). Both quotations match the page images, including *sat kis kā adhik huā* (p. 270). **Remaining gap:** §1 and §14 Q9 say the reviewer also read IX and XXIV in Barker's Hindi. But §8.1's label still says the Hindi IX reading "is still not a reading of the Hindi", and §8.5 cites only translations for XXIV. Barker p. 182 (IX: *par us ke khāvind ne use pyār na kiyā*) and p. 359 (XXIV: *us ke bāp ko … bairāg huā; pahle hãsā pīche royā*) are not cited (R-2). |
+| C13 | **Applied, needs qualification** | §8.1 and the R2 row are correct (pp. 66–73; note 10). But **§3 item 5 still cites "[S07 pp. 66–72]"** (R-3). |
+
+**Second-round corrections A1–A12**
+
+| # | Verdict | Remarks |
+|---|---|---|
+| A1 | **Confirmed** | §3 item 6, §8.3, §12.C. The wording follows Barker p. 270, S02 12.23.205 and Uhle text p. 43. |
+| A2 | **Confirmed** | §3 item 6, §8.4, §12.C. The "real but partial, … not an opposite moral framing" wording matches the evidence. |
+| A3 | **Confirmed** | See C6. |
+| A4 | **Confirmed** | See C2. |
+| A5 | **Confirmed** | The R2 row reads "note 10 (p. 71)", matching the page image. |
+| A6 | **Applied, needs qualification** | §4.A Date and Assessment, §12.A, §12.D and §15 are correct and conditional. **But §11 (intro) and §13 Option 1 ("Copyright and access") call the text "11th-century", a dating the report does not establish anywhere** (see cleanup A below; R-4). |
+| A7 | **Confirmed** | §4.F, §12.A. Jørgensen pp. 213–214 checked again (OCR). |
+| A8 | **Confirmed** | §4.F, §12.A, §15. |
+| A9 | **Confirmed** | §4.C, §10, §15, §17 S06. The report now presents the origin of 1884 as unresolved, and asserts neither explanation. |
+| A10 | **Applied, needs qualification** | §9, §12.D, §13 and §14 Q2 are neutralised, and the familiarity point is labelled an assumption. **Residual evaluative wording:** §12.A Somadeva "Distinctive features: **Rich verse**", which contradicts §9's "*No comparison of verbal richness is made*"; and §12.C "Content: … The Hindi **doubles** one", which conflicts with §3, §8.5 and §12.A ("a variant with a new riddle subject, not a duplicate") (R-5). |
+| A11 | **Confirmed** | §17 S03, S04, S05 and S10 each state where their details come from. The newly cited title-page details were checked in the OCR (listed in §8.1 above). The report correctly says these were read through OCR, not on page images. |
+| A12 | **Confirmed** | §4.F, §10 (S17), §15, §17. The Penzer vol. 6 p. 242 mention of Francke is present in the OCR, and the report correctly says it was "not read in context". |
+
+**The three editorial cleanups in `ede52de`**
+
+| Cleanup | Verdict | Remarks |
+|---|---|---|
+| **A. §13 Option 1, copyright wording** | **Applied, needs qualification** | **Confirmed:** the row now separates the underlying Sanskrit text ("likely … public domain because of its age, subject to jurisdiction-specific confirmation") from the GRETIL e-text as "a modern digital edition with its own CC BY-NC-SA 4.0 licence". It flags the NonCommercial term and says the print edition's or Tawney's status would need checking for commercial use. This is consistent with §11's GRETIL row and with the S01 and S02 headers (licence verified in §7.3, R23). It does **not** suggest that the e-text licence and the historical text's rights are the same. **Needs qualification:** "the underlying **11th-century** Sanskrit text" (and §11's "11th-century Sanskrit") states a dating the report itself declines to establish. §4.B and §12.A give Somadeva as "datable to the reign of Ananta … absolute dates RESEARCH REQUIRED". §4.C, §4.D and §12.A leave Śivadāsa undated and Jambhaladatta only "before the 16th century", and §4.A leaves Kṣemendra's date conditional. The copyright conclusion does not depend on the exact century, but the wording should match the report's own chronology (R-4). |
+| **B. §12.A Kṣemendra row** | **Confirmed** (with one inconsistency elsewhere) | **Emeneau p. xiv (page image)** reads: "Whereas Śivadāsa's version and the Kashmirian versions (S and K) present only 24 stories apart from the frame-story and consequently include the conclusion of the frame-story as the 25th of the series …". The row attributes this correctly to Emeneau §4, p. xiv, as a report, not as a direct count. It keeps the 25 headings separate, and says the internal count is unverified because the section was not read tale by tale. Its frame cell says "Not read" and "The frame itself was not checked", and attributes the relationship to Somadeva to Uhle and Emeneau. The king's-name detail matches Emeneau p. 5 n. 2 (OCR). The row does not suggest that the author or reviewer read the frame. **Inconsistency elsewhere:** the **§6 Kṣemendra row** still gives column (2), "Total counting the frame's conclusion", as "25 (the 1901 contents list 25 *Vetālakathā*s)", and column (3) as "Presumably, as in Somadeva". That uses the 25 headings as evidence of the structure, which the new §12.A row avoids. The BKM contents also give the 3rd and 4th headings on the same page (308), so what the headings mark is itself unclear (§7.2, C4) (R-6). |
+| **C. §13 literary-potential rows** | **Confirmed in substance; minor qualifications** | **Supported:** the categorical ratings are gone from Options 1–5. Each row states its reading basis: Option 1, "opening and question-and-answer verses of most tales"; Option 2, "openings, answers and colophons read through OCR"; Option 3, "English translations and four passages"; Option 4, "the frame, J 10 and J 25 only"; Option 5, "Not tested on any actual combination". The Uhle figure in Option 2 (113 of 692) matches Uhle pp. XVI–XVII (OCR). Kṣemendra has no option, so no unread tradition gets literary-potential claims. **Qualifications:** (i) Option 3's "all directly relevant to writing in Hindi" and Option 4's "so much texture would have to come from the writer" are the author's **inferences**, not established findings. They are reasonable, but could be marked as such. (ii) Option 1's opportunity rests on KSS's question-and-answer verses read in Sanskrit, while Option 3's rests on English translations. The rows say so, but a reader comparing them should know the evidence is not like-for-like. (iii) Option 6 has no literary-potential row. That is neutral, but leaves the table asymmetric (R-7). |
+
+**Ratings intentionally left in §13**
+
+These were checked for whether their stated basis is adequate. They were not removed.
+
+| Row | Assessment |
+|---|---|
+| Option 1, textual consistency "High: one text, one frame" | Basis stated. Note that only one edition (the e-text) was consulted. |
+| Option 2, "Medium: choices between manuscripts" | Basis stated and supported (Uhle). |
+| Option 3, "Medium: several editions and revisions" | Basis stated. |
+| **Option 4, textual consistency "Medium"** | **No basis stated** (R-7). |
+| Option 5, "Low unless strictly documented" | Basis stated. |
+| Option 6, textual consistency "Medium if the rule is strict" | Basis implicit. |
+| Verification burdens: Option 1 "Lowest for checking … against the Sanskrit", Option 2 "High", Option 3 "High", Option 4 "Medium", Option 5 "Highest" | Each has a basis stated. Option 4's "weaker recension" is Emeneau's judgement (§4), so it should be attributed. |
+| **Option 6, verification burden "High"** | **No basis stated** (R-7). |
+
+---
+
+### 8.3 Remaining issues
+
+These are proposals for the report's author. PR #2 was not edited.
+
+| # | Location (`ede52de`) | Issue | Proposed correction | Evidence |
+|---|---|---|---|---|
+| R-1 | §5 Ś column, "Variants" | The variant list includes "the king asking for the Vetāla as servant (two)", although Uhle's printed text also contains that request. | Add "(the printed text, following A, also has this request)", or move it into the base-text description. | Uhle text p. 62 and p. XXIII (page images) |
+| R-2 | §8.1 Hindi label; §8.5 Hindi XXIV | Barker's printed Hindi for IX and XXIV, read on page images and counted in §1 and §14 Q9, is not cited. §8.1 still says "This is still not a reading of the Hindi". | Cite Barker p. 182 (IX, *pyār na kiyā*) and p. 359 (XXIV, the father's *bairāg*, laughing and weeping), with the same "AI reading of one printed text, not a specialist reading" label used in §8.3 and §8.4. | Barker pp. 182, 359 (page images) |
+| R-3 | §3 item 5 | Cites "[S07 pp. 66–72]". | "[S07 pp. 66–73]". | Emeneau p. 73 (page image) |
+| R-4 | §11 intro ("11th-century Sanskrit"); §13 Option 1 "Copyright and access" ("underlying 11th-century Sanskrit text") | States a date the report does not establish. | §11: "the underlying historical Sanskrit texts (premodern; see §§4 and 12 for what is and is not established about their dates)". Option 1: "the underlying Sanskrit text (composed in Ananta's reign in Kashmir; absolute date not established here)". The copyright reasoning is unchanged. | Report §4.A–D, §12.A |
+| R-5 | §12.A Somadeva "Distinctive features"; §12.C "Content" | "Rich verse" is evaluative and contradicts §9. "The Hindi doubles one" contradicts §3 and §8.5. | "Kāvya verse; explicit count; answers that often reason through each party". "The Hindi tells one plot twice (XXII, XXIV, with different riddles)". | Report §9, §8.5 |
+| R-6 | §6 Kṣemendra row, columns (2) and (3); §7 K column note | Uses the 25 headings as the total counting the conclusion, and "Presumably, as in Somadeva". The K-column note does not mention the two tales checked. | Column (2): "25 per Emeneau §4, p. xiv (conclusion as 25th); the 1901 contents list 25 headings, but what they mark is not verified". Column (3): "Not checked". K-column note: add "tale 10 and the KSS 17 story checked on two page images (§4.A)". | Emeneau p. xiv (page image); BKM contents p. 2 (page image) |
+| R-7 | §13 Options 3, 4 and 6; Option 4 "Textual consistency"; Option 6 "Verification burden" | Some opportunity and limitation phrases are the author's inferences. Two ratings have no stated basis. | Mark "directly relevant to writing in Hindi" (Option 3) and "much texture would have to come from the writer" (Option 4) as the author's inference. Give a basis for Option 4 "Medium", e.g. "one edition of the Bengali recension; Nepali unrecoverable". Give a basis for Option 6 "High", e.g. "each tale verified against its chosen source". Attribute Option 4's "weaker recension" to Emeneau. Optionally add a literary-potential row to Option 6, or state why there is none. | Report §4.D; Emeneau §4 |
+| R-8 | §3 item 6 ("They need specialist review before anything is built on them"); §8.4 label ("**Specialist Hindi review required**"); §12.C ("specialist Hindi review needed"); §14 Q6 ("Options 2, 3, and 5 need a … specialist") | Wording drift. These are statements of evidential caution, not claims about D-020, so they **do not misrepresent D-020**. But "required" and "need" sit awkwardly beside §2.2 and the review-status block, which say a specialist reading is **recommended, not an approved requirement**. Q6 also implies that Options 1 and 4 need no specialist, although §2.2 recommends a specialist check of all the Sanskrit readings. | Use one formula throughout, e.g. "specialist reading recommended before this is relied on". In Q6, write "all options rest on AI readings; Options 2, 3 and 5 depend most heavily on specialist language work". | Report §2.2, review-status block; DECISIONS.md D-020; policy §10 |
+| R-9 | Status line (line 5), review-status block, and in PR #2: `OPEN_QUESTIONS.md` Q-401 note and `HANDOFF.md` | All say a final independent confirmation is "still outstanding" or "still required". After this section, that is out of date. | The author should update these to point to this §8 and its outcome. This review does not edit them. | — |
+
+None of R-1 to R-9 changes a verified fact about the traditions' frames, endings, tale order, counts or answers. They are citation, consistency and wording issues.
+
+---
+
+### 8.4 Consistency and boundary checks
+
+**Consistency across sections.** §§3–5, 6–7, 8 and 12 now agree on the frames, the endings, the body-entering tales, the Hindi readings (XV, XX), the Newari dating, and Kṣemendra's date. The exceptions are those listed in R-2, R-3, R-5 and R-6.
+
+§§15–17 agree with §§2 and 10 about:
+
+- what was not consulted (the 1805 print, Forbes, the Braj, the 1915 print, Lévi, Uhle 1914, Vidyasagara 1873, Otter);
+- what was read only in part (Jørgensen pp. 213–214; the BKM, two pages);
+- which leads are leads only (Francke).
+
+**Evidence categories.** The report generally keeps the categories distinct:
+
+- Directly checked primary evidence: "VERIFIED — primary text", with the page-image versus OCR basis stated in §§4.A, 8.3, 8.4 and 17.
+- Statements by a cited scholar: "VERIFIED — scholarly source".
+- The author's inference: "PROVISIONAL", e.g. the Śivadāsa-type ancestry of the Hindi, and why the Hindi has XXIV.
+- AI readings: labelled as such in §§1, 2.2, 8.3 and 8.4.
+- Not consulted: §15.
+
+Remaining blurs are the unlabelled inferences in R-7 and the evaluative "Rich verse" in R-5.
+
+**Boundaries.**
+
+| Boundary | Status | Evidence |
+|---|---|---|
+| Q-401 open | **Yes** | Still "RESEARCH REQUIRED" in `OPEN_QUESTIONS.md` at `ede52de`. Its note says the report does not resolve it. |
+| Q-410 open | **Yes** | Added as **OPEN**, noted "This does not change D-001". |
+| No tradition recommended or selected | **Yes** | §13: "None is recommended". No option is ranked. The residual evaluative phrases (R-5, R-7) are not recommendations. |
+| No decision or proposal status changed | **Yes** | `DECISIONS.md` is unchanged against `main`. `HANDOFF.md` states that P-005 "has not been formally approved". |
+| No story drafting, blueprinting or implementation | **Yes** | The report's Scope row and `HANDOFF.md` ("Do not begin writing any story …"). |
+| D-020 not misrepresented | **Yes** | The report's §2.2 and review-status block, and `HANDOFF.md` next-step 2, all call a specialist reading "a recommendation, not an approved requirement". They leave whether the AI review satisfies D-020 to the user. The "required" and "need" wording in R-8 is evidential caution, not a claim about D-020, but should be harmonised. |
+
+---
+
+### 8.5 Could not verify
+
+- **The Hindi itself beyond one printed text.** No check against the 1805 print, Forbes's text or any Braj text; none was located. The connotation of *kāmī* and *abhyās* in this register needs a Hindi specialist.
+- **Kṣemendra's internal count and concordance.** Only two text pages were seen, so the K column of §7 is unverified except for tale 10 and the KSS 17 story.
+- **KSS readings against the Durgaprasad–Parab 1915 print.** No scan was consulted.
+- **Absolute dates** for Somadeva (*Rājataraṅgiṇī* not consulted) and for Kṣemendra (Lévi not consulted).
+- **Uhle's source for his Jambhaladatta summary.** Vidyasagara 1873 (S16) was not read.
+- **Current rights status** of Emeneau 1934 (renewal), Penzer (death date), BKM 1901, and Tawney's printing.
+- **Otter 2021.** The site returned an anti-bot challenge, which was not bypassed.
+- **Page-image confirmation** of the title-page details the author read only through OCR (S03, S04, S05, S10). The report says these are OCR-only.
+
+---
+
+### 8.6 Conclusion
+
+**The report at `ede52de` is now accurate and qualified enough for the user to *begin discussing* Q-401 and Q-410.** It is not ready for a decision to be treated as settled.
+
+**What has been confirmed:**
+
+- All first-round (C1–C13) and second-round (A1–A12) corrections are in place.
+- The three residual issues from §7 are resolved in substance (C2 and C6 fully; C12 for XV and XX).
+- The three cleanups in `ede52de` do what they claim, apart from the date wording in cleanup A.
+
+**What remains:** nine minor issues (R-1 to R-9). They are citation slips, two contradictory phrases, one table row that predates the §12.A cleanup, a few inferences that should be labelled, harmonised wording on specialist review, and out-of-date status lines.
+
+**Is a further author correction necessary before the discussion begins?** No. None of R-1 to R-9 affects a factual finding the discussion would rest on. The Q-410 facts are stated correctly in §14 Q1 and in `OPEN_QUESTIONS.md`, despite the §6 row (R-6). Fixing R-4, R-5, R-6 and R-9 before PR #2 is merged would remove the remaining internal contradictions.
+
+**What the discussion should keep in view:**
+
+- The Hindi lineage's distinctive meanings rest on AI readings of one printed text.
+- Kṣemendra is essentially unread.
+- The report's evaluative phrases are judgements, not evidence.
+
+This review does not rank the traditions, recommend an option, or resolve Q-401 or Q-410.
