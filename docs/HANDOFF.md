@@ -1,6 +1,6 @@
 # Handoff
 
-*Last updated: 2026-11-17 (candidate tale catalogue task)*
+*Last updated: 2026-11-17 (TC-023 decision recorded)*
 
 Read this first when you start a new session on this project. It summarises the current state and links to the authoritative documents. **It is never the authority on a decision.** [DECISIONS.md](DECISIONS.md) is.
 
@@ -10,7 +10,8 @@ Read this first when you start a new session on this project. It summarises the 
 
 - **Source research is complete and merged.** PR #1 (foundation), PR #2 (comparative report, [research/SOURCE_TRADITIONS_COMPARISON.md](research/SOURCE_TRADITIONS_COMPARISON.md)) and PR #3 (independent AI review, [research/SOURCE_TRADITIONS_REVIEW.md](research/SOURCE_TRADITIONS_REVIEW.md)) are all merged into `main`. The review's corrections were applied and confirmed. **Limitations remain:** the review was by a separate AI session, not a human specialist. Kṣemendra's text, the Newari version and the Bhaviṣya Purāṇa version were not read directly, and several language-sensitive readings (Hindi IX, XV, XX, XXIV) still need a Hindi/Braj specialist. See the report's §15. No tradition has been selected.
 - **North Star established (2026-11-17).** PR #4 is merged into `main`. It added [STORYTELLING_NORTH_STAR.md](STORYTELLING_NORTH_STAR.md) (**D-036 approved**, formerly P-008; **P-005 completed**) and recorded **D-034** (no single-recension binding; combine across traditions under stated rules) and **D-035** (what "the 25 tales" means), all approved by the user on 2026-11-17. **Q-410 is resolved by D-035.** Q-401 is narrowed, not resolved.
-- **Current phase (2026-11-17): building the evidence-based candidate tale catalogue** (branch `docs/candidate-tale-catalogue`, PR to `main`). [research/CANDIDATE_TALE_CATALOGUE.md](research/CANDIDATE_TALE_CATALOGUE.md) is an inventory of 27 candidate story families (24 shared core, 3 Jambhaladatta-only; one core family, the Hindi body-entering plot XXII/XXIV, carries an open D-035 distinctness question), a separate frame comparison, a PROPOSED way to assess the variety of the eventual collection, and a prioritised research list. It draws on the existing comparison report only (no new primary reading) and is not exhaustive. **It does not select, rank, or choose a source.** **Q-401, Q-408, Q-411 and Q-002 remain open. No final 25 have been selected.**
+- **Candidate tale catalogue (2026-11-17): complete.** [research/CANDIDATE_TALE_CATALOGUE.md](research/CANDIDATE_TALE_CATALOGUE.md) is an inventory of 27 candidate story families (24 shared core, 3 Jambhaladatta-only; the Hindi body-entering plot XXII/XXIV is one family, TC-023, see the decision below), a separate frame comparison, a PROPOSED way to assess the variety of the eventual collection, and a prioritised research list. It draws on the existing comparison report only (no new primary reading) and is not exhaustive. **It does not select, rank, or choose a source.** The catalogue (PR #5) is merged into `main`. **Q-401, Q-408, Q-411 and Q-002 remain open. No final 25 have been selected, and no story drafting has begun.**
+- **TC-023 decision (user, 2026-11-17), an application of D-035, not a new decision:** Hindi XXII and XXIV count as **one candidate family and one slot (TC-023), with two distinct recorded source variants**. This is **not** a selection of TC-023 for the final 25; Q-411 stays open. The full reading and comparison (PR #6, [research/HINDI_XXII_XXIV_COMPARISON.md](research/HINDI_XXII_XXIV_COMPARISON.md); AI-assisted, no specialist Hindi/Braj verification) is the evidence record. The question is closed: do not reopen it.
 - No story blueprints have been produced and **no story drafting has begun**.
 - No art style, artwork, or audio exists.
 - No technology has been chosen and no application code exists.
@@ -53,6 +54,7 @@ Full wording and IDs are in [DECISIONS.md](DECISIONS.md).
 | 2026-11-17 | Final independent confirmation (PR #3 §8) of the report at `ede52de`: the reviewer found the earlier corrections applied (C12, C13, A6 and A10 were marked "Applied, needs qualification" in PR #3 §8.2; the review did not independently establish every underlying historical finding); nine minor issues R-1 to R-9 listed. All nine applied to PR #2 (unsupported 11th-century dating removed; Kṣemendra count wording aligned between §§6 and 12.A; contradictory phrases in §§12.A and 12.C fixed; Emeneau pp. 66–73 and Barker pp. 182 and 359 cited; authorial inferences labelled; specialist review worded consistently as a recommendation; status statements updated). Later commits `db86261` (Barker coverage row, report §2.2) and `6a2e67a` (S10 source-register entry, report §10) aligned the Barker records with the four page-image passages (IX p. 182, XV p. 270, XX p. 332, XXIV p. 359). |
 | 2026-11-17 | PRs #2 and #3 merged into `main` (merge commits `4f545d8`, `3cf6b93`). Started the North Star task: created STORYTELLING_NORTH_STAR.md, added D-034, D-035, P-008 and Q-411, resolved Q-410, and cross-referenced the other documents. An independent read-only Opus review of the branch found no blockers, 4 moderate and 6 minor issues (restated approved wording incomplete; entertainment-first labelling; D-035 vs Q-005; Q-401 over-narrowed; wording-confirmation caveat; source labels; authority pointers; Q-411 piecemeal risk; stale research-report lines; README status). All were corrected in the follow-up commit. |
 | 2026-11-17 | PR #4 merged (North Star; D-034, D-035, D-036 approved; P-005 completed). Built [research/CANDIDATE_TALE_CATALOGUE.md](research/CANDIDATE_TALE_CATALOGUE.md) on branch `docs/candidate-tale-catalogue`: inventory only, from the existing report, with no selection, ranking or source choice. |
+| 2026-11-17 | PR #5 (catalogue) merged. Read Hindi XXII and XXIV in full against KSS 23 and Ś 22 (PR #6); independent Opus review applied (four substantive findings, including Uhle's manuscript B and recension *f* evidence); narrow factual corrections made to report §8.5 and catalogue §5.A. **The user then decided: XXII and XXIV are one slot (TC-023) with two recorded variants.** |
 
 ## Major unresolved questions
 
@@ -72,10 +74,10 @@ P-001 to P-004, P-006 and P-007 in [DECISIONS.md](DECISIONS.md#proposals-awaitin
 
 ## Recommended next task
 
-The catalogue task is complete once its PR is merged (the user merges). Then, in the user's order:
+PR #6 is finished once the user merges it. The user has said the project then moves on; **the next phase is the user's to name**. The open items, in the user's order, are:
 
-1. Review the catalogue, especially §5.A (the Hindi XXII/XXIV distinctness question, which is the user's judgement under D-035) and §10 (research priorities N1 to N9). Decide which research to do first. Nothing has been commissioned.
-2. Decide whether to commission specialist readings (recommended, not required): a Hindi/Braj reader for Hindi IX, XV, XX and XXIV; a Sanskritist to spot-check KSS and Śivadāsa readings; Kṣemendra's text. See the report's §15.
+1. Choose which catalogue research to do first (the catalogue's §10, N1 to N9; N2 is done). The most useful for the eventual choice is N1, extracting each core tale's question, answer and essential events. Nothing has been commissioned.
+2. Decide whether to commission specialist readings (recommended, not required): a Hindi/Braj reader for Hindi IX, XV, XX, XXII and XXIV; a Sanskritist to spot-check KSS, Śivadāsa and Uhle's manuscript B / recension *f* readings; Kṣemendra's text. See the report's §15 and the comparison's §14.
 3. Discuss Q-401 (primary foundation or combination; report §13 options 1–6 all remain open), Q-408 (source hierarchy), Q-411 (which 25 tales) and Q-002 (the frame), using the report's §§13–14 and the catalogue.
 
 **Do not begin writing any story or choose a final tradition, the narrator's identity (Q-005), Hindi register (Q-402), art, audio, layout or technology** until the user decides.
