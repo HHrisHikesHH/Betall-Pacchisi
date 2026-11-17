@@ -50,13 +50,15 @@ The report's labels are used as they stand: **VERIFIED — primary text**, **VER
 
 A record's **Evidence** row therefore only names *deviations* from this standard.
 
+**Report inconsistencies on J coverage (not resolved here).** Report §2.2 lists J's frame and story 10 as read, §7 says J content was read "only for J 10", and §15 says "J 10 and J 25". The report also gives J's answers for KSS 7 and KSS 9 (§7) without a documented reading. The catalogue treats J answers other than J 10 and J 25 as per-report and undocumented.
+
 ### 1.5 Titles and descriptions
 
 The **working title** of each record is the English title given in Penzer's contents for the Somadeva tale (the "identifying description" in report §7), shortened where noted. It is a **label for identification, not a project title** and not a synopsis. Where the report establishes no more than a title, the record says so. **Nothing has been inferred from a title** except where a record states it as a flagged observation.
 
 ### 1.6 Match codes (report §7)
 
-**E** = same story (same core plot and riddle). **P** = partial (same core, different setting, names, reasoning or ending). **U** = uncertain.
+**E** = same story (same core plot and riddle). **P** = partial (same core, different setting, names, or reasoning; the report applies P where an ending or answer differs, as in KSS 10). **U** = uncertain.
 
 ---
 
@@ -250,13 +252,13 @@ Each record is limited to what the report establishes. "Not recorded" means the 
 | **Identity** | Tawney's title: Anaṅgarati and four suitors. |
 | **Appearances** | KSS 12.16.1–39 (ch. 83) · BKM 9 (prov.) · Ś **7** · J 9 · Hindi **VII** · Ryder 9. |
 | **Correspondence** | E. |
-| **Plot and dilemma** | The answer is the **warrior-suitor** in KSS, Ś, J and the Hindi. The question is not quoted. |
+| **Plot and dilemma** | The answer is the **warrior-suitor** in KSS, Ś, J and the Hindi, per report §7. **Basis for J's answer is not documented** (the report says J content was read only for J 10 and J 25, as with TC-007). The question is not quoted. |
 | **Variants** | Order only (Ś and the Hindi place it seventh). |
 | **Distinctness** | Separate family. See the suitors counting risk at TC-005 and §6.2. |
 | **Literary opportunities** | None established. |
 | **Collection contribution** | Not assessable. |
 | **Evidence** | Answer in all four: as recorded in report §7. |
-| **Gaps** | Plot and question (N1). |
+| **Gaps** | Plot and question (N1). Confirm J's answer (basis undocumented). |
 
 ### TC-010. Madanasenā and her rash promise (KSS 10; the "promise tale")
 
@@ -270,7 +272,7 @@ Each record is limited to what the report establishes. "Not recorded" means the 
 | **Literary opportunities** | The ending can be read in two quite different ways depending on the variant (see below). The report assesses significance as *High* for J's change (the moral centre moves) and *Moderate to high* for the Hindi's. |
 | **Collection contribution** | Preliminary: a tale whose meaning depends on a variant choice, so the user's choice of variant shapes what the tale contributes. |
 | **Evidence** | KSS, Ś, J: VERIFIED — primary text. Hindi: VERIFIED — translation (Platts and Barker), Hindi wording PROVISIONAL (AI reading of Barker p. 182). |
-| **Gaps** | Specialist reading of Hindi IX (the husband's coldness). J's frame for the ogre. Why Ryder omitted it is unverified. |
+| **Gaps** | Specialist reading of Hindi IX (the husband's coldness). Why Ryder omitted it is unverified. |
 
 **Variants within TC-010** (report §8.1):
 
@@ -324,7 +326,7 @@ Each record is limited to what the report establishes. "Not recorded" means the 
 | **Variants** | None recorded. |
 | **Distinctness** | Separate family. |
 | **Literary opportunities** | None established. |
-| **Collection contribution** | Preliminary: the answer concerns where blame lies, not a comparison of persons. The report records no other tale with this question form (but see the limits in §9.3). |
+| **Collection contribution** | Preliminary: the answer, as the report records it, concerns where blame lies. The report records no other tale with this question form (but see the limits in §9.3). |
 | **Evidence** | Standard. |
 | **Gaps** | Plot and question (N1). |
 
@@ -338,7 +340,7 @@ Each record is limited to what the report establishes. "Not recorded" means the 
 | **Plot and dilemma** | The answer in KSS: he wept because he could never repay the merchant, who had become a friend without cause; he laughed in wonder that the girl had passed over kings and loved him, "strange is a woman's heart" (12.21.59–60). Ś: wept because he cannot repay her generosity; laughed at women's stubbornness, loving even at death. Hindi: wept at what return he could make for her giving up all for him; laughed because she loved him at his death and God's ways are inscrutable. |
 | **Variants** | Small differences of emphasis (the benefactor is the merchant in KSS and the girl in Ś and the Hindi; maxims added). The report rates the differences *Low*. |
 | **Distinctness** | Separate family. Counting risk: it is one of several tales built on an unexpected laugh or tear; see §6.1. |
-| **Literary opportunities** | The riddle turns on an emotional paradox (grief and amusement at the same moment), a question form the report records for no other tale except TC-023 (and, by title only, possibly TC-020). Specific suspense or character potential was not assessed. |
+| **Literary opportunities** | The riddle turns on a pair of contrasting reactions in sequence (weeping, then laughing in wonder), a question form the report records for no other tale except TC-023 (and, by title only, possibly TC-020). Specific suspense or character potential was not assessed. |
 | **Collection contribution** | Preliminary: a "why did this person react so?" riddle, with a gendered generalisation in the reasoning ("strange is a woman's heart"). |
 | **Evidence** | KSS, Ś: VERIFIED — primary text. Hindi: translation. J Bengali: absent. |
 | **Gaps** | Whether W and the Newari text differ. The J absence matters if a J-based foundation were chosen, but that is not decided. |
@@ -414,7 +416,7 @@ Each record is limited to what the report establishes. "Not recorded" means the 
 | **Variants** | None recorded. |
 | **Distinctness** | Separate family. |
 | **Literary opportunities** | None established. |
-| **Collection contribution** | Preliminary: the recorded question form is an allocation ("to whom should…"), which differs from the superlative comparison and the "why did X react" forms. |
+| **Collection contribution** | Preliminary: by title only, the question form appears to be an allocation ("to whom should…"), which differs from the superlative comparison and the "why did X react" forms. |
 | **Evidence** | Standard. Ryder's reason for omitting it is **unverified**. |
 | **Gaps** | Plot and the reasoning (N1). J 16, this tale's J number, is one of the three J riddle solutions Emeneau calls careless (report §4.D). |
 
@@ -444,7 +446,7 @@ Each record is limited to what the report establishes. "Not recorded" means the 
 | **Variants** | The question's framing. KSS and Ś judge a failure of judgement (deluded; blind). The Hindi keeps desire but drops the explicit judgement and explains the answer in the language of love (*prem*). The report calls the difference "real but partial, and partly a translation effect", **not** an opposite moral framing. |
 | **Distinctness** | One family; same answer in all three. Recorded as a **variant within TC-021** (§5.C). |
 | **Literary opportunities** | The question is open to different readings (delusion, desire or love) while the events stay the same, which bears on layered meaning (D-005, D-006). This is the report's observation, not a finding about this catalogue. |
-| **Collection contribution** | Preliminary: an emotionally intense triangle with a double death, in which the choice of the question frame changes the tale's tone. |
+| **Collection contribution** | Preliminary: an triangle ending in deaths, in which the choice of the question frame changes the tale's tone. |
 | **Evidence** | KSS, Ś: VERIFIED — primary text. Hindi: translation; Hindi wording and the connotation of *kāmī* PROVISIONAL (AI reading of one printed text, p. 332). |
 | **Gaps** | Specialist reading of how *kāmī* reads in this register. J 18 not checked. |
 
@@ -483,7 +485,7 @@ See the dedicated analysis in **§5.A**. In brief: in KSS an old ascetic enters 
 | **Correspondence** | E. |
 | **Plot and dilemma** | **Vikrama falls silent** (KSS 12.31.60): the report records this as the only riddle left unanswered by design (§9). J omits the key marriage detail (Emeneau §6). |
 | **Variants** | The tale's role in the frame differs. In KSS, Vikrama's silence at 12.31.60 begins the cycle's ending (the Vetāla then warns him about the monk, 12.31.61–74). In the Hindi the final riddle and the frame's conclusion are both inside XXV. In J the tale is the 25th narrated tale, followed by the conclusion. |
-| **Distinctness** | Separate family. **It also functions as the pivot into the frame's ending, so whether it counts among the 25 or serves the frame is partly a Q-002 question.** This is not decided here. |
+| **Distinctness** | Separate family. The catalogue's own observation (not the report's or Q-411's): it is the riddle after which the frame's ending begins in KSS. KSS counts it among the 24 question-tales (12.32.24–27). Nothing is decided here. |
 | **Literary opportunities** | The riddle is a kinship puzzle that Vikrama cannot answer, a different effect from the other riddles. The report does not assess further. |
 | **Collection contribution** | Preliminary: the only recorded tale whose riddle goes unanswered (see §6.4). |
 | **Evidence** | Standard. |
@@ -500,7 +502,7 @@ What is established about all three:
 - They are numbered **J 21, 22 and 23** in Emeneau's printed (Bengali-recension) text. *VERIFIED — scholarly edition (titles).*
 - Emeneau hypothesises that Jambhaladatta's original had **27** tales: the 24 common ones plus these 3. The Bengali and Nepali recensions each cut back to 25, differently. This is an *attributed scholarly hypothesis*, not an established fact (report §4.D, §6).
 - Emeneau notes that the Newari version is "obviously based on Jambhaladatta's version" because it contains **J 21 and 22**. Whether J 23 appears in it is not recorded. *VERIFIED — scholarly source.*
-- Emeneau's judgement of the J style is "monotonously bald" in places, with careless riddle details; Aufrecht (via Uhle) judged it more elegant than Śivadāsa. *DISPUTED* (report §4.D). Neither judgement was tested against these three tales.
+- Emeneau's judgement of the J style is "monotonously bald" in places, with careless riddle details; Aufrecht (via Uhle) judged it more elegant than Śivadāsa. The style judgement is *DISPUTED* (report §4.D); the riddle carelessness is Emeneau's report (§6). Neither judgement was tested against these three tales.
 - The edition carries a 1934 copyright notice. Rights status is **RESEARCH REQUIRED**, and his translation must not be reproduced (report §11).
 
 ### TC-025. Four brothers and the harlot
@@ -565,7 +567,7 @@ What is established about all three:
 | Order of the reaction | Weeps, then laughs | Laughs first, then weeps |
 | The riddle's question | "Why did he weep, and why did he laugh?" | Why did the father first laugh and then weep? |
 | Answer | Wept recalling his mother's love and his youth; laughed at succeeding in his art (Platts p. 167) | The father laughed at seeing the yogī enter his son's body, and so learning the art; he wept, thinking that he too must one day leave his own body (Platts pp. 175–176; Barker p. 359) |
-| What follows | Not recorded in the report | The father "lost all desire for the world" (Platts) / "became a Bairāg" (Barker's gloss; the AI reading of the printed Hindi, *bairāg huā*) |
+| What follows | Not recorded in the report | The father "lost all desire for the world" (Platts) / "became a Bairāg" (Barker's rendering, per report §8.5; the AI reading of the printed Hindi is *bairāg huā*) |
 | Closest relatives | Ś 22 (same Viśvapura setting; yogī weeps and laughs); KSS 23 in its riddle's subject (the ascetic himself) | KSS 23 in setting (Kaliṅga) |
 
 KSS 23 differs from both: Kaliṅga, the city Śobhāvatī, the brahman Yajñasoma and his son Devasoma who dies at sixteen; the ascetic weeps at leaving the old body that had served him so long and **dances** for joy at gaining youth (12.30.42–47). The report concludes that XXIV is "a variant with a new riddle subject, not a duplicate" (§8.5). **That conclusion is about the difference between XXIV and the others. It is not a finding under D-035**, which asks a different question (a different *dilemma* or a *substantially different story*).
@@ -575,7 +577,7 @@ KSS 23 differs from both: Kaliṅga, the city Śobhāvatī, the brahman Yajñaso
 **Different essential events and dilemma (partly established).**
 
 - The riddle's *subject* changes: the ascetic in XXII, an onlooking father in XXIV.
-- The *reasoning* changes: XXII is about attachment to a body that has been cherished and joy at a young one; XXIV is about a witness who recognises, in the ascetic's feat, his own mortality.
+- The *reasoning* changes: per the report's table, XXII's ascetic wept recalling his mother's love and his youth and laughed at succeeding in his art (Platts p. 167); XXIV's father laughed at seeing the art succeed and wept at the thought of his own mortality. **Note:** both answers turn partly on the art's success. The report's prose in §8.5 generalises the "young body" reasoning of KSS and Ś to XXII, which its own table does not support; this is a report inconsistency, and it means XXII and XXIV may be closer in dilemma than the riddle subjects alone suggest.
 - XXIV has at least one **extra event not recorded for XXII**: the father's renunciation (*bairāg*).
 - The *setting* and *characters* differ.
 
@@ -590,7 +592,7 @@ KSS 23 differs from both: Kaliṅga, the city Śobhāvatī, the brahman Yajñaso
 **Possible ways to see it (for the user's judgement; none recommended).**
 
 - **One tale (TC-023), XXIV treated as a variant.** The plot is the same, and XXIV supplies an alternative riddle subject and answer, which D-034 would let the project use or combine.
-- **Two tales.** The riddle's subject and the reflection it draws (the ascetic's attachment and joy against an onlooker's recognition of his own mortality) might be judged distinct dilemmas. The cost is a closely related plot in a 25-tale collection that needs variety (D-035).
+- **Two tales.** The riddle's subject and the reflection it draws (the ascetic's own farewell to his past against an onlooker's recognition of his own mortality) might be judged distinct dilemmas, although both answers also turn on the art's success. Costs: a closely related plot in a 25-tale collection that needs variety (D-035). Benefit: it would let the 25 be filled entirely from the 24 core families plus this one, without relying on the unread J-only tales (§2.3, §6.4). Another cost, if kept as one tale: the pool shrinks to 27 and the margin to two variety (D-035).
 - **Either way, the XXIV material is available as a recorded variant** if the user chooses one tale.
 
 **Evidence needed before the user decides:** a full reading of XXII and XXIV (Platts, then Barker's Hindi), a specialist Hindi reading of XXIV, and a comparison with KSS 23 and Ś 22 at the level of events and not only of the riddle (N2).
@@ -616,7 +618,7 @@ The report documents several places where the traditions diverge in ending, answ
 | **TC-012, TC-014** | Absent from J's Bengali text | Availability, not content | §2.1 |
 | **TC-024** | Role in the frame differs; J omits the key marriage detail | The tale's function and clarity | §3 |
 
-Report §8 and §12 document these. No difference is claimed that the report does not record, and the report itself warns that every claimed difference should be checked as it checked the Nereid tale (§8.6).
+Report §§7, 8 and 12 document these. No difference is claimed that the report does not record, and the report itself warns that every claimed difference should be checked as it checked the Nereid tale (§8.6).
 
 ---
 
@@ -626,7 +628,7 @@ Everything in this section is an observation to prompt checking. **None is a fin
 
 ### 6.1 Reaction riddles ("why did X weep, laugh or dance?")
 
-The report records the question in this form for **TC-014** (thief weeps then laughs), **TC-023** (ascetic weeps then dances or laughs; XXIV, the father laughs then weeps). **TC-020**'s title (the brahman boy who laughed at his sacrifice) suggests the same form, but its question is **not recorded**. If TC-020 shares the form, three or four candidates (and five tellings) would rest on an unexpected laugh or tear. How different the dilemmas are can only be judged after N1. This is the clearest repetition risk in the pool.
+The report records the question in this form for **TC-014** (thief weeps then laughs), **TC-023** (ascetic weeps then dances or laughs; XXIV, the father laughs then weeps). **TC-020**'s title (the brahman boy who laughed at his sacrifice) suggests the same form, but its question is **not recorded**. If TC-020 shares the form, three or four candidates (and four or five tellings) would rest on an unexpected laugh or tear. How different the dilemmas are can only be judged after N1. This is the clearest repetition risk in the pool.
 
 ### 6.2 Possible duplicates by title
 
@@ -690,14 +692,14 @@ D-001 and D-002 constrain any tale from outside the compared traditions: it must
 | The corpse | Hangs on a *śiṃśapā* tree in a cremation ground; cries out, then laughs | *Śiṃśapā* tree | Not checked | A corpse in a tree in a burning-ground |
 | Why the Vetāla tells stories | "To beguile the road" (12.8.58) | To pass the journey | Not checked | Similar |
 | The penalty | If Vikrama knows and is silent, his head will burst into a hundred pieces (12.8.188) | Same pattern | Not checked | In tale I, if he does not decide he "will be cast into hell" |
-| The ending | The Vetāla warns the king about the monk's plan; the king beheads the monk; the Vetāla promises Vidyādhara overlordship and a boon; the king asks that the stories be famous; Śiva appears, says Vikrama was first created as Vikramāditya, gives him the sword Aparājita and promises Vidyādhara sovereignty (12.31.60–12.32.38) | Mixed witness: the ascetic is beheaded; the king gets eight great *siddhis*; the Gandharvas offer a boon and the king asks for the collection to be famous and for the Vetāla as servant; Brahmā, Viṣṇu and Śiva appear; Śiva names the king Vikramāditya and grants Vidyādhara fortune. Uhle attributes vv. 2–4 to Kṣemendra. Variants: Indra and the gods; a sword; the Vetāla as an indestructible golden man | Emeneau's printed text: the Vetāla was an oil-miller who was taught magic by a wise man; Kṣāntiśīla is that wise man's returning disciple; the king beheads Kṣāntiśīla, who is offered to Devī, who grants the king a hundred years of life, universal rule and the magic power of Tāla and Vetāla. **Disputed with Uhle's summary** (oil-miller's *son*; Kṣāntiśīla the king's *brother*), unresolved. Emeneau argues the backstory is a Bengali interpolation | Indra and the gods appear; Vikram asks that the story become famous; he throws the two corpses into a cauldron of oil and two heroes (*bīr*) appear and promise to come when called |
+| The ending | The Vetāla warns the king about the monk's plan; the king beheads the monk; the Vetāla promises Vidyādhara overlordship and a boon; the king asks that the stories be famous; Śiva appears, says Vikrama was first created as Vikramāditya, gives him the sword Aparājita and promises Vidyādhara sovereignty (12.31.60–12.32.38) | Mixed witness: the ascetic is beheaded; the king gets eight great *siddhis*; the Gandharvas offer a boon and the king asks for the collection to be famous and for the Vetāla as servant; Brahmā, Viṣṇu and Śiva appear; Śiva names the king Vikramāditya and grants Vidyādhara fortune. Uhle attributes vv. 2–4 to Kṣemendra. Variants: Indra and the gods; a sword; the Vetāla as an indestructible golden man | Emeneau's printed text: the Vetāla was an oil-miller who was taught magic by a wise man; Kṣāntiśīla is that wise man's returning disciple; the king beheads Kṣāntiśīla, who is offered to Devī, who grants the king a hundred years of life, universal rule and the magic power of Tāla and Vetāla. **Differs from Uhle's summary** (oil-miller's *son*; Kṣāntiśīla the king's *brother*), unresolved. Emeneau argues the backstory is a Bengali interpolation | Indra and the gods appear; Vikram asks that the story become famous; he throws the two corpses into a cauldron of oil and two heroes (*bīr*) appear and promise to come when called |
 | How the tales link | Each return to the tree begins the next tale; many tales close with a narrator's maxim | Each tale has an invocation verse and a closing colophon | Closing colophon | The same formula of return and re-capture |
 
 **Other frame witnesses.** Ryder renders KSS's frame (names in English; he says twelve years where the e-text reads ten). BKM's frame was not read; its manuscripts call the king Vikramasena and the edition Trivikrama° (Emeneau). The Newari, Tibetan and Bhaviṣya Purāṇa frames were not examined.
 
 **What this means for the catalogue.** The frame choice affects the king's identity, the ascetic's motive, the Vetāla's backstory, the closing theology, and also **how the tales' own details fit together**: the report cautions that frames and tales "were shaped together" (§13, Option 5). For example, the Hindi Vetāla's warning in the prehistory and the KSS Vetāla's warning after TC-024 are different structures. The catalogue does not resolve this. It only flags that any tale's use under D-034 must be checked against the frame chosen.
 
-**Research gaps for the frame.** J's frame beyond the passages read; BKM's frame; the corrected relationship of Uhle's and Emeneau's descriptions of J's ending; the penalty and cemetery details in Ś and J (report §15).
+**Research gaps for the frame.** J's frame beyond the passages read; BKM's frame; the unresolved relationship of Uhle's and Emeneau's descriptions of J's ending; the penalty and cemetery details in Ś and J (report §15).
 
 ---
 
@@ -716,7 +718,7 @@ D-035 requires "meaningful variety across dilemmas, characters, conflicts, emoti
 | **C. Conflict and stakes** | What is at risk (life, honour, love, fortune, the soul) and what drives the conflict (loyalty, desire, duty, deceit, fate). | By titles only. |
 | **D. Emotional experience** | The experience the reader may have (wonder, dread, humour, grief, tenderness, unease, delight), described as an observation, not a promised effect. | The report notes humour and play in TC-008 and TC-015 only. The rest is unassessed. |
 | **E. Narrative form and structure** | A single plot, a tale inside a tale, a long journey or a short scene, a riddle with a twist, an answer, no answer. | Verse lengths in KSS give a crude scale of length (TC-004: 132 verses; TC-012: 171; TC-016: 207; TC-009: 39) and say nothing about quality. |
-| **F. Setting and atmosphere** | Where and when it happens (court, forest, city, cremation ground, sea, a Vidyādhara realm) and the atmosphere (D-026 is story-led). | Only a few settings are recorded (Kaliṅga, Viśvapura, the sea in TC-007, Benares in TC-001's opening). |
+| **F. Setting and atmosphere** | Where and when it happens (court, forest, city, cremation ground, sea, a Vidyādhara realm) and the atmosphere (the experience's atmosphere is story-led under D-026; settings here are the tales' own). | Only a few settings are recorded (Kaliṅga, Viśvapura, the sea in TC-007, Benares in TC-001's opening). |
 | **G. Variants that change how a character or event is understood** | Where a variant changes the reader's understanding of a person or act (a rejected wife; a hero's practice grounded in caste; a witness who renounces). | Recorded for TC-010, 016, 021, 023, plus minor ones (§5.C). |
 
 ### 9.2 How the catalogue could be used for this (a possible process, not a mandate)
@@ -741,7 +743,9 @@ D-035 requires "meaningful variety across dilemmas, characters, conflicts, emoti
 
 This is an ordered list of missing research that could materially change how candidates are evaluated. **It is not a commission.** No one has been engaged, nothing has been purchased, and no specialist research has taken place. The report's own recommendations are carried over and labelled as the report's (§15, §14 questions 6 and 9).
 
-### 10.1 Necessary before a defensible final selection
+### 10.1 Suggested before a defensible final selection
+
+*The author's suggestion; the user decides what is required. N5 and any specialist work are recommendations, not approved requirements.*
 
 | # | Research | Why it matters | Report basis |
 |---|---|---|---|
@@ -749,11 +753,11 @@ This is an ordered list of missing research that could materially change how can
 | **N2** | **Read Hindi XXII and XXIV in full** (Platts and Barker, with the printed Hindi), and compare them with KSS 23 and Ś 22 at the level of events. | The D-035 distinctness question (§5.A) cannot be judged without it. | §8.5, §15 |
 | **N3** | **Read J 21, 22 and 23** in Emeneau's text and translation (respecting the rights caution), with the Newari parallels (Jørgensen). | Three candidates are title-only. | §4.D, §11 |
 | **N4** | **Read the other J tales' content**, in particular J 24 (TC-016), 25 and any tale in which J's endings or answers differ. | The report read J 10 and J 25 only; Emeneau says J's details "differ widely" from the others'. | §4.D, §15 |
-| **N5** | **Hindi/Braj specialist reading** of Hindi IX (TC-010), XV (TC-016), XX (TC-021) and XXIV (TC-023). | These four readings rest on one printed text, read by AI readers on page images. Recommended in the report. | §14 Q9, §15 |
+| **N5** | **Hindi/Braj specialist reading (a recommendation in the report, not a requirement; listed here as the author's suggestion for the user to weigh)** of Hindi IX (TC-010), XV (TC-016), XX (TC-021) and XXIV (TC-023). | These four readings rest on one printed text, read by AI readers on page images. Recommended in the report. | §14 Q9, §15 |
 | **N6** | **Verify the Kṣemendra concordance** tale by tale (page images of the 1901 and 1931 editions), at least for tales under serious consideration. | The BKM column is PROVISIONAL for 22 of 24 tales. | §4.A, §15 |
 | **N7** | **Establish the content of the unique 25th story in Ś MS *c*** and of Kṣemendra's two embedded stories (§7). | They may add candidates or change the count. | §4.C, §4.A |
 | **N8** | **Settle which text would be authoritative for the Hindi** if the Hindi lineage is used (the 1805 print, Barker, Forbes, or later). | Affects every Hindi-sourced reading above. | §14 Q8 |
-| **N9** | **List the moralising and gendered passages** in each shortlisted tale, to see how D-006 would apply (including TC-003, TC-009's Ś and Hindi verses, TC-014). | Affects whether and how a tale can be retold, and the collection's balance. | §3 item 10, §9 |
+| **N9** | **List the moralising and gendered passages** in each shortlisted tale, to see how D-006 would apply (including TC-003, TC-010's Ś and Hindi verses on women, TC-014, and the maxims the report notes in Hindi XIII and XVII (TC-014, TC-018)). | Affects whether and how a tale can be retold, and the collection's balance. | §3 item 10, §9 |
 
 ### 10.2 Desirable for stronger confidence
 
@@ -774,4 +778,4 @@ This is an ordered list of missing research that could materially change how can
 - **The 1805 Calcutta print and the Braj text** by Surat (not located).
 - **Copyright checks** on Emeneau 1934, Penzer and the modern editions (report §11), before any reproduction.
 
-Research items that need a human reader (N5, a Sanskritist's check, and the specialist Hindi work) fall under Q-405 (staffing of independent roles) and D-020 (independence), which the user has not resolved.
+Research items that need a human reader (N5, a Sanskritist's check, and the specialist Hindi work) bear on Q-405 (how independent roles are staffed, open) and on whether an AI review satisfies D-020 (approved; report §16 leaves that judgement to the user).
