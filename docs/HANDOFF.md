@@ -1,6 +1,6 @@
 # Handoff
 
-*Last updated: 2026-11-17 (North Star task)*
+*Last updated: 2026-11-17 (candidate tale catalogue task)*
 
 Read this first when you start a new session on this project. It summarises the current state and links to the authoritative documents. **It is never the authority on a decision.** [DECISIONS.md](DECISIONS.md) is.
 
@@ -9,8 +9,9 @@ Read this first when you start a new session on this project. It summarises the 
 **The project is at its foundation stage.** Only documentation and research exist.
 
 - **Source research is complete and merged.** PR #1 (foundation), PR #2 (comparative report, [research/SOURCE_TRADITIONS_COMPARISON.md](research/SOURCE_TRADITIONS_COMPARISON.md)) and PR #3 (independent AI review, [research/SOURCE_TRADITIONS_REVIEW.md](research/SOURCE_TRADITIONS_REVIEW.md)) are all merged into `main`. The review's corrections were applied and confirmed. **Limitations remain:** the review was by a separate AI session, not a human specialist. Kṣemendra's text, the Newari version and the Bhaviṣya Purāṇa version were not read directly, and several language-sensitive readings (Hindi IX, XV, XX, XXIV) still need a Hindi/Braj specialist. See the report's §15. No tradition has been selected.
-- **Current phase (2026-11-17): establishing the Storytelling North Star** (branch `docs/storytelling-north-star`, PR to `main`). This adds [STORYTELLING_NORTH_STAR.md](STORYTELLING_NORTH_STAR.md) (D-036) and records two agreements the user stated: **D-034** (no single-recension binding; combine across traditions under stated rules) and **D-035** (what "the 25 tales" means). **The user approved D-034 and D-035 exactly as written, and the North Star (D-036, formerly P-008), on 2026-11-17.** **Q-410 is resolved by D-035.** **Q-411** (which 25 tales) is new. Q-401 is narrowed, not resolved.
-- No story blueprints have been produced.
+- **North Star established (2026-11-17).** PR #4 is merged into `main`. It added [STORYTELLING_NORTH_STAR.md](STORYTELLING_NORTH_STAR.md) (**D-036 approved**, formerly P-008; **P-005 completed**) and recorded **D-034** (no single-recension binding; combine across traditions under stated rules) and **D-035** (what "the 25 tales" means), all approved by the user on 2026-11-17. **Q-410 is resolved by D-035.** Q-401 is narrowed, not resolved.
+- **Current phase (2026-11-17): building the evidence-based candidate tale catalogue** (branch `docs/candidate-tale-catalogue`, PR to `main`). [research/CANDIDATE_TALE_CATALOGUE.md](research/CANDIDATE_TALE_CATALOGUE.md) is an inventory of 27 candidate story families (24 shared core, 3 Jambhaladatta-only; one core family, the Hindi body-entering plot XXII/XXIV, carries an open D-035 distinctness question), a separate frame comparison, a PROPOSED way to assess the variety of the eventual collection, and a prioritised research list. It draws on the existing comparison report only (no new primary reading) and is not exhaustive. **It does not select, rank, or choose a source.** **Q-401, Q-408, Q-411 and Q-002 remain open. No final 25 have been selected.**
+- No story blueprints have been produced and **no story drafting has begun**.
 - No art style, artwork, or audio exists.
 - No technology has been chosen and no application code exists.
 - The application has **no approved name**. "Betall-Pacchisi" is only the repository name.
@@ -51,13 +52,14 @@ Full wording and IDs are in [DECISIONS.md](DECISIONS.md).
 | 2026-11-17 | Second independent-review pass (PR #3 §7) covering the applied C1–C13, R15–R24 and §§9–14. Its corrections A1–A12 and the residual issues in C2, C6 and C12 were re-checked where possible and incorporated into the report on PR #2. Main changes: the Hindi readings in tales XV and XX are now described as partial, translation-sensitive shifts needing a Hindi specialist; Śivadāsa's printed ending is shown to be textually mixed; Kṣemendra's date and priority are marked as not established; the Newari relationship is described as compatible views, not a dispute; evaluative wording in §§9, 12–14 neutralised. |
 | 2026-11-17 | Final independent confirmation (PR #3 §8) of the report at `ede52de`: the reviewer found the earlier corrections applied (C12, C13, A6 and A10 were marked "Applied, needs qualification" in PR #3 §8.2; the review did not independently establish every underlying historical finding); nine minor issues R-1 to R-9 listed. All nine applied to PR #2 (unsupported 11th-century dating removed; Kṣemendra count wording aligned between §§6 and 12.A; contradictory phrases in §§12.A and 12.C fixed; Emeneau pp. 66–73 and Barker pp. 182 and 359 cited; authorial inferences labelled; specialist review worded consistently as a recommendation; status statements updated). Later commits `db86261` (Barker coverage row, report §2.2) and `6a2e67a` (S10 source-register entry, report §10) aligned the Barker records with the four page-image passages (IX p. 182, XV p. 270, XX p. 332, XXIV p. 359). |
 | 2026-11-17 | PRs #2 and #3 merged into `main` (merge commits `4f545d8`, `3cf6b93`). Started the North Star task: created STORYTELLING_NORTH_STAR.md, added D-034, D-035, P-008 and Q-411, resolved Q-410, and cross-referenced the other documents. An independent read-only Opus review of the branch found no blockers, 4 moderate and 6 minor issues (restated approved wording incomplete; entertainment-first labelling; D-035 vs Q-005; Q-401 over-narrowed; wording-confirmation caveat; source labels; authority pointers; Q-411 piecemeal risk; stale research-report lines; README status). All were corrected in the follow-up commit. |
+| 2026-11-17 | PR #4 merged (North Star; D-034, D-035, D-036 approved; P-005 completed). Built [research/CANDIDATE_TALE_CATALOGUE.md](research/CANDIDATE_TALE_CATALOGUE.md) on branch `docs/candidate-tale-catalogue`: inventory only, from the existing report, with no selection, ranking or source choice. |
 
 ## Major unresolved questions
 
 The full list is in [OPEN_QUESTIONS.md](OPEN_QUESTIONS.md). The most consequential are:
 
 - **Q-401**: which tradition (or combination) is the primary literary foundation (RESEARCH REQUIRED; D-034 removes rigid single-recension binding but does not exclude a single primary tradition with recorded borrowings).
-- **Q-411**: which 25 tales form the collection under D-035 (Q-410, the counting definition, is resolved).
+- **Q-411**: which 25 tales form the collection under D-035 (Q-410, the counting definition, is resolved). The candidate pool is mapped in [research/CANDIDATE_TALE_CATALOGUE.md](research/CANDIDATE_TALE_CATALOGUE.md); the choice is the user's.
 - **Q-101 / Q-107**: book behaviour (scroll, page-turn, or hybrid) and the reading layout.
 - **Q-201 / Q-203**: the final art style and the look of Vikram and Betal.
 - **Q-002**: how the frame story is presented.
@@ -70,10 +72,11 @@ P-001 to P-004, P-006 and P-007 in [DECISIONS.md](DECISIONS.md#proposals-awaitin
 
 ## Recommended next task
 
-The North Star task is complete once PR #4 is merged (the user merges). Then, in the user's order:
+The catalogue task is complete once its PR is merged (the user merges). Then, in the user's order:
 
-1. Decide whether to commission specialist readings (recommended, not required): a Hindi/Braj reader for Hindi IX, XV, XX and XXIV; a Sanskritist to spot-check KSS and Śivadāsa readings; Kṣemendra's text. See the report's §15.
-2. Discuss Q-401 (primary foundation or combination; report §13 options 1–6 all remain open), Q-408 (source hierarchy) and Q-411 (which 25 tales), using the report's §§13–14.
+1. Review the catalogue, especially §5.A (the Hindi XXII/XXIV distinctness question, which is the user's judgement under D-035) and §10 (research priorities N1 to N9). Decide which research to do first. Nothing has been commissioned.
+2. Decide whether to commission specialist readings (recommended, not required): a Hindi/Braj reader for Hindi IX, XV, XX and XXIV; a Sanskritist to spot-check KSS and Śivadāsa readings; Kṣemendra's text. See the report's §15.
+3. Discuss Q-401 (primary foundation or combination; report §13 options 1–6 all remain open), Q-408 (source hierarchy), Q-411 (which 25 tales) and Q-002 (the frame), using the report's §§13–14 and the catalogue.
 
 **Do not begin writing any story or choose a final tradition, the narrator's identity (Q-005), Hindi register (Q-402), art, audio, layout or technology** until the user decides.
 
