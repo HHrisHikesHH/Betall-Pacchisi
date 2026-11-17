@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Status** | Initial research compilation, **partly reviewed**. Items R1–R14 were independently reviewed in [PR #3](https://github.com/HHrisHikesHH/Betall-Pacchisi/pull/3) (file `docs/research/SOURCE_TRADITIONS_REVIEW.md`; not on this branch until PR #3 is merged), and its corrections C1–C13 are incorporated here (see [Revision history](#revision-history)). R15–R24 and §§9–14 are **not yet reviewed**. See [Independent Review Required](#independent-review-required). |
+| **Status** | Research compilation, **independently reviewed by a separate AI session; final confirmation of this revision still required.** The review in [PR #3](https://github.com/HHrisHikesHH/Betall-Pacchisi/pull/3) (file `docs/research/SOURCE_TRADITIONS_REVIEW.md`; not on this branch until PR #3 is merged) covers checklist items R1–R24 and §§9–14. Its first-round corrections C1–C13 were applied at `ae61239` (the reviewer found 10 verified and 3 partially verified); its second-round corrections A1–A12, and the three residual issues, are applied in this revision. Some claims remain unverified for want of editions or specialist language review. **The review is not a human specialist review. No source tradition has been selected, and Q-401 remains open.** See [Independent Review Required](#independent-review-required). |
 | **Decision supported** | `Q-401` in [OPEN_QUESTIONS.md](../OPEN_QUESTIONS.md): which tradition (or combination) becomes the primary literary foundation. **This report does not decide Q-401.** |
 | **Compiled** | 2026-11-16, by an AI research session (Claude Code) working from digitised scans and e-texts |
 | **Governing policy** | [SOURCE_AND_RESEARCH_POLICY.md](../SOURCE_AND_RESEARCH_POLICY.md) |
@@ -37,7 +37,8 @@
 | Date | Change |
 |---|---|
 | 2026-11-16 | Initial compilation (commit `94663c9`, PR #2). |
-| 2026-11-16 | An independent review of R1–R14 (PR #3, `docs/research/SOURCE_TRADITIONS_REVIEW.md`) proposed corrections C1–C13. The author re-checked each against the sources before applying it (the outcome is recorded under [Independent Review Required](#independent-review-required)). C1: Jambhaladatta's frame ending (§4.D, §5, §9, §12.C). C2 and C3: the body-entering tales (§3, §7, §8.5). C4: Kṣemendra's lambaka number (§4.A). C5: Somadeva's ending citations (§5). C6: Śivadāsa's ending (§5). C7: the Śivadāsa 20 question (§8.4). C8 and C9: Ryder (§3, §4.G, §6, §7). C10: the exact Hindi–Śivadāsa mapping (§4.E, §6). C11: Somadeva's reasoning in KSS 10 (§8.1). C12: Barker's translation as a second English rendering of the Hindi (§8.1, §8.3, §8.4). C13: the Jambhaladatta tale 10 pages (§8.1). §11's wording on the copyright of historical texts was also qualified. |
+| 2026-11-16 | An independent review of R1–R14 (PR #3, `docs/research/SOURCE_TRADITIONS_REVIEW.md`) proposed corrections C1–C13. The author re-checked each against the sources before applying it (the outcome is recorded under [Independent Review Required](#independent-review-required)). C1: Jambhaladatta's frame ending (§4.D, §5, §9, §12.C). C2 and C3: the body-entering tales (§3, §7, §8.5). C4: Kṣemendra's lambaka number (§4.A). C5: Somadeva's ending citations (§5). C6: Śivadāsa's ending (§5). C7: the Śivadāsa 20 question (§8.4). C8 and C9: Ryder (§3, §4.G, §6, §7). C10: the exact Hindi–Śivadāsa mapping (§4.E, §6). C11: Somadeva's reasoning in KSS 10 (§8.1). C12: Barker's translation as a second English rendering of the Hindi (§8.1, §8.3, §8.4). C13: the Jambhaladatta tale 10 pages (§8.1). §11's wording on the copyright of historical texts was also qualified. (Commit `ae61239`.) |
+| 2026-11-17 | A second independent-review pass (PR #3 §7, reviewer commit `02febde`) examined the applied C1–C13 at `ae61239`, checklist items R15–R24, and §§9–14, and proposed corrections A1–A12. The author re-checked the reviewer's evidence where local copies allowed (Uhle text p. 62 and p. XIV; Emeneau §1 and §6; Jørgensen pp. 213–214; Barker pp. 270 and 332 on page images) before applying them. **A1:** Jīmūtavāhana's practice across births against caste (§3, §8.3, §12.C). **A2:** Maṇivarman's question, desire against delusion and love (§3, §8.4, §12.C). **A3 and residual C6:** Śivadāsa's printed frame ending and the verses Uhle attributes to Kṣemendra (§4.C, §5, §12.A, §12.C, §13). **A4 and residual C2:** KSS 23 has the ascetic dance, not laugh (§3, §8.5). **A5:** Emeneau p. 71 cited as note 10, correcting an OCR misreading (checklist R2). **A6:** Kṣemendra's date is conditional, and relative priority is not established (§3, §4.A, §12.A, §12.D). **A7 and A8:** the Newari tradition: Jørgensen and Emeneau compatible; the 1801 and 1675 manuscripts distinguished (§3, §4.F, §12.A, §15). **A9:** "1884" for Uhle in Penzer and Emeneau (§4.C, §10, §15). **A10:** evaluative wording neutralised and its basis stated (§9, §12.D, §13, §14). **A11:** bibliographic details, with the level of evidence stated (§17). **A12:** Francke 1921 added as a Tibetan research lead (§4.F, §10, §15, §17). **Residual C12:** Barker's printed Hindi for XV and XX is now cited (§1, §2.2, §8.3, §8.4). Also: §14 counts, and two new questions on the authoritative Hindi text and specialist reading; the human-specialist wording in §2.2 aligned with D-020. |
 
 ---
 
@@ -72,7 +73,7 @@ Sources are cited as `[S01]`, `[S02]`, and so on. Full details are in the [Bibli
 | **Ś** | Śivadāsa's *Vetālapañcaviṃśati*, as edited by Uhle 1881 [S06] |
 | **J** | Jambhaladatta's *Vetālapañcaviṃśati*, as edited and translated by Emeneau 1934 [S07]. Unless stated otherwise, this is the text Emeneau printed, which is the **Bengali recension**. |
 | **W** | The Nepali-recension manuscript of Jambhaladatta used by Emeneau (Cambridge Add. 1655) [S07] |
-| **Hindi** | The Hindi/Hindustani *Baitāl Pachīsī* lineage. Read through Platts's 1871 English translation of Duncan Forbes's Hindi text [S11], and through Barker's 1855 edition [S10]. Barker prints the Hindi with a word-by-word interlinear English gloss and a separate free translation. Barker's Devanagari is unreadable in the OCR, so **the Hindi itself was not read**. Agreement between Platts and Barker gives two 19th-century English renderings, not verification of the Hindi. |
+| **Hindi** | The Hindi/Hindustani *Baitāl Pachīsī* lineage. Read through Platts's 1871 English translation of Duncan Forbes's Hindi text [S11], and through Barker's 1855 edition [S10]. Barker prints the Hindi with a word-by-word interlinear English gloss and a separate free translation. Barker's Devanagari is unreadable in the OCR. For four passages (IX, XV, XX, XXIV) the independent reviewer read **Barker's printed Hindi on page images**, and this report's author re-read XV and XX on the same page images. Both readers are AI models, not Hindi specialists. Nothing here is a reading of the 1805 Calcutta print, of Forbes's text, or of any Braj text. Elsewhere, agreement between Platts and Barker gives two 19th-century English renderings, not verification of the Hindi. |
 | **KSS n**, **Ś n**, **J n**, **Hindi n** | Tale n in that tradition's own numbering |
 
 ---
@@ -99,14 +100,14 @@ Sources are cited as `[S01]`, `[S02]`, and so on. Full details are in the [Bibli
 | Uhle 1881 [S06] | Vorwort pp. VII–XXIII (approx.); Sanskrit text of Ś as needed to identify each tale, its question, and its answer; apparatus at the frame opening | Most of the critical apparatus; the anonymous recension *f* in detail |
 | Emeneau 1934 [S07] | Preface; Introduction §§1–10; frame story text and translation (opening); story 10 text, translation, and notes; contents list | Stories 1–9 and 11–25 in detail; most notes |
 | Platts 1871 [S11] | Translator's preface; introductory tale (in part); opening and ending of all 25 tales | Full narrative of most tales |
-| Barker 1855 [S10] | Preface; the translated introduction to the 1805 Calcutta edition; interlinear and free translations of Stories IX, XV, XX, XXIV (in the correction pass) | The other tales; the Hindi text itself (Devanagari OCR unreadable) |
+| Barker 1855 [S10] | Preface; the translated introduction to the 1805 Calcutta edition; interlinear and free translations of Stories IX, XV, XX, XXIV (in the first correction pass); the printed Hindi of XV (p. 270) and XX (p. 332) on page images (in the second correction pass, re-reading what the reviewer read) | The other tales; the Hindi text elsewhere (Devanagari OCR unreadable) |
 | Ryder 1917 [S09] | Contents; introduction (= frame opening); tale 1 opening; conclusion heading | Most of the tales |
 | Penzer 1926–27 [S04, S05] | Contents of vols 6–7; vol. 6 appendix pp. 225–228 | Tale-by-tale appendix notes |
 | BKM 1901 [S08] | Table of contents (OCR) | The Vetāla text itself |
 
 **OCR caution.** Uhle, Emeneau, Penzer, Barker, Platts, and the BKM were read through machine OCR of scans. The OCR is generally good for English and German, workable for Uhle's romanised Sanskrit, poor for Emeneau's comparison table, and poor for Devanagari. Readings that depend on poor OCR are labelled PROVISIONAL.
 
-**Language competence.** The Sanskrit (KSS, Ś, J) was read directly, but by an AI model, not a credentialed Sanskritist. Every textual claim should be checked by an independent human reader (see [Independent Review Required](#independent-review-required)). The Hindi original was **not** read. Only English translations of it were consulted.
+**Language competence.** The Sanskrit (KSS, Ś, J) was read directly, but by an AI model, not a credentialed Sanskritist. A specialist check of the readings that turn on language is **recommended** (a recommendation, not an approved requirement; see [Independent Review Required](#independent-review-required)). For the Hindi, only English translations were consulted, apart from four passages of Barker 1855's printed Hindi read on page images by AI readers (§1). The 1805 print, Forbes's text and the Braj were **not** read.
 
 ---
 
@@ -115,18 +116,21 @@ Sources are cited as `[S01]`, `[S02]`, and so on. Full details are in the [Bibli
 These are the findings most likely to affect Q-401. Each is developed, with citations, later in the report.
 
 1. **There is no single "original" text to retell.** The collection survives in at least four distinct Sanskrit tellings: Somadeva, Kṣemendra, Śivadāsa, and Jambhaladatta. Each has internal recensions, and a separate vernacular lineage (Braj → Hindustani/Hindi, 18th–19th centuries) runs alongside them. The scholars consulted (Uhle 1881, Penzer 1926, Emeneau 1934) all say that a comparative study of all versions was still needed. *VERIFIED — scholarly source* [S04 p. 227; S06 p. VIII; S07 §1].
-2. **The familiar Hindi *Baitāl Pachīsī* is a late, mediated version.** By its own 1805 introduction, it was recast into Hindustani by **Mazhar ʿAlī Khān "Wilā"** *with the aid of* **Lallū Jī Lāl**, at John Gilchrist's order. It was based on an 18th-century **Braj** version by a poet called **Surat**, made at Rājā Jai Siṅgh Sawāī's command in Muhammad Shāh's reign. It was then revised for printing by **Tāriṇī Charan Mitr**. *VERIFIED — primary text (in Barker's English translation of the 1805 introduction)* [S10]. Later accounts credit Lallū Lāl alone (§4.E). *DISPUTED*.
+2. **The Hindi *Baitāl Pachīsī* is a late, mediated version.** By its own 1805 introduction, it was recast into Hindustani by **Mazhar ʿAlī Khān "Wilā"** *with the aid of* **Lallū Jī Lāl**, at John Gilchrist's order. It was based on an 18th-century **Braj** version by a poet called **Surat**, made at Rājā Jai Siṅgh Sawāī's command in Muhammad Shāh's reign. It was then revised for printing by **Tāriṇī Charan Mitr**. *VERIFIED — primary text (in Barker's English translation of the 1805 introduction)* [S10]. Later accounts credit Lallū Lāl alone (§4.E). *DISPUTED*.
 3. **Count and structure differ.** Somadeva states inside the text that the collection is 24 question-tales plus a 25th, concluding one (KSS 12.32.24–27). *VERIFIED — primary text*. Jambhaladatta's text, as Emeneau edits it, has the Vetāla tell 25 tales *apart from* the frame, and Emeneau argues that Jambhaladatta's original had **27** [S07 §4]. *VERIFIED — scholarly source*. The Hindi has 25 numbered tales, with the frame's conclusion inside the 25th [S11]. *VERIFIED — translation*.
 4. **The order of tales differs between traditions** (§7). For example, Somadeva's tale 8 (the three fastidious men) is Śivadāsa's 23, Jambhaladatta's 5, and the Hindi's XXIII. Matching numbers often do **not** mean matching stories.
 5. **Endings and Vikrama's answers can change the meaning.** In the promise tale (KSS 10), Jambhaladatta adds a brahman-ogre, has the husband *dismiss* the returning wife, and makes Vikrama name the **husband**, not the thief, as the noblest. Somadeva and Śivadāsa have the husband receive her happily and name the thief (§8.1). *VERIFIED — primary text* [S02; S06; S07 pp. 66–72].
-6. **Reasoning, not just answers, shifts.** In the Jīmūtavāhana tale, Somadeva and Śivadāsa explain the hero's self-sacrifice as practice perfected over many births. Platts's Hindi translation gives a caste-based reason instead (§8.3). In the Maṇivarman tale, Somadeva asks who was *most deluded by passion*. The Hindi, in translation, asks whose love was *greatest* (§8.4).
+6. **Reasoning, not just answers, shifts, though less sharply in the Hindi than the English translations suggest.**
+   - *Jīmūtavāhana tale (§8.3).* Somadeva says the hero's self-sacrifice was perfected over many births (*bahujanmasiddham*). Śivadāsa calls it practice across births (*janmani janmani … prāṇatyāgābhyāsaḥ*). Barker's printed Hindi keeps the idea of practice (*abhyās*) but grounds it in Jīmūtavāhana's Kshatriya caste instead of in many births. So the shift is in what the practice rests on, not a simple move from virtue to caste.
+   - *Maṇivarman tale (§8.4).* Somadeva asks who was most deluded by passion. Śivadāsa asks who was blind with desire. Barker's printed Hindi asks who was *adhik kāmī*, roughly "most full of desire", which keeps desire but drops "blind" or "deluded". Its reasoning speaks of love (*prem*), and both English translators render the question as love. The difference is real but partial, and partly a translation effect.
+   - Both Hindi readings come from **one printed text (Barker 1855), read on page images by AI readers**, not by a Hindi specialist. They need specialist review before anything is built on them.
 7. **The Hindi tells the body-entering plot twice.** Both Hindi XXII and XXIV have an old ascetic enter a dead youth's body. The riddles differ:
-   - In **XXII** (Viśvapura setting, as in Śivadāsa 22), the ascetic weeps and laughs, as in KSS 23 and Ś 22.
+   - In **XXII** (Viśvapura setting, as in Śivadāsa 22), the ascetic weeps and laughs, as the yogī does in Ś 22. In KSS 23 the ascetic weeps and then **dances**.
    - In **XXIV** (Kaliṅga setting, as in KSS 23), it is the **boy's father**, an onlooker, who laughs and then weeps (§8.5).
 
    So XXIV shares Somadeva's setting and plot but not his riddle. *VERIFIED — translation (Platts and Barker)*. Why the Hindi has both is *PROVISIONAL*.
 8. **Ryder's *Twenty-two Goblins* (1917) is a selective translation of Somadeva's KSS version, not of Śivadāsa.** Its frame names, its order, and its first tale's opening images correspond to KSS 12.8.59–60. His contents show that he omits KSS tales 10 and 19 (§4.G). *VERIFIED — primary text* for the correspondence and the omissions. His title page says only "Translated from the Sanskrit"; he does not name Somadeva or an edition there, so the identification rests on comparison.
-9. **Accessibility is very uneven.** The KSS has a disclosed-basis e-text and a public-domain English translation (Tawney). Śivadāsa and Jambhaladatta exist in scholarly editions, but those are scans with no modern translation found. Kṣemendra's Vetāla section was not consulted at all. The Newari tradition has no published edition, per the search lead (§4.F).
+9. **Accessibility is very uneven.** The KSS has a disclosed-basis e-text and a 19th-century English translation (Tawney) that is very likely public domain, subject to the check in §11. Śivadāsa and Jambhaladatta exist in scholarly editions, but those are scans with no modern translation found. Kṣemendra's Vetāla section was read only on two pages (§4.A). For the Newari tradition, no complete edition was found; Jørgensen 1921 prints two of its tales (§4.F).
 10. **The sources contain moralising and gendered generalisations.** Examples are the answer to the parrot-and-mynah tale (KSS 12.10.93–94), many inserted maxims in Śivadāsa, and speeches in the Hindi. Whichever foundation is chosen, the project will meet these, and will need to decide how they relate to the approved principle of no forced morals (D-006). *VERIFIED — primary text* for the examples cited.
 
 ---
@@ -139,15 +143,16 @@ These are the findings most likely to affect Q-401. Each is developed, with cita
 |---|---|---|---|
 | Place in the larger work | The Vetāla stories form part of the BKM, cited by Emeneau and Penzer as **BKM 9.2.19–1221**. | VERIFIED — scholarly source | [S07 §1; S04 p. 225 n.2] |
 | Edition contents | The 1901 Kāvyamālā edition's table of contents lists *Vetālakathā* 1 to 25 on pp. 287–384. They sit within the **ninth** lambaka, named for Śaśāṅkavatī. The contents read *śaśāṅkavatyākhyanavamalambakārambhaḥ* (p. 215) and *…navamalambakasamāptiḥ* (p. 411), and the running heads read "९. शशाङ्कवत्याम् – वेतालपञ्चविंशतिका". This agrees with the BKM 9.2.19–1221 reference. Two embedded stories (on the wickedness of men and of women) are listed after the second Vetālakathā. **This establishes only the section's location and its list of 25 headings, not the content or order of the tales** (see §7, K column). | VERIFIED — primary text (contents and running heads, read through Devanagari OCR) | [S08, contents and running heads] |
-| Date | Emeneau gives the BKM as about **1037 CE**, following Lévi. Emeneau also states the Vetāla source "could not be later than 1050". | VERIFIED — scholarly source (secondhand: Lévi not read) | [S07 §6] |
+| Date | **Not established here.** Emeneau mentions 1037 and 1050 only **conditionally**. Bosch suggested that Kṣemendra may also have used the source Jambhaladatta used. *If so*, Emeneau says, that source "could not be later than 1050", or about 1037 "if this is accepted as the date of the Bṛhatkathāmañjarī, following Lévi". Emeneau therefore does not assert 1037 as the BKM's date. Lévi was not read. | VERIFIED — scholarly source (for what Emeneau says); the date itself is RESEARCH REQUIRED | [S07 §6, p. xix] |
 | Form and language | Sanskrit verse, mostly ślokas. Shorter and "balder" than Somadeva, omitting minor incidents. | VERIFIED — scholarly source | [S07 §1, §7] |
 | Relation to Somadeva | Uhle, using an anonymous prose epitome of Kṣemendra (his recension *f*), found close agreement with Somadeva in names and material. He concluded that both drew on the Paiśācī *Bṛhatkathā*. Emeneau says the two versions have "essentially the same subject-matter". | VERIFIED — scholarly source | [S06 pp. VIII–XIII; S07 §1] |
 | Literary character | Uhle judged, from limited samples, that Kṣemendra treats main events very briefly, sometimes to the point of obscurity, while lingering on side description. Emeneau wrote on the matter in *JAOS* 53 (1933), which was not consulted. | VERIFIED — scholarly source (limited sample) | [S06 pp. XIII–XIV] |
 | Textual oddity | Some verses that Uhle attributes to Kṣemendra are transmitted in Śivadāsa manuscripts under Śivadāsa's name. | VERIFIED — scholarly source | [S06 pp. XIV–XV] |
 | King's name | Emeneau notes that the BKM manuscripts call the king Vikramasena, while the edition has Trivikrama°. | VERIFIED — scholarly source | [S07 p. 5 n.2] |
-| Lead to check | The 1901 Parab–Śivadatta edition (Kāvyamālā 69) is the edition Emeneau and Penzer cite. A 1931 second edition also exists on the Internet Archive. Neither was read beyond the 1901 contents. | NOT ACCESSIBLE in this session (Devanagari OCR unusable for close reading) | [S08] |
+| Two tales checked | The independent reviewer read two BKM text pages on page images (in part). After *iti navamo vetālaḥ* comes a tale naming Vīrabāhu, Arthadatta, Dhanadatta, Madanasenā and Dharmadatta, which are KSS 10's names, so BKM tale 10 corresponds to KSS 10. A second page shows the Unmādinī story (KSS 17) at about the position of the 17th heading. Only these two tales were checked. | VERIFIED — primary text (page images, reviewer's reading; not re-read by the author) | [S08; PR #3 §7.3, R19] |
+| Lead to check | The 1901 Parab–Śivadatta edition (Kāvyamālā 69) is the edition Emeneau and Penzer cite. A 1931 second edition also exists on the Internet Archive. Apart from the contents and the two pages above, neither was read. | NOT ACCESSIBLE in this session for close reading (Devanagari OCR unusable; page images would be needed) | [S08] |
 
-**Assessment.** Kṣemendra matters historically, as possibly one of the two earliest datable tellings, but **this report cannot assess its text directly**. Everything about its literary treatment here is secondhand.
+**Assessment.** Kṣemendra and Somadeva are the two Kashmirian verse tellings, but **this research has not established which is earlier**, and it has not established an absolute date for either (see the Date row above and §4.B). The report cannot assess Kṣemendra's text directly. Everything about its literary treatment here is secondhand.
 
 ### B. Somadeva — *Kathāsaritsāgara* (KSS)
 
@@ -168,7 +173,7 @@ These are the findings most likely to affect Q-401. Each is developed, with cita
 
 | Point | Finding | Label | Source |
 |---|---|---|---|
-| Edition | Uhle, *Die Vetālapañcaviṃçatikā in den Recensionen des Çivadāsa und eines Ungenannten*, AKM VIII.1, Leipzig 1881. The title page reads **1881**. Penzer's footnote gives 1884. | VERIFIED — primary text (title page). The 1884 date is DISPUTED and probably a slip. | [S06 title page; S04 p. 225 n.4] |
+| Edition | Uhle, *Die Vetālapañcaviṃçatikā in den Recensionen des Çivadāsa und eines Ungenannten*, AKM VIII.1, Leipzig 1881. The title page reads **1881**. A date of **1884** appears in two scholarly sources: Penzer's footnote, and once in Emeneau §1 ("Uhle's 1884 edition"), in a paragraph that also says "Uhle in 1881". Where 1884 comes from is **unresolved**. It might relate to the completion of the AKM volume, but that is not verified and is not asserted here. | VERIFIED — primary text (title page, 1881). The origin of 1884 is UNVERIFIED. | [S06 title page; S04 p. 225 n.4; S07 §1, p. ix] |
 | Editorial basis | Uhle began work in 1867 using seven manuscripts sent by Fitzedward Hall, later compared with the London manuscripts used by Lassen and Gildemeister. Emeneau summarises the basis as "eleven modern manuscripts". | VERIFIED — scholarly source | [S06 p. VII; S07 §1] |
 | Older witness | Emeneau reports that Uhle published a manuscript dated **1487** in 1914 (*BSGW* 66), much older than the others. That publication was not consulted. | VERIFIED — scholarly source (secondhand) | [S07 §1] |
 | Form | Prose with many inserted verses. Uhle counted 692 Sanskrit verses across the manuscripts, plus Prakrit verses (mostly Mahārāṣṭrī). Many are gnomic or borrowed, and only about 113 belong to the narrative in the narrow sense. | VERIFIED — scholarly source | [S06 pp. XVI–XX] |
@@ -176,7 +181,8 @@ These are the findings most likely to affect Q-401. Each is developed, with cita
 | Possible Jaina connection | Uhle reports Weber's view that the *ya-śruti* spelling in the manuscripts points to Jaina copying, and perhaps a Jaina author. Penzer mentions a Jaina element generally. | PROVISIONAL (stated as opinion by Weber) | [S06 p. XXI; S04 p. 228] |
 | Date and place | No date was established in the sources read. A 12th–14th century range appears in online summaries but was not traced to scholarship here. | UNVERIFIED | — |
 | Frame | King **Vikramasena** at Pratiṣṭhāna; the yogī Kṣāntiśīla, with name variants across manuscripts. One manuscript (*a*) prefixes a prehistory resembling the Hindi frame (Gandharvasena, a boy born three times, Vikramāditya's accession). | VERIFIED — primary text (Uhle's text and apparatus) | [S06 pp. XXI–XXII; text] |
-| Count | 24 tales, with the frame's conclusion counted as the 25th. Uhle notes this, following Oesterley. One manuscript (*c*) has a further, unique 25th story. | VERIFIED — scholarly source; the colophon numbering was observed in the text | [S06 p. XXIII; text] |
+| Printed frame ending | Uhle's printed conclusion (text p. 62) has the ascetic called a *digambara*; the eight great *siddhis* for the king after the beheading; the Gandharvas' flower-rain and boon; the king's request that the collection become famous; the appearance of Brahmā, Viṣṇu and Maheśvara; and Śiva naming the king as Vikramāditya and granting him Vidyādhara fortune (details in §5). **Uhle p. XIV attributes verses 2–4 of this conclusion to Kṣemendra**: his printed text follows manuscript A here, and these verses reach the Śivadāsa manuscripts under Śivadāsa's name. Verses 2–4 are the ones with the trimūrti, the Vikramāditya identification and the Vidyādhara fortune. The printed ending is therefore a **textually mixed witness**, and not every element in it can be attributed to Śivadāsa with confidence. | VERIFIED — primary text (Uhle's text, OCR; reviewer also read p. 62 on a page image) and scholarly source (Uhle's attribution) | [S06 text p. 62; p. XIV] |
+| Count | 24 tales, with the frame's conclusion counted as the 25th (the printed conclusion's colophon reads *pañcaviṃśatitamaṃ kathānakam*). Uhle notes this, following Oesterley. One manuscript (*c*) has a further, unique 25th story. | VERIFIED — scholarly source; the colophon numbering was observed in the text | [S06 p. XXIII; text pp. 62–63] |
 | "Vallabhadāsa" | Emeneau records a version attributed to **Vallabhadāsa** in no more than about six manuscripts. He doubts it is more than a sub-recension of Śivadāsa. The brief's "Vallabhadeva" was not found under that name in any source consulted. | VERIFIED — scholarly source; the name "Vallabhadeva" is UNVERIFIED | [S07 §1] |
 | Status claims | Penzer, following Winternitz, calls Śivadāsa's recension "the most important" and says it "appears to be the original form", while adding that nothing definite can be said. Uhle says it seems to have had the widest circulation of the prose versions. | VERIFIED — scholarly source (opinion, hedged) | [S04 p. 225; S06 p. XVI] |
 
@@ -221,10 +227,10 @@ These are the findings most likely to affect Q-401. Each is developed, with cita
 |---|---|---|---|
 | **Uhle's anonymous recension *f*** | A short prose epitome of Kṣemendra, printed by Uhle. Emeneau calls it secondary and comparatively unimportant. | VERIFIED — scholarly source | [S06 pp. VIII–XII; S07 §1] |
 | **Vallabhadāsa** | Not more than about six manuscripts. Probably a sub-recension of Śivadāsa (see §4.C). | VERIFIED — scholarly source | [S07 §1] |
-| **Newari version** | Known to Emeneau from Jørgensen's article (*ZDMG* 75, 1921), not consulted. Emeneau says it is "obviously based on Jambhaladatta's version" and tabulates its tale correspondences. A search summary attributes to Jørgensen and Felix Otter the view that the Newari is *not* a translation of any Sanskrit prose recension, though close to them. Otter is reported to be preparing a critical edition, with a reader of selections published in 2021. | DISPUTED. Otter's work was NOT ACCESSIBLE: the site blocks automated access. | [S07 §4; S12, S13] |
-| **Nepali recension of Jambhaladatta** | Represented by manuscript W (Cambridge Add. 1655), and possibly by Add. 1619 (1675 CE, Sanskrit and Newari). | VERIFIED — scholarly source | [S07 §3; S06 p. XVI] |
+| **Newari version** | **Jørgensen 1921** (now consulted, pp. 213–214, OCR) edits two tales from a Newari recension in Berlin (Ms. Or. fol. 600), dated Nepal era 921 = **1801 CE**. He writes that a quick comparison shows **no known Sanskrit recension can be its direct source**; the nearest is Jambhaladatta's, recension *f* shows some agreements, and Śivadāsa stands further off. **Emeneau** says the Newari is "obviously based on Jambhaladatta's version", because it contains J 21 and 22. These positions are **compatible**, not in conflict: a version can be based on Jambhaladatta's without being a direct rendering of any surviving Sanskrit recension. The earlier search summary attributing a contrary view to Jørgensen is superseded by his text. Otter is reported to be preparing a critical edition, with a reader of selections published in 2021. **Date of the version:** not established. The 1801 date is that of Jørgensen's manuscript. Uhle mentions a Sanskrit-and-Newari manuscript of Jambhaladatta's text dated 1675 (next row), but its relation to the Newari recension Jørgensen discusses is not established. | VERIFIED — scholarly source (Jørgensen; Emeneau). Otter's work NOT ACCESSIBLE: the site blocks automated access. | [S13 pp. 213–214; S07 §4; S06 p. XVI; S12] |
+| **Nepali recension of Jambhaladatta** | Represented by manuscript W (Cambridge Add. 1655). Uhle also describes Cambridge Add. 1619, in Sanskrit and Newari, written in 1675 CE, which begins with the eighth verse of the Calcutta edition; he gives nothing more about it. Whether it belongs to the Nepali recension, or to the Newari version above, is not established. | VERIFIED — scholarly source (for what Uhle and Emeneau say) | [S07 §3; S06 p. XVI] |
 | **Bhaviṣya Purāṇa** | A search lead reports that a 1965 *Purāṇa* bulletin article places a Vetāla version in the Pratisarga-parvan and calls it probably a late verse abridgement of the popular stories. The article could not be opened, and no edition of the Purāṇa was consulted. | UNVERIFIED / NOT ACCESSIBLE | [S14] |
-| **Tibetan** | An Internet Archive catalogue record describes a 1975 Tibetan manuscript collection of 37 "vetala stories" (*ro sgrung*). This is a catalogue record only, not evidence of content or of a relationship to this cycle. | UNVERIFIED (catalogue record only) | [S15] |
+| **Tibetan** | An Internet Archive catalogue record describes a 1975 Tibetan manuscript collection of 37 "vetala stories" (*ro sgrung*). This is a catalogue record only, not evidence of content or of a relationship to this cycle. **Research lead:** *ZDMG* 75 (1921) contains A. H. Francke, "Die Geschichten des toten No-rub-can. Eine tibetische Form der Vetālapañcaviṃśatikā aus Purig", beginning p. 72. Only the title, in the volume's contents, was read; the article was not. Penzer vol. 6 p. 242 also refers to it (found by a text search of the OCR; not read in context). | UNVERIFIED (catalogue record; Francke is a research lead, not a consulted source) | [S15; S17] |
 | **Other vernaculars** | Bengali, Kannada, Telugu, Gujarati, Tamil, Marathi, and other versions are mentioned by Penzer without detail. | UNVERIFIED (mentioned only) | [S04 p. 226] |
 
 ### G. Note on Ryder's *Twenty-two Goblins* (1917)
@@ -251,7 +257,7 @@ Differences are recorded side by side and are **not** merged into one narrative.
 | The corpse | Hangs on a *śiṃśapā* tree in a cremation ground. It cries out and then laughs (12.8.50–55). | *Śiṃśapā* tree | — (not checked) | Corpse in a tree in a burning-ground [S11] |
 | Why the Vetāla tells stories | "To beguile the road" (12.8.58) | To pass the journey | Not checked | Similar [S11] |
 | Penalty and condition | If Vikrama knows the answer and stays silent, his head will burst into a hundred pieces (12.8.188). When he speaks, the Vetāla returns to the tree. | Same pattern (the Vetāla returns after each answer) | Not checked | In tale I: if he does not decide, he "will be cast into hell" [S11] |
-| End of the cycle | Vikrama cannot answer tale 24 and stays silent (12.31.60). The Vetāla, privately resolving to outwit the monk (12.31.61–64), warns Vikrama: the monk will ask for a full prostration in order to sacrifice him; Vikrama should ask to be shown it first and then behead him. The warning already promises him the Vidyādhara power the monk sought (12.31.65–73). The Vetāla then leaves the corpse (12.31.74). At the rite Vikrama does this and beheads the monk (12.32.1–19). The Vetāla promises him Vidyādhara overlordship after earthly rule (12.32.21) and offers a boon; Vikrama asks that the stories be famous (12.32.22–30). **Separately**, Śiva then appears, says Vikrama was first created as **Vikramāditya** and now as Trivikramasena, gives him the sword Aparājita, and promises Vidyādhara sovereignty (12.32.31–38). | The conclusion varies by manuscript. In Uhle's **base text** the flower-rain after the king's deed comes from the **Gandharvas**. Only **variant manuscripts** have Indra and the other gods instead, Indra giving a sword (one manuscript), the king asking for the Vetāla as servant (two), or the Vetāla becoming an indestructible golden man (one) [S06 pp. XXII–XXIII]. | **Emeneau's printed text** [S07, story 25, approx. pp. 145–155]: the Vetāla says he was himself an **oil-miller householder** (*tailika*). A wise man who lodged with him taught him magic knowledge and charged him to teach it to the wise man's returning disciple, saying "he shall be your brother", addressed to the oil-miller. That disciple is **Kṣāntiśīla**, who, on his teacher's instructions, plans to offer the king to **Devī** for magic power. The Vetāla tells the king how to turn the trick. The king beheads Kṣāntiśīla and offers him to Devī, who grants him a hundred years of life, universal rule, and the magic power of **Tāla and Vetāla**. **Uhle's 1881 summary differs** [S06 p. XXII]: he describes Jambhaladatta's Vetāla as an oil-miller's *son* (*Oelmüllerssohn*) and Kṣāntiśīla as the *king's* brother (*des Königs Bruder*). Uhle wrote before Emeneau's edition and does not say, in the passage read, which manuscript or printing he used; he discusses Vidyasagara's 1873 printing nearby, but that this was his source is unconfirmed. **The discrepancy is unresolved.** Emeneau argues the whole backstory is a Bengali interpolation [S07 §4]. | Indra and the gods appear. Indra offers a boon, and Vikram asks that "this story concerning me become famous in the world", a parallel to KSS 12.32.24–25. Vikram throws the two corpses into a cauldron of oil, and two heroes (*bīr*) appear and promise to come when called [S11 tale XXV, pp. 180–181; S07 §8]. |
+| End of the cycle | Vikrama cannot answer tale 24 and stays silent (12.31.60). The Vetāla, privately resolving to outwit the monk (12.31.61–64), warns Vikrama: the monk will ask for a full prostration in order to sacrifice him; Vikrama should ask to be shown it first and then behead him. The warning already promises him the Vidyādhara power the monk sought (12.31.65–73). The Vetāla then leaves the corpse (12.31.74). At the rite Vikrama does this and beheads the monk (12.32.1–19). The Vetāla promises him Vidyādhara overlordship after earthly rule (12.32.21) and offers a boon; Vikrama asks that the stories be famous (12.32.22–30). **Separately**, Śiva then appears, says Vikrama was first created as **Vikramāditya** and now as Trivikramasena, gives him the sword Aparājita, and promises Vidyādhara sovereignty (12.32.31–38). | **Uhle's printed text** [S06 text p. 62]: the Vetāla tells the king that the ascetic, a ***digambara***, will ask for a full prostration, and how to turn it on him. The king does so and beheads him, offers the blood to the Vetāla, and obtains the **eight great *siddhis***. The **Gandharvas** shower flowers and offer a boon; the king asks that "this *Vetālapañcaviṃśatikā* become famous" (a parallel to KSS 12.32.24–25 and Hindi XXV), and that the Vetāla be his servant. Brahmā, Viṣṇu and Maheśvara appear; Śiva says the king is born as **Vikramāditya** from his portion and grants him **Vidyādhara fortune** (vv. 2–4). **Mixed witness:** Uhle p. XIV attributes vv. 2–4 to **Kṣemendra**, transmitted in manuscript A under Śivadāsa's name, so this part of the printed ending cannot confidently be called Śivadāsa's. **Variants** [S06 pp. XXII–XXIII]: Indra and the other gods instead of the Gandharvas; Indra giving a sword (one manuscript); the king asking for the Vetāla as servant (two); the Vetāla becoming an indestructible golden man (one). | **Emeneau's printed text** [S07, story 25, approx. pp. 145–155]: the Vetāla says he was himself an **oil-miller householder** (*tailika*). A wise man who lodged with him taught him magic knowledge and charged him to teach it to the wise man's returning disciple, saying "he shall be your brother", addressed to the oil-miller. That disciple is **Kṣāntiśīla**, who, on his teacher's instructions, plans to offer the king to **Devī** for magic power. The Vetāla tells the king how to turn the trick. The king beheads Kṣāntiśīla and offers him to Devī, who grants him a hundred years of life, universal rule, and the magic power of **Tāla and Vetāla**. **Uhle's 1881 summary differs** [S06 p. XXII]: he describes Jambhaladatta's Vetāla as an oil-miller's *son* (*Oelmüllerssohn*) and Kṣāntiśīla as the *king's* brother (*des Königs Bruder*). Uhle wrote before Emeneau's edition and does not say, in the passage read, which manuscript or printing he used; he discusses Vidyasagara's 1873 printing nearby, but that this was his source is unconfirmed. **The discrepancy is unresolved.** Emeneau argues the whole backstory is a Bengali interpolation [S07 §4]. | Indra and the gods appear. Indra offers a boon, and Vikram asks that "this story concerning me become famous in the world", a parallel to KSS 12.32.24–25. Vikram throws the two corpses into a cauldron of oil, and two heroes (*bīr*) appear and promise to come when called [S11 tale XXV, pp. 180–181; S07 §8]. |
 | How the frame links the tales | Each return to the tree begins the next tale. Many tales close with a narrator's maxim on steadfastness (e.g. 12.9.42) | Each tale opens with an invocation verse and closes with a colophon | Each tale closes with a short colophon [S07] | Each tale closes with the same formula of return and re-capture [S11] |
 
 **Why this matters.** The king's identity (Trivikramasena or Vikramāditya), the ascetic's motive, the Vetāla's backstory, and the ending's theology (Śiva, Indra, Devī) all differ. Choosing a frame is therefore a literary choice in its own right, which bears on Q-002 in [OPEN_QUESTIONS.md](../OPEN_QUESTIONS.md).
@@ -361,22 +367,24 @@ Labels: as for §8.1.
 
 | | Somadeva (12.23.202–206) | Śivadāsa (Ś 15) | Hindi (XV) |
 |---|---|---|---|
-| Question | Who was greater in courage (*sattva*), Śaṅkhacūḍa or Jīmūtavāhana? | Which of the two was greater in courage (*sattvādhika*)? | Whose virtue was greatest? |
+| Question | Who was greater in courage (*sattva*), Śaṅkhacūḍa or Jīmūtavāhana? | Which of the two was greater in courage (*sattvādhika*)? | "Whose virtue was greatest?" (Platts). Barker's printed Hindi: *sat kis kā adhik huā?*, with *sat* (cf. Sanskrit *sattva*) glossed "virtue" [S10 p. 270] |
 | Answer | **Śaṅkhacūḍa** | **Śaṅkhacūḍa** | **Śaṅkhacūḍa** |
-| Reasoning | Jīmūtavāhana's deed is no wonder, because it was "perfected over many births" (*bahujanmasiddham*). Śaṅkhacūḍa, already spared, ran after Garuḍa to give his body. | Jīmūtavāhana had practised giving his life for others birth after birth. Śaṅkhacūḍa returned and stopped Garuḍa. | Jīmūtavāhana "was a Kshatriya by caste … accustomed to holding his life in his hand" [S11, Tale XV]. Barker's free translation agrees: "He was of the Kshatriya caste, whose practice that should be" [S10, Story XV]. |
-| Difference | — | The same reasoning | The **reasoning shifts from cultivated virtue across lives to caste** (in translation) |
+| Reasoning | Jīmūtavāhana's deed is no wonder, because it was "perfected over many births" (*bahujanmasiddham*, 12.23.205). Śaṅkhacūḍa, already spared, ran after Garuḍa to give his body. | Jīmūtavāhana had **practised** giving his life **birth after birth** (*janmani janmani … prāṇatyāgābhyāsaḥ*), with a verse on habits carried from birth to birth [Uhle text p. 43]. Śaṅkhacūḍa returned and stopped Garuḍa. | Barker's printed Hindi: *jīmūtbāhan jāt kā chhatrī hai, use jī dene kā abhyās ho rahā hai*, roughly "Jīmūtavāhana is a Kshatriya by caste; for him the **practice** (*abhyās*) of giving his life is ongoing" [S10 p. 270, page image]. Platts: "a Kshatriya by caste … accustomed to holding his life in his hand" (the spelling of the caste word is normalised; the OCR is unclear) [S11, Tale XV]. Barker's free translation: "He was of the Kshatriya caste, whose practice that should be" [S10, Story XV]. |
+| Difference | — | Same reasoning as KSS, with "practice" made explicit | The Hindi **keeps the idea of practice** (*abhyās*, matching Ś's *abhyāsaḥ*) but **grounds it in caste** instead of in many births. This is a change in what the practice rests on, not a simple shift from virtue to caste. |
 
-Labels: KSS and Ś *VERIFIED — primary text*; Hindi *VERIFIED — translation (Platts and Barker; Hindi original not read)*. Jambhaladatta's J 24 was not checked.
+Labels: KSS and Ś *VERIFIED — primary text*. Hindi: *VERIFIED — translation* (Platts and Barker), and *PROVISIONAL* for the Hindi wording itself. The Hindi passage was read on Barker 1855's page image by the independent AI reviewer and re-read by this report's AI author. **It is not a specialist reading**, and it is not a reading of the 1805 print, Forbes's text or the Braj original. Jambhaladatta's J 24 was not checked.
 
 ### 8.4 Anaṅgamañjarī, Maṇivarman, and Kamalākara (KSS 21)
 
 | | Somadeva (12.28.92–96) | Śivadāsa (Ś 20) | Hindi (XX) |
 |---|---|---|---|
-| Question | Among these, who was most deluded by passion (*anurāgamūḍha*)? | "Among the three, who was blind with desire?" (*trayāṇāṃ madhye kaḥ kāmāndhaḥ*) | "Whose love, of these three, was greatest?" [S11]; Barker's interlinear: "out-of-these-three which most in-love was?" [S10, Story XX] |
-| Answer | **Maṇivarman, the husband.** The two lovers died of mutual passion, which is understandable. He saw his wife die for love of another man and, instead of anger, died of grief: "excessively deluded". | **The husband**, "exceedingly blind with desire" (*atīva kāmāndhaḥ*), who seeing his wife dead for another put aside anger and died | **The husband**, "the deepest lover", who put aside anger and laid down his life for love of her |
-| Difference | — | The same evaluation | **The evaluation flips from delusion to devotion** (in translation) |
+| Question | Among these, who was most deluded by passion (*adhiko moho 'nurāgamūḍheṣu*, 12.28.93)? | "Among the three, who was blind with desire?" (*trayāṇāṃ madhye kaḥ kāmāndhaḥ*) | Barker's printed Hindi: *in tīnoṃ meṃ se kaunsā adhik kāmī huā?*, roughly "which of these three was most full of desire?" [S10 p. 332, page image]. Both English translators render it as love: "Whose love, of these three, was greatest?" [S11]; Barker's interlinear "out-of-these-three which most in-love was?" [S10, Story XX] |
+| Answer | **Maṇivarman, the husband.** The two lovers died of mutual passion, which is understandable. He saw his wife die for love of another man and, instead of anger, died of grief: "excessively deluded" (*atimūḍhaḥ*). | **The husband**, "exceedingly blind with desire" (*atīva kāmāndhaḥ*), who seeing his wife dead for another put aside anger and died | **The husband.** Barker's Hindi: he abandoned anger and, "immersed in love for her" (*us ke prem meṃ magan ho*), gave up his life; "he was most *kāmī*" (*vuh adhik kāmī huā*) [S10 p. 332]. Platts: "the deepest lover". |
+| Difference | — | The same evaluation, framed as blindness | The Hindi **keeps the vocabulary of desire** (*kāmī*) but **drops the explicit judgement** of delusion or blindness, and its reasoning speaks of love (*prem*). The English translations make the shift look larger than the Hindi wording does. |
 
-This is a clear case where the **same answer carries opposite interpretations**, which is directly relevant to the project's aim of layered meaning (D-005, D-006). Both Sanskrit versions frame the case as delusion in the question itself. Ryder's title for his tale 19 (= KSS 21) asks which "was the most foolish", consistent with that framing. Labels: KSS and Ś *VERIFIED — primary text*; Hindi *VERIFIED — translation (Platts and Barker; Hindi original not read)*.
+**What this tale shows.** The Sanskrit versions frame the case as a failure of judgement: KSS explicitly as delusion through passion (*mūḍha*), Śivadāsa as blindness with desire (*kāmāndha*). Ryder's title for his tale 19 (= KSS 21) asks which "was the most foolish", consistent with that framing. Barker's Hindi sits between that framing and the "greatest love" of the English translations. It asks who was most *kāmī*, which keeps desire but does not say "blind" or "deluded", and it explains the answer in the language of love. The difference is **real but partial**, and partly a translation effect. It is **not** an opposite moral framing. How *kāmī* reads in this register of Hindi is a question for a specialist; this report does not settle it. The passage still bears on the project's aim of layered meaning (D-005, D-006).
+
+Labels: KSS and Ś *VERIFIED — primary text*. Hindi: *VERIFIED — translation* (Platts and Barker), and *PROVISIONAL* for the Hindi wording and its connotation. The Hindi was read on Barker 1855's page image by the independent AI reviewer and re-read by this report's AI author; **it is not a specialist reading**, and not a reading of the 1805 print, Forbes's text or the Braj. **Specialist Hindi review required** before the distinction is relied on.
 
 ### 8.5 The ascetic who enters a dead youth's body (KSS 23): the plot told twice in the Hindi
 
@@ -389,7 +397,7 @@ This is a clear case where the **same answer carries opposite interpretations**,
 
 *VERIFIED — primary text* for KSS and Ś; *VERIFIED — translation (Platts and Barker)* for the Hindi. The Ś identification follows Uhle's statement that Ś 22 is "essentially the same" as the 24th in manuscript B (= Somadeva 23) [S06 p. XIV], together with the opening read in Uhle's text.
 
-**What is shared and what differs.** All four tellings share the plot: an old ascetic enters a dead youth's body at the cremation ground. In the riddle and its reasoning, **Hindi XXII is the closer to KSS 23 and Ś 22**. In all three it is the ascetic himself who weeps (at leaving the body cherished in childhood and youth) and rejoices (at a young body). Hindi XXIV keeps KSS 23's Kaliṅga setting, but its riddle is about a different person, the father, with different reasoning. So XXIV is a variant with a new riddle subject, not a duplicate.
+**What is shared and what differs.** All four tellings share the plot: an old ascetic enters a dead youth's body at the cremation ground. In the riddle and its reasoning, **Hindi XXII is the closer to KSS 23 and Ś 22**. In all three it is the ascetic himself who weeps (at leaving the body cherished in childhood and youth) and rejoices (at a young body). The rejoicing differs: in KSS 23 he **dances**, while in Ś 22 and Hindi XXII he **laughs**. Hindi XXIV keeps KSS 23's Kaliṅga setting, but its riddle is about a different person, the father, with different reasoning. So XXIV is a variant with a new riddle subject, not a duplicate.
 
 *PROVISIONAL interpretation:* the Hindi appears to keep Śivadāsa's tale XXII and add a Kaliṅga-setting variant as XXIV, which brings its narrated tales to 25. The reason is not established.
 
@@ -416,7 +424,7 @@ Assessments here are limited to what was actually read. They are **not** a ranki
 
 Observations relevant to the project, all *PROVISIONAL* because they are based on partial reading:
 
-- **Somadeva** gives the richest verbal texture of the versions read directly, and the clearest reasoning in Vikrama's answers. It is also the most accessible in a verse-numbered Sanskrit text with a public-domain English translation.
+- **Somadeva**'s answers often give reasons for each party (e.g. 12.17.65–67, 12.28.95–96), where Śivadāsa's are often one line; but Jambhaladatta's answer in J 10 also reasons at length (Emeneau p. 73), so this is an observation about the passages read, not a ranking. Somadeva is the most precisely citable of the sources consulted, because its Sanskrit is in a verse-numbered e-text. Its 19th-century English translation (Tawney) is very likely public domain, subject to the check in §11. *No comparison of verbal richness is made*, because the traditions were read at unequal depths and in different forms: KSS in the Sanskrit, Ś through OCR, J and the Hindi mainly in English.
 - **Śivadāsa** and the **Hindi** carry more explicit moralising, much of it gendered. That is a challenge for a project that rejects forced morals (D-006), but it is also historically significant material.
 - **Jambhaladatta** offers unique tales and at least one radically different ending (§8.1). Emeneau's judgement of its style is unflattering, and Aufrecht's (reported by Uhle) is the opposite.
 - **No claim is made that any tradition is more psychologically sophisticated or philosophical.** The evidence gathered does not support such a ranking.
@@ -432,18 +440,19 @@ Full bibliographic entries are in §17. Types: **P** = primary text; **SE** = sc
 | S01 | GRETIL KSS e-text (Durgaprasad–Parab 1915 basis) | P (e-text of an SE) | Full file downloaded. Sections read as listed in §2.2. | Typos silently corrected; footnotes incomplete; the e-text, not the print, was read |
 | S02 | GRETIL KSS Vetāla extract (Artesani) | P (e-text) | Full file; openings, questions, answers, and conclusion read | Encoder's tale markup; source field blank in header |
 | S03 | Tawney, *Kathá sarit ságara* vol. 2 (1880–84) | T | Located; not read | 19th-century translation |
-| S04, S05 | Penzer (ed.), *The Ocean of Story* vols 6–7 (1926–27) | T + SS | Contents; vol. 6 pp. 225–228 | Some dates and claims contradict primary evidence (§4.C, §4.D, §4.E) |
+| S04, S05 | Penzer (ed.), *The Ocean of Story* vols 6–7 (1926–27) | T + SS | Contents; vol. 6 pp. 225–228 | Some claims conflict with other evidence: "contains no verse" for J, against Emeneau and Uhle (§4.D); Lallū Lāl as creator (§4.E). His 1884 for Uhle is also found in Emeneau, so its origin is open (§4.C). |
 | S06 | Uhle 1881 | SE + SS | Vorwort; text as needed | OCR of romanised Sanskrit; older philology |
 | S07 | Emeneau 1934 | SE + T + SS | Preface; Introduction; frame; story 10; contents | Bengali recension only; OCR of tables unreliable |
 | S08 | BKM, Kāvyamālā 69 (1901) | SE | Contents only (OCR) | Devanagari OCR unusable for close reading |
 | S09 | Ryder 1917 | T | Contents; frame; tale 1 opening | Source not stated in front matter; omits two tales |
-| S10 | Barker & Eastwick 1855 | Hindi text + interlinear T + free T | Preface; the 1805 introduction; Stories IX, XV, XX, XXIV in translation | Preface contains a factual error (§4.E); Hindi text unreadable in OCR |
+| S10 | Barker & Eastwick 1855 | Hindi text + interlinear T + free T | Preface; the 1805 introduction; Stories IX, XV, XX, XXIV in translation; Hindi of XV and XX on page images | Preface contains a factual error (§4.E); Hindi text unreadable in OCR but **readable on page images** |
 | S11 | Platts 1871 (translating Forbes's Hindi text) | T (of the Hindi) | Tale openings and endings; frame in part | Hindi original not checked |
 | S12 | Otter 2021, Newari reader | SS + P (selections) | NOT ACCESSIBLE (site blocks automated access) | Known only through a search summary |
-| S13 | Jørgensen 1921, *ZDMG* 75 | SS | Not consulted; cited in S07 | — |
+| S13 | Jørgensen 1921, *ZDMG* 75 | SS + P (two Newari tales) | pp. 213–214 (OCR) | Only the introduction's opening pages read |
 | S14 | 1965 *Purāṇa* bulletin article (author not identified) | SS | NOT ACCESSIBLE | Known only through a search summary |
 | S15 | Internet Archive record bdrc-W23194 | CR | Record title only | Not evidence of content |
 | S16 | Vidyasagara 1873, Calcutta | P (poor edition, per Emeneau) | Located on the Internet Archive; not read | — |
+| S17 | Francke 1921, *ZDMG* 75 | SS (research lead) | Title in the volume's contents only | Not read |
 
 **Not located or not consulted:** the 1805 Calcutta print; Uhle 1914 (*BSGW* 66); Winternitz, *Geschichte der indischen Litteratur* vol. 3; Emeneau, "Kṣemendra as kavi" (*JAOS* 53, 1933); Emeneau's article on the Vikrama birth legend; Bosch 1914; Schick 1931; Oesterley 1873; Lévi 1885–86; Burton 1870.
 
@@ -476,13 +485,13 @@ The underlying historical texts (11th-century Sanskrit, and the older vernacular
 
 | Tradition | Period (and confidence) | Language | Form | Source availability | Vetāla-narrated tales | Frame | Distinctive features | Evidence confidence |
 |---|---|---|---|---|---|---|---|---|
-| Kṣemendra (BKM) | c. 1037 (scholarly, secondhand) | Sanskrit | Verse, condensed | 1901 and 1931 editions as scans; OCR poor | 24 (scholarly) | As in Somadeva | Brevity; close to Somadeva | **Low** (not read) |
-| Somadeva (KSS) | Reign of Ananta of Kashmir (primary); absolute dates RESEARCH REQUIRED | Sanskrit | Kāvya verse | GRETIL e-text; Tawney/Penzer translation | 24 + concluding 25th (primary) | Trivikramasena; Śiva's blessing; Vikramāditya identity | Rich verse; explicit count; analytic answers | **High** for the passages read |
-| Śivadāsa | Undated in sources read; a manuscript of 1487 is reported | Sanskrit (plus Prakrit verses) | Prose with many verses | Uhle 1881 scan; no modern translation found | 24 + conclusion | Vikramasena; variant endings | Moralising verses; a different order; Jaina-coloured details | **Medium** (OCR, partial reading) |
+| Kṣemendra (BKM) | Not established. Emeneau mentions c. 1037 only conditionally (§4.A); priority relative to Somadeva not established | Sanskrit | Verse, condensed | 1901 and 1931 editions as scans; OCR poor | 24 (scholarly) | As in Somadeva | Brevity; close to Somadeva | **Low** (two pages checked by the reviewer) |
+| Somadeva (KSS) | Datable to the reign of Ananta of Kashmir (primary); absolute dates RESEARCH REQUIRED | Sanskrit | Kāvya verse | GRETIL e-text; Tawney/Penzer translation | 24 + concluding 25th (primary) | Trivikramasena; Śiva's blessing; Vikramāditya identity | Rich verse; explicit count; analytic answers | **High** for the passages read |
+| Śivadāsa | Undated in sources read; a manuscript of 1487 is reported | Sanskrit (plus Prakrit verses) | Prose with many verses | Uhle 1881 scan; no modern translation found | 24 + conclusion | Vikramasena; a printed ending that mixes in verses Uhle attributes to Kṣemendra; variant endings | Moralising verses; a different order; Jaina-coloured details | **Medium** (OCR, partial reading) |
 | Jambhaladatta | Before the 16th century; author obscure | Sanskrit | Prose | Emeneau 1934 (edition and translation) | 25 (Bengali text); an original of 27 is Emeneau's hypothesis | Vikramakesarin/Vikramāditya; interpolated backstory (Bengali) | Three unique tales; altered endings | **Medium** (edition read only in part) |
 | Braj (Surat) | 18th century, Jai Siṅgh Sawāī / Muhammad Shāh (primary, in translation) | Braj | — | Not located | — | — | Source of the Hindi | **Low** |
-| Hindi/Hindustani (1805 lineage) | 1805 and later revisions | Hindustani, with Braj | Prose with proverbial verses | 19th-century editions and translations (Forbes, Barker, Platts) | 25 (with a doublet) | Vikram of Ujjain/Dhārānagar; three births; Indra | Most familiar; Śivadāsa-like order; layered maxims | **Medium** (in translation only) |
-| Newari | Before 1675 (scholarly) | Newari | Prose | No edition; NOT ACCESSIBLE | 25 (per Emeneau) | — | Relation to Jambhaladatta DISPUTED | **Low** |
+| Hindi/Hindustani (1805 lineage) | 1805 and later revisions | Hindustani, with Braj | Prose with proverbial verses | 19th-century editions and translations (Forbes, Barker, Platts) | 25, with the body-entering plot told twice (XXII, XXIV; different riddles) | Vikram of a Dhārānagar royal family (Platts's frame; Barker's preface calls him king of "Oujein", Ujjain); three births; Indra | Śivadāsa-like order; layered maxims | **Medium** (mainly in translation; four passages of Barker's printed Hindi read on page images) |
+| Newari | Undated. Jørgensen's manuscript is of 1801; a 1675 Sanskrit–Newari manuscript of Jambhaladatta's text exists (Uhle), but its relation to the Newari recension is not established | Newari | Prose | Two tales edited by Jørgensen (1921); Otter's reader NOT ACCESSIBLE | 25 (per Emeneau) | — | Based on Jambhaladatta's version (Emeneau), though no surviving Sanskrit recension is its direct source (Jørgensen); compatible views | **Low** |
 | Bhaviṣya Purāṇa | Possibly late (unverified) | Sanskrit | Verse (reported) | Not consulted | — | — | — | **Very low** |
 
 ### B. Tale concordance
@@ -497,10 +506,10 @@ See §7.
 | Tale sequence | Major reorderings: KSS 8 sits at 5 (J) or 23 (Ś, Hindi); KSS 16 sits at 24 (J) (§7) | Pacing and the build-up of themes across the cycle differ |
 | Content | J adds 3 tales and drops 2. The Hindi doubles one (§§6–8). | What the "25 tales" actually are depends on the foundation chosen |
 | Plot and motivation | The J promise tale adds an ogre and reverses the husband's response (§8.1) | Changes what the dilemma is about |
-| Questions | KSS 21 asks "most deluded"; the Hindi asks "greatest love" (§8.4) | Opposite moral framing |
+| Questions | KSS 21 asks who was "most deluded" by passion; Ś 20 who was "blind with desire"; Barker's printed Hindi who was *adhik kāmī* ("most full of desire"), explained in terms of love (*prem*), and rendered "greatest love" by both English translators (§8.4) | A partial shift: the Hindi drops the explicit judgement of delusion but keeps desire. Partly a translation effect; specialist Hindi review needed |
 | Vikrama's answers | J 10 names the husband instead of the thief (§8.1) | Changes the tale's conclusion |
-| Reasoning | KSS 16: merit across births versus caste (§8.3) | Changes the implied philosophy |
-| Endings | Śiva and Vidyādhara sovereignty (KSS); Indra and the two *bīr* servants (Hindi); Kṣāntiśīla sacrificed to Devī, who grants rule and Tāla-Vetāla powers (J, Bengali; §5) | Changes how the whole cycle resolves |
+| Reasoning | KSS 16: the deed perfected over many births (KSS) or practised birth after birth (Ś), against practice (*abhyās*) grounded in Kshatriya caste (Barker's printed Hindi) (§8.3) | Changes what the hero's practice rests on; specialist Hindi review needed |
+| Endings | Śiva and Vidyādhara sovereignty (KSS); the Gandharvas, the trimūrti, and Śiva naming the king Vikramāditya and granting Vidyādhara fortune, partly in verses Uhle attributes to Kṣemendra (Ś printed text); Indra and the two *bīr* servants (Hindi); Kṣāntiśīla sacrificed to Devī, who grants rule and Tāla-Vetāla powers (J, Bengali) (§5) | Changes how the whole cycle resolves |
 
 ### D. Literary strengths and limitations (as they bear on this project)
 
@@ -508,11 +517,11 @@ The criteria are drawn from [PROJECT_VISION.md](../PROJECT_VISION.md) and [EDITO
 
 | Tradition | Possible strengths for this project | Possible limitations | Evidence behind the assessment |
 |---|---|---|---|
-| Somadeva | Coherent frame with an explicit 24 + 1 structure. Rich imagery. Answers that reason carefully. Accessible and verse-numbered, which eases verification. | A courtly kāvya register far from modern Hindi prose. Theological ending (Śiva, Vidyādhara sovereignty). Some gendered generalisations (12.10.93–94). | §§4.B, 5, 8 |
-| Kṣemendra | Possibly the earliest datable telling | Condensed. Unread here. Hard to verify. | §4.A (secondhand) |
-| Śivadāsa | Widely circulated. Closest in order to the familiar Hindi. Many verses offer gnomic material. | No modern translation found. Variant-rich manuscripts. Heavy moralising. | §§4.C, 7, 8.1 |
-| Jambhaladatta | Unique tales and endings, offering variety. A scholarly edition with English translation exists. | Bald style (Emeneau). Careless riddle details. Only the Bengali recension is printed. Modern copyright on the edition. | §§4.D, 8.1 |
-| Hindi lineage | The familiar version for Hindi readers. Lively proverbial texture. Directly relevant to a Hindi-first project. | Mediated through Braj, with uncertain Sanskrit ancestry. Tells one plot twice (XXII, XXIV). Attribution confusion. Moralising. Only read in translation here. | §§4.E, 6, 8 |
+| Somadeva | Coherent frame with an explicit 24 + 1 structure. Answers that often reason through each party (in the passages read). The most precisely citable source consulted (verse-numbered Sanskrit), which eases checking a retelling against the Sanskrit. | A courtly kāvya register far from modern Hindi prose. Theological ending (Śiva, Vidyādhara sovereignty). Some gendered generalisations (12.10.93–94). | §§4.B, 5, 8 |
+| Kṣemendra | A second Kashmirian verse telling, close to Somadeva in names and material (per Uhle and Emeneau). Its date, and its priority relative to Somadeva, are not established here. | Condensed. Essentially unread here (two pages). Hard to verify. | §4.A (secondhand) |
+| Śivadāsa | Widely circulated. Closest in order to the Hindi lineage. Many verses offer gnomic material. | No modern translation found. Variant-rich manuscripts. Heavy moralising. | §§4.C, 7, 8.1 |
+| Jambhaladatta | Unique tales and endings, offering variety. A scholarly edition with English translation exists. | Bald style (Emeneau). Careless riddle details. Only the Bengali recension is printed. The edition carries a 1934 copyright notice; its current rights status is RESEARCH REQUIRED (§11). | §§4.D, 8.1 |
+| Hindi lineage | *Assumed* to be the version most familiar to Hindi readers; no source consulted establishes this (see §14, question 2). Proverbial texture. Directly relevant to a Hindi-first project. A 19th-century printed Hindi text (Barker 1855) is readable on page images. | Mediated through Braj, with uncertain Sanskrit ancestry. Tells one plot twice (XXII, XXIV). Attribution confusion. Moralising. Read mainly in translation here. Which Hindi text would be authoritative is undecided. | §§4.E, 6, 8 |
 
 ---
 
@@ -526,35 +535,35 @@ The options below are possibilities to evaluate. **None is recommended.**
 
 | | |
 |---|---|
-| Advantages | The best-verifiable source: a verse-numbered e-text with a disclosed basis and a public-domain translation. A coherent frame with an explicit count (24 + 1). Careful reasoning in the answers suits layered reading. An early, datable context (Kashmir, Ananta's reign). |
-| Disadvantages | Further from the Hindi tradition that Hindi readers know: a different king's name and frame, and a different order from the Hindi. A courtly register to be reimagined in modern Hindi. |
+| Advantages | The most precisely citable source among those consulted: its Sanskrit is in a verse-numbered e-text with a disclosed basis, so a retelling can be checked verse by verse. (The e-text has not been checked against the 1915 print, and is CC BY-NC-SA.) A 19th-century English translation (Tawney) that is very likely public domain, subject to §11. A coherent frame with an explicit count (24 + 1). Answers that often reason through each party. A context datable to Ananta's reign in Kashmir; absolute dates are RESEARCH REQUIRED. |
+| Disadvantages | Further from the Hindi *Baitāl Pachīsī* lineage: a different king's name and frame, and a different order. (How familiar that lineage is to present-day Hindi readers is an assumption, not a finding; see §14.) A courtly register to be reimagined in modern Hindi. |
 | Textual consistency | High: one text, one frame |
 | Literary potential | High in imagery and reasoning; the narrator's maxims can be adapted or dropped |
-| Verification burden | **Lowest**: tale-by-tale verse references are available |
+| Verification burden | **Lowest for checking a retelling against the Sanskrit**, because tale-by-tale verse references are available. Not lowest for every purpose: a Hindi-first project may still need comparison with the Hindi lineage, and checking the e-text against the print remains to be done. |
 | Copyright and access | The Sanskrit is unrestricted. The GRETIL e-text is NonCommercial-licensed, so a print edition or Tawney may be needed for commercial reuse questions. |
-| What is lost | Jambhaladatta's unique tales and endings. Śivadāsa's and the Hindi's familiar order and maxims. The Hindi frame (Bharthari, three births). |
+| What is lost | Jambhaladatta's unique tales and endings. Śivadāsa's and the Hindi's order and maxims. The Hindi frame (Bharthari, three births). |
 
 ### Option 2: Adopt Śivadāsa as the primary foundation
 
 | | |
 |---|---|
-| Advantages | Widely circulated. Close in order to the Hindi, which eases familiarity for Hindi readers. Rich in verses. |
-| Disadvantages | No modern translation was found, so a new working translation would be needed. Manuscript variation (several endings; one manuscript with an extra tale). A heavy moralising layer. Undated. |
+| Advantages | Widely circulated (per Uhle). Close in order to the Hindi lineage. Rich in verses. |
+| Disadvantages | No modern translation was found, so a new working translation would be needed. Manuscript variation (several endings; one manuscript with an extra tale). The printed ending mixes in verses Uhle attributes to Kṣemendra. A heavy moralising layer. Undated. |
 | Textual consistency | Medium: choices between manuscripts will be needed |
 | Literary potential | Medium to high, but its moralising conflicts with D-006 unless reshaped |
-| Verification burden | **High**: OCR'd 1881 edition; specialist Sanskrit help likely needed |
+| Verification burden | **High**, because of manuscript variation and mixed textual evidence (for example, the printed ending), not because of access: page images of Uhle 1881 are freely available. Specialist Sanskrit help likely needed. |
 | Copyright and access | The 1881 edition is likely public domain (RESEARCH REQUIRED) |
-| What is lost | Somadeva's richer verse and explicit structure; Jambhaladatta's variants |
+| What is lost | Somadeva's verse and explicit structure; Jambhaladatta's variants |
 
 ### Option 3: Use the Hindi *Baitāl Pachīsī* lineage as the principal literary foundation, consulting the Sanskrit traditions as comparative references
 
 | | |
 |---|---|
-| Advantages | The version closest to Hindi readers' memory, which bears on a Hindi-first project. Lively dialogue and proverbs. Treats a real literary tradition on its own terms. |
-| Disadvantages | Late and mediated: its Braj source is not located and its Sanskrit ancestry is uncertain. Attribution is confused. It tells the body-entering plot twice (XXII and XXIV, with different riddles), and decisions would be needed about that and about "25". The original Hindi would need to be read (this report used translations). |
+| Advantages | A Hindi literary tradition, which bears directly on a Hindi-first project. It is *assumed*, not established, to be the version closest to Hindi readers' memory (§14, question 2). Dialogue and proverbs. Treats a real literary tradition on its own terms. |
+| Disadvantages | Late and mediated: its Braj source is not located and its Sanskrit ancestry is uncertain. Attribution is confused. It tells the body-entering plot twice (XXII and XXIV, with different riddles), and decisions would be needed about that and about "25". The Hindi would need to be read in full; this report used translations, plus four passages of Barker's printed Hindi. |
 | Textual consistency | Medium: several editions and revisions exist (1805 text, Tāriṇī Charan Mitr's revision, Forbes, Barker) |
-| Literary potential | High in familiarity and colour; moralising needs handling |
-| Verification burden | **High**: requires locating an authoritative Hindi edition and possibly the Braj |
+| Literary potential | High in colour; moralising needs handling. Any value from familiarity depends on the assumption in §14, question 2. |
+| Verification burden | **High**. Barker 1855's printed Hindi is now accessible on page images, but which text would be authoritative (the 1805 print, Barker, Forbes, or a later edition) is undecided, and the 1805 print and the Braj have not been located. |
 | Copyright and access | 19th-century editions are likely public domain. Modern Hindi editions are probably not. |
 | What is lost | Proximity to the oldest tellings; Somadeva's frame and theology; Jambhaladatta's variants |
 
@@ -568,13 +577,13 @@ The options below are possibilities to evaluate. **None is recommended.**
 | Literary potential | Medium; much would need to be supplied by the writer |
 | Verification burden | Medium: Emeneau's edition is usable, but the text's basis is a weaker recension |
 | Copyright and access | **Emeneau 1934: rights RESEARCH REQUIRED** |
-| What is lost | Two familiar tales; the agreement of the other traditions on several endings |
+| What is lost | Two tales that the other traditions share (KSS 12, 14); the agreement of the other traditions on several endings |
 
 ### Option 5: One tradition for the frame, another for selected tales (a hybrid)
 
 | | |
 |---|---|
-| Advantages | Could pair, for example, a frame from one tradition with the richest telling of each tale. Allows deliberate use of meaningful variants. |
+| Advantages | Could pair, for example, a frame from one tradition with a preferred telling of each tale. Allows deliberate use of meaningful variants. |
 | Disadvantages | **High risk of incoherence.** Frames and tales were shaped together: the king's identity, the ascetic's motive, and the closing theology differ (§5). Some answers depend on details that vary between versions (§8). Blending can create a version that never existed, while appearing to be traditional. |
 | Textual consistency | **Low unless strictly documented**: every tale would need its source recorded (D-017) |
 | Literary potential | High in principle |
@@ -600,13 +609,15 @@ A disciplined variant of Option 5. One frame is fixed (from one tradition). For 
 
 ## 14. Questions for the user before choosing
 
-1. **What does "25 tales" (D-001) mean in practice?** Somadeva has 24 tales plus a concluding 25th. The Hindi has 25, one plot appearing twice. Jambhaladatta's text has 25 narrated tales, and Emeneau hypothesises an original of 27. Should the project's count follow the chosen foundation? (Recorded as `Q-410`.)
-2. **How much should familiarity to Hindi readers weigh against textual age and verifiability?** (Options 1 and 3 pull in opposite directions.)
+1. **What does "25 tales" (D-001) mean in practice?** Somadeva has 24 tales plus a concluding 25th. Śivadāsa has 24 plus the conclusion counted as the 25th (one manuscript has a different 25th story). Jambhaladatta's text has 25 narrated tales, and Emeneau hypothesises an original of 27. The Hindi has 25 numbered tales, with one plot told twice and the final riddle and conclusion inside XXV. Kṣemendra's edition has 25 headings, but its internal count is not verified. Should the project's count follow the chosen foundation? (Recorded as `Q-410`.)
+2. **How much should familiarity to Hindi readers weigh against textual age and verifiability?** This report *assumes*, without evidence from the sources consulted, that the Hindi *Baitāl Pachīsī* lineage is the version most familiar to present-day Hindi readers. Is that the user's experience, and does it matter? (Options 1 and 3 pull in different directions on this.)
 3. **Which frame?** The frame choice (§5) also settles the king's name (Trivikramasena, Vikramāditya, or Vikramakesarin), the ending's theology, and the Vetāla's backstory. Related to `Q-002`.
 4. **How should the project treat moralising and gendered generalisations in the sources** (§§3, 8, 9), given D-006? Should they be retained as characters' views, reshaped, or omitted?
 5. **Should variant endings be visible to readers** (for example, J 10's reversal) or recorded only internally? Related to `Q-404`.
 6. **What level of specialist help is acceptable?** Options 2, 3, and 5 need a Sanskrit or Hindi/Braj specialist to verify texts properly.
 7. **Is commercial use anticipated?** It affects the GRETIL licence and the copyright checks (§11).
+8. **If the Hindi lineage matters, which Hindi text should be treated as authoritative?** The candidates include the 1805 Calcutta print (not located), Barker 1855, Forbes's edition, or a later edition.
+9. **Should a Hindi specialist read the translation-sensitive passages before deciding?** These are Hindi IX (the husband's coldness), XV (*abhyās*), XX (*kāmī*) and XXIV (the father's laughing and weeping), so far read only by AI readers on Barker's page images.
 
 ---
 
@@ -616,7 +627,6 @@ A disciplined variant of Option 5. One frame is fixed (from one tradition). For 
 
 - The 1805 Calcutta print of the *Baitāl Pachīsī*, and any copy of the Braj version by Surat
 - Uhle 1914 (*BSGW* 66), the 1487 Śivadāsa manuscript
-- Jørgensen 1921 (*ZDMG* 75)
 - Any edition of the Bhaviṣya Purāṇa Vetāla section
 
 ### Sources located but not consulted in this session
@@ -625,7 +635,10 @@ A disciplined variant of Option 5. One frame is fixed (from one tradition). For 
 - Tawney 1880–84 translation (vol. 2)
 - Penzer's tale-by-tale appendix notes (vol. 6 pp. 229 ff.; vol. 7 pp. 199 ff.)
 - Vidyasagara 1873 printing of Jambhaladatta
-- Oesterley 1873; Forbes's Hindi text; Barker's tale texts
+- Oesterley 1873; Forbes's Hindi text; Barker's Hindi tale texts (apart from four passages on page images)
+- Jørgensen 1921 beyond pp. 213–214
+- Francke 1921 (*ZDMG* 75, from p. 72), a **research lead** for the Tibetan tradition: only its title has been read [S17]
+- Lévi, *Journal Asiatique* 1885–86, on which any date for Kṣemendra depends
 
 ### Sources not accessible
 
@@ -634,25 +647,25 @@ A disciplined variant of Option 5. One frame is fixed (from one tradition). For 
 
 ### Known only through secondary scholarship
 
-- Kṣemendra's Vetāla text
-- The Newari version
+- Kṣemendra's Vetāla text (apart from two pages)
+- The Newari version (apart from Jørgensen's introduction)
 - Vallabhadāsa
 - The Bhaviṣya Purāṇa version
 
 ### Disputed dates and attributions
 
-- Uhle's edition: 1881 (title page) against 1884 (Penzer)
+- Uhle's edition: 1881 (title page) against 1884 (Penzer, and once in Emeneau §1). The origin of 1884 is unresolved.
+- Kṣemendra's date: Emeneau's 1037 and 1050 are conditional (§4.A). The relative priority of Kṣemendra and Somadeva is not established.
 - The roles in the 1805 Hindi text (Mazhar ʿAlī Khān with Lallū Lāl's aid, against Lallū Lāl as author or "creator")
 - The Braj translator's name (Surat / Surat Kabishwar / Surati Misar)
-- The Newari version's dependence on Jambhaladatta (Emeneau against the view attributed to Jørgensen and Otter)
 - The presence of verse in Jambhaladatta (Penzer against Emeneau)
 
 ### Tale comparisons not yet verified
 
-- Every K column entry in §7
-- The J entries other than J 10 (titles only)
-- Ś 22's answer
-- The Hindi entries against the Hindi original
+- Every K column entry in §7, apart from tale 10 and the KSS 17 story (checked by the reviewer on two page images)
+- The J entries other than J 10 and J 25 (titles only)
+- The Hindi entries against the Hindi original (apart from four passages of Barker's printed Hindi read on page images by AI readers)
+- The connotation of the Hindi words *abhyās* (XV) and *kāmī* (XX) in their register, which needs a Hindi specialist
 - Ryder's reasons for omitting KSS 10 and 19 (the omissions themselves are now verified from his contents)
 - The source of Uhle's 1881 summary of Jambhaladatta's ending ("oil-miller's son", "king's brother"), which disagrees with Emeneau's printed text (§5)
 - The cemetery and penalty details for J and Ś in §5
@@ -660,7 +673,8 @@ A disciplined variant of Option 5. One frame is fixed (from one tradition). For 
 ### Questions needing manuscripts or specialist expertise
 
 - The Nepali recension (W is "unusable"; others may exist)
-- The relationship between Kṣemendra's verses and the Śivadāsa manuscripts
+- The relationship between Kṣemendra's verses and the Śivadāsa manuscripts, including the printed Ś conclusion (vv. 2–4, Uhle p. XIV)
+- The date of the Newari version, and whether the 1675 Sanskrit–Newari manuscript is related to it
 - The Sanskrit source of the Braj version
 - Absolute dating of Somadeva and Śivadāsa
 
@@ -672,24 +686,25 @@ A disciplined variant of Option 5. One frame is fixed (from one tradition). For 
 
 ## Independent Review Required
 
-**This report was compiled by one AI research session.** Under D-020, it needs review by a separate reviewer before the user relies on it for Q-401. The checklist below is ordered by the brief's priorities. Each item gives what to check and where.
+**This report was compiled by one AI research session.** D-020 requires that the author not approve their own work. The checklist below, ordered by the brief's priorities, is kept as the record of what the author originally asked a reviewer to check. Where an item's original wording has since been corrected, the correction is noted under the review status, and the body of the report holds the current text.
 
-**Review status (2026-11-16).**
+**Review status (2026-11-17).**
 
-- **R1–R14** were reviewed by a separate AI session in [PR #3](https://github.com/HHrisHikesHH/Betall-Pacchisi/pull/3) (file `docs/research/SOURCE_TRADITIONS_REVIEW.md`; not on this branch until PR #3 is merged). Eleven were confirmed, and three were confirmed in part and corrected in part (R9, R10, R14). Its corrections C1–C13 were re-checked against the sources by this report's author and are incorporated above (see [Revision history](#revision-history)). The applied corrections have not themselves been re-reviewed. Two corrections were refined when re-checked:
-  - **C5.** The Vetāla's private deliberation is at 12.31.61–64 and the warning itself at 12.31.65–73. The warning already promises the Vidyādhara power (12.31.72), before the promise at 12.32.21.
-  - **C12.** For Hindi XV, the report cites Barker's free translation, which gives the caste reasoning. The interlinear wording quoted by the reviewer was not located in this pass, so it is not cited.
-
-  All other corrections were applied as proposed, after checking the cited passages.
-- **R15–R24** and the judgements in **§§9–14** have **not yet been reviewed**.
-- **Neither review was done by a human specialist.** The Hindi original, the Durgaprasad–Parab print, the 1805 Calcutta print, and the BKM text remain unchecked by anyone.
+- **What has been reviewed.** A separate AI session has reviewed this report in [PR #3](https://github.com/HHrisHikesHH/Betall-Pacchisi/pull/3) (file `docs/research/SOURCE_TRADITIONS_REVIEW.md`; not on this branch until PR #3 is merged), in two passes:
+  - **First pass** (on `94663c9`): R1–R14. Eleven were confirmed, and three were confirmed in part and corrected in part (R9, R10, R14). It proposed corrections C1–C13, which this report's author re-checked and applied at `ae61239`. Two were refined when re-checked: C5 (the warning is at 12.31.65–73, already promising the Vidyādhara power at 12.31.72) and C12.
+  - **Second pass** (on `ae61239`, reviewer commit `02febde`): the applied C1–C13, R15–R24, and the judgements in §§9–14. Of C1–C13, **10 were verified and 3 partially verified** (C2, C6, C12): their applied text was correct, but a residual or new problem remained. The pass proposed further corrections **A1–A12**.
+- **What this revision does.** A1–A12 and the three residual issues are applied in this revision (see [Revision history](#revision-history)), after the author re-checked the evidence where local copies allowed. The second pass also corrected two checklist items as originally worded: R2 gave the wrong note number for Emeneau p. 71 (an OCR misreading; it is **note 10**), and R15's "c. 1037" is only conditional in Emeneau (§4.A).
+- **What is still required.** A **final independent confirmation** of this revision (A1–A12 as applied) has not yet been done.
+- **What remains unverified.** Some claims could not be verified because the relevant editions were not available or because specialist language review was not. Not consulted: the 1805 Calcutta print, Forbes's Hindi text, any Braj text, the Durgaprasad–Parab print, Lévi, Uhle 1914, and Vidyasagara 1873. The BKM was checked on only two pages. The Hindi readings rest on one printed text (Barker 1855), read on page images by AI readers.
+- **Not a specialist review.** Both passes of the independent review, and this report, were done by AI models. Neither is a human specialist review. A specialist reading of the Sanskrit and Hindi points that turn on language is **recommended**, not an approved requirement; whether the AI review satisfies D-020 is for the user to judge.
+- **No decision.** No source tradition has been selected, and **Q-401 remains open**.
 
 ### Priority 1: claims that could affect the choice of tradition
 
 | # | Claim | Where to check |
 |---|---|---|
 | R1 | KSS 12.32.24–27 states 24 question-tales plus a concluding 25th | GRETIL S02, and the Durgaprasad–Parab print |
-| R2 | J 10 adds a brahman-ogre, the husband rejects the wife, and the answer is the husband | Emeneau 1934 pp. 66–73 and note 40 |
+| R2 | J 10 adds a brahman-ogre, the husband rejects the wife, and the answer is the husband | Emeneau 1934 pp. 66–73 and note 10 (p. 71) |
 | R3 | The KSS 10 husband lives happily with her and the answer is the thief (12.17.60–67); Ś 9's husband embraces her and the answer is the thief | S02; Uhle 1881, tale IX |
 | R4 | The 1805 introduction names Mazhar ʿAlī Khān "Wilā" as setting forth the text with Lallū Lāl's aid, Surat as the Braj translator, and Tāriṇī Charan Mitr as reviser | Barker 1855, "Introduction to the Calcutta edition of 1805"; ideally the 1805 print |
 | R5 | The Hindi tale order follows Śivadāsa's closely | Compare Platts with Uhle |
@@ -742,25 +757,26 @@ A disciplined variant of Option 5. One frame is fixed (from one tradition). For 
 
 ## 17. Bibliography
 
-Entries give only details verified in this session. Details marked *unverified* must be confirmed before citation. "IA" means the Internet Archive (`https://archive.org/details/<identifier>`). Accessed 2026-11-16.
+Entries give only details verified in this research. Each entry states whether a detail comes from a **title page** (and whether that was seen on a page image or only through OCR) or only from **catalogue metadata**. Details marked *unverified* must be confirmed before citation. "IA" means the Internet Archive (`https://archive.org/details/<identifier>`). Accessed 2026-11-16.
 
 | ID | Entry |
 |---|---|
 | **S01** | Somadeva. *Kathāsaritsāgara*. GRETIL e-text, "based on the edition by Durgaprasad and Parab, Bombay: Nirnaya-Sagar Press 1915". Input by James Mallinson, Elena Artesani, Rabi Acharya, Nirajan Kafle, and Tyler Neill; TEI version 2020-07-31. Licence CC BY-NC-SA 4.0. `https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_somadeva-kathAsaritsAgara.xml` (plain text under `transformations/plaintext/`). |
 | **S02** | Somadeva. *Kathāsaritsāgara, Vetālapañcaviṃśatikā* (= KSS 12.8.21–12.32.41). GRETIL e-text, input by Elena Artesani (supervisor Paolo Magnone), analytic version; TEI version 2020-07-31. Licence CC BY-NC-SA 4.0. `https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_somadeva-kathAsaritsAgaravetAlapaJcaviMzatikA.xml` |
-| **S03** | Tawney, C. H. (trans.). *The Kathá sarit ságara; or, Ocean of the Streams of Story*, vol. 2. Calcutta, 1880–84 (place and year per catalogue; *unverified*). IA: `kathsaritsga02somauoft`. Located; not read. |
-| **S04** | Penzer, N. M. (ed.). *The Ocean of Story, being C. H. Tawney's Translation of Somadeva's Kathā Sarit Sāgara*, vol. 6. 1926 (publisher *unverified*). Appendix, "The Twenty-five Tales of a Vetāla", pp. 225 ff. IA: `oceanofstorybein06somauoft`. |
-| **S05** | Penzer, N. M. (ed.). *The Ocean of Story*, vol. 7. 1927 (publisher *unverified*). Contents; appendix continued pp. 199 ff. IA: `oceanofstorybein07somauoft`. |
-| **S06** | Uhle, Heinrich (ed.). *Die Vetālapañcaviṃçatikā in den Recensionen des Çivadāsa und eines Ungenannten, mit kritischem Commentar*. Abhandlungen für die Kunde des Morgenlandes, VIII. Band, No. 1. Leipzig: in Commission bei F. A. Brockhaus, 1881. IA: `in.ernet.dli.2015.56465`. |
+| **S03** | Tawney, C. H. (trans.). *The Kathá sarit ságara; or, Ocean of the Streams of Story*, vol. 2. Calcutta: J. W. Thomas, at the Baptist Mission Press, 1884. *Evidence:* the vol. 2 title page (read through OCR) gives Calcutta, J. W. Thomas, the Baptist Mission Press and 1884. The Internet Archive catalogue gives "Calcutta: Thomas (pr.)", 1880–1884. The foreword to Penzer vol. 6 says the translation was printed in 1880 and 1884 at the Baptist Mission Press in Calcutta. Vol. 1 (1880) was not seen. IA: `kathsaritsga02somauoft`. Located; the text not read. |
+| **S04** | Penzer, N. M. (ed.). *The Ocean of Story, being C. H. Tawney's Translation of Somadeva's Kathā Sarit Sāgara*, vol. 6. London: privately printed for subscribers only by Chas. J. Sawyer, 1926. *Evidence:* the Internet Archive catalogue gives "London, Priv. print. for subscribers only by C. J. Sawyer", 1924–28, for the series. The vol. 6 title page, read only through OCR, reads "Chas. J. Sawyer Ltd., Grafton House" and "MCMXXVI" (1926); this volume year has not been checked on a page image. Appendix, "The Twenty-five Tales of a Vetāla", pp. 225 ff. IA: `oceanofstorybein06somauoft`. |
+| **S05** | Penzer, N. M. (ed.). *The Ocean of Story*, vol. 7. London: privately printed for subscribers only by Chas. J. Sawyer, 1927. *Evidence:* as for S04; the vol. 7 title page, read only through OCR, reads "MCMXXVII" (1927); not checked on a page image. Contents; appendix continued pp. 199 ff. IA: `oceanofstorybein07somauoft`. |
+| **S06** | Uhle, Heinrich (ed.). *Die Vetālapañcaviṃçatikā in den Recensionen des Çivadāsa und eines Ungenannten, mit kritischem Commentar*. Abhandlungen für die Kunde des Morgenlandes, VIII. Band, No. 1. Leipzig: in Commission bei F. A. Brockhaus, 1881. *Evidence:* title page (confirmed by the reviewer on a page image): Leipzig, 1881, with F. A. Brockhaus as commission agent. Penzer and Emeneau §1 each also give "1884"; the origin of that date is unresolved (§4.C). IA: `in.ernet.dli.2015.56465`. |
 | **S07** | Emeneau, M. B. (ed. and trans.). *Jambhaladatta's Version of the Vetālapañcavinśati: A Critical Sanskrit Text in Transliteration, with an Introduction and English Translation*. American Oriental Series 4. New Haven: American Oriental Society, 1934 (printed by Waverly Press, Baltimore). IA: `in.ernet.dli.2015.280386` (also `in.ernet.dli.2015.142236`). |
-| **S08** | Kṣemendra. *The Bṛhatkathāmañjarī of Kshemendra*. Ed. Śivadatta and Kāśīnātha Pāṇḍuraṅga Parab. Kāvyamālā 69. 1901 (editors and series per catalogue metadata; publisher *unverified*). IA: `in.ernet.dli.2015.486827`; also `india.history.resource.118328`. A 1931 second edition is at IA `in.ernet.dli.2015.312579`. |
+| **S08** | Kṣemendra. *The Bṛhatkathāmañjarī of Kshemendra*. Ed. Śivadatta and Kāśīnātha Pāṇḍuraṅga Parab. Kāvyamālā 69. 1901 (editors and series per Internet Archive catalogue metadata, which lists "Pandurang Parab, Kashinath" for 1901 and catalogues the 1931 edition under "Pandit, Sivadatta"; publisher *unverified*). IA: `in.ernet.dli.2015.486827`; also `india.history.resource.118328`. A 1931 second edition is at IA `in.ernet.dli.2015.312579`. |
 | **S09** | Ryder, Arthur W. (trans.). *Twenty-two Goblins*. Illustrated by Perham W. Nahl. London and Toronto: J. M. Dent & Sons; New York: E. P. Dutton & Co., 1917. IA: `cu31924023163292`. |
-| **S10** | Barker, W. Burckhardt (trans.), and E. B. Eastwick (ed.). *The Baitál Pachísí; or, Twenty-five Tales of a Demon: A New Edition of the Hindí Text …*. Hertford, 1855 (place per Penzer; publisher *unverified*). Includes "Introduction to the Calcutta edition of 1805" (translated). IA: `baitlpachsortwe00eastgoog`. |
+| **S10** | Barker, W. Burckhardt (trans.), and E. B. Eastwick (ed.). *The Baitál Pachísí; or, Twenty-five Tales of a Demon: A New Edition of the Hindí Text …*. Hertford: Stephen Austin, 1855. *Evidence:* the place, Hertford, is on the title page (reviewer, OCR). The Internet Archive catalogue gives the publisher as "S. Austin". The title page, read by this report's author only through OCR, also reads "Printed and published by Stephen Austin"; that line has not been checked on a page image. The year (1855) is per Penzer and the catalogue; the title page's roman numeral is garbled in the OCR. Includes "Introduction to the Calcutta edition of 1805" (translated). IA: `baitlpachsortwe00eastgoog`. |
 | **S11** | Platts, John (trans.). *The Baitál Pachchísí; or, The Twenty-five Tales of a Sprite. Translated from the Hindi Text of Dr. Duncan Forbes*. London: Wm. H. Allen & Co., 1871. IA: `baitalpachchisto00john`. |
 | **S12** | Otter, Felix. *A Course in Reading Classical Newari: Selections from the Vetālapañcaviṃśati*. Heidelberg and Berlin: CrossAsia eBooks, 2021 (details from a review listing; *unverified*). NOT ACCESSIBLE. |
-| **S13** | Jørgensen, Hans. "Ein Beitrag zur Kenntnis des Nevārī". *Zeitschrift der Deutschen Morgenländischen Gesellschaft* 75 (1921): 213–236 (as cited by Emeneau, whose OCR shows "76" in one place). Not consulted. |
+| **S13** | Jørgensen, Hans. "Ein Beitrag zur Kenntnis des Nevārī". *Zeitschrift der Deutschen Morgenländischen Gesellschaft* 75 (1921): 213–236. *Evidence:* volume and pages from the volume's contents (next article on p. 237), confirmed by the reviewer and by this report's author (OCR). Consulted: pp. 213–214 only. IA: `in.ernet.dli.2015.70809`. |
 | **S14** | Anonymous (author not identified). Article on Kathā literature and the Purāṇas, *Purāṇa* bulletin, 1965, as indexed at `wisdomlib.org/hinduism/journal/purana-bulletin/d/doc1456702.html`. NOT ACCESSIBLE; known only through a search summary. |
 | **S15** | Internet Archive record `bdrc-W23194`: *ro dnos grub can gyi sgrun: a manuscript collection of thirty-seven Tibetan vetala stories* (1975). Catalogue record only. |
 | **S16** | Jibananda Vidyasagara (ed.). *Vetālapañcavinśatiḥ*. Calcutta, 1873 (per Emeneau). IA identifier beginning `nnna_vetala-pancha-vimsati-jivananda-vidyasagara-1873`. Located; not read. |
+| **S17** | Francke, A. H. "Die Geschichten des toten No-rub-can. Eine tibetische Form der Vetālapañcaviṃśatikā aus Purig". *Zeitschrift der Deutschen Morgenländischen Gesellschaft* 75 (1921), from p. 72. *Evidence:* title and starting page from the volume's contents (OCR). **Research lead only: the article has not been read.** IA: `in.ernet.dli.2015.70809`. |
 
 **Cited within the sources above but not consulted:** M. Winternitz, *Geschichte der indischen Litteratur*, vol. 3; S. Lévi, *Journal Asiatique* ser. 8, t. 6 (1885) and t. 7 (1886); M. B. Emeneau, "Kṣemendra as kavi", *JAOS* 53 (1933): 124–143; F. D. K. Bosch, *De Legende van Jīmūtavāhana in de Sanskritlitteratuur* (Leiden, 1914); J. Schick, in *Studia Indo-Iranica* (1931): 89–107; H. Oesterley, *Baitál Pachísí* (Leipzig, 1873); R. F. Burton, *Vikram and the Vampire* (London, 1870); H. Uhle, *BSGW* 66 (1914).

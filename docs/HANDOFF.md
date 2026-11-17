@@ -1,6 +1,6 @@
 # Handoff
 
-*Last updated: 2026-11-16*
+*Last updated: 2026-11-17*
 
 Read this first when you start a new session on this project. It summarises the current state and links to the authoritative documents. **It is never the authority on a decision.** [DECISIONS.md](DECISIONS.md) is.
 
@@ -9,10 +9,12 @@ Read this first when you start a new session on this project. It summarises the 
 **The project is at its foundation stage.** Only documentation and research exist.
 
 - **Source research is in progress, in two open pull requests.**
-  - **PR #2** contains the initial comparative report ([research/SOURCE_TRADITIONS_COMPARISON.md](research/SOURCE_TRADITIONS_COMPARISON.md)).
-  - **PR #3** contains an independent review of its checklist items R1–R14 (`docs/research/SOURCE_TRADITIONS_REVIEW.md`, on PR #3's branch). That review proposed corrections C1–C13, which have been incorporated into PR #2 and are awaiting verification.
-  - **R15–R24** and the report's **§§9–14** still require review.
-  - **Q-401** (primary source tradition) and **Q-410** (how the 25 tales are counted) remain open.
+  - **PR #2** contains the comparative report ([research/SOURCE_TRADITIONS_COMPARISON.md](research/SOURCE_TRADITIONS_COMPARISON.md)).
+  - **PR #3** contains an independent review by a separate AI session (`docs/research/SOURCE_TRADITIONS_REVIEW.md`, on PR #3's branch). It has now covered **all checklist items R1–R24** and the report's **§§9–14**.
+  - The review's first-round corrections **C1–C13** were applied to PR #2. The reviewer found 10 verified and 3 partially verified (C2, C6, C12).
+  - Its second-round corrections **A1–A12**, and the three residual issues, are now incorporated into PR #2. **A final independent confirmation of this revision is still outstanding.**
+  - The independent review is an AI review, **not a human specialist review**. Some claims remain unverified because editions (the 1805 Hindi print, Forbes's text, the Braj, the 1915 KSS print, Kṣemendra's text) or specialist language review were not available.
+  - **Q-401** (primary source tradition) and **Q-410** (how the 25 tales are counted) remain open. No source tradition has been selected.
 - **No story drafting has begun.**
 - No story blueprints have been produced.
 - No art style, artwork, or audio exists.
@@ -50,12 +52,13 @@ Full wording and IDs are in [DECISIONS.md](DECISIONS.md).
 | 2026-11-16 | Refinement pass after the user's review: added the narrator sensibility (D-033), corrected the source attribution, and corrected status labels (see *Register corrections* in DECISIONS.md). |
 | 2026-11-16 | Initial comparative research (PR #2) into the Vetālapañcaviṃśati / Betal Pachisi traditions, on branch `research/source-traditions-comparison`. Covers Somadeva, Kṣemendra, Śivadāsa, Jambhaladatta, the Braj/Hindi lineage, and other witnesses. Partly complete: Kṣemendra's text, the Newari version, and the Bhaviṣya Purāṇa version were not read directly (see the report's §15). |
 | 2026-11-16 | Independent review of R1–R14 by a separate AI session (PR #3). Its corrections C1–C13 were re-checked against the sources and incorporated into the report on PR #2, together with qualified wording on the copyright of historical texts (§11). |
+| 2026-11-17 | Second independent-review pass (PR #3 §7) covering the applied C1–C13, R15–R24 and §§9–14. Its corrections A1–A12 and the residual issues in C2, C6 and C12 were re-checked where possible and incorporated into the report on PR #2. Main changes: the Hindi readings in tales XV and XX are now described as partial, translation-sensitive shifts needing a Hindi specialist; Śivadāsa's printed ending is shown to be textually mixed; Kṣemendra's date and priority are marked as not established; the Newari relationship is described as compatible views, not a dispute; evaluative wording in §§9, 12–14 neutralised. |
 
 ## Major unresolved questions
 
 The full list is in [OPEN_QUESTIONS.md](OPEN_QUESTIONS.md). The most consequential are:
 
-- **Q-401**: which source tradition is the primary literary foundation (RESEARCH REQUIRED; initial research compiled and partly reviewed, see Current status).
+- **Q-401**: which source tradition is the primary literary foundation (RESEARCH REQUIRED; research compiled and independently reviewed by an AI session, final confirmation outstanding, see Current status).
 - **Q-410**: how the approved "25 tales" are counted, given that the traditions differ.
 - **Q-101 / Q-107**: book behaviour (scroll, page-turn, or hybrid) and the reading layout.
 - **Q-201 / Q-203**: the final art style and the look of Vikram and Betal.
@@ -71,14 +74,13 @@ P-001 to P-007 in [DECISIONS.md](DECISIONS.md#proposals-awaiting-the-users-decis
 
 **Finish verifying the source research before Q-401 is decided.**
 
-1. **Check the incorporated corrections.** PR #3 reviewed R1–R14 and proposed corrections C1–C13. The report's author has incorporated them into PR #2 (see the report's *Revision history*). The incorporation itself still awaits verification: someone other than the author should confirm that each correction was applied accurately.
-2. **Review what has not been reviewed yet:** items **R15–R24** (dates and authorship, relationships between traditions, bibliography, licences, copyright) and the judgements in **§§9–14** of the report.
-3. **Close the gaps that need a human specialist**, where possible: the Hindi original (Barker 1855 or Forbes), the Durgaprasad–Parab print of the KSS, and Kṣemendra's text.
-4. **The user then decides Q-401 and Q-410**, using the options in §13 and the questions in §14 of the report.
+1. **Confirm the latest revision independently.** The A1–A12 corrections, and the fixes for the residuals in C2, C6 and C12, have been incorporated into PR #2 by the report's author (see the report's *Revision history*). Someone other than the author should confirm that each was applied accurately.
+2. **Decide whether to close the gaps that need a specialist** (a recommendation, not an approved requirement): a Hindi/Braj reader for Hindi IX, XV, XX and XXIV, and ideally the 1805 print or Forbes's text; a Sanskritist to spot-check the KSS and Śivadāsa readings; the Durgaprasad–Parab print of the KSS; and Kṣemendra's text.
+3. **The user then decides Q-401 and Q-410**, using the options in §13 and the questions in §14 of the report. The reviewer judged the evidence sufficient to begin deciding Q-410, and to begin, though not conclude, a discussion of Q-401.
 
 P-005 (making the source comparison the next task) has not been formally approved; the research was carried out at the user's request. Neither PR #2 nor PR #3 has been merged.
 
-**Do not begin writing any story** until the research has been verified and the user has chosen the literary foundation.
+**Do not begin writing any story** until the research has been confirmed and the user has chosen the literary foundation.
 
 ## Notes for the next session
 
