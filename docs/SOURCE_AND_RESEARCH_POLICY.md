@@ -8,6 +8,8 @@ This policy governs how the project identifies, compares, cites, and verifies it
 
 Betal Pachisi exists in several textual traditions. **Do not assume they are identical**, and do not treat the familiar modern version as the oldest or definitive one by default. The project's primary literary foundation will be chosen **only after** the traditions have been researched and compared.
 
+**Working direction (APPROVED, D-034):** D-034 is the authority: the project is not bound to one recension. Elements from different traditions may be combined under the rules in D-034 (practical guide: [STORYTELLING_NORTH_STAR.md](STORYTELLING_NORTH_STAR.md) §7, D-036), and every combination must be recorded as in §§5–6 below. This does not choose a primary tradition (`Q-401`).
+
 ## 2. Candidate source traditions
 
 **RESEARCH REQUIRED.** No source has been chosen.
@@ -75,7 +77,7 @@ For each story, the research notes must include a **variant record** covering:
 - which traditions contain the tale, and its number in each,
 - the significant differences between them,
 - which version or versions our retelling follows, and why,
-- any points where we combine details from more than one tradition, stated explicitly.
+- any points where we combine details from more than one tradition, stated explicitly (for each borrowed element: tradition, edition and location, and why it serves the story; D-034).
 
 ## 6. Separating source from invention
 
@@ -85,7 +87,7 @@ Creative freedom is approved (D-009), but **our additions must always be disting
 
 - **Source events**: present in the sources, with citation.
 - **Interpretive choices**: where the sources are ambiguous or conflict and we chose a reading.
-- **Creative additions**: material that is ours, such as sensory detail, invented dialogue, inner thoughts, and atmosphere.
+- **Creative additions**: material that is ours, such as sensory detail, invented dialogue, inner thoughts, and atmosphere. A combination of elements from different traditions is also our composition, and is never presented as an attested version (D-034).
 
 This record is internal. Whether any of it is shown to readers (for example as "about this tale" notes) is **OPEN** (`Q-404`).
 

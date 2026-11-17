@@ -2,15 +2,19 @@
 
 > Decisions referenced here are recorded in [DECISIONS.md](DECISIONS.md). If this document and the register ever disagree, the register is authoritative.
 
+> The storytelling identity in practical form is in [STORYTELLING_NORTH_STAR.md](STORYTELLING_NORTH_STAR.md) (D-036).
+
 ## The ambition
 
-We want to create an immersive, illustrated storytelling experience built on the tales of **Vikram and Betal**, the collection known as *Betal Pachisi* (the "twenty-five tales of the Betal"). (D-001)
+We want to create an immersive, illustrated storytelling experience built on the tales of **Vikram and Betal**, the collection known as *Betal Pachisi* (the "twenty-five tales of the Betal"). What counts as the 25 is defined in D-035. (D-001, D-035)
 
 We take storytelling seriously. The aim is not to put old stories online. It is to let a reader **enter** a story: to be narrated to, to see it, to hear it, and to feel the night, the forest, and the weight of each riddle the Betal poses to the king. (D-004)
 
 ## The intended reader experience
 
 **It should feel like entering a story, not visiting a website.** Everything the reader meets should belong to the telling: the narration, the illustrations, the atmosphere, and the sound. Navigation and controls should serve that experience and not interrupt it. *How* this is achieved is still OPEN. See [OPEN_QUESTIONS.md](OPEN_QUESTIONS.md). (D-004)
+
+**Entertainment comes first** *(user's brief of 2026-11-17; adopted in D-036)*. The reader should want to keep reading. Reflection may follow and is rewarded (D-005), but is never forced (see the guiding line in the [North Star](STORYTELLING_NORTH_STAR.md)).
 
 **It should work on two levels.** (D-005)
 

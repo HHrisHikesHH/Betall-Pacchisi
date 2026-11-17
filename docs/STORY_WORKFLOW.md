@@ -39,6 +39,7 @@ Produced by the researcher and shared by both languages.
   - the characters and their relationships,
   - the riddle or dilemma, and Vikram's resolution,
   - the essential events that any retelling must keep.
+- Record which elements, if any, are borrowed from different traditions and why (D-034; practical guide in [STORYTELLING_NORTH_STAR.md](STORYTELLING_NORTH_STAR.md) §7), and note any D-035 distinctness question (a repeated plot counts separately only with a genuinely different dilemma or a substantially different story) for the user. Which tales form the 25 is `Q-411`, decided by the user, not tale by tale.
 - Note the emotional and thematic **possibilities**, without imposing a fixed interpretation.
 - *PROPOSED:* note candidate atmosphere moments (time, weather, setting, intensity) and candidate illustration moments. These are notes for later work and not decisions.
 - List the open questions this tale raises.
