@@ -8,7 +8,7 @@ This policy governs how the project identifies, compares, cites, and verifies it
 
 Betal Pachisi exists in several textual traditions. **Do not assume they are identical**, and do not treat the familiar modern version as the oldest or definitive one by default. The project's primary literary foundation will be chosen **only after** the traditions have been researched and compared.
 
-**Working direction (APPROVED, D-034):** D-034 is the authority: the project is not bound to one recension. Elements from different traditions may be combined under the rules in D-034 (practical guide: [STORYTELLING_NORTH_STAR.md](STORYTELLING_NORTH_STAR.md) §7, PROPOSED), and every combination must be recorded as in §§5–6 below. This does not choose a primary tradition (`Q-401`).
+**Working direction (APPROVED, D-034):** D-034 is the authority: the project is not bound to one recension. Elements from different traditions may be combined under the rules in D-034 (practical guide: [STORYTELLING_NORTH_STAR.md](STORYTELLING_NORTH_STAR.md) §7, D-036), and every combination must be recorded as in §§5–6 below. This does not choose a primary tradition (`Q-401`).
 
 ## 2. Candidate source traditions
 

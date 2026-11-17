@@ -9,7 +9,7 @@ Read this first when you start a new session on this project. It summarises the 
 **The project is at its foundation stage.** Only documentation and research exist.
 
 - **Source research is complete and merged.** PR #1 (foundation), PR #2 (comparative report, [research/SOURCE_TRADITIONS_COMPARISON.md](research/SOURCE_TRADITIONS_COMPARISON.md)) and PR #3 (independent AI review, [research/SOURCE_TRADITIONS_REVIEW.md](research/SOURCE_TRADITIONS_REVIEW.md)) are all merged into `main`. The review's corrections were applied and confirmed. **Limitations remain:** the review was by a separate AI session, not a human specialist. Kṣemendra's text, the Newari version and the Bhaviṣya Purāṇa version were not read directly, and several language-sensitive readings (Hindi IX, XV, XX, XXIV) still need a Hindi/Braj specialist. See the report's §15. No tradition has been selected.
-- **Current phase (2026-11-17): establishing the Storytelling North Star** (branch `docs/storytelling-north-star`, PR to `main`). This adds [STORYTELLING_NORTH_STAR.md](STORYTELLING_NORTH_STAR.md) (PROPOSED, P-008) and records two agreements the user stated: **D-034** (no single-recension binding; combine across traditions under stated rules) and **D-035** (what "the 25 tales" means). **Q-410 is resolved by D-035.** **Q-411** (which 25 tales) is new. Q-401 is narrowed, not resolved.
+- **Current phase (2026-11-17): establishing the Storytelling North Star** (branch `docs/storytelling-north-star`, PR to `main`). This adds [STORYTELLING_NORTH_STAR.md](STORYTELLING_NORTH_STAR.md) (D-036) and records two agreements the user stated: **D-034** (no single-recension binding; combine across traditions under stated rules) and **D-035** (what "the 25 tales" means). **The user approved D-034 and D-035 exactly as written, and the North Star (D-036, formerly P-008), on 2026-11-17.** **Q-410 is resolved by D-035.** **Q-411** (which 25 tales) is new. Q-401 is narrowed, not resolved.
 - No story blueprints have been produced.
 - No art style, artwork, or audio exists.
 - No technology has been chosen and no application code exists.
@@ -28,6 +28,7 @@ Full wording and IDs are in [DECISIONS.md](DECISIONS.md).
 - **Narration:** the manner of telling adapts to each moment. Occasional purposeful direct address, never lectures.
 - **Creative freedom:** *broad imagination, disciplined relevance*.
 - **Language:** Hindi and English at launch, switched with a toggle (not side by side). **Hindi is written, verified, and approved first, and only then adapted into English.** English is a literary adaptation. More languages later, such as Marathi and Kannada.
+- **Creative reference (D-036):** [STORYTELLING_NORTH_STAR.md](STORYTELLING_NORTH_STAR.md), including its entertainment-first emphasis and checklist.
 - **Source adaptation (D-034):** not bound to one recension. Elements from different traditions may be combined for a stronger story, with essential identity, dilemma, causality and emotional logic preserved, everything recorded, and no invention presented as attested. No primary tradition has been chosen.
 - **Sources:** research and compare the traditions before choosing a foundation. Cite editions, track variants, and separate source material from additions. Osho may be studied for technique only: no impersonation, attribution, fabricated quotes, or implied endorsement.
 - **Workflow:** research and blueprint, then Drafts 1 to 3 (a minimum), then independent verification, then the user's approval. Separate writer, critic, and verifier roles. Keep every record.
@@ -65,15 +66,14 @@ The full list is in [OPEN_QUESTIONS.md](OPEN_QUESTIONS.md). The most consequenti
 
 ## Proposals waiting for the user's decision
 
-P-001 to P-008 in [DECISIONS.md](DECISIONS.md#proposals-awaiting-the-users-decision): story record structure, project bibliography, character model sheets, audio asset register, source comparison as the next task, sound-design guardrails, and English adaptation guidelines, and **P-008 (adopt the North Star as the central creative reference, wording to be confirmed)**.
+P-001 to P-004, P-006 and P-007 in [DECISIONS.md](DECISIONS.md#proposals-awaiting-the-users-decision): story record structure, project bibliography, character model sheets, audio asset register, sound-design guardrails, and English adaptation guidelines. (P-005 is completed and P-008 is approved as D-036; both stay in the register as a record.)
 
 ## Recommended next task
 
-**The user reviews the North Star and the wording of D-034, D-035 and P-008**, and confirms or corrects them. Then, in the user's order:
+The North Star task is complete once PR #4 is merged (the user merges). Then, in the user's order:
 
-0. Confirm or close **P-005** (source comparison as next task, now overtaken by the completed research).
 1. Decide whether to commission specialist readings (recommended, not required): a Hindi/Braj reader for Hindi IX, XV, XX and XXIV; a Sanskritist to spot-check KSS and Śivadāsa readings; Kṣemendra's text. See the report's §15.
-2. Discuss Q-401 (primary foundation or combination; report §13 options 1–6 all remain open), Q-408 (source hierarchy) and Q-411 (which 25 tales), using the report's §§13–14. The report did not settle any of them.
+2. Discuss Q-401 (primary foundation or combination; report §13 options 1–6 all remain open), Q-408 (source hierarchy) and Q-411 (which 25 tales), using the report's §§13–14.
 
 **Do not begin writing any story or choose a final tradition, the narrator's identity (Q-005), Hindi register (Q-402), art, audio, layout or technology** until the user decides.
 

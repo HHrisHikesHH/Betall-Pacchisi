@@ -1,6 +1,6 @@
 # Storytelling North Star
 
-> **Status of this document: PROPOSED (P-008).** It is a working synthesis of the creative identity the user has described, written for writers and reviewers. Where a statement rests on an approved decision, the decision ID is given and the register ([DECISIONS.md](DECISIONS.md)) is authoritative. Where it rests on the user's brief of 2026-11-17 and has no earlier register entry, it is marked **(brief)**. The user's approval of the document as a whole is pending. Nothing here chooses a source tradition, a narrator identity, a Hindi register, or any art, audio, layout or technology direction.
+> **Status of this document: APPROVED as the central creative reference (D-036, formerly P-008; approved by the user 2026-11-17).** It is a practical synthesis for writers and reviewers. Where it restates an earlier decision, the register ([DECISIONS.md](DECISIONS.md)) remains authoritative for that decision's wording. Statements marked **(brief)** come from the user's brief of 2026-11-17. Items marked as proposed operationalisations are guidance, not separately approved rules. Nothing here chooses a source tradition, a narrator identity, a Hindi register, or any art, audio, layout or technology direction.
 
 ## 1. The guiding line
 
