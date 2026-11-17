@@ -467,7 +467,7 @@ Each record is limited to what the report establishes. "Not recorded" means the 
 
 ### TC-023. The old ascetic who enters a dead youth's body (KSS 23; Hindi XXII and XXIV)
 
-See the dedicated analysis in **§5.A**. In brief: in KSS an old ascetic enters a dead youth's body in Kaliṅga and weeps, then **dances**. The Hindi tells the plot twice, as XXII (Viśvapura setting; the ascetic weeps and laughs) and XXIV (Kaliṅga setting; the **boy's father** laughs and weeps).
+See the dedicated analysis in **§5.A**. See also the full reading in [HINDI_XXII_XXIV_COMPARISON.md](HINDI_XXII_XXIV_COMPARISON.md). In brief: in KSS an old ascetic enters a dead youth's body in Kaliṅga and weeps, then **dances**. The Hindi tells the plot twice, as XXII (Viśvapura setting; the aged brahman weeps and laughs) and XXIV (Kaliṅga setting; the **boy's father** laughs and weeps).
 
 | | |
 |---|---|
@@ -556,14 +556,14 @@ What is established about all three:
 
 ### 5.A The Hindi body-entering plot: XXII and XXIV (TC-023)
 
-**What the question is.** The Hindi has 25 numbered tales, and two of them (XXII and XXIV) tell the same body-entering plot: an old ascetic enters a dead youth's body. D-035 says a repeated plot is a separate tale only if it has a **genuinely different central dilemma** or is **substantially different as a story**. The report establishes some, not all, of what is needed to apply that test. **This catalogue does not decide it.**
+**What the question is.** The Hindi has 25 numbered tales, and two of them (XXII and XXIV) tell a body-entering plot: an aged man who knows the art takes a younger body. D-035 says a repeated plot is a separate tale only if it has a **genuinely different central dilemma** or is **substantially different as a story**. The report establishes some, not all, of what is needed to apply that test. **This catalogue does not decide it.**
 
 **What is known** (report §3 item 7, §6, §8.5; Platts and Barker; labels as in the report).
 
 | | Hindi XXII | Hindi XXIV |
 |---|---|---|
 | Setting | Biswapur (Viśvapura), King Bidagdha, the brahman Nārāyan | Kaliṅga, the brahman Yajña Sharmā and his son |
-| Whose reaction is the riddle | The **ascetic** weeps and laughs | The boy's **father**, an onlooker, laughs and then weeps |
+| Whose reaction is the riddle | The **brahman** (not yet an ascetic) weeps and laughs | The boy's **father**, an onlooker, laughs and then weeps |
 | Order of the reaction | Weeps, then laughs | Laughs first, then weeps |
 | The riddle's question | "Why did he weep, and why did he laugh?" | Why did the father first laugh and then weep? |
 | Answer | Wept recalling his mother's love and his youth; laughed at succeeding in his art (Platts p. 167) | The father laughed at seeing the yogī enter his son's body, and so learning the art; he wept, thinking that he too must one day leave his own body (Platts pp. 175–176; Barker p. 359) |
@@ -572,7 +572,7 @@ What is established about all three:
 
 KSS 23 differs from both: Kaliṅga, the city Śobhāvatī, the brahman Yajñasoma and his son Devasoma who dies at sixteen; the ascetic weeps at leaving the old body that had served him so long and **dances** for joy at gaining youth (12.30.42–47). The report concludes that XXIV is "a variant with a new riddle subject, not a duplicate" (§8.5). **That conclusion is about the difference between XXIV and the others. It is not a finding under D-035**, which asks a different question (a different *dilemma* or a *substantially different story*).
 
-**Shared plot elements (established).** An old ascetic, at a cremation ground, enters the body of a dead youth. That is the common core (report §8.5).
+**Shared plot elements (established; corrected after the full reading in [HINDI_XXII_XXIV_COMPARISON.md](HINDI_XXII_XXIV_COMPARISON.md)).** An aged man who knows the art of entering another body takes a younger one. The *dead boy at a cremation ground* is established only for KSS 23 and Hindi XXIV; in Hindi XXII (and Ś 22) the youth's death is not mentioned, and XXII's entrant is an aged brahman householder who then announces he has become a yogī.
 
 **Different essential events and dilemma (partly established).**
 
