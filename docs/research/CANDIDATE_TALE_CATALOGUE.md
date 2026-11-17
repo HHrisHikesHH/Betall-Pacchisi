@@ -576,15 +576,15 @@ KSS 23 differs from both: Kaliṅga, the city Śobhāvatī, the brahman Yajñaso
 
 **Different essential events and dilemma (partly established).**
 
-- The riddle's *subject* changes: the ascetic in XXII, an onlooking father in XXIV.
-- The *reasoning* changes: per the report's table, XXII's ascetic wept recalling his mother's love and his youth and laughed at succeeding in his art (Platts p. 167); XXIV's father laughed at seeing the art succeed and wept at the thought of his own mortality. **Note:** both answers turn partly on the art's success. The report's prose in §8.5 generalises the "young body" reasoning of KSS and Ś to XXII, which its own table does not support; this is a report inconsistency, and it means XXII and XXIV may be closer in dilemma than the riddle subjects alone suggest.
-- XXIV has at least one **extra event not recorded for XXII**: the father's renunciation (*bairāg*).
+- The riddle's *subject* changes: the brahman in XXII, an onlooking father in XXIV.
+- The *reasoning* changes: per the full reading, XXII's brahman wept recalling his mother's love and his youth and from attachment to the body, and laughed at succeeding in his art and entering a new body (Platts p. 167; Barker p. 343); XXIV's father laughed at seeing the art succeed and wept at the thought of his own mortality. **Note:** both answers turn partly on the art's success. The report's prose in §8.5 generalised the "young body" reasoning to XXII, which the Hindi does not support (corrected in the report; see the comparison §9). XXII and XXIV may be closer in dilemma than the riddle subjects alone suggest.
+- XXIV has events XXII lacks (the boy's death, funeral and revival, the father's renunciation, *bairāg*, narrated in one clause), and XXII has events XXIV lacks (the announcement "I am a yogī", a long sermon, a pilgrimage). Full comparison: [HINDI_XXII_XXIV_COMPARISON.md](HINDI_XXII_XXIV_COMPARISON.md).
 - The *setting* and *characters* differ.
 
 **What cannot be established with the present evidence.**
 
-1. The **full narrative** of either Hindi tale. Platts's openings and endings and the passages above were read. The tales were not read in full, and the Hindi itself only in the Barker XXIV passage.
-2. Whether XXIV also narrates the ascetic's own weeping or laughing.
+1. *(Resolved by the full reading.)* Both Hindi tales have now been read in full in Platts and in Barker's printed Hindi (page images, AI reading). Forbes's Hindi, the 1805 print and any Braj text remain unread.
+2. *(Resolved.)* XXIV narrates no weeping or laughing by the ascetic; only the father reacts.
 3. Whether the **dilemma** in XXIV differs from XXII's in a way a reader would feel as a different problem, or whether it is a second answer to the same enigma. In both, a person in the story reacts in two ways to the same event, and the answer explains the pair; the explanation concerns different people and different thoughts.
 4. The **reason** the Hindi tells it twice (PROVISIONAL; report §8.5 suggests that it keeps Śivadāsa's XXII and adds a Kaliṅga-setting variant as XXIV, bringing its narrated tales to 25).
 5. Whether Hindi XXIV's wording reads as the report's AI reading suggests (a specialist question).

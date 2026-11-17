@@ -49,16 +49,16 @@ D-035 (approved) says a repeated underlying plot counts as a separate tale only 
 
 | ID | Source | What was read | Format and access |
 |---|---|---|---|
-| **S11** | Platts, John (trans.). *The Baitál Pachchísí; or, The Twenty-five Tales of a Sprite. Translated from the Hindi Text of Dr. Duncan Forbes*. London: Wm. H. Allen & Co., 1871. Internet Archive `baitalpachchisto00john`. | **Tale XXII in full**, pp. 165–167. **Tale XXIV in full**, pp. 175–176. Also the end of XXI and the start of XXV for context. | IA full text (OCR of English; reliable here). Page numbers: headers 166, 167 and 176 were seen in the OCR. The first page of each tale (165, 175) is inferred from the sequence. |
+| **S11** | Platts, John (trans.). *The Baitál Pachchísí; or, The Twenty-five Tales of a Sprite. Translated from the Hindi Text of Dr. Duncan Forbes*. London: Wm. H. Allen & Co., 1871. Internet Archive `baitalpachchisto00john`. | **Tale XXII in full**, pp. 165–167. **Tale XXIV in full**, pp. 175–176. Also the end of XXI and the start of XXV for context. | IA full text (OCR of English; reliable here). Page numbers: headers 166, 167 and 176 were seen in the OCR. The first pages of the tales (165, 175) agree with Platts's own table of contents (OCR, platts.txt lines about 250–289). |
 | **S10** | Barker, W. Burckhardt (trans.), and Eastwick, E. B. (ed.). *The Baitál Pachísí; or, Twenty-five Tales of a Demon: A New Edition of the Hindí Text…*. Hertford: Stephen Austin, 1855. IA `baitlpachsortwe00eastgoog`. | **Story XXII in full**, pp. 338–343. **Story XXIV in full**, pp. 357–360. For each page: the **printed Hindi, the interlinear gloss and the free translation**, on page images. | Page images (IA leaves n353–n358 = pp. 338–343, and n372–n375 = pp. 357–360). Offset leaf minus page = 15, checked against the printed header on leaf n380 (p. 365). The OCR text was used only to locate pages. |
 | **S02** | Somadeva, *Kathāsaritsāgara*, Vetālapañcaviṃśatikā. GRETIL e-text (analytic version by Elena Artesani), CC BY-NC-SA 4.0, plain-text transformation of the TEI file. | **KSS 12.30.1–48 in full** (the whole Vetāla tale 23). | e-text, verse-numbered. The header's source field is blank. Not checked against the 1915 print (report §4.B). |
 | **S06** | Uhle, Heinrich (ed.). *Die Vetālapañcaviṃçatikā in den Recensionen des Çivadāsa und eines Ungenannten*. Leipzig 1881. IA `in.ernet.dli.2015.56465`. | **Ś 22 in full** (text pp. 56–58, the Sanskrit of the whole tale). Uhle's apparatus note on it (pp. 194–195 of the commentary, OCR). | OCR of romanised Sanskrit. Readable for this short passage, but OCR errors occur (for example "Haravano" for the name that other manuscripts give as Nārāyaṇa). |
 
 ### 2.2 What was not consulted
 
-- **The Hindi in Forbes's edition, the 1805 Calcutta print, and any Braj text** (report §10, §15). The Hindi evidence here is **Barker's 1855 printed Hindi**, and Platts's English rendering of Forbes's Hindi. Whether Forbes's and Barker's Hindi agree word for word is **not established**; Platts and Barker agree in content on every point examined below.
+- **The Hindi in Forbes's edition, the 1805 Calcutta print, and any Braj text** (report §10, §15). The Hindi evidence here is **Barker's 1855 printed Hindi**, and Platts's English rendering of Forbes's Hindi. Whether Forbes's and Barker's Hindi agree word for word is **not established**; Platts and Barker agree in content on the points examined below **with two exceptions in Barker's free translation of XXII's answer** (§6, note).
 - **Page images of Uhle 1881 and of the GRETIL source print.** Ś 22 was read through OCR. KSS 23 was read in the e-text.
-- **Kṣemendra (BKM 23), Jambhaladatta (J 20) and Ryder's tale 21.** They are outside the brief. The catalogue marks BKM and J content as unverified for this tale.
+- **Kṣemendra's own text (BKM 23), Jambhaladatta (J 20) and Ryder's tale 21.** They are outside the brief. The catalogue marks BKM and J content as unverified for this tale. **However, Uhle prints two texts that he derives from Kṣemendra** (manuscript B's metrical 24th tale, and the anonymous prose recension *f*'s tale XXIII, which Uhle labels "Hindi XXIV"). They were read for this document through OCR (§8.1). They are not Kṣemendra's text itself.
 - **Oesterley's German version**, which Uhle cites for the Hindi's relation to Ś 22 (Uhle's apparatus: "vgl. die Hindibearb. bei Oest. S. 156").
 
 ### 2.3 Method limits and the model switch
@@ -91,7 +91,7 @@ D-035 (approved) says a repeated underlying plot counts as a separate tale only 
 
 **What causes the magical act.** His own wish for youthful pleasure. No death, grief or bystander prompts it.
 
-**Narrative and emotional consequence.** A satirical or ironic effect is **visible in the text as written**: the same man who has just exchanged a body to enjoy life then delivers a sermon against sensuous "devotees" (Barker p. 342). The Hindi does not remark on the contrast and the riddle does not mention it. *AI-INTERP:* the gap between his sermon and his stated purpose is a feature of the narrative, whether or not the Hindi means it as irony.
+**Narrative and emotional consequence.** A contrast is **visible in the text as written**: the same man who has just exchanged a body to enjoy life then delivers a sermon against sensuous "devotees" (Barker p. 342). The Hindi does not remark on the contrast and the riddle does not mention it. *AI-INTERP:* the gap between his sermon and his stated purpose is there in the narrative. **Whether the Hindi means it as irony, and whether his declaration to his kin is insincere, is not stated** (the Hindi says only that the kin knew what he had done and that he said he had become a yogī, Barker p. 339; §14 U4).
 
 ---
 
@@ -138,10 +138,10 @@ D-035 (approved) says a repeated underlying plot counts as a separate tale only 
 | Weeping and laughing | **By the brahman, before entering**, first weeping then laughing | **By the father, after the entry**, first laughing then weeping |
 | Revival scene | None. He enters and walks home | The boy turns, says "Ram, Krishn", sits up as from sleep; the crowd is astonished |
 | Bystanders | The kin, who know and are told he is now a yogī | The mourners (astonished, go home) and the father |
-| Deception | He tells his kin he has "become a yogī" | None stated |
+| What he tells people | He tells his kin he has "become a yogī" (**sincerity not stated**; the kin already knew what he had done) | Nothing stated |
 | Long speech | Yes: the sermon on renunciation, quoted at length, also against lustful false devotees | None |
 | Consequence after the act | Announces a pilgrimage; kin pleased | The father "became a *bairāg*" |
-| Moral or irony visible in the text | The gap between sermon and conduct (not remarked on by the text) | The gap between the family's grief and what they see; the father's moment of insight |
+| Contrast visible in the text (AI-INTERP) | A gap between sermon and conduct, not remarked on by the text | A gap between the family's grief and what they see; the father's moment of insight |
 | Length | About two pages in Platts (pp. 165–167); six pages in Barker (338–343) | About 1.5 pages in Platts (175–176); four pages in Barker (357–360) |
 | Closing | Vetāla returns to the tree | Vetāla returns to the tree |
 
@@ -168,6 +168,8 @@ D-035 (approved) says a repeated underlying plot counts as a separate tale only 
 | Who is the answer about? | The man who did it | The man who saw it |
 | Sense of the answer | Reconciles grief at losing a familiar body with delight at success | Reconciles delight at a new discovery with grief at one's own mortality |
 
+**Note on Barker's free translation of XXII's answer (p. 343).** It differs from the Hindi, the interlinear gloss and Platts in two places: it reverses the order ("why that brahman had laughed and cried", whereas the Hindi and gloss ask why he wept and why he laughed), and it renders the weeping reason as "a kind of fascinating delight in his present body", whereas the Hindi (*itne dinoṃ us deh ke rahne ke moh se*) and Platts speak of attachment after so long in that body. Both points are Barker's free translation, not his Hindi.
+
 **Observations (AI-INTERP, flagged).**
 
 1. **The two answers use the same two ingredients**: attachment to a body (*moh*) and the art (*vidyā*). In XXII, the agent holds both. In XXIV, the witness takes both over *vicariously*.
@@ -187,21 +189,21 @@ D-035 (approved) says a repeated underlying plot counts as a separate tale only 
 3. There an old **Pāśupata ascetic, Vāmaśiva**, scolds his disciple for his slowness; the disciple leaves in anger (12.30.21–30).
 4. The ascetic smiles, goes to where the boy's body is, **decides to enter it**, **weeps aloud and dances** apart, then enters and **leaves his own body** *"through desire for youth"* (*yauvanecchayā*, 12.30.31–34).
 5. The boy **rises** as the pyre is ready; the kin rejoice (12.30.35–36).
-6. The ascetic, now in the boy, **falsely** (*mṛṣā*) tells them that Śiva has given him life **on condition of a vow he must keep alone**, sends them home "overcome with joy and grief", throws his old body into a pit and **goes off, a young great yogī** (12.30.37–41).
-7. **Riddle** (12.30.43): why did the lord of yogīs, living in another's city, **weep and dance**? Answer (12.30.45–47): this body, long used with him as the means of attainment (*siddhi*), had grown old; the parents' love of it in childhood; the old ascetic wept because attachment to the body is hard to give up. He **danced** for joy: "I shall enter a new body and accomplish more." The text ends with: whom does youth not please?
+6. The ascetic, now in the boy, **falsely** (*mṛṣā*, 12.30.37) tells them that Śiva has given him life **on condition of a vow he must keep alone**, sends them home "overcome with joy and grief", throws his old body into a pit and **goes off, a young great yogī** (12.30.37–41).
+7. **Riddle** (12.30.43): why did the lord of yogīs, *parapure vasan*, **weep and dance**? (*parapure* may mean "in another's city" or, as *pura* can mean body, "dwelling in another's body"; uncertain) Answer (12.30.45–47): this body, long used with him as the means of attainment (*siddhi*), had grown old; the parents' love of it in childhood; the old ascetic wept because attachment to the body is hard to give up. He **danced** for joy: "I shall enter a new body and accomplish more." The text ends with: whom does youth not please?
 8. The Vetāla returns to the tree; the king pursues him (12.30.48).
 
 **XXII against KSS 23.**
 
-- **Shared:** an aged man who knows the art decides to take a younger body; weeping and a second, joyful reaction **before** the entry (KSS: weeping and dance, 12.30.33; Hindi: weeping, then laughing, Barker p. 339); the answer pairs **attachment to the old body** (weeping) with **joy** at the new one; a **deception of the kin** about what he is (KSS false vow; Hindi "I have become a yogī"); the ascetic then **goes off** (KSS: elsewhere as a young yogī; Hindi: announces a pilgrimage).
+- **Shared:** an aged man who knows the art decides to take a younger body; weeping and a second, joyful reaction **before** the entry (KSS: weeping and dance, 12.30.33; Hindi: weeping, then laughing, Barker p. 339); the answer pairs **attachment to the old body** (weeping) with **joy** at the new one; **a statement to the kin about what he now is** (KSS: an explicitly false vow, *mṛṣā*, 12.30.37; Hindi XXII: "I have become a yogī", whose sincerity the Hindi does not state); the ascetic then **goes off** (KSS: elsewhere as a young yogī; Hindi: announces a pilgrimage).
 - **Different:** KSS's **dead boy, funeral, disciple, revival scene** are **absent from XXII**. KSS's ascetic is **already an ascetic**; XXII's Nārāyan is an **aged householder who pretends to become one**. KSS: **youth** sought for **siddhi**; XXII: **enjoyment** (*bhog*). XXII adds the **sermon**.
 - *AI-INTERP:* XXII is **not close to KSS 23 in events**. It is close to it in the **riddle's subject and the two-part answer**.
 
 **XXIV against KSS 23.**
 
-- **Shared:** the Kaliṅga setting; a brahman father and a learned boy who dies; the bier and cremation ground; kin admiring the dead boy's beauty (KSS 12.30.17–19 shows them consoling and tending him; the **explicit remark that the dead boy still looks beautiful** is in the Hindi (Barker p. 358) and is **not in the KSS verses read**); an aged ascetic seated at the cremation ground who decides to take the body; the boy rises "as from sleep" in the Hindi (KSS: *prottasthau kṛtajṛmbhikaḥ*, "rose, yawning", 12.30.35); astonishment of the people; the father's emotional extremes (KSS: the kin go home *harṣaśokākulān*, "overcome by joy and grief", 12.30.40).
-- **Different:** the **riddle subject** (the father, not the ascetic); the **dance** is gone; the **disciple scene, the false vow and the old body thrown into a pit** are absent. The **father's renunciation** is new. The ascetic's **motive** is easy devotion (compare KSS's *siddhi*).
-- *AI-INTERP, flagged:* **XXIV looks like KSS 23's event structure with its riddle moved from the ascetic to the father.** One possible reading is that XXIV takes KSS's picture of the kin "overcome with joy and grief" (12.30.40) and gives it to a single person who becomes the riddle's subject. That is a hypothesis. The Hindi's source is not known (report §4.E).
+- **Shared:** the Kaliṅga setting; a brahman father and a learned boy who dies; the bier and cremation ground; kin admiring the dead boy's beauty (in KSS what prompts the ascetic is the people lamenting the boy's outstanding youth, *janatayā śocyamānāgryayauvanam*, 12.30.32, a close parallel to the Hindi's overheard praise; KSS 12.30.17–19 shows them consoling the father; the **explicit remark that the dead boy still looks beautiful** is in the Hindi (Barker p. 358) and is **not in the KSS verses read**); an aged ascetic seated at the cremation ground who decides to take the body; the boy rises "as from sleep" in the Hindi (KSS: *prottasthau kṛtajṛmbhikaḥ*, "rose, yawning", 12.30.35); the people's reaction (Hindi: astonishment; KSS 12.30.36: rejoicing, then 12.30.40: sent home "overcome with joy and grief").
+- **Different:** the **riddle subject** (the father, not the ascetic); the **dance** is gone; the **disciple scene, the false vow and the old body thrown into a pit** are absent. The ascetic's **motive** is easy devotion (*sukh se jog*), against KSS's **desire for youth** (*yauvanecchayā*, 12.30.34) with greater attainment in the answer (12.30.47). **The father's renunciation is not found in KSS 23, but see §8.1: Uhle's texts derived from Kṣemendra give a renunciation (*vairāgya*) to the revived youth, in the context of his father claiming him.**
+- *AI-INTERP, flagged:* **XXIV looks like KSS 23's event structure with its riddle moved from the ascetic to the father.** **An earlier draft of this document speculated that XXIV gives KSS's "joy and grief" (12.30.40) to the father. That is withdrawn: better evidence is in §8.1.** The Hindi's source is not known (report §4.E).
 
 ---
 
@@ -211,7 +213,7 @@ D-035 (approved) says a repeated underlying plot counts as a separate tale only 
 
 **Ś 22, in order.**
 
-1. A city **Viśvapura**; its king **Vidagdha**; a **brahman** (Haravaṇa in the OCR of the main text; Uhle's apparatus gives *Nārāyaṇa* as the Hindi's and the other manuscripts' reading) who **knows the art of entering another's body** (*parapuraśarīrapraveśavidyā*).
+1. A city **Viśvapura**; its king **Vidagdha**; a **brahman** (the OCR of the main text reads "Haravaṇa", an apparent garble; Uhle's apparatus lemma, "Statt Nārāyaṇo: Govindo a, Śrīpatir D", indicates that the **main text reads Nārāyaṇa**) who **knows the art of entering another's body** (the OCR reads approximately *parapuruṣa… praveśanaṃ jānāti*; the exact compound is garbled and is paraphrased here).
 2. He thinks his body has grown old and **resolves to enter a young body and enjoy pleasures (*bhogān*)**.
 3. Having entered a young body, he tells his family: "I have become a yogī."
 4. He recites a long series of verses on renunciation (the *carpaṭa*-type verses that Uhle says come partly from a known renunciation hymn).
@@ -219,11 +221,25 @@ D-035 (approved) says a repeated underlying plot counts as a separate tale only 
 6. The text says that he had **first wept, then laughed**, on entering the young body.
 7. **Riddle**: why did he weep, why laugh? Answer: at leaving this body, protected in childhood by his mother, raised by his father, enjoyed with women in youth, he wept; he laughed: "I have again got a young body." A closing verse follows.
 
-**XXII against Ś 22.** *Shared:* **almost everything**. The city, king, brahman, motive (*bhog*), the announcement "I am a yogī", the sermon, the pilgrimage and the delighted kin, the two-sided reaction. *Different:* the **answer's content for the laughter**: Ś has **regaining a young body**; Hindi XXII has **the success of his science and entry into a new body** (Barker p. 343; Platts p. 167). The Hindi order of the weeping and laughing is also placed **before** the entry in the narration; the Sanskrit places it as a remark at the entry. *AI-INTERP:* **XXII is the same story as Ś 22**, not a close relative. This is consistent with the report's finding that the Hindi tale order follows Śivadāsa's (report §4.E). (The report §8.5 also cites Uhle p. XIV for Ś 22 being "essentially the same" as the 24th tale of manuscript B, equated with KSS 23. I did not re-read Uhle's Vorwort, and the present reading shows Ś 22's events differ from KSS 23's, §8, so that statement should be read as about the shared premise only.)
+**XXII against Ś 22.** *Shared:* **almost everything**. The city, king, brahman, motive (*bhog*), the announcement "I am a yogī", the sermon, the pilgrimage and the delighted kin, the two-sided reaction. *Different:* the **answer's content for the laughter**: Ś has **regaining a young body**; Hindi XXII has **the success of his science and entry into a new body** (Barker p. 343; Platts p. 167). In the narration, the Hindi places the weeping and laughing **before** the entry (Barker p. 339); Ś places it at the entry (the answer speaks of the moment of leaving his own body, *nijaśarīratyāgasamaye*). *AI-INTERP:* **XXII is the same story as Ś 22**, not a close relative. This is consistent with the report's finding that the Hindi tale order follows Śivadāsa's (report §4.E). (For Uhle's own statement that Ś 22 is "essentially the same" as the metrical 24th tale of manuscript B, and what that implies, see §8.1.)
 
 **XXIV against Ś 22.** Ś 22 has **no death, funeral or cremation ground** in the text read, no father and no revival scene. The Hindi XXIV **shares no events** with Ś 22 beyond the entry of an aged man into a young body. XXIV is a **KSS-type** telling (§7), **not** a Ś-type one.
 
 **Uhle's view** (apparatus p. 194; SCHOLAR, via OCR): the textual notes tie the name and form of the Hindi to Ś. That is a note about readings, not a literary judgement.
+
+### 8.1 Further Sanskrit witnesses in Uhle (added after independent review)
+
+*Sources: Uhle 1881, Vorwort pp. XIII–XIV, text of manuscript B pp. 64 ff., recension *f* text p. 91, and apparatus pp. 194–197 (all through OCR; AI readings, not a Sanskritist's). Uhle derives B's metrical tales and recension *f* from Kṣemendra's tradition (report §4.A, §4.F). **These are not Kṣemendra's text**, which was not read.*
+
+1. **Uhle says Ś 22 is "essentially the same" (*wesentlich gleich*) as the metrical 24th tale of manuscript B** (Vorwort p. XIV). His evidence is that B's answer verses also stand in manuscript A at the end of Ś 22, in place of the prose answer of the other manuscripts (his text p. 57, line 42 ff.).
+2. **B's answer verses** (B p. 64, verses 14–16, as read in the OCR) say, in substance: he wept because this body had been **raised by the mother in childhood and served with pleasures in youth** and he was now giving it up; he danced because **success in entering another's body** (*parapraveśasiddhi*) had come to him. **This is, almost point for point, Hindi XXII's answer** (mother's love, the delight of youth, the success of the science, the new body). So the "small but exact difference" between Ś and Hindi XXII in §9.3 holds **only against Uhle's constituted Ś text**. Against the verse answer carried in manuscript A and in B, Hindi XXII's answer is not different.
+3. **B's 24th tale and recension *f*'s tale XXIII are the Kaliṅga-type telling.** Uhle labels *f*'s tale "XXIII. (Hindi XXIV.)" (text p. 91) and says in the Vorwort (p. XIII) that this tale is otherwise known only from the Hindi and from Somadeva. Both texts have the brahman of **Yajñasthala, Yajñasoma, with wife Somadattā**. In *f* the ascetic is the *vrati* **Vāmaśiva** (as in KSS). **Somadattā is the wife's name in Hindi XXIV** (Platts p. 175; Barker p. 357) and is **not** given in KSS 23. Both texts say the boy rose **as if risen from sleep** (*suptotthita iva*), as in the Hindi (Barker p. 359).
+4. **The renunciation sentence exists in these texts.** Both say that the revived youth, **while his kin and his father claimed him** (B: *prāpyamāno 'pi muditair bandhubhir janakena ca*), **took the great vow from sudden dispassion** (*jātavairāgyaḥ … mahāvratam agrahīt*; *f*: *tatkālajñānavairāgyaḥ*). So **the *vairāgya* (renunciation) is in the Sanskrit tradition. In Hindi XXIV it is given to the father** (*bairāg huā*) instead of to the youth (the ascetic in the boy). This is an AI-INTERP, and it replaces the withdrawn "joy and grief" hypothesis (§7).
+5. In *f*, the riddle's subject is still the **ascetic** (*f*: "why did he weep, why dance?", with the answer that he wept from *vairāgya*-like regret for the body raised by his mother and danced at "new life attained"). The **father as riddle subject is therefore a Hindi change**, not a Sanskrit one, on the evidence of these texts.
+6. **Anti-lust verses in the sermon.** Uhle's apparatus (pp. 195–197) records that manuscripts A and B add *carpaṭa* verses that mock yogīs whose bodies are fed on ghee, honey and sugar; Jacobi (cited there) takes *carpaṭapaṇḍita* to mean something like loafers or chatterers. That is the **likely source** of the Hindi sermon's passage against lustful, well-fed false devotees (Barker p. 342). **It is not in Ś's constituted verses 2–10**, which §8 calls shared. It bears on U4 (is the sermon ironic?): the passage is a stock satire on yogīs in the Sanskrit tradition, so its presence need not signal an irony aimed at the brahman. Whether the Hindi means it that way is a specialist question.
+
+**What this changes for D-035** (§10): the Sanskrit manuscripts attach one answer to both frames, and Uhle treats Ś 22 and the Kaliṅga-type tellings as essentially one tale. That weakens the argument (§10, Test B) that the Hindi pair preserves two **already-distinct** Sanskrit narrative structures: the evidence is that **the Sanskrit tradition itself carries the same answer across the Viśvapura and Kaliṅga settings**. It does not remove the fact that the **Hindi as printed** has two tellings with different events.
+
 
 ---
 
@@ -245,8 +261,8 @@ The merged report's §8.5 table records Hindi XXII's ascetic as having **laughed
 
 - **The report's table is right for XXII; its prose generalised wrongly.** Hindi XXII's laughter is explained by the **success of the art and the new body**, **not specifically a young body**. The Hindi answer does not use the word *youth* for the laughter. It uses *javānī* (youth) only for the **weeping** ("the delight of youth remembered").
 - **It is not a translation problem.** Platts and Barker's interlinear and free translations agree, and the printed Hindi (Barker p. 343) supports them.
-- **It is a real difference, small but exact:** Ś's laughter is about *regaining youth*; KSS pairs *a new body and greater accomplishment* with the pleasure of youth; Hindi XXII is about *success and a new body*. So KSS 23 is, if anything, **nearer to Hindi XXII's "success" idea than the report said**, because KSS's dancing includes "I shall accomplish more".
-- **Correction proposed (and applied in this PR):** report §8.5 prose, and catalogue §5.A. Details in §9.5.
+- **It is a real difference, but only against Uhle's constituted Ś text** (§8.1): Ś's laughter is about *regaining youth*; KSS pairs *a new body and greater accomplishment* with the pleasure of youth; Hindi XXII is about *success and a new body*. So KSS 23 is, if anything, **nearer to Hindi XXII's "success" idea than the report said**, because KSS's dancing includes "I shall accomplish more". **Against the verse answer that Uhle finds in Ś manuscript A and in B (§8.1), Hindi XXII's answer (mother's love, youth's delights, success of the science, new body) has no real difference**, so the report's "young body" generalisation is wrong for Hindi XXII, and Hindi XXII's answer is old in the Sanskrit tradition.
+- **Correction proposed (and applied in this PR):** report §8.5, and catalogue §5.A. Details in §9.5.
 
 ### 9.4 Further errors found in the same passages
 
@@ -254,7 +270,7 @@ These are not minor and they affect the D-035 question.
 
 1. **Hindi XXII's central figure is not an "old ascetic".** He is an **aged brahman householder with a family** who **announces that he has become a yogī after** taking the body (Platts p. 165; Barker pp. 339–340). The report §8.5 and the catalogue both call him "the ascetic". **In KSS 23 he is a Pāśupata ascetic, and in XXIV a yogī**. XXII's man is not an ascetic when he acts.
 2. **The statement that all four tellings share "an old ascetic enters a dead youth's body at the cremation ground" is not supported for Ś 22 or Hindi XXII.** In both, he enters "a young man's body" and **no death, burning-ground or revival is mentioned** (Ś text p. 56 and Hindi XXII, Barker p. 339). The dead boy at the cremation ground is established for **KSS 23 and Hindi XXIV only**.
-3. **The weeping/laughing is narrated before the entry in KSS and Hindi XXII, and after it in the Sanskrit of Ś 22.** (Ś: "having entered a young body, first wept, then laughed", p. 57; Hindi XXII: "began to enter, then first wept, afterwards laughed", Barker p. 339.) This is a small difference and no more than a note.
+3. **The weeping/laughing is narrated before the entry in KSS (12.30.33) and Hindi XXII (Barker p. 339), and at the entry in Ś 22** (the answer speaks of the moment of leaving his own body, *nijaśarīratyāgasamaye*; the narration says that having entered a young body he first wept and then laughed, Uhle text p. 57). This is a small difference and no more than a note.
 4. **KSS 23 names the father twice:** Yajñasoma (12.30.8) and Yajñasena (12.30.12). The report and the catalogue used only Yajñasoma. Not important to D-035.
 5. **The "father's renunciation" in XXIV is a single clause** (*bairāg huā*), not a developed arc (§4, §10).
 
@@ -262,8 +278,8 @@ These are not minor and they affect the D-035 question.
 
 Narrow, factual, no change of classification:
 
-- **Report §8.5** (`SOURCE_TRADITIONS_COMPARISON.md`): the "What is shared and what differs" paragraph is replaced by a corrected version, and a note under the table records that XXII's central figure is a brahman, not an ascetic.
-- **Catalogue §5.A** (`CANDIDATE_TALE_CATALOGUE.md`): the opening bullet "Shared plot elements (established)" and the "(partly established)" bullets are corrected as above, and a pointer to this document is added. **The catalogue's classification of TC-023 as an open question is unchanged.**
+- **Report §8.5** (`SOURCE_TRADITIONS_COMPARISON.md`): the "What is shared and what differs" paragraph is replaced by a corrected version, **and the table cell for Hindi XXII's "Who weeps and laughs" now reads "The brahman Nārāyan" with a note** (an aged brahman householder, not yet an ascetic).
+- **Catalogue §5.A** (`CANDIDATE_TALE_CATALOGUE.md`): the "Shared plot elements (established)" bullet, the XXII table cell, the "(partly established)" reasoning bullet, the stale items under "What cannot be established" (1–2) and the TC-023 lines are corrected, and a pointer to this document is added. **The catalogue's classification of TC-023 as an open question is unchanged.**
 
 ---
 
@@ -284,7 +300,7 @@ D-035 as approved: a repeated plot is not automatically a separate tale; it coun
 - Both are **"why did he weep and why did he laugh"** riddles, with **the same two ingredients**: attachment to a body (*moh*) and the art (*vidyā*) (§6).
 - XXIV's weeping is the **XXII weeping moved** from the agent to the witness: attachment to one's own body.
 - The riddles' **form** is nearly identical, and a reader meeting them in sequence (XXII, XXIII, XXIV) in the Hindi would likely find XXIV a **second turn on the same enigma**.
-- The shift of subject, by itself, is not a different dilemma. D-035 asks for more than a changed subject, and this document does not treat it as enough.
+- The shift of subject, by itself, is not a different dilemma. this document does not treat a changed subject, by itself, as enough (D-035 does not say so in terms; this is the document's reading of "genuinely different").
 
 **Verdict on Test A (AI-INTERP): not clearly met.** The two riddles are formally the same and share their ingredients. They differ in whose mind is opened and in one added thought (one's own coming death). On the evidence, that is **a difference of degree that could be argued either way**, and it is **not** a clear case of "genuinely different central dilemma".
 
@@ -294,10 +310,10 @@ D-035 as approved: a repeated plot is not automatically a separate tale; it coun
 
 **For "substantially different".**
 - **Essential events differ almost wholly** (§5). XXII: the brahman's decision, his weeping and laughing, his return home, his deceiving his kin, a long sermon, a pilgrimage. XXIV: a prodigy's death, a funeral, an overheard remark, a revival, the crowd's astonishment, a father's renunciation. They share the premise and little else.
-- **Motivation differs.** XXII: enjoyment. XXIV: easy devotion. XXII's man is a householder and an impostor; XXIV's is an ascetic taking an opportunity.
+- **Motivation differs.** XXII: enjoyment. XXIV: easy devotion. XXII's man is a householder who then declares himself a yogī; XXIV's is an ascetic taking an opportunity.
 - **Cast and conflict differ.** XXIV has a bereaved family, a death and a miracle. XXII has none of those.
-- **Emotional identity differs.** XXII is, *as read*, ironic (sermon against sensuous devotees, delivered by a man who has just taken a young body to enjoy life). XXIV is bereavement turning to astonishment and a quiet conversion.
-- **Each Hindi tale tracks a different Sanskrit telling** (XXII ≈ Ś 22; XXIV ≈ KSS 23 events), and **those two Sanskrit tellings already differ in the same way** (§§7–8). So the Hindi pair is not an invention of two variants of one text; it is two **already-distinct narrative structures** around one premise.
+- **Emotional identity differs.** XXII *may* be read as ironic (a sermon against sensuous devotees, delivered by a man who has just taken a young body to enjoy life); **whether the Hindi means this, and whether his declaration is insincere, is not stated** (§3, U4), and the sermon's anti-lust passage appears to be a stock Sanskrit satire on yogīs (§8.1). XXIV is bereavement turning to astonishment and a quiet conversion.
+- **Each Hindi tale's events track a different Sanskrit telling** (XXII ≈ Ś 22; XXIV ≈ the KSS 23 / Kaliṅga-type events, with Somadattā and the *suptotthita* image as in Uhle's *f* and B). **Qualified by §8.1:** the Sanskrit manuscripts carry **the same answer verses across both settings**, and Uhle treats Ś 22 and the B/Kaliṅga tale as essentially one tale. So the two event structures are old, but the Sanskrit tradition did not treat them as different tales.
 
 **For "not substantially different".**
 - Both are **very short** (each about a page and a half in Platts), and **thin as narratives**. The father's renunciation is one clause with no aftermath (§4). XXII's story is largely the sermon.
@@ -317,7 +333,7 @@ Neither test is clearly met on the Hindi tales **as printed**. Test B is the str
 
 1. **D-035's default.** A repeated plot is not automatically a separate tale. The burden is on a separate count.
 2. **Test A is weak** (§10): one riddle form, same two ingredients, a changed subject.
-3. **The premise is the same**, and a collection of 25 should not carry the same premise twice unless the dilemmas are clearly different.
+3. **The premise is the same**, and a collection of 25 should not carry the same premise twice unless one of D-035's two routes is clearly met (a different dilemma, or a substantially different story). The dilemma route is weak (§10), so the case rests on the story route.
 4. **The collection-variety need (D-035)** is already under pressure from other "why did he laugh or weep" riddles (TC-014; probably TC-020; catalogue §6.1). A second body-entering slot would add to that cluster.
 5. **Each tale is thin.** Neither supplies enough narrative for a full tale without substantial new material, which D-009 allows but which would come from the writer.
 6. **D-034 lets a single tale draw on both structures.** One slot could use the XXIV-style or the KSS-style setting, or XXII-style irony, with the borrowings recorded. The variant is not lost by being one tale.
@@ -328,8 +344,8 @@ Neither test is clearly met on the Hindi tales **as printed**. Test B is the str
 ## 12. Arguments for two tales
 
 1. **Test B on events.** The two tales share a premise and almost no events. A reader who met both would not feel they had read the same story twice.
-2. **Different emotional identities.** XXII's ironic, satirical tone (sermon against sensuous devotees from a man who has just taken a young body) is not XXIV's pathos and astonishment.
-3. **Different motives and characters.** An impostor householder against an opportunistic ascetic; the bereaved family and the dead prodigy.
+2. **Different emotional tone, on one reading.** XXII can be read as satirical (a sermon against sensuous devotees from a man who has just taken a young body); XXIV's mood is pathos and astonishment. The satirical reading is an AI-INTERP (§14 U4).
+3. **Different motives and characters.** A householder who declares himself a yogī, against an ascetic who seizes an opportunity; the bereaved family and the dead prodigy.
 4. **Different knowledge at stake.** XXIV's answer adds a thought about mortality that XXII lacks. That gives XXIV a reflective turn the other tale does not have, and the reader is asked to understand a different person's mind.
 5. **The Hindi itself tells both** as separate numbered tales, so a Hindi-first project cannot call one a mere repetition without a decision.
 6. **A pool margin argument:** the pool has 27 families (catalogue §2.3), and treating XXIV as a second tale would allow the 25 to be filled **without relying on the unread Jambhaladatta-only tales** (catalogue §5.A). This is a practical consideration and **not** a D-035 test.
@@ -340,14 +356,16 @@ Neither test is clearly met on the Hindi tales **as printed**. Test B is the str
 
 **Recommendation (advisory):** the evidence **does not clearly support two tales under D-035**, and **does not clearly support one either**. If the user wants a lean, it is this:
 
-> **Treat TC-023 as one tale slot for now, with Hindi XXII (the Ś-type, ironic structure) and Hindi XXIV (the KSS-type, bereavement structure) recorded as two distinct, richly different variants. Reopen it only if the user wants a second body-entering tale.**
+> **Treat TC-023 as one tale slot for now, with Hindi XXII (the Ś-type structure) and Hindi XXIV (the KSS-type, bereavement structure) recorded as two distinct, richly different variants. Reopen it only if the user wants a second body-entering tale.**
 
 **Why.** Test A is weak. Test B is arguable but rests on two thin tellings whose differences mirror the KSS and Ś differences already inside one family. One slot loses nothing, because D-034 allows the user to choose or compose between the structures, and the variety pressure favours not spending two slots on one premise.
 
 **What would change the lean.** A fuller development of either tale in a retelling is a writing matter and cannot be judged here. But the following findings would move it:
 - A specialist reading of *sīkhkar* in XXIV's answer showing that the father **actually acquires the art**, which would give XXIV a plot consequence (a man who now holds the power and chooses renunciation) that XXII lacks. That would strengthen Test B and perhaps Test A.
-- A reading of XXII's sermon as **deliberately** ironic in the Hindi, which would give it a distinct central dilemma (impostor and preacher) that the riddle does not ask about but the tale carries.
+- A reading of XXII's sermon as **deliberately** ironic in the Hindi, which would give it a distinct dilemma (a man who preaches renunciation after taking a body to enjoy) that the riddle does not ask about but the tale carries. §8.1 suggests the sermon's satirical verses are a stock Sanskrit element, which cuts against this.
 - The user's judgement that a collection with **two** body-entering tales, one of hypocrisy and one of bereavement and mortality, is the **more** varied collection.
+
+**Effect of §8.1.** Uhle's texts strengthen the lean slightly: the Sanskrit tradition carries one answer across both settings and treats them as essentially one tale, and Hindi XXIV's distinctive father-renunciation looks like a reassignment of the revived youth's *vairāgya*. They do not settle it, because D-035 asks about the stories as they stand in the Hindi, and there the events differ.
 
 **Confidence.** **Low to moderate.** The factual findings in §§3–9 are well supported (both tales read in full, in translation and on page images; the Sanskrit read in full). The **classification** is a literary judgement on which reasonable readers can differ, and the Hindi reading is not specialist.
 
@@ -362,11 +380,11 @@ Neither test is clearly met on the Hindi tales **as printed**. Test B is the str
 | U1 | **No specialist Hindi/Braj verification.** All Hindi readings (Devanagari, the Urdu-script line, the interlinear gloss) are AI readings of one 1855 printing. | Every Hindi word cited here, including *moh*, *bhog*, *bairāg*, *sīkhkar*, rests on it | A qualified Hindi/Braj reader (the report already recommends one for XXIV) |
 | U2 | **Forbes's Hindi, the 1805 print and any Braj text were not read.** Platts translates Forbes. Barker prints his own Hindi. | The two Hindi texts could differ in wording | Comparison of Forbes, Barker and the 1805 print |
 | U3 | **How the father "learns the science" in XXIV** (*yah vidyā sīkhkar*). | Bears on whether the father gains the art (§13) | Specialist reading of the phrase |
-| U4 | **Whether XXII's sermon is meant as irony** or as a plain account of renunciation. | Bears on XXII's emotional identity (§10) | Specialist and literary-historical reading |
+| U4 | **Whether XXII's sermon is meant as irony**, whether his statement to his kin is sincere, or whether the passage is a stock satire on yogīs (§8.1). | Bears on XXII's emotional identity (§10) | Specialist and literary-historical reading |
 | U5 | **Ś 22 was read through OCR** and not checked on a page image; OCR errors occur in names. | The Ś identification of XXII rests on it | A page-image check of Uhle pp. 56–58, and a Sanskritist |
 | U6 | **KSS 23 was read in the e-text**, not the 1915 print, by an AI reader. | The verse-level readings (for example *yauvanecchayā*, *prottasthau kṛtajṛmbhikaḥ*) | A Sanskritist and the print |
 | U7 | **Hindi XXII's youth's death is not stated**, but I cannot rule out that the Hindi assumes it. | Whether XXII has a corpse at all | The same specialist reading; Oesterley's German version (cited by Uhle) |
-| U8 | **BKM 23, J 20 and Ryder 21** were not read for this comparison. | They may show other versions of the body-entering plot | N6 and N4 in the catalogue |
+| U8 | **Kṣemendra's own text (BKM 23), J 20 and Ryder 21** were not read. Uhle's B and recension *f* (§8.1) were read only through OCR. | They may show other versions of the body-entering plot | N6 and N4 in the catalogue |
 | U9 | **The reason the Hindi tells the plot twice** is not known. | It might show an editorial intention | Edition history of the 1805 text |
 
 **Not established by this document:** which version a retelling should use, whether a retelling would need a variant record, or how many slots the plot should get.
