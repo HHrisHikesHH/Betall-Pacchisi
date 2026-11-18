@@ -1,6 +1,6 @@
 # Handoff
 
-*Last updated: 2026-11-18 (PR #8 merged; product development started under D-037; reading MVP built on branch `feature/reading-mvp`, not merged)*
+*Last updated: 2026-11-18 (PR #8 merged; product development started under D-037; reading MVP built on branch `feature/reading-mvp`, PR #9 open, not merged)*
 
 Read this first when you start a new session on this project. It summarises the current state and links to the authoritative documents. **It is never the authority on a decision.** [DECISIONS.md](DECISIONS.md) is.
 
@@ -8,7 +8,7 @@ Read this first when you start a new session on this project. It summarises the 
 
 **The project has moved from research to product development (D-037, user brief 2026-11-18).** Research is merged and paused; a first reading prototype exists on a feature branch.
 
-- **Reading MVP (M1) built, 2026-11-18, on branch `feature/reading-mvp` (not merged, not pushed; the user decides).** A static Vite + React + TypeScript site: collection landing page, story list, story reader with previous/next navigation, loading, empty and not-found states, responsive for phone and desktop, light and dark. Story content is one Markdown file per story in `content/stories/hi/`, validated by tests and the build. **All three entries are labelled placeholders**; no tale content exists. Run it with `npm install && npm run dev`; see [PROJECT_PLAN.md](PROJECT_PLAN.md) for the milestone plan and [../CLAUDE.md](../CLAUDE.md) for orientation.
+- **Reading MVP (M1) built, 2026-11-18, on branch `feature/reading-mvp`, [PR #9](https://github.com/HHrisHikesHH/Betall-Pacchisi/pull/9) open, not merged; the user decides.** A static Vite + React + TypeScript site: collection landing page, story list, story reader with previous/next navigation, loading, empty and not-found states, responsive for phone and desktop, light and dark. Story content is one Markdown file per story in `content/stories/hi/`, validated by tests and the build. **All three entries are labelled placeholders**; no tale content exists. Run it with `npm install && npm run dev`; see [PROJECT_PLAN.md](PROJECT_PLAN.md) for the milestone plan and [../CLAUDE.md](../CLAUDE.md) for orientation.
 
 - **Source research is complete and merged.** PR #1 (foundation), PR #2 (comparative report, [research/SOURCE_TRADITIONS_COMPARISON.md](research/SOURCE_TRADITIONS_COMPARISON.md)) and PR #3 (independent AI review, [research/SOURCE_TRADITIONS_REVIEW.md](research/SOURCE_TRADITIONS_REVIEW.md)) are all merged into `main`. The review's corrections were applied and confirmed. **Limitations remain:** the review was by a separate AI session, not a human specialist. Kṣemendra's text, the Newari version and the Bhaviṣya Purāṇa version were not read directly (N3 has since read Jørgensen's two Newari tales in his German translation), and several language-sensitive readings (Hindi IX, XV, XX, XXIV) still need a Hindi/Braj specialist. See the report's §15. No tradition has been selected.
 - **North Star established (2026-11-17).** PR #4 is merged into `main`. It added [STORYTELLING_NORTH_STAR.md](STORYTELLING_NORTH_STAR.md) (**D-036 approved**, formerly P-008; **P-005 completed**) and recorded **D-034** (no single-recension binding; combine across traditions under stated rules) and **D-035** (what "the 25 tales" means), all approved by the user on 2026-11-17. **Q-410 is resolved by D-035.** Q-401 is narrowed, not resolved.
@@ -82,7 +82,7 @@ P-001 to P-004, P-006 and P-007 in [DECISIONS.md](DECISIONS.md#proposals-awaitin
 
 ## Recommended next task
 
-1. **The user reviews the reading MVP** in a browser (`npm run dev`) on desktop and phone, and decides whether to merge `feature/reading-mvp`.
+1. **The user reviews the reading MVP** in a browser (`npm run dev`) on desktop and phone, and decides whether to merge PR #9.
 2. **Then M2** in [PROJECT_PLAN.md](PROJECT_PLAN.md): deploy a preview URL, then a typography pass with real Hindi sample prose.
 
 Research that remains available when the user wants it (none blocks the app): N4 (the other Jambhaladatta tales: J 24/TC-016, J's answers for TC-007 and TC-009), N9 (gendered and moralising passages), the specialist readings listed in N1 §5.3 and N3 §7, and the discussion of Q-401, Q-408, Q-411 and Q-002 that leads to choosing the first real tale (M3).

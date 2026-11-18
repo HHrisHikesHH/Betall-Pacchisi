@@ -13,7 +13,7 @@ Build the smallest usable version, put it in front of the user, learn, iterate. 
 ### M0. Research foundation: done
 Documentation, source-tradition comparison, North Star, candidate tale catalogue, N1 and N3 evidence (PRs #1 to #8, all merged).
 
-### M1. Reading vertical slice: **current** (built on `feature/reading-mvp`, awaiting the user's review)
+### M1. Reading vertical slice: **current** (PR #9, awaiting the user's review)
 **Goal:** one complete reading journey with placeholder content.
 **Acceptance criteria:**
 - [x] Collection landing page with title, intro and the list of entries.
