@@ -1,0 +1,271 @@
+/* Working reading styles for the MVP. Typography for Hindi is still OPEN (Q-105). */
+:root {
+  --bg: #f7f2e8;
+  --surface: #fffaf0;
+  --text: #2a2118;
+  --muted: #6b5d4d;
+  --accent: #8a3b12;
+  --border: #e2d6c2;
+  --note-bg: #fdf0d5;
+  --note-border: #d9a441;
+  --font-reading: 'Noto Serif Devanagari', 'Kohinoor Devanagari', 'Mangal', 'Nirmala UI', serif;
+  --measure: 38rem;
+  --gutter: 16px;
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1b1713;
+    --surface: #241f1a;
+    --text: #eee4d4;
+    --muted: #b3a48f;
+    --accent: #e39a6b;
+    --border: #3b332a;
+    --note-bg: #3a2d17;
+    --note-border: #a77b2c;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-reading);
+  font-size: clamp(1.0625rem, 0.95rem + 0.5vw, 1.25rem);
+  line-height: 1.85;
+  overflow-wrap: break-word;
+}
+
+a {
+  color: var(--accent);
+}
+
+a:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+h1,
+h2 {
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+.shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.site-header {
+  padding: 0.75rem var(--gutter);
+  border-bottom: 1px solid var(--border);
+}
+
+.site-title {
+  display: block;
+  max-width: var(--measure);
+  margin: 0 auto;
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.site-main {
+  flex: 1;
+  width: 100%;
+  max-width: calc(var(--measure) + 2 * var(--gutter));
+  margin: 0 auto;
+  padding: 1.5rem var(--gutter) 3rem;
+}
+
+/* Collection page */
+.collection-intro h1 {
+  margin: 0.5rem 0 0;
+  font-size: 2em;
+}
+
+.collection-subtitle {
+  margin: 0;
+  color: var(--muted);
+}
+
+.collection-note {
+  margin: 1.25rem 0 2rem;
+  padding: 0.75rem 1rem;
+  border-left: 3px solid var(--note-border);
+  background: var(--note-bg);
+  font-size: 0.95em;
+}
+
+.section-heading {
+  font-size: 1.15em;
+  margin: 0 0 0.75rem;
+}
+
+.story-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.story-card {
+  display: grid;
+  gap: 0.15rem;
+  padding: 1rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.story-card:hover {
+  border-color: var(--accent);
+}
+
+.story-card-number,
+.story-number {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.story-card-title {
+  font-weight: 600;
+  font-size: 1.1em;
+}
+
+.story-card-summary {
+  color: var(--muted);
+  font-size: 0.92em;
+  line-height: 1.7;
+}
+
+.badge {
+  display: inline-block;
+  margin-left: 0.4em;
+  padding: 0 0.5em;
+  border: 1px solid var(--note-border);
+  border-radius: 999px;
+  font-size: 0.7em;
+  font-weight: 400;
+  vertical-align: middle;
+  color: var(--muted);
+}
+
+/* Story page */
+.story-header {
+  margin-bottom: 1.25rem;
+}
+
+.story-number {
+  margin: 0;
+}
+
+.story-title {
+  margin: 0;
+  outline: none;
+  font-size: 1.75em;
+}
+
+.placeholder-banner {
+  margin: 0 0 1.75rem;
+  padding: 0.75rem 1rem;
+  border: 1px dashed var(--note-border);
+  background: var(--note-bg);
+  border-radius: 6px;
+  font-size: 0.9em;
+}
+
+.story-body p {
+  margin: 0 0 1.2em;
+}
+
+.story-nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+}
+
+.story-nav-link {
+  display: grid;
+  min-height: 44px;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--text);
+  text-decoration: none;
+}
+
+.story-nav-link:hover {
+  border-color: var(--accent);
+}
+
+.story-nav-link--next {
+  grid-column: 2;
+  text-align: right;
+}
+
+.story-nav-label {
+  color: var(--accent);
+  font-size: 0.85em;
+}
+
+.story-nav-title {
+  font-weight: 600;
+}
+
+.story-back {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+/* Loading, empty and not-found states */
+.state-message {
+  padding: 1.5rem 1rem;
+  text-align: center;
+  color: var(--muted);
+}
+
+.state-message--page {
+  padding-top: 3rem;
+}
+
+.state-title {
+  margin: 0 0 0.5rem;
+  color: var(--text);
+  font-size: 1.25em;
+  font-weight: 600;
+}
+
+@media (max-width: 30rem) {
+  .story-nav {
+    grid-template-columns: 1fr;
+  }
+
+  .story-nav-link--next {
+    grid-column: 1;
+  }
+
+  .story-nav-spacer {
+    display: none;
+  }
+}
