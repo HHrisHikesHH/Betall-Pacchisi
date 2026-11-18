@@ -296,8 +296,8 @@ Comparison group numbers refer to [COMPARISON_BUCKETS.md](COMPARISON_BUCKETS.md)
 | | |
 |---|---|
 | Main reason to include | The only unanswered riddle; it opens the frame's ending |
-| Main reason to hesitate | No answer to deliberate; tied to the frame and the count; coerced marriages |
-| Most important unresolved question | Is it one of the 25, part of the frame (Q-002), or both? |
+| Main reason to hesitate | No answer to deliberate; the frame's ending follows it, so the hand-over needs care; coerced marriages |
+| Most important unresolved question | Does its unanswered riddle earn a place among the 25? (A Q-411 choice; it is a distinct Betal-narrated tale under D-035, and Q-002 governs only how the frame around it is presented) |
 | **Owner decision** | |
 | **Owner notes** (optional: intended version, handling, reasons) | |
 
@@ -371,4 +371,4 @@ These questions are prompts, not a form to score. Answer any that help.
 
 **Count check.** Candidates marked *Include*: ___ of 25. If fewer than 25 remain acceptable, see [SELECTION_OVERVIEW.md](SELECTION_OVERVIEW.md) §5.
 
-**Related open questions the choice touches** (not resolved here): Q-411 (which 25), Q-002 (the frame, and so TC-024), Q-401 and Q-408 (sources and hierarchy, and so the variant to use).
+**Related open questions the choice touches** (not resolved here): Q-411 (which 25), Q-002 (presentation of the outer frame, including the hand-over after TC-024; it does not decide TC-024's eligibility), Q-401 and Q-408 (sources and hierarchy, and so the variant to use).

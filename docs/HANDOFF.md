@@ -18,7 +18,7 @@ Read this first when you start a new session on this project. It summarises the 
 - **Reading MVP:** [PR #9](https://github.com/HHrisHikesHH/Betall-Pacchisi/pull/9) (branch `feature/reading-mvp`, D-037, M1) is open and not merged; its own HANDOFF update is on that branch. *Note for whoever merges second:* both PRs edit this file. Keep PR #9's product-development (D-037, M1) content, but not its statement that N3 was merged "after a final independent review": the recorded history above shows `673ed37` was not independently reviewed.
 - No story blueprints have been produced and **no story drafting has begun**.
 - No art style, artwork, or audio exists.
-- No technology has been chosen and no application code exists.
+- **On `main`:** no application code exists and no technology has been chosen. **On the unmerged [PR #9](https://github.com/HHrisHikesHH/Betall-Pacchisi/pull/9) branch (`feature/reading-mvp`):** a reading MVP exists, built with working, reversible choices under D-037 (Vite, React, TypeScript, react-router, Vitest), with clearly labelled placeholder content only. It reaches `main` only if the user merges PR #9.
 - The application has **no approved name**. "Betall-Pacchisi" is only the repository name.
 
 ## The project in one paragraph

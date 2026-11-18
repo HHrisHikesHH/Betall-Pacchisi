@@ -67,7 +67,7 @@ Each group tests a suspected overlap against the actual events and dilemmas, and
 
 - Which 25 tales (Q-411), and whether any J-only tale is admitted.
 - Whether TC-008 and TC-011 share a slot, and how many reaction or suitor riddles the collection carries.
-- Whether TC-024 is one of the 25, part of the frame, or both (Q-002).
+- Whether TC-024 is one of the 25 (Q-411). It is a distinct Betal-narrated tale under D-035; Q-002 governs only how the outer frame is presented.
 - Which version of a tale is used (D-034; Q-401, Q-408), including TC-010's, TC-020's and TC-026's endings and answers.
 - Whether the proposed variety lenses (catalogue §9) are adopted.
 - Whether any research item (N4–N9) is commissioned, and whether any outside lead is investigated or promoted.
