@@ -501,7 +501,7 @@ What is established about all three:
 
 - They are numbered **J 21, 22 and 23** in Emeneau's printed (Bengali-recension) text. *VERIFIED — scholarly edition (titles).*
 - Emeneau hypothesises that Jambhaladatta's original had **27** tales: the 24 common ones plus these 3. The Bengali and Nepali recensions each cut back to 25, differently. This is an *attributed scholarly hypothesis*, not an established fact (report §4.D, §6).
-- Emeneau notes that the Newari version is "obviously based on Jambhaladatta's version" because it contains **J 21 and 22**. *VERIFIED — scholarly source.* **N3:** J 23 is **not** in the Newari version, which has KSS 14 (TC-014) in its place (Emeneau pp. xv–xvi; Jørgensen p. 214).
+- Emeneau notes that the Newari version is "obviously based on Jambhaladatta's version" because it contains **J 21 and 22**. *VERIFIED — scholarly source.* **N3:** J 23 is **not** in the Newari version, whose tale 23 Emeneau identifies with KSS 14 (TC-014) (pp. xv–xvi); Jørgensen says that tale differs substantially in content from *f* 14 and Ś 13 (p. 214), so the identification is not a close-parallel claim.
 - **N3:** **J 22 and J 23 are missing from the Bengali manuscripts H and O** (a long lacuna); Emeneau's text of them rests on **P alone, with the 1873 print V**. J 21 is in H, O and P. All three are in the Nepali manuscript W, but Emeneau reports only W's proper names for them (Intro. §3, pp. xii–xiv).
 - Emeneau's judgement of the J style is "monotonously bald" in places, with careless riddle details; Aufrecht (via Uhle) judged it more elegant than Śivadāsa. The style judgement is *DISPUTED* (report §4.D); the riddle carelessness is Emeneau's report (§6). Neither judgement was tested against these three tales.
 - The edition carries a 1934 copyright notice. Rights status is **RESEARCH REQUIRED**, and his translation must not be reproduced (report §11).
@@ -514,7 +514,7 @@ What is established about all three:
 | **Appearances** | J 21 (Emeneau T pp. 108–124, Tr pp. 109–125; manuscripts H, O, P, V; also W). **Newari 21** (Jørgensen pp. 219–223 text, 226–232 translation). Not in KSS, BKM (not verified), Ś, Hindi or Ryder. |
 | **Correspondence** | None in the other examined Sanskrit versions. Newari: a textual parallel (N3). |
 | **Plot and dilemma** | **N3 (T p. 124, Tr p. 125):** the question asks why Rūpavatī, who remembers her former births and knew her husband in each, did not see through Kanakadatta; the answer: merit from union with her own husband let her recognise him before; born a courtesan she became "very wicked", and through other men she forgot him. |
-| **Variants** | **N3:** Newari 21 names her Mālatī; the third brother studies the art of love; Kanakadatta's false story makes the husband die of grief after her in every life; they marry; the answer is the same in substance. W: names only (Mālatī etc.). |
+| **Variants** | **N3:** Newari 21 names her Mālatī; the third brother studies the art of love; Kanakadatta's false story, which in J too contains grief, adds that he returns after the battle, finds her dead, dies beside her and grieves again after her death in later lives; they marry; the answer is the same in substance. W: names only (Mālatī etc.). |
 | **Distinctness** | Separate from every core family (N3). The "four brothers" opening resembles TC-022 and TC-008 only as a device; the riddle concerns the courtesan, not the brothers' skills. The question form (why did she fail to recognise?) is closest to TC-018's causal form. |
 | **Literary opportunities** | Not assessed. N3 records, as observations: a rebirth chain unique in the pool, a woman's own account of repeated abandonment, and a trick that retells her story against her. |
 | **Collection contribution** | Not assessed. Handling note: the answer moralises about courtesans (for N9). |
@@ -541,7 +541,7 @@ What is established about all three:
 | | |
 |---|---|
 | **Identity** | J 23. **N3:** King Arimaulimaṇi insults a brahman-ogre over a princess found alive in a river creature's belly; the ogres prey on his city, an ogress posing as a courtesan eats her lovers, and the king buys peace with a man a day. A foreign king, Mahābala, defeats the ogre for him, is treated with little regard, releases the ogre in anger, and later, when the king flees to him, restores him. |
-| **Appearances** | J 23 (Emeneau T pp. 132–138, Tr pp. 133–139; **P and V only**, H and O lacking it; also W). **Not in the Newari version** (N3). |
+| **Appearances** | J 23 (Emeneau T pp. 132–138, Tr pp. 133–139; **P and V only**, H and O lacking it; also W). **Not in the Newari version** (N3); Newari 23 is identified by Emeneau with KSS 14, but Jørgensen says it differs substantially in content from *f* 14 and Ś 13 (p. 214). |
 | **Correspondence** | None. |
 | **Plot and dilemma** | **N3 (T p. 138, Tr p. 139):** the question asks who is the slayer of the citizens and of the brahman Vidyādhara: Arimaulimaṇi, Mahābala or the ogre Tālajaṅgha; the answer: the killing of the citizens rests on **King Arimaulimaṇi** and no one else. No reasoning is given, and the answer does not mention Vidyādhara. |
 | **Variants** | None found; W: names only, plus one reading about Vidyādhara (N3). |
@@ -549,7 +549,7 @@ What is established about all three:
 | **Literary opportunities** | Not assessed. |
 | **Collection contribution** | Not assessed. N3 observes it is the darkest of the three (ogres, mass death, a shape-shifting ogress). |
 | **Evidence** | **N3:** VERIFIED — scholarly edition (read in full; Bengali text rests on one manuscript). See [JAMBHALADATTA_ADDITIONAL_TALES_EVIDENCE.md](JAMBHALADATTA_ADDITIONAL_TALES_EVIDENCE.md) §4. |
-| **Gaps** | The question names the son Tālajaṅgha, though the two deaths it asks about are narrated of his mother (Vidyādhara) and of the released ogre, his father (the citizens) (N3 observation); specialist check of the question and answer; W's narrative (uncollated); rights. |
+| **Gaps** | The question's third candidate, Tālajaṅgha, rests on P alone (V reads *atha vā rākṣasajaṅghaḥ*, T p. 138 n. 38); Tālajaṅgha is among the ogres who eat men (Tr p. 135), but the specific deaths asked about are narrated in relation to his mother (Vidyādhara) and the released ogre, his father (the citizens) (N3 observation, not resolved); specialist check of the question and answer; W's narrative (uncollated); rights. |
 
 ---
 
@@ -630,7 +630,7 @@ The report documents several places where the traditions diverge in ending, answ
 | **TC-026** (J 22 / Newari 22) | The Newari answer is the bawd, not Mūladeva; actions redistributed between the tricksters (N3) | The answer | §4 |
 | **TC-025** (J 21 / Newari 21) | Kanakadatta's false story differs; the couple marry; same answer in substance (N3) | Detail and ending | §4 |
 
-Report §§7, 8 and 12 document these, and the rows marked N1 come from [SOMADEVA_TALE_EVIDENCE.md](SOMADEVA_TALE_EVIDENCE.md). No difference is claimed that the report or N1 does not record, and the report itself warns that every claimed difference should be checked as it checked the Nereid tale (§8.6).
+Report §§7, 8 and 12 document these, and the rows marked N1 come from [SOMADEVA_TALE_EVIDENCE.md](SOMADEVA_TALE_EVIDENCE.md). No difference is claimed that the report, N1 or N3 does not record, and the report itself warns that every claimed difference should be checked as it checked the Nereid tale (§8.6).
 
 ---
 
