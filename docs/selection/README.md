@@ -65,7 +65,7 @@ Each group tests a suspected overlap against the actual events and dilemmas, and
 
 ## Decisions that stay with the owner
 
-- Which 25 tales (Q-411), and whether any J-only tale is admitted.
+- Which 25 tales (Q-411), and which J-only tales are admitted. Since only 24 candidates are core, any 25 drawn wholly from this pool includes at least one J-only tale (two if one core tale is excluded; all three if two are). If all three are ruled out, a 25th would need a bounded outside investigation (N7). See [SELECTION_OVERVIEW.md](SELECTION_OVERVIEW.md) §5.
 - Whether TC-008 and TC-011 share a slot, and how many reaction or suitor riddles the collection carries.
 - Whether TC-024 is one of the 25 (Q-411). It is a distinct Betal-narrated tale under D-035; Q-002 governs only how the outer frame is presented.
 - Which version of a tale is used (D-034; Q-401, Q-408), including TC-010's, TC-020's and TC-026's endings and answers.
@@ -78,7 +78,7 @@ Each group tests a suspected overlap against the actual events and dilemmas, and
 - **KSS** was read in full (N1), in an e-text not collated with the 1915 print.
 - **Śivadāsa** was read through diacritic-less OCR, mainly at questions and answers.
 - **The Hindi** was read mainly through Platts's English; a few passages on Barker's page images.
-- **Jambhaladatta**: J 10, J 13, J 21–23 and J 25 are read; the rest are not. J 22 and J 23 rest on one Bengali manuscript plus a poor print.
+- **Jambhaladatta**: J 10 was read (report §8.1) and J 13 and J 21–23 were read in full (N3). **J 25's reading status is uncertain:** the comparison report describes its J coverage inconsistently (§2.2 lists the frame and story 10; §7 says only J 10; §15 says J 10 and J 25), as the catalogue records (§1.4); this dossier does not resolve it. The rest of J is unread. J 22 and J 23 rest on one Bengali manuscript plus a poor print.
 - **Kṣemendra** is a provisional concordance; only two tales were checked.
 - **Entertainment and emotional assessments** are inferences from recorded events.
 - The story buckets run longer than the 600–1,000 words planned, because of their evidence tables.

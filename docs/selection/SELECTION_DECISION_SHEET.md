@@ -105,7 +105,7 @@ Comparison group numbers refer to [COMPARISON_BUCKETS.md](COMPARISON_BUCKETS.md)
 |---|---|
 | Main reason to include | A rare comedy: three small detective tests and an ironic close |
 | Main reason to hesitate | The closest pair in the pool with TC-011; low stakes |
-| Most important unresolved question | One refinement comedy or two? If one, this has more story |
+| Most important unresolved question | One refinement comedy or two? If one, which (this one or TC-011)? |
 | **Owner decision** | |
 | **Owner notes** (optional: intended version, handling, reasons) | |
 
@@ -141,7 +141,7 @@ Comparison group numbers refer to [COMPARISON_BUCKETS.md](COMPARISON_BUCKETS.md)
 |---|---|
 | Main reason to include | A charming courtly vignette with a neat inversion |
 | Main reason to hesitate | Closest pair with TC-008; short and static |
-| Most important unresolved question | One refinement comedy or two? |
+| Most important unresolved question | One refinement comedy or two? If one, which (this one or TC-008)? |
 | **Owner decision** | |
 | **Owner notes** (optional: intended version, handling, reasons) | |
 
@@ -212,8 +212,8 @@ Comparison group numbers refer to [COMPARISON_BUCKETS.md](COMPARISON_BUCKETS.md)
 | | |
 |---|---|
 | Main reason to include | A slow tragedy of a king who dies rather than do wrong |
-| Main reason to hesitate | Repeats TC-004's argument; Unmādinī mostly an object of debate |
-| Most important unresolved question | Does the repeated argument matter if TC-004 is chosen? How is the Ś/Hindi sati ending weighed? |
+| Main reason to hesitate | Shares its answer's argument with TC-004; Unmādinī mostly an object of debate |
+| Most important unresolved question | If both TC-004 and TC-017 are considered, does their shared argument matter, and if so which (if either) to keep? How is the Ś/Hindi sati ending weighed? |
 | **Owner decision** | |
 | **Owner notes** (optional: intended version, handling, reasons) | |
 
@@ -309,7 +309,7 @@ Comparison group numbers refer to [COMPARISON_BUCKETS.md](COMPARISON_BUCKETS.md)
 |---|---|
 | Main reason to include | A rebirth romance used as a trick; a woman's own account of abandonment |
 | Main reason to hesitate | J-only; the answer moralises about courtesans; long |
-| Most important unresolved question | Are J-only tales admissible? How is the verdict on the courtesan handled? |
+| Most important unresolved question | Is this J-only tale admissible on its evidence? How is the verdict on the courtesan handled? (Any 25 from this pool includes at least one J-only tale; see the count check below) |
 | **Owner decision** | |
 | **Owner notes** (optional: intended version, handling, reasons) | |
 
@@ -333,7 +333,7 @@ Comparison group numbers refer to [COMPARISON_BUCKETS.md](COMPARISON_BUCKETS.md)
 |---|---|
 | Main reason to include | The only monster-against-a-city horror tale; a blame chain rooted in pride |
 | Main reason to hesitate | The thinnest evidence; the answer gives no reasoning |
-| Most important unresolved question | Are J-only tales on one manuscript admissible? |
+| Most important unresolved question | Is a J-only tale resting on one manuscript admissible? (Any 25 from this pool includes at least one J-only tale; see the count check below) |
 | **Owner decision** | |
 | **Owner notes** (optional: intended version, handling, reasons) | |
 
@@ -369,6 +369,13 @@ These questions are prompts, not a form to score. Answer any that help.
 
 
 
-**Count check.** Candidates marked *Include*: ___ of 25. If fewer than 25 remain acceptable, see [SELECTION_OVERVIEW.md](SELECTION_OVERVIEW.md) §5.
+**Count check.** Candidates marked *Include*: ___ of 25.
+
+- Core candidates (TC-001 to TC-024) marked *Include*: ___ of 24.
+- J-only candidates (TC-025 to TC-027) marked *Include*: ___ of 3.
+- Core candidates excluded: ___. A 25 drawn wholly from this pool needs at least that number + 1 J-only candidates (0 excluded: at least 1; 1 excluded: at least 2; 2 excluded: all 3).
+- If all three J-only candidates are ruled out, the pool supplies only 24, and a bounded outside-candidate investigation would be needed for a 25th (N7).
+
+See [SELECTION_OVERVIEW.md](SELECTION_OVERVIEW.md) §5.
 
 **Related open questions the choice touches** (not resolved here): Q-411 (which 25), Q-002 (presentation of the outer frame, including the hand-over after TC-024; it does not decide TC-024's eligibility), Q-401 and Q-408 (sources and hierarchy, and so the variant to use).

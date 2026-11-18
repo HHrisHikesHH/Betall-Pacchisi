@@ -85,7 +85,7 @@ A "distinct" conclusion is not a recommendation to include both stories. A "rela
 | Answer | The king (12.11.123) | The king (12.24.48) | The servant (12.14.112) |
 | What the answer rests on | Role expectation | Role expectation; extended verses on kings' vices (12.24.54–58) | Knowledge and expectation at the moment of risk |
 
-**What each asks Betal to judge.** TC-004: whose courage is greatest when a whole family dies for a king and the king then offers himself. TC-017: whose self-command is greater, a servant who gives up his wife and life, or a king who dies rather than take her. TC-007: which leap took more courage, the blind one or the informed one.
+**What each asks Betal to judge.** TC-004: whose courage is greatest when a whole family dies for a king and the king then offers himself. TC-017: who is greater in *sattva* (rendered in N1 as "courage"; "self-command" is this dossier's gloss), a servant who gives up his wife and life, or a king who dies rather than take her. TC-007: which leap took more courage, the blind one or the informed one.
 
 **Same or different dilemma.** On the surface the same question type; at the level of the story, **different**. TC-004 is about devotion to the point of death and divine reversal; TC-017 is about restraint against desire, and the king's refusal is the moral event; TC-007 is about gratitude and debt. **But TC-004 and TC-017 resolve their questions with the same argument**, so a reader meeting both would hear Vikrama make the same case twice.
 
@@ -184,7 +184,7 @@ A "distinct" conclusion is not a recommendation to include both stories. A "rela
 | Answer | The bed-connoisseur: his mark was seen with one's own eyes (12.15.50–51); Ś and Hindi give no reason (N1 TC-008) | The pestle-queen: hurt without contact (12.18.37–38) |
 | Variants | Position in Ś and Hindi varies widely (Ś 23, Hindi XXIII) | Ś and Hindi add a Jaina prelude with Guṇaśekhara and the minister Abhayacandra (N1 TC-011) |
 
-**Same or different dilemma.** The dilemma type is the same: compare three extreme sensitivities. The **grounds** differ (proof against contact). TC-008 has more story (the turtle errand, the king's investigations, the ironic close); TC-011 is a court vignette.
+**Same or different dilemma.** The dilemma type is the same: compare three extreme sensitivities. The **grounds** differ (proof against contact). TC-008 has a longer frame (the turtle errand, the king's investigations, the ironic close); TC-011 is a shorter, concentrated court vignette. Neither is preferred here.
 
 **Could both hold separate slots?** Under D-035's wording, they are not one plot repeated, so the count rule does not force one slot. But they are the **closest pair in the pool in form, tone and question**, and a reader would likely feel they had met the same joke twice.
 

@@ -8,6 +8,7 @@
 
 - **27 candidate families:** 24 core families (TC-001 to TC-024), found in Somadeva (KSS), Śivadāsa (Ś), the Hindi *Baitāl Pachīsī* and (mostly) Jambhaladatta (J), plus 3 Jambhaladatta-only families (TC-025 to TC-027). TC-023 is one family with two Hindi variants (owner's decision; not reopened).
 - **Margin of two.** 27 candidates for 25 places. Every exclusion beyond two needs a candidate from outside the pool, which the owner would have to authorise (D-001, D-002; [register](SUPPLEMENTARY_MATERIAL_REGISTER.md)).
+- **At least one J-only tale is unavoidable.** Because only 24 candidates are core, any 25 drawn from this pool must include at least one of TC-025 to TC-027, and more if core tales are excluded (see §5).
 - **Evidence.** Every core tale was read in full in the KSS Sanskrit (N1); Ś and the Hindi were read mainly at their questions and answers; J 21–23 were read in full in Emeneau (N3); Hindi XXII and XXIV were read in full (N2). All readings are AI readings, not a specialist's. Kṣemendra (BKM) is a provisional concordance only.
 - **Provisional assessments:** 12 **Strong core contender**, 13 **Viable core contender**, 2 **Distinctness or overlap contested** (TC-008 and TC-011, as a pair), 0 **Evidence insufficient to judge**. These labels are not a ranking: "Viable" candidates are not ranked below "Strong" ones for selection, and several Viable tales carry exactly the variety the collection may need.
 
@@ -33,7 +34,7 @@
 | [014](story-buckets/TC-014.md) | A man-hating merchant's daughter chooses a condemned thief, who weeps then laughs on the stake | Why did he weep and laugh? (Unrepayable debt; wonder at her love) | King in disguise, a duel, a bold heroine; happy ending | Reaction-riddle form (four tales) | High (absent from J Bengali) | Viable |
 | [015](story-buckets/TC-015.md) | With Mūladeva's magic pill a lover becomes a girl to live with a princess; she is then married to another | Whose wife is she? (The publicly married husband's) | The pool's main comic trickster tale; sex-change disguise | Mūladeva tale with TC-026 | High (J 13 read) | Strong |
 | [016](story-buckets/TC-016.md) | Prince Jīmūtavāhana offers himself to Garuḍa in place of a young serpent; the serpent runs back to reclaim his place | Whose courage was greater? (The serpent's, against his situation) | Longest and widest-ranging tale: romance, martyrdom, a devourer's remorse | Tribute-and-weeping-mother motif with TC-027 | Moderate (reasoning varies; J 24 unread) | Strong |
-| [017](story-buckets/TC-017.md) | A king dies rather than take the beautiful wife his general offers him; the general follows him into the fire | Whose self-command was greater? (The king's) | Slow tragedy of restraint; a deception at the root | **Same argument as TC-004** | High (Ś/Hindi add Unmādinī's sati) | Viable |
+| [017](story-buckets/TC-017.md) | A king dies rather than take the beautiful wife his general offers him; the general follows him into the fire | Who was greater in *sattva* (N1: "courage"), king or general? (The king, who refused her; "self-command" is an interpretive gloss) | Slow tragedy of restraint; a deception at the root | **Same argument as TC-004** | High (Ś/Hindi add Unmādinī's sati) | Viable |
 | [018](story-buckets/TC-018.md) | A gambler learns a magic science; inside an illusory lifetime he hesitates for an instant and loses it | Why was the science lost? (A wavering mind) | The pool's only nested-illusion tale; a lifetime in a moment | Causal form close to reaction riddles; TC-025 | High | Strong |
 | [019](story-buckets/TC-019.md) | Three hands rise to take a son's funeral offering: thief, begetter, foster-king | To whom does the offering belong? (The thief, his legal father) | A two-generation chain of bargains ending in a striking image | None | High | Viable |
 | [020](story-buckets/TC-020.md) | A seven-year-old, held down by his parents for a reward, laughs as a king raises the sword | Why did the boy laugh? (Every protector had turned against him) | The pool's most vivid child's-eye scene; outcome untold in KSS | Child sacrifice with TC-004; reaction form | Moderate (ending differs: Hindi has him killed) | Viable |
@@ -144,9 +145,20 @@ These are the candidates where the choice of version (D-034) changes the story m
 
 ## 5. The hardest trade-offs
 
-- **The margin is two.** If the owner wants to leave out more than two candidates (for example one of 008/011 and two reaction riddles), the pool falls below 25. Then there are only two options: keep a tale the owner had doubts about, or authorise a bounded look outside the pool. The only plausible outside lead is the unique 25th story in Śivadāsa MS *c* (N7; register item 1), whose content is unknown.
+- **The margin is two.** If the owner wants to leave out more than two of the 27 candidates (for example one of 008/011 and two reaction riddles), the pool falls below 25. Then there are only two options: keep a tale the owner had doubts about, or authorise a bounded look outside the pool. The only plausible outside lead is the unique 25th story in Śivadāsa MS *c* (N7; register item 1), whose content is unknown.
 - **The 25th narrated tale.** KSS and Ś count the frame's conclusion as their 25th unit and narrate only 24 tales; D-035 excludes the frame from the count. So a KSS- or Ś-based collection still needs a 25th narrated tale from elsewhere in the pool; the J-only tales can supply it (catalogue §6.4). **This is separate from TC-024**, which is itself a Betal-narrated tale, distinct from the frame conclusion that follows it, and a full candidate under Q-411. Q-002 concerns only how the outer frame (including the hand-over after TC-024) is presented. **Inherited catalogue wording (for later attention, not changed here):** catalogue §6.4 says TC-024's place among the 25 "is therefore connected to Q-002 and Q-411". Under D-035, which takes precedence, TC-024 is a Betal-narrated tale distinct from the frame conclusion that follows it, so its candidacy depends on Q-411 alone; Q-002 concerns only how the outer frame is presented.
-- **The J-only tales.** TC-025 to TC-027 are complete, distinct and add variety, but rest on one recension (TC-026 and TC-027 on one Bengali manuscript plus a poor print). Taking two of them is close to required if the owner leaves out two core tales.
+- **The J-only tales.** TC-025 to TC-027 are complete, distinct and add variety, but rest on one recension (TC-026 and TC-027 on one Bengali manuscript plus a poor print). Their evidence base therefore matters to every possible selection, not just to some:
+
+**The J-only arithmetic.** The pool has 24 core candidates (TC-001 to TC-024) and 3 Jambhaladatta-only candidates (TC-025 to TC-027). If the 25 come entirely from this pool, **any selection of 25 includes at least one J-only candidate**. If the owner excludes *k* of the 24 core candidates, the selection needs at least *k* + 1 J-only candidates:
+
+| Core candidates excluded | J-only candidates needed |
+|---|---|
+| 0 | at least 1 of the 3 |
+| 1 | at least 2 of the 3 |
+| 2 | all 3 |
+
+If all three J-only candidates are ruled out, the pool supplies only 24 acceptable candidates, and a bounded outside-candidate investigation would be needed to find a 25th (N7; [RESEARCH_IMPACT_AUDIT.md](RESEARCH_IMPACT_AUDIT.md)). This is arithmetic, not a recommendation: it says nothing about *which* J-only tale, if any, is suitable.
+
 - **Variant choice is part of selection for some tales.** TC-010, 020 and 026 are different stories depending on the version used (lens G). The owner may wish to note the intended version alongside the choice, under D-034, even though Q-401 stays open.
 - **Handling difficulty.** The most demanding material (003's verdict, 009's caste answer, 020's child sacrifice, 024's coerced marriages, 025's verdict on the courtesan) sits in tales that also offer something distinctive. D-006 makes this a handling question, not an exclusion rule.
 
@@ -156,7 +168,7 @@ These are the candidates where the choice of version (D-034) changes the story m
 2. How many reaction riddles, and how many "whose wife?" questions, can the collection carry?
 3. Should TC-008 and TC-011 share one slot?
 4. Is TC-024 one of the 25? (A Q-411 choice like any other; its frame transition is a Q-002 presentation matter.)
-5. Are J-only tales admissible on their evidence base, and if so, which?
+5. Which J-only tales are admissible on their evidence base? (At least one must be chosen for a 25 drawn wholly from this pool; see §5.)
 6. If your choices leave fewer than 25, do you want a bounded investigation of the Śivadāsa MS *c* story (N7)?
 
 ## 7. What this overview cannot tell you
