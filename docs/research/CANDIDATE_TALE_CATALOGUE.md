@@ -4,7 +4,7 @@
 |---|---|
 | **Status** | Research inventory. **Not a selection, not a ranking, and not a decision.** Compiled 2026-11-17 by an AI session (Claude Code) from the existing comparison report. It has not yet had a human specialist review. |
 | **Purpose** | To give the user a reliable map of the story candidates identified so far, so that the eventual choice of 25 tales (**Q-411**) can be made on evidence, with variety in view (D-035). |
-| **Evidence base** | [SOURCE_TRADITIONS_COMPARISON.md](SOURCE_TRADITIONS_COMPARISON.md) (the "report"), after the independent reviews in [SOURCE_TRADITIONS_REVIEW.md](SOURCE_TRADITIONS_REVIEW.md). **No new primary-source reading was done for this catalogue.** Everything here is taken from the report, so every limitation recorded there applies here. *Later addition (N1, 2026-11-17):* a primary-text reading of all 24 core families is in [SOMADEVA_TALE_EVIDENCE.md](SOMADEVA_TALE_EVIDENCE.md); facts taken from it are marked "N1". |
+| **Evidence base** | [SOURCE_TRADITIONS_COMPARISON.md](SOURCE_TRADITIONS_COMPARISON.md) (the "report"), after the independent reviews in [SOURCE_TRADITIONS_REVIEW.md](SOURCE_TRADITIONS_REVIEW.md). **No new primary-source reading was done for this catalogue.** Everything here is taken from the report, so every limitation recorded there applies here. *Later addition (N1, 2026-11-17):* a primary-text reading of all 24 core families is in [SOMADEVA_TALE_EVIDENCE.md](SOMADEVA_TALE_EVIDENCE.md); facts taken from it are marked "N1". *Later addition (N3, 2026-11-18):* a reading of J 21–23 (and J 13), with the Newari parallels, is in [JAMBHALADATTA_ADDITIONAL_TALES_EVIDENCE.md](JAMBHALADATTA_ADDITIONAL_TALES_EVIDENCE.md); facts taken from it are marked "N3". |
 | **Governing decisions** | D-034 (no rigid single-recension binding), D-035 (what "the 25 tales" means), D-036 ([STORYTELLING_NORTH_STAR.md](../STORYTELLING_NORTH_STAR.md)) in [DECISIONS.md](../DECISIONS.md). |
 | **Left open (not decided here)** | **Q-401** (primary foundation), **Q-408** (source hierarchy), **Q-411** (which 25 tales), **Q-002** (how the outer frame is presented). |
 
@@ -44,7 +44,7 @@ The report's labels are used as they stand: **VERIFIED — primary text**, **VER
 | **KSS** | Each tale's verse range, opening, the Vetāla's question and Vikrama's answer were read in the GRETIL e-text (by an AI model, not a credentialed Sanskritist). Most of each tale's narrative body was **not** read. The e-text was **not** checked against the 1915 print. *VERIFIED — primary text, passage-level.* |
 | **BKM** | **PROVISIONAL.** Same-number correspondence with KSS is assumed from Emeneau's shared numbering and the 1901 contents (25 *Vetālakathā* headings). Only two tales were checked, on page images by the reviewer: BKM 10 (matches KSS 10's names) and the Unmādinī story (KSS 17) at about the 17th heading. |
 | **Ś** | Identified from openings, questions, answers and colophons in Uhle's text, through OCR. *VERIFIED — primary text (OCR).* Most narrative bodies not read. |
-| **J** | Titles from Emeneau's contents. Content was read **only** for the frame, J 10 and J 25. *VERIFIED — scholarly edition (titles); content mostly unread.* |
+| **J** | Titles from Emeneau's contents. Content was read **only** for the frame, J 10 and J 25. *VERIFIED — scholarly edition (titles); content mostly unread.* **N3:** J 13 and J 21–23 have since been read in full ([JAMBHALADATTA_ADDITIONAL_TALES_EVIDENCE.md](JAMBHALADATTA_ADDITIONAL_TALES_EVIDENCE.md)). |
 | **Hindi** | Platts's English translation: openings and endings of all 25 tales read. The Hindi itself was read only in four passages of Barker 1855 (IX, XV, XX, XXIV), on page images, by AI readers. *VERIFIED — translation; Hindi wording PROVISIONAL.* |
 | **Ryder** | Contents compared with KSS. *VERIFIED — primary text (contents).* |
 
@@ -96,9 +96,9 @@ Numbers are each tradition's own numbering. Bold marks departures from Somadeva'
 | TC-022 | 22 (96) | 22 | **21** | **19** | **XXI** | 20 | E | Tiger in J and Hindi |
 | TC-023 | 23 (97) | 23 | **22** | **20** | **XXII** and **XXIV** | 21 | **P** | **Hindi tells it twice (§5.A)** |
 | TC-024 | 24 (98) | 24 | 24 | **25** | **XXV** | 22 | E | Final riddle, unanswered |
-| TC-025 | — | — | — | **21** | — | — | — | J only |
-| TC-026 | — | — | — | **22** | — | — | — | J only |
-| TC-027 | — | — | — | **23** | — | — | — | J only |
+| TC-025 | — | — | — | **21** | — | — | — | J only; also Newari 21 (N3) |
+| TC-026 | — | — | — | **22** | — | — | — | J only; also Newari 22, **answer differs** (N3) |
+| TC-027 | — | — | — | **23** | — | — | — | J only; **not** in the Newari (N3) |
 
 *Basis:* report §7 (concordance), with the caveats in §1.4. The report's own counts agree: J's Bengali text lacks two core tales (KSS 12 and 14) and adds three, giving 25 narrated tales; the Hindi has 25 numbered tales with one plot told twice (report §6).
 
@@ -353,7 +353,7 @@ Each record is limited to what the report establishes. "Not recorded" means the 
 | **Appearances** | KSS 12.22.1–115 (ch. 89) · BKM 15 (prov.) · Ś **14** · J **13** · Hindi **XIV** · Ryder 14. |
 | **Correspondence** | E. |
 | **Plot and dilemma** | The answer is Śaśin, the lawful husband. **N1:** the question is whose wife she properly is (12.22.111); the reason: her father gave her to Śaśin openly by the proper rite, while Manaḥsvāmin took her by stealth, and a thief has no right to another's property (12.22.113–114). |
-| **Variants** | **N1:** Ś 14 and Hindi XIV add that she is pregnant by the lover and that the child will perform Śaśin's funeral rites. |
+| **Variants** | **N1:** Ś 14 and Hindi XIV add that she is pregnant by the lover and that the child will perform Śaśin's funeral rites. **N3 (J 13, Emeneau Tr pp. 79–87):** the lover is a bard's son; the change of sex is by a charm (*vidyā*), not a pill; Mūladeva's friend is Śaśideva; same answer (the father's gift). See [JAMBHALADATTA_ADDITIONAL_TALES_EVIDENCE.md](JAMBHALADATTA_ADDITIONAL_TALES_EVIDENCE.md) §3.1. |
 | **Distinctness** | Separate family. |
 | **Literary opportunities** | Report §9: humour and play, "observed in outline" in KSS. |
 | **Collection contribution** | Preliminary: one of the few tales the report associates with humour. |
@@ -495,13 +495,14 @@ See the dedicated analysis in **§5.A**. See also the full reading in [HINDI_XXI
 
 ## 4. Jambhaladatta-only candidates (TC-025 to TC-027)
 
-**These three are recorded because the comparison found them in no other Sanskrit version examined. That is a fact about the examined editions, not a reason to select them.** The report has **not read their content**: Emeneau's contents list supplied the titles. J 10 and J 25 and the frame are the only J passages the report read in detail (report §§2.2, 5, 15; see the coverage note in §1.4). So their plots, dilemmas, answers and literary qualities are **unknown to this catalogue**.
+**These three are recorded because the comparison found them in no other Sanskrit version examined. That is a fact about the examined editions, not a reason to select them.** The report did **not read their content**: Emeneau's contents list supplied the titles, and the records below were written from titles only. **N3 (2026-11-18) has since read all three in full**, with the Newari parallels: see [JAMBHALADATTA_ADDITIONAL_TALES_EVIDENCE.md](JAMBHALADATTA_ADDITIONAL_TALES_EVIDENCE.md). The rows marked "N3" below summarise that evidence; nothing in them selects or ranks a tale.
 
 What is established about all three:
 
 - They are numbered **J 21, 22 and 23** in Emeneau's printed (Bengali-recension) text. *VERIFIED — scholarly edition (titles).*
 - Emeneau hypothesises that Jambhaladatta's original had **27** tales: the 24 common ones plus these 3. The Bengali and Nepali recensions each cut back to 25, differently. This is an *attributed scholarly hypothesis*, not an established fact (report §4.D, §6).
-- Emeneau notes that the Newari version is "obviously based on Jambhaladatta's version" because it contains **J 21 and 22**. Whether J 23 appears in it is not recorded. *VERIFIED — scholarly source.*
+- Emeneau notes that the Newari version is "obviously based on Jambhaladatta's version" because it contains **J 21 and 22**. *VERIFIED — scholarly source.* **N3:** J 23 is **not** in the Newari version, whose tale 23 Emeneau identifies with KSS 14 (TC-014) (pp. xv–xvi); Jørgensen says that tale differs substantially in content from *f* 14 and Ś 13 (p. 214), so the identification is not a close-parallel claim.
+- **N3:** **J 22 and J 23 are missing from the Bengali manuscripts H and O** (a long lacuna); Emeneau's text of them rests on **P alone, with the 1873 print V**. J 21 is in H, O and P. All three are in the Nepali manuscript W, but Emeneau reports only W's proper names for them (Intro. §3, pp. xii–xiv).
 - Emeneau's judgement of the J style is "monotonously bald" in places, with careless riddle details; Aufrecht (via Uhle) judged it more elegant than Śivadāsa. The style judgement is *DISPUTED* (report §4.D); the riddle carelessness is Emeneau's report (§6). Neither judgement was tested against these three tales.
 - The edition carries a 1934 copyright notice. Rights status is **RESEARCH REQUIRED**, and his translation must not be reproduced (report §11).
 
@@ -509,46 +510,46 @@ What is established about all three:
 
 | | |
 |---|---|
-| **Identity** | Title only: J 21. |
-| **Appearances** | J 21 only (Emeneau). The Newari version contains J 21 (Emeneau). Not in KSS, BKM (not verified), Ś, Hindi or Ryder. |
-| **Correspondence** | None; not found in the other examined versions. |
-| **Plot and dilemma** | **Not established.** |
-| **Variants** | Not established. |
-| **Distinctness** | Separate from every core family so far as titles show. The title shares "four brothers" with TC-022, which is **not evidence of a connection**; the contents were not compared. |
-| **Literary opportunities** | None established. |
-| **Collection contribution** | Not assessable. A title naming a harlot suggests a character type, but the character type's treatment is unknown. |
-| **Evidence** | VERIFIED — scholarly edition (title). Content NOT READ. |
-| **Gaps** | Read Emeneau's text and translation of J 21; check Newari parallel; check rights. Judge only afterwards. |
+| **Identity** | J 21 (Emeneau's title: "How the Four Brothers fared with the Harlot"). **N3:** a king tests four brothers for their inheritance: whoever spends two nights with the courtesan Rūpavatī, who never takes a man twice, wins three jewels. The youngest, Kanakadatta, learns her reason (in a former life her husband abandoned her, and he did so again in three animal rebirths) and wins her by telling her story back as if he were that husband. |
+| **Appearances** | J 21 (Emeneau T pp. 108–124, Tr pp. 109–125; manuscripts H, O, P, V; also W). **Newari 21** (Jørgensen pp. 219–223 text, 226–232 translation). Not in KSS, BKM (not verified), Ś, Hindi or Ryder. |
+| **Correspondence** | None in the other examined Sanskrit versions. Newari: a textual parallel (N3). |
+| **Plot and dilemma** | **N3 (T p. 124, Tr p. 125):** the question asks why Rūpavatī, who remembers her former births and knew her husband in each, did not see through Kanakadatta; the answer: merit from union with her own husband let her recognise him before; born a courtesan she became "very wicked", and through other men she forgot him. |
+| **Variants** | **N3:** Newari 21 names her Mālatī; the third brother studies the art of love; Kanakadatta's false story, which in J too contains grief, adds that he returns after the battle, finds her dead and dies of grief beside her, and that in later lives he leaves her and, in the elephant and *cakravāka* lives, dies of grief for her (no grief is stated for the gazelle life); they marry; the answer is the same in substance. W: names only (Mālatī etc.). |
+| **Distinctness** | Separate from every core family (N3). The "four brothers" opening resembles TC-022 and TC-008 only as a device; the riddle concerns the courtesan, not the brothers' skills. The question form (why did she fail to recognise?) is closest to TC-018's causal form. |
+| **Literary opportunities** | Not assessed. N3 records, as observations: a rebirth chain unique in the pool, a woman's own account of repeated abandonment, and a trick that retells her story against her. |
+| **Collection contribution** | Not assessed. Handling note: the answer moralises about courtesans (for N9). |
+| **Evidence** | **N3:** VERIFIED — scholarly edition (text and translation read in full); Newari through Jørgensen's German translation only. See [JAMBHALADATTA_ADDITIONAL_TALES_EVIDENCE.md](JAMBHALADATTA_ADDITIONAL_TALES_EVIDENCE.md) §2. |
+| **Gaps** | Specialist check of the question and answer (T p. 124); W's narrative (uncollated); rights. |
 
 ### TC-026. Mūladeva wins a bride for Śaśideva
 
 | | |
 |---|---|
-| **Identity** | Title only: J 22. The report notes the character Mūladeva also appears in J 13 (report §9), which is TC-015 by the concordance. |
-| **Appearances** | J 22 only. The Newari version contains J 22. |
-| **Correspondence** | None. |
-| **Plot and dilemma** | **Not established.** |
-| **Variants** | Not established. |
-| **Distinctness** | Separate from every core family so far as titles show. Title-level resemblance to TC-001 (a wife won through a companion's help) is **not evidence of overlap**; it is a reason to read both before judging (§6.2). |
-| **Literary opportunities** | None established. |
-| **Collection contribution** | Not assessable. |
-| **Evidence** | VERIFIED — scholarly edition (title). Content NOT READ. |
-| **Gaps** | Read J 22 and J 13's Mūladeva material; check Newari parallel. |
+| **Identity** | J 22. **N3:** the rogue Śaśideva desires Anaṅgasenā, a merchant's wife whose husband has been away twelve years; his friend Mūladeva and a bawd posing as an all-knowing ascetic win her for him through a false "charm", and they carry her off after faking her death with a substituted corpse and a fire. The report notes the character Mūladeva also appears in J 13 (report §9), which is TC-015 by the concordance; N3 compared the two. |
+| **Appearances** | J 22 (Emeneau T pp. 124–132, Tr pp. 125–133; **P and V only**, H and O lacking it; also W). **Newari 22** (Jørgensen pp. 223–226 text, 233–236 translation). |
+| **Correspondence** | None in the other examined Sanskrit versions. Newari: a textual parallel in outline, with a different answer (N3). |
+| **Plot and dilemma** | **N3 (T p. 132, Tr p. 133):** the question is who showed the greater intelligence, the bawd Kāmikalpalatā or Mūladeva; the answer is **Mūladeva**, the great rogue, because his wit was ready on every occasion. |
+| **Variants** | **N3:** in Newari 22 the king answers **the bawd**, because she was the occasion of all the cleverness; Mūladeva is Śaśideva's elder brother; Śaśideva plans the escape and fakes the death; the bawd preaches the Prajñāpāramitā. W: names only. |
+| **Distinctness** | Separate family (N3). It shares the rogue pair and some devices (a disguised claim before a king; a deceived king) with **TC-015 (J 13)**, but J 13 asks "whose wife?" and J 22 "who was cleverer?"; Śaśideva is the rival claimant in J 13 and the lover in J 22. The title-level resemblance to TC-001 holds for devices (a schemer-helper; deceived parents and king), not for the dilemma. Whether this is enough under D-035 is the user's judgement. |
+| **Literary opportunities** | Not assessed. |
+| **Collection contribution** | Not assessed. Preliminary: a comic trickster intrigue whose answer differs between J and the Newari (compare TC-010). |
+| **Evidence** | **N3:** VERIFIED — scholarly edition (read in full; Bengali text rests on one manuscript); Newari through Jørgensen's German translation. See [JAMBHALADATTA_ADDITIONAL_TALES_EVIDENCE.md](JAMBHALADATTA_ADDITIONAL_TALES_EVIDENCE.md) §3 and §3.1 (comparison with J 13). |
+| **Gaps** | Specialist check of the answer and of the corrupt passage at T p. 130; W's narrative (uncollated); rights. |
 
 ### TC-027. An ogre devastates Arimaulimaṇi's kingdom
 
 | | |
 |---|---|
-| **Identity** | Title only: J 23. |
-| **Appearances** | J 23 only. Its presence in the Newari version is not recorded. |
+| **Identity** | J 23. **N3:** King Arimaulimaṇi insults a brahman-ogre over a princess found alive in a river creature's belly; the ogres prey on his city, an ogress posing as a courtesan eats her lovers, and the king buys peace with a man a day. A foreign king, Mahābala, defeats the ogre for him, is treated with little regard, releases the ogre in anger, and later, when the king flees to him, restores him. |
+| **Appearances** | J 23 (Emeneau T pp. 132–138, Tr pp. 133–139; **P and V only**, H and O lacking it; also W). **Not in the Newari version** (N3); Newari 23 is identified by Emeneau with KSS 14, but Jørgensen says it differs substantially in content from *f* 14 and Ś 13 (p. 214). |
 | **Correspondence** | None. |
-| **Plot and dilemma** | **Not established.** |
-| **Variants** | Not established. |
-| **Distinctness** | Separate from every core family so far as titles show. J 10 also adds a brahman-ogre (§8.1 of the report), but a shared figure is not evidence of a shared story. |
-| **Literary opportunities** | None established. |
-| **Collection contribution** | Not assessable. |
-| **Evidence** | VERIFIED — scholarly edition (title). Content NOT READ. |
-| **Gaps** | Read J 23. |
+| **Plot and dilemma** | **N3 (T p. 138, Tr p. 139):** the question asks who is the slayer of the citizens and of the brahman Vidyādhara: Arimaulimaṇi, Mahābala or the ogre Tālajaṅgha; the answer: the killing of the citizens rests on **King Arimaulimaṇi** and no one else. No reasoning is given, and the answer does not mention Vidyādhara. |
+| **Variants** | None found; W: names only, plus one reading about Vidyādhara (N3). |
+| **Distinctness** | Separate family (N3). A blame question whose answer falls on a king, like TC-001. A daily tribute by pact and a weeping mother whose son is due to be eaten, as in **TC-016** (KSS); in J, J 24 (TC-016) follows immediately and opens the same way. The dilemma (guilt for a chain of causes) differs from both. J 10's brahman-ogre (TC-010) is a shared figure only. |
+| **Literary opportunities** | Not assessed. |
+| **Collection contribution** | Not assessed. N3 observes it is the darkest of the three (ogres, mass death, a shape-shifting ogress). |
+| **Evidence** | **N3:** VERIFIED — scholarly edition (read in full; Bengali text rests on one manuscript). See [JAMBHALADATTA_ADDITIONAL_TALES_EVIDENCE.md](JAMBHALADATTA_ADDITIONAL_TALES_EVIDENCE.md) §4. |
+| **Gaps** | The name Tālajaṅgha for the question's third candidate rests on P alone; V also has a third candidate, reading *atha vā rākṣasajaṅghaḥ* (T p. 138 n. 38), so the name Tālajaṅgha is not attested by V. Tālajaṅgha eats captured men with his father and the gathered ogres and tells his mother to "eat the men and make the city empty" (Tr p. 135); the specific deaths are told of his mother (who kills Vidyādhara and, a citizen says, is eating the city's people), and his father (who eats Vidyādhara, and who, his mother says, collected the ogres and ate the brahman) (Tr p. 137); after Mahābala releases him, the Sanskrit attaches the citizens' deaths to "that ogre", the father (T p. 138) (N3 observation; recorded with the witness variant; not resolved); specialist check of the question and answer; W's narrative (uncollated); rights. |
 
 ---
 
@@ -601,7 +602,7 @@ KSS 23 differs from both: Kaliṅga, the city Śobhāvatī, the brahman Yajñaso
 
 ### 5.B Jambhaladatta's three additional tales (TC-025 to TC-027)
 
-Handled in §4. In summary: they are *candidates to be read*, not candidates to be selected. What must be read before anyone judges them: Emeneau's text and translation of J 21, 22 and 23 (with the rights caution of report §11), the Newari parallels for J 21 and 22, and J 13's Mūladeva material for TC-026. Since Emeneau's text is the Bengali recension, which he considers the less original, the Nepali (W) readings, where they exist, should be consulted too (report §4.D).
+Handled in §4. **N3 is done:** all three have been read, with J 13 and the Newari parallels ([JAMBHALADATTA_ADDITIONAL_TALES_EVIDENCE.md](JAMBHALADATTA_ADDITIONAL_TALES_EVIDENCE.md)). They remain candidates, not selections. What the N3 task set out to read (kept as the record): Emeneau's text and translation of J 21, 22 and 23 (with the rights caution of report §11), the Newari parallels for J 21 and 22, and J 13's Mūladeva material for TC-026. Since Emeneau's text is the Bengali recension, which he considers the less original, the Nepali (W) readings, where they exist, should be consulted too (report §4.D).
 
 ### 5.C Variants that change the answer or the dilemma
 
@@ -626,8 +627,10 @@ The report documents several places where the traditions diverge in ending, answ
 | **TC-022** | Lion (KSS) vs tiger (J, Hindi) | Detail | §3 |
 | **TC-012, TC-014** | Absent from J's Bengali text | Availability, not content | §2.1 |
 | **TC-024** | Role in the frame differs; J omits the key marriage detail | The tale's function and clarity | §3 |
+| **TC-026** (J 22 / Newari 22) | The Newari answer is the bawd, not Mūladeva; actions redistributed between the tricksters (N3) | The answer | §4 |
+| **TC-025** (J 21 / Newari 21) | Kanakadatta's false story differs; the couple marry; same answer in substance (N3) | Detail and ending | §4 |
 
-Report §§7, 8 and 12 document these, and the rows marked N1 come from [SOMADEVA_TALE_EVIDENCE.md](SOMADEVA_TALE_EVIDENCE.md). No difference is claimed that the report or N1 does not record, and the report itself warns that every claimed difference should be checked as it checked the Nereid tale (§8.6).
+Report §§7, 8 and 12 document these, and the rows marked N1 come from [SOMADEVA_TALE_EVIDENCE.md](SOMADEVA_TALE_EVIDENCE.md). No difference is claimed that the report, N1 or N3 does not record, and the report itself warns that every claimed difference should be checked as it checked the Nereid tale (§8.6).
 
 ---
 
@@ -637,16 +640,16 @@ Everything in this section is an observation to prompt checking. **None is a fin
 
 ### 6.1 Reaction riddles ("why did X weep, laugh or dance?")
 
-The report records the question in this form for **TC-014** (thief weeps then laughs), **TC-023** (ascetic weeps then dances or laughs; XXIV, the father laughs then weeps). **TC-020**'s title (the brahman boy who laughed at his sacrifice) suggests the same form, but its question is **not recorded**. If TC-020 shares the form, three or four candidates (and four or five tellings) would rest on an unexpected laugh or tear. How different the dilemmas are can only be judged after N1. This is the clearest repetition risk in the pool. **N1 update:** the KSS questions confirm TC-020 ("why did the boy laugh?", 12.27.127) and add **TC-012** ("why did the minister's heart burst?", 12.19.165–166), so four core families use the reaction form; TC-018 asks why a rite failed, a related causal form. See [SOMADEVA_TALE_EVIDENCE.md](SOMADEVA_TALE_EVIDENCE.md) §4.1 and §4.6.
+The report records the question in this form for **TC-014** (thief weeps then laughs), **TC-023** (ascetic weeps then dances or laughs; XXIV, the father laughs then weeps). **TC-020**'s title (the brahman boy who laughed at his sacrifice) suggests the same form, but its question is **not recorded**. If TC-020 shares the form, three or four candidates (and four or five tellings) would rest on an unexpected laugh or tear. How different the dilemmas are can only be judged after N1. This is the clearest repetition risk in the pool. **N1 update:** the KSS questions confirm TC-020 ("why did the boy laugh?", 12.27.127) and add **TC-012** ("why did the minister's heart burst?", 12.19.165–166), so four core families use the reaction form; TC-018 asks why a rite failed, a related causal form. See [SOMADEVA_TALE_EVIDENCE.md](SOMADEVA_TALE_EVIDENCE.md) §4.1 and §4.6. **N3:** TC-025 (J 21) adds a causal "why did she fail to recognise?" question, close to TC-018's form; it is not a reaction riddle ([JAMBHALADATTA_ADDITIONAL_TALES_EVIDENCE.md](JAMBHALADATTA_ADDITIONAL_TALES_EVIDENCE.md) §6.1).
 
 ### 6.2 Possible duplicates by title
 
 | Group | Why flagged | Status |
 |---|---|---|
 | TC-005 and TC-009 | A woman with suitors (three; four). | Both are E-matched and treated as different stories in the report. **N1:** now comparable at the level of events: TC-005's answer turns on risk of life after a joint rescue, TC-009's on caste and usefulness, with no rescue ([SOMADEVA_TALE_EVIDENCE.md](SOMADEVA_TALE_EVIDENCE.md) §4.6). Whether that is a different dilemma under D-035 is the user's judgement. |
-| TC-022 and TC-025 | "Four brothers" in both titles. | Shared words only. J 21 is unread. |
-| TC-001 and TC-026 | A bride won with a companion's help (titles only). | J 22 is unread. |
-| TC-010 and TC-027 | Both feature an ogre in J (J 10's brahman-ogre; J 23's ogre). | Shared figure only. |
+| TC-022 and TC-025 | "Four brothers" in both titles. | **N3:** a shared opening device only; J 21's riddle concerns the courtesan, not the brothers' skills. |
+| TC-001 and TC-026 | A bride won with a companion's help (titles only). | **N3:** shared devices (a schemer-helper; deceived parents and king), different questions (blame against cleverness). TC-026 is closer still to TC-015 (J 13); see [JAMBHALADATTA_ADDITIONAL_TALES_EVIDENCE.md](JAMBHALADATTA_ADDITIONAL_TALES_EVIDENCE.md) §3.1. |
+| TC-010 and TC-027 | Both feature an ogre in J (J 10's brahman-ogre; J 23's ogre). | Shared figure only (confirmed by N3). N3 found TC-027's closer motif link is with TC-016 (daily tribute; a weeping mother). |
 
 ### 6.3 Thematic clusters suggested only by titles
 
@@ -678,7 +681,7 @@ These are **not candidates**. They are things the report records that may add ca
 | **A different 25th story in Śivadāsa MS *c*** | Uhle notes one manuscript with a further, unique 25th story. Its content is not recorded. | VERIFIED — scholarly source |
 | **Kṣemendra's "two embedded stories"** | The 1901 BKM contents list two embedded stories (on the wickedness of men and of women) after the second *Vetālakathā*. Their relation to the 25 headings and to KSS 3 is not examined. | VERIFIED — primary text (contents only) |
 | **Other J recensions** | The Nepali recension (W, very corrupt) includes KSS 12 and 14 and omits KSS 17 and 18. Emeneau's 27-tale hypothesis rests on this comparison. | VERIFIED — scholarly source |
-| **Newari tradition** | Jørgensen 1921 edits two tales from a Newari manuscript (the two tales are not identified in the report). Otter's reader is not accessible. | VERIFIED — scholarly source / NOT ACCESSIBLE |
+| **Newari tradition** | Jørgensen 1921 edits two tales from a Newari manuscript. **N3:** they are Newari 21 and 22, the parallels of **J 21 and J 22** (TC-025, TC-026), edited with a German translation (pp. 219–236); the Newari version lacks J 23. Otter's reader is not accessible. | VERIFIED — scholarly source / NOT ACCESSIBLE |
 | **Tibetan** | A catalogue record of 37 "vetala stories" and a research lead (Francke 1921). No content was read. | UNVERIFIED |
 | **Bhaviṣya Purāṇa** | A search lead only. | UNVERIFIED / NOT ACCESSIBLE |
 | **Other vernaculars and Vallabhadāsa** | Mentioned only. Vallabhadāsa is probably a sub-recension of Śivadāsa. | UNVERIFIED |
@@ -760,7 +763,7 @@ This is an ordered list of missing research that could materially change how can
 |---|---|---|---|
 | **N1** | **Extract each core tale's question, answer and essential events** from the KSS Sanskrit (GRETIL S02) and Tawney/Penzer, with verse references, and set each beside Ś (Uhle) and the Hindi (Platts). The report author read these verses but recorded them for only part of the pool. | *Done (2026-11-17):* see [SOMADEVA_TALE_EVIDENCE.md](SOMADEVA_TALE_EVIDENCE.md). Without them, lenses A to G (§9) cannot be filled and the repetition risks in §6 cannot be judged. | §2.2, §7 |
 | **N2** | **Read Hindi XXII and XXIV in full** (Platts and Barker, with the printed Hindi), and compare them with KSS 23 and Ś 22 at the level of events. | *Done:* see [HINDI_XXII_XXIV_COMPARISON.md](HINDI_XXII_XXIV_COMPARISON.md). The question is settled by the user's decision (§5.A). | §8.5, §15 |
-| **N3** | **Read J 21, 22 and 23** in Emeneau's text and translation (respecting the rights caution), with the Newari parallels (Jørgensen). | Three candidates are title-only. | §4.D, §11 |
+| **N3** | **Read J 21, 22 and 23** in Emeneau's text and translation (respecting the rights caution), with the Newari parallels (Jørgensen). | *Done (2026-11-18):* see [JAMBHALADATTA_ADDITIONAL_TALES_EVIDENCE.md](JAMBHALADATTA_ADDITIONAL_TALES_EVIDENCE.md). Three candidates were title-only. | §4.D, §11 |
 | **N4** | **Read the other J tales' content**, in particular J 24 (TC-016), 25 and any tale in which J's endings or answers differ. | The report read J 10 and J 25 only; Emeneau says J's details "differ widely" from the others'. | §4.D, §15 |
 | **N5** | **Hindi/Braj specialist reading (a recommendation in the report, not a requirement; listed here as the author's suggestion for the user to weigh)** of Hindi IX (TC-010), XV (TC-016), XX (TC-021) and XXIV (TC-023). | These four readings rest on one printed text, read by AI readers on page images. Recommended in the report. | §14 Q9, §15 |
 | **N6** | **Verify the Kṣemendra concordance** tale by tale (page images of the 1901 and 1931 editions), at least for tales under serious consideration. | The BKM column is PROVISIONAL for 22 of 24 tales. | §4.A, §15 |
