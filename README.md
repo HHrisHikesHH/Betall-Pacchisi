@@ -209,7 +209,7 @@ The tale families found across the traditions, each with what happens, where it 
 </details>
 
 <details>
-<summary><b>4 · Selection Dossier</b> <sub>&nbsp;how a collection of twenty-five can be weighed</sub></summary>
+<summary><b>4 · Selection Dossier</b> <sub>&nbsp;weighing the candidates</sub></summary>
 
 <br>
 
