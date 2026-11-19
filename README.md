@@ -34,17 +34,8 @@ It is **Betal**, a *vetala*: a spirit that has made a dead body its home. He wil
 Twenty-five times.
 
 <p align="center">
-  <img src="assets/readme/strip-the-night-turns.svg" alt="Four steps in a loop: the tree, the shoulder, the tale, the question, then back to the tree." width="100%">
+  <img src="assets/readme/strip-the-night-turns.svg" alt="Four labelled steps in a loop: the tree, the shoulder, the tale, the question, then back to the tree." width="100%">
 </p>
-
-<table width="100%">
-  <tr>
-    <td align="center" width="25%"><sub><b>The tree</b></sub></td>
-    <td align="center" width="25%"><sub><b>The shoulder</b></sub></td>
-    <td align="center" width="25%"><sub><b>The tale</b></sub></td>
-    <td align="center" width="25%"><sub><b>The question</b></sub></td>
-  </tr>
-</table>
 
 <br>
 
@@ -120,17 +111,8 @@ A tale has to be worth hearing before it is worth thinking about. Depth is welco
 These tales have travelled through Sanskrit and Hindi tellings, and the tellings disagree. A question changes shape. An answer reverses. An ending exists in one version and vanishes in another. That variation is part of the story's history, so the project treats it as evidence, not noise.
 
 <p align="center">
-  <img src="assets/readme/strip-the-method.svg" alt="Four steps in sequence: an open book, two overlapping circles, an eye, and a quill with a flame." width="100%">
+  <img src="assets/readme/strip-the-method.svg" alt="Four labelled steps in sequence: Study (an open book), Compare (two overlapping circles), Interpret (an eye) and Retell (a quill with a flame)." width="100%">
 </p>
-
-<table width="100%">
-  <tr>
-    <td align="center" width="25%"><sub><b>Study</b></sub></td>
-    <td align="center" width="25%"><sub><b>Compare</b></sub></td>
-    <td align="center" width="25%"><sub><b>Interpret</b></sub></td>
-    <td align="center" width="25%"><sub><b>Retell</b></sub></td>
-  </tr>
-</table>
 
 - **Not bound to one version.** The aim is the strongest coherent retelling. A tale may take its setting from one tradition and its ending from another, but only when the result is stronger, and only when its logic and central dilemma survive.
 - **Honest about what is borrowed and what is invented.** Sources and creative additions are recorded, and an invention is never presented as something a source says.
