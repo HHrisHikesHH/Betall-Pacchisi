@@ -69,6 +69,30 @@ Twenty-five times.
 
 **The Human.** Under every ghost there is someone afraid, someone in love, someone ambitious, deceitful, or willing to give everything away. The supernatural gets you through the door. The people are why you stay.
 
+<details>
+<summary><b>Betal has left you a question. Dare to answer?</b></summary>
+
+<br>
+
+> A father marries a daughter. His son marries her mother. Each couple has a child.
+>
+> **What are those two children to one another?**
+
+Think it through before you read on. Betal is in no hurry.
+
+<details>
+<summary><em>What happened when Vikrama was asked?</em></summary>
+
+<br>
+
+In Somadeva's telling (*Kathāsaritsāgara* 12.31), Vikrama turns the relationships over in his mind and cannot work out the answer. He walks on in silence. Betal laughs to himself, and the story turns into the last act of the outer frame.
+
+The source gives no solution, and none is given here. This is a glimpse of one traditional tale, not a retelling of it, and it says nothing about which tales the collection will contain.
+
+</details>
+
+</details>
+
 <p align="center">
   <img src="assets/readme/ornament.svg" alt="" width="60%">
 </p>
@@ -145,44 +169,78 @@ It should feel like **entering a story**, not visiting a website: narration, ill
 
 ## The archive, by lantern
 
-The README only introduces. The detail lives in the documents, and six lanterns mark the way.
+The README only introduces. The detail lives in the documents, and six lanterns mark the way. Open the ones that draw you.
 
 <p align="center">
   <img src="assets/readme/map-the-archive.svg" alt="A winding night road with six numbered lanterns, one for each document linked below." width="100%">
 </p>
 
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <b>1 · <a href="docs/PROJECT_VISION.md">Project Vision</a></b><br>
-      <sub>What is being made, for whom, and what it is not.</sub>
-    </td>
-    <td width="50%" valign="top">
-      <b>2 · <a href="docs/STORYTELLING_NORTH_STAR.md">Storytelling North Star</a></b><br>
-      <sub>The creative compass: entertainment first, depth that emerges, no forced morals.</sub>
-    </td>
-  </tr>
-  <tr>
-    <td valign="top">
-      <b>3 · <a href="docs/research/CANDIDATE_TALE_CATALOGUE.md">Candidate Tale Catalogue</a></b><br>
-      <sub>The tales found across the traditions, mapped family by family.</sub>
-    </td>
-    <td valign="top">
-      <b>4 · <a href="docs/selection/README.md">Selection Dossier</a></b><br>
-      <sub>The dilemmas, overlaps and variety to weigh when choosing the twenty-five.</sub>
-    </td>
-  </tr>
-  <tr>
-    <td valign="top">
-      <b>5 · <a href="docs/research/SOURCE_TRADITIONS_COMPARISON.md">Source Traditions Comparison</a></b><br>
-      <sub>The Sanskrit and Hindi tellings, set side by side.</sub>
-    </td>
-    <td valign="top">
-      <b>6 · <a href="docs/DECISIONS.md">Decision Register</a></b><br>
-      <sub>Every agreed principle, and the reasoning behind it.</sub>
-    </td>
-  </tr>
-</table>
+<details>
+<summary><b>1 · Project Vision</b> <sub>&nbsp;what is being made, and what it is not</sub></summary>
+
+<br>
+
+The ambition, the experience a reader should have, the principles that guide the work, and a plain statement of what this project is not. The best first stop.
+
+**→ [Open the Project Vision](docs/PROJECT_VISION.md)**
+
+</details>
+
+<details>
+<summary><b>2 · Storytelling North Star</b> <sub>&nbsp;the creative compass</sub></summary>
+
+<br>
+
+How a tale should be told: entertainment first, depth that emerges from the story, no forced morals, and the rules for drawing on several traditions at once.
+
+**→ [Open the Storytelling North Star](docs/STORYTELLING_NORTH_STAR.md)**
+
+</details>
+
+<details>
+<summary><b>3 · Candidate Tale Catalogue</b> <sub>&nbsp;the tales, family by family</sub></summary>
+
+<br>
+
+The tale families found across the traditions, each with what happens, where it appears and how the versions differ.
+
+**→ [Open the Candidate Tale Catalogue](docs/research/CANDIDATE_TALE_CATALOGUE.md)**
+
+</details>
+
+<details>
+<summary><b>4 · Selection Dossier</b> <sub>&nbsp;how a collection of twenty-five can be weighed</sub></summary>
+
+<br>
+
+One dossier for each candidate tale: its central dilemma, its overlaps with other tales, and the variety a whole collection needs.
+
+**→ [Open the Selection Dossier](docs/selection/README.md)**
+
+</details>
+
+<details>
+<summary><b>5 · Source Traditions Comparison</b> <sub>&nbsp;the tellings, side by side</sub></summary>
+
+<br>
+
+The Sanskrit and Hindi traditions compared: how each frames the story, how they count and order the tales, and where they disagree.
+
+**→ [Open the Source Traditions Comparison](docs/research/SOURCE_TRADITIONS_COMPARISON.md)**
+
+</details>
+
+<details>
+<summary><b>6 · Decision Register</b> <sub>&nbsp;what has been agreed, and why</sub></summary>
+
+<br>
+
+Every agreed principle with its reasoning, so the project can stay coherent over years of work.
+
+**→ [Open the Decision Register](docs/DECISIONS.md)**
+
+</details>
+
 
 <br>
 
@@ -195,6 +253,15 @@ The README only introduces. The detail lives in the documents, and six lanterns 
 <p align="center">
   <sub>एक कथा समाप्त होती है। एक प्रश्न शेष रह जाता है।</sub>
 </p>
+
+<details>
+<summary><sub>You have reached the end of the road. Or have you?</sub></summary>
+
+<br>
+
+*Stories may end. Questions may remain. What a reader carries away is their own.*
+
+</details>
 
 <br>
 
