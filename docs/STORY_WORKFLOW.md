@@ -122,7 +122,7 @@ Begins **only after the Hindi story is APPROVED**. (D-012)
 
 ### Proposed record-keeping structure
 
-**PROPOSED (P-001).** This is not yet created or approved. It is kept separate from any future application code, in line with D-015.
+**Historical proposal (P-001), now SUPERSEDED by D-045 (2026-11-21).** The approved structure is in §6.3 below and in [production/PRODUCTION_PLAN.md](production/PRODUCTION_PLAN.md) §10. The sketch below is kept as the record of the original proposal.
 
 ```
 stories/
@@ -155,3 +155,46 @@ The folder location and naming, including how tales are numbered, are subject to
 - Each critique names the draft it reviews.
 - Each approval records **who approved, when, and which exact text** (for example, a Git commit).
 - Approved text is changed only through the revision process above.
+
+## 6. Production additions (APPROVED 2026-11-21: D-041, D-042, D-045, D-046, D-047)
+
+These add to §§1–5 and replace nothing in them. D-019's stages and three-draft minimum, D-020's independence, D-021's record-keeping and D-022's approval authority are unchanged. The full working detail is in [production/PRODUCTION_PLAN.md](production/PRODUCTION_PLAN.md) §§9–10. The ethical standard is [ETHICAL_CHARTER.md](ETHICAL_CHARTER.md).
+
+### 6.1 Stages with ethics gates (D-042)
+
+| Stage | Adds to | What happens |
+|---|---|---|
+| **A1 Research** | Stage 1 | Starts **from** the dossier, N1, N3 and the slate audit; fills gaps and verifies. Does not repeat completed research. |
+| **A2 Blueprint** | Stage 1 | Source question and answer verbatim; the adapted question and answer in D-041 form; role table (charter §3.6); safeguards; confidence. |
+| **A3 Ethics pre-review** | new gate | Ethics reviewer(s) by risk tier, plus the challenger for MAJOR REWRITE tales and the frame. Must pass the **honest-difficulty test** (D-041). Composed answers or reasoning and dilemma changes go to the user in a **batched A3 packet**. |
+| **B Drafts 1–3+** | Stages 2–4 | Critique 2 includes an ethics and character section. |
+| **C Verification** | Stage 5 | A **fresh verifier, never the writer**, reads the sources and the final draft, not the writer's notes. It adds a charter check. |
+| **D Approval** | Stage 5 | The approval packet states the **review status** (§6.4). |
+| **E English** | Stage 6 | A separate adapter, a critic and a fresh fidelity verifier. |
+
+### 6.2 Roles and contexts (D-046)
+Separate AI contexts wherever independence matters. A context is reused only within its own sequence (a writer across drafts, a critic across critiques). **The verifier is always fresh.** Review effort scales with risk: ADAPT tales get one combined ethics reviewer; MAJOR REWRITE tales get two ethics reviewers plus the challenger; the frame gets the strongest review. Unresolved ethical dissent is always recorded and escalated.
+
+### 6.3 Records (D-045)
+```
+stories/
+  README.md, SLATE.md
+  FRAME/                      # same layout as a tale, plus segments.md
+  TC-NNN/                     # stable research ID, never renamed
+    status.md                 # status history, approvals (who, when, commit, sha256), review status, reconciliation notes
+    research/sources.md, research/additions.md
+    blueprint.md
+    ethics/blueprint-review.md, ethics/challenge.md
+    hi/draft-N.md, hi/critique-N.md, hi/verification.md, hi/approval-packet.md, hi/approved.md
+    en/draft-N.md, en/critique-N.md, en/fidelity-check.md, en/approval-packet.md, en/approved.md
+```
+Drafts are never overwritten. `approved.md` is immutable and bound by a sha256 of its normalised body, recorded in `status.md` and in the published `content/` file (D-047). A later change starts a new revision cycle and needs a new approval.
+
+### 6.4 Review status (D-046)
+Every `status.md` and approval packet records exactly one of:
+- `AI review completed`
+- `Human review completed` (role, date, scope, notes file)
+- `Human review not obtained` (and why)
+
+An AI-reviewed text is **never** described as human-verified. Human Hindi literary and sensitivity readers are recommended, not blocking. The priority texts are listed in the production plan §9.4.
+

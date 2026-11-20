@@ -1,6 +1,6 @@
 # Handoff
 
-*Last updated: 2026-11-21 (`main` merged into `feature/reading-mvp` so that PR #9 is current; PRs #10 and #11 merged into `main`; PR #9 open, not merged)*
+*Last updated: 2026-11-21 (production plan approved; editorial-foundation docs on branch `production/19-slate-plan`, based on PR #9's branch; PR #9 brought current with `main`, not merged)*
 
 Read this first when you start a new session on this project. It summarises the current state and links to the authoritative documents. **It is never the authority on a decision.** [DECISIONS.md](DECISIONS.md) is.
 
@@ -18,6 +18,12 @@ Read this first when you start a new session on this project. It summarises the 
 - **N3 done (2026-11-18); [PR #8](https://github.com/HHrisHikesHH/Betall-Pacchisi/pull/8) merged into `main` by the user (merge commit `d339fef`, 2026-11-18 UTC; final branch commit `673ed37`). Review history: an initial independent review's corrections were applied in `1f104a5`; a second independent correction review of `1f104a5` found remaining issues, corrected in `673ed37`. According to the recorded review history (evidence document §10.2), `673ed37` did not receive its own independent review before the merge; the merge is not an independent approval of that commit:** [research/JAMBHALADATTA_ADDITIONAL_TALES_EVIDENCE.md](research/JAMBHALADATTA_ADDITIONAL_TALES_EVIDENCE.md) records Jambhaladatta's three additional tales, **J 21, J 22 and J 23** (TC-025 to TC-027), read in full in Emeneau 1934 (Sanskrit text, translation and notes), with **J 13** for the TC-026 comparison and **Jørgensen's introduction and German translations of both Newari tales** (1921; the Newari original text was not read). Evidence only: no selection, ranking or adaptation. **Main findings:** (1) all three are complete tales with a question and an answer: J 21 asks why a courtesan who remembers her former births failed to see through a trickster (answer: her life as a courtesan); J 22 asks whether the bawd or Mūladeva was cleverer (answer: Mūladeva); J 23 asks who is guilty of a city's deaths (answer: the king, no reasoning given). (2) **Jørgensen's two Newari tales are the parallels of J 21 and J 22**; the Newari lacks J 23. (3) **The Newari answer to J 22 is reversed: the bawd**, not Mūladeva. (4) J 22 is **not a repetition of J 13** (TC-015): shared rogue pair and devices, different dilemma (cleverness against "whose wife?"). (5) J 23 shares the daily-tribute and weeping-mother motif with TC-016 and a king-is-to-blame answer with TC-001. (6) **J 22 and J 23 rest on one Bengali manuscript (P) plus the 1873 print**; W was collated for names only. **Limitations:** AI reading; no Sanskritist or Newari specialist; the Newari read only in Jørgensen's German; OCR checked on page images at key points. The catalogue was updated narrowly (rows marked "N3"); the report was not changed (evidence document §9 lists report items for the user).
 - **Selection dossier for the 27 candidates (2026-11-18): merged into `main` by the user (PR #10).** [selection/](selection/README.md) gathers the existing evidence into one dossier per candidate family (TC-001 to TC-027), fourteen tested overlap groups, a collection overview, a triage of research items N4–N9, a register of outside leads, and an owner's decision sheet with blank decision fields. Evidence and analysis only. Start at [selection/SELECTION_OVERVIEW.md](selection/SELECTION_OVERVIEW.md).
 - **Immersive root README (2026-11-19): merged into `main` by the user (PR #11).** Original SVG artwork that sets no visual direction (see the README's own note).
+- **19-story production plan APPROVED by the user (2026-11-21), Milestone A docs on branch `production/19-slate-plan`** (PR open, based on `feature/reading-mvp`; merge PR #9 first). [production/PRODUCTION_PLAN.md](production/PRODUCTION_PLAN.md) is now the governing plan.
+  - **First release:** 19 tales (TC-001, 002, 003, 006, 007, 008, 010, 013, 015, 016, 018, 019, 020, 021, 022, 024, 025, 026, 027) plus the continuous frame. **Long-term goal:** 25, reached by post-launch additions. Suspended: TC-004, 005, 012, 014, 017, 023. Rejected: TC-009, 011 (D-038).
+  - **Ethical Editorial Charter** [ETHICAL_CHARTER.md](ETHICAL_CHARTER.md) (D-039, D-040): keep caste visible when it matters and call discrimination out; equal moral standards across genders; accountable power; the honest-difficulty test (D-041).
+  - **Slate audit** [production/SLATE_AUDIT.md](production/SLATE_AUDIT.md): 13 ADAPT, 6 MAJOR REWRITE (003, 015, 019, 020, 025, 027), none rejected. TC-003 is conditional. Four independent AI reviews are kept verbatim in [production/reviews/](production/reviews/). **AI review only; no human or specialist review yet.**
+  - **Frame** [production/FRAME_PROPOSAL.md](production/FRAME_PROPOSAL.md) (D-043): KSS working base, the ascetic unmarked by sect, TC-024 as the fixed climax.
+  - **Also recorded:** audience adults (D-044); records in [../stories/](../stories/README.md) (D-045); staffing and human review (D-046); live-reader gate (D-047); your story directions (D-048).
 - No story blueprints have been produced and **no story drafting has begun**.
 - No art style, artwork, or audio exists.
 - **Technology:** working, reversible choices under D-037 (Vite, React, TypeScript, react-router, Vitest), on this branch. No hosting, backend or deployment yet. The application code, D-037, CLAUDE.md and PROJECT_PLAN.md reach `main` only when the user merges PR #9.
@@ -67,6 +73,7 @@ Full wording and IDs are in [DECISIONS.md](DECISIONS.md).
 | 2026-11-18 | PR #8 merged by the user (merge commit `d339fef`). The user moved the project to agile product development (D-037). Built the reading MVP (M1) on `feature/reading-mvp`: Vite + React + TypeScript app, `content/` story files with validation, collection and story pages, responsive layout, tests; added CLAUDE.md and PROJECT_PLAN.md. One independent AI review of the code (PR #9). |
 | 2026-11-18 | PR #10 (selection dossier) merged by the user. |
 | 2026-11-19 | PR #11 (immersive root README) merged by the user. |
+| 2026-11-21 | **Production plan** (revision 2) approved by the user after review of revision 1. Four independent AI reviews (source/literary, caste/power, gender/agency, challenger). Milestone A docs on `production/19-slate-plan`: charter, register D-038 to D-048, slate audit, frame proposal, workflow additions, `stories/` scaffold. |
 | 2026-11-21 | Merged `main` into `feature/reading-mvp` to clear PR #9's conflicts (README.md: kept main's immersive README and added a short "Run the reading prototype" section; HANDOFF.md: combined both histories, kept the record that `673ed37` was not independently reviewed). |
 | 2026-11-17 | PR #5 (catalogue) merged. Read Hindi XXII and XXIV in full against KSS 23 and Ś 22 (PR #6); independent Opus review applied (four substantive findings, including Uhle's manuscript B and recension *f* evidence); narrow factual corrections made to report §8.5 and catalogue §5.A. **The user then decided: XXII and XXIV are one slot (TC-023) with two recorded variants.** |
 
@@ -88,10 +95,11 @@ P-001 to P-004, P-006 and P-007 in [DECISIONS.md](DECISIONS.md#proposals-awaitin
 
 ## Recommended next task
 
-1. **The user reviews the reading MVP** in a browser (`npm run dev`) on desktop and phone, and decides whether to merge PR #9.
-2. **Production plan (approved 2026-11-21):** the editorial-foundation docs (ethical charter, slate audit, frame proposal, register entries) follow in a separate docs PR based on this branch. See that PR and `docs/production/` once it exists.
+1. **The user reviews and merges PR #9** (reading MVP, now current with `main`), then the **Milestone A docs PR** (`production/19-slate-plan`).
+2. **Milestone B begins** ([production/PRODUCTION_PLAN.md](production/PRODUCTION_PLAN.md) §11): the frame blueprint (A1–A3), then the pilot blueprints **TC-013** and **TC-001**. Research tasks scheduled there: verify charter principles 7 and 8 and the CAD page reference; N4 for TC-016 and TC-007.
+3. The first user touchpoint after that is the **batched A3 packet** (composed reasoning, dilemma changes, frame blueprint), followed by each Stage D packet.
 
-**Still not to be done without the user:** writing or adapting any tale outside the approved workflow, choosing a primary tradition, the narrator's identity (Q-005), the Hindi register (Q-402), art direction or audio.
+**Still not to be done without the user:** merging any PR, changing an approved decision, approving a story, choosing the narrator's identity (Q-005), art direction or audio (Milestone E).
 
 ## Notes for the next session
 

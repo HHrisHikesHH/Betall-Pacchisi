@@ -1,8 +1,22 @@
 # Project Plan
 
-*Last updated: 2026-11-18*
+*Last updated: 2026-11-21*
 
 A practical milestone plan. Decisions live in [DECISIONS.md](DECISIONS.md); current status in [HANDOFF.md](HANDOFF.md). Milestones after the current one are a direction, not a commitment: reorder them as we learn.
+
+## Production milestones (approved 2026-11-21)
+
+The **governing plan** for stories and release is [production/PRODUCTION_PLAN.md](production/PRODUCTION_PLAN.md) §11. Its milestones are:
+
+| Milestone | In short |
+|---|---|
+| **A: Editorial foundation** | Charter, register entries D-038 to D-048, slate audit, frame proposal, `stories/` scaffold; PR #9 brought current (done 2026-11-21) |
+| **B: Story production** | Frame blueprint; pilots TC-013 and TC-001, then TC-025; one batched A3 packet; the other first-release tales; Hindi then English approvals |
+| **C: First release** | Text-only app (application steps R1 to R8 below, which absorb the old M2 to M4); release with the 19 that pass approval |
+| **D: Post-launch expansion** | Add tales through the same process until the collection reaches 25 |
+| **E: Visual and audio** | Only after the written stories and the frame are complete (the old M5 and M6) |
+
+The engineering milestones below stay as the record of M0–M1 and as the task lists. **Where they differ in order, the production plan governs.** Notable changes: M3 ("first real Hindi tale") is now the two pilots in Milestone B. The story-body format grows from the pilot drafts, not speculatively. Asset slots wait for Milestone E.
 
 ## Working method (D-037)
 
