@@ -1,0 +1,69 @@
+# Frame Narrative Proposal: the night of the corpse
+
+> **Status: APPROVED by the user (creative director) in chat on 2026-11-21**, as part of the 19-story production plan, revision 2 (D-038 to D-048). Section numbers follow the [production plan](PRODUCTION_PLAN.md) so that cross-references such as "§3.2.5" resolve the same way everywhere. Written by the lead (an AI coordinator); first-person notes ("my draft", "I adopt") are the lead's reconciliation record, kept so that dissent stays visible.
+
+**Approved as the working base for the frame blueprint.** Items marked *open* in §8.4 are decided in the frame's A3 packet. The ascetic's identity is settled: **unmarked by sect** (user, 2026-11-21). The charter is [../ETHICAL_CHARTER.md](../ETHICAL_CHARTER.md).
+
+## 8. Frame narrative proposal (the night of the corpse)
+
+*Evidence base: catalogue §8 (`docs/research/CANDIDATE_TALE_CATALOGUE.md:694-714`), comparison report frame sections, N1 TC-024. Q-401 and Q-408 stay open. This proposes a **base** for the frame under D-034 for the user's approval. It settles no historical claim.*
+
+### 8.1 What the traditions say, and where they contradict each other
+| Element | KSS | Ś | J | Hindi | Conflict / risk |
+|---|---|---|---|---|---|
+| King | Trivikramasena, Pratiṣṭhāna | Vikramasena | Vikramakesarin / Vikramāditya | Vikram(ajīt), brother of Bharthari | Name and city differ. "Vikram" is the familiar name in every case |
+| Ascetic | Buddhist **bhikṣu** Kṣāntiśīla | yogī; *digambara* (Jain) in the printed ending | **kāpālika** | potter-devotee who killed the oilman | Each tradition makes **a religious or occupational group** the villain. This is a charter §3.2.8 risk |
+| Approach | fruit with hidden gem, daily for 10 yrs | fruit, period varies | bilva fruit, 12 yrs | prehistory: three men born at one moment (king, **oilman's son**, **potter**-devotee) | The Hindi prehistory ties identity to caste-coded occupations and **gives the warning away early** |
+| Penalty | head bursts if he knows and stays silent | same | not checked | "cast into hell" | — |
+| Warning | after the final riddle | — | — | in the prehistory | Structure differs: late warning (suspense) or early (dramatic irony) |
+| Ending | the Vetāla tells the king to ask the monk to demonstrate the prostration and then behead him, **"so gaining the Vidyādhara sovereignty the monk wanted"** (12.31.65–74); the king does; Vetāla's boon; king asks that the stories be famous; Śiva appears; **no servitude** | mixed; Vetāla as **servant**; gods appear | Kṣāntiśīla offered to Devī; boons | corpses in oil; two *bīr* serve the king | Ś, J and Hindi end with the spirit's **servitude** (charter §3.4.3) |
+
+**Not researched:** BKM, Newari, Tibetan and Bhaviṣya Purāṇa frames. J's frame beyond the passages read. The penalty in Ś and J. A frame research task (A1) fills only the gaps the chosen base depends on.
+
+### 8.2 Recommended base (for approval): KSS structure, with charter adaptations
+- **Why KSS:** it is the best-read witness in this repo. It keeps the warning *late* (most suspense), gives the clearest penalty rule (knowing and staying silent is the crime), and its ending, where the king asks that the tales be remembered, fits a reading app.
+- **Adaptations (all recorded as our composition):**
+  1. **The ascetic** keeps his name (Kṣāntiśīla: "whose nature is patience", a fine irony) and his role as a cremation-ground sorcerer seeking power through a human sacrifice. His **sectarian label is dropped**: not Buddhist, not Jain, not a named Śaiva order. He becomes **a sādhak of the burning ground**, defined by his ambition, not his community. The challenger warns that "tantrik" is the stock villain of Hindi film and TV, and Tantra is a living tradition, so the word is avoided, as is Bhairava or skull iconography that would signal Kāpālika anyway. Essential: his specialised ritual knowledge. Incidental: his sect.
+  2. **No caste-coded prehistory**: the Hindi oilman and potter backstory is not used. Betal's own past stays a mystery he reveals on his own terms. That makes it a character asset, not a lineage.
+  3. **The ending without servitude.** This is **source-supported**: KSS has no servitude (only Ś, J and the Hindi do). What *is* our invention is any liberation of Betal ("freed from the tree"), and it is recorded as such. The leaner option is KSS's own: Betal simply departs. The king's request that the tales be told stays, from KSS. The divine coronation is reduced to a single image or left out. *Interpretive choice.*
+  4. **No offering, no reward-by-deity for the killing.** J's offering of the ascetic to Devī for universal rule is not used. If Betal's past is ever touched, J's oil-miller is a working man exploited by a teacher, not a monstrous origin (caste reviewer).
+  5. **Vikram's killing of the ascetic** stays, and it stays **morally live**. My draft called it "self-defence". The challenger showed that KSS frames it as a pre-emptive killing by ruse, done on Betal's instruction **to win the sovereignty the ascetic sought**. We keep that, drop the sovereignty *reward*, and **do not clean the act**. The night ends with Vikram **examined, not vindicated** (§3 principle 6, applied to him). Did he kill to survive, or did he take the prize? The frame's final pages leave that honestly open. The honest-difficulty test applies to the frame too.
+
+### 8.3 The arc: what changes over the night
+- **Why Vikram goes.** He goes out of obligation for years of unexplained gifts, the gem-filled fruit. *Charter reading:* patronage-debt is the "loyalty" being examined (§3.4.5, principle 6). He goes because he owes, not because he has asked what for.
+- **What Betal wants.** On the surface: to pass the road and to escape. Underneath, there are **two candidate motives, and the frame blueprint chooses between them**:
+  - (a) Our characterisation: Betal is weighing whether this king is worth warning. KSS supports only a *late* evaluation (63–65: the king "cannot be deceived", praised for courage), so this would be an extrapolation.
+  - (b) Ś 25's motive (provisional, OCR): Betal has deceived the king many times, and the warning comes when the game is played out.
+
+  Either way, Betal is **not** a vehicle for the charter. He is mischievous, self-interested and unknowable.
+- **Rules.** Vikram must answer if he knows (KSS penalty). The moment he speaks, Betal is free and returns to the tree. The trap is that his virtue (honest judgment) is exactly what keeps undoing his task.
+- **Escalation, in four movements.** This is a *working shape for the frame blueprint*, not a template. The challenger warns that a schematic growth arc is itself lecture-prone, and that "his answers are changing him" is a modern arc nobody attested. Movements are felt through events (fatigue, weather, the walk, Betal's provocations), never announced, and Vikram is not "improved".
+  1. *Contract* (opening tales, including TC-001 in KSS order): mechanics, humour and irritation. Vikram answers quickly and confidently. TC-001's "the king is guilty" lands early, as a first sting.
+  2. *Friction* (middle): more tales turn back on rulers (016's Vāsuki, 020, 027). The walks get shorter and the dialogue gets sharper. The burning ground's people are seen in passing as *people*, not scenery.
+  3. *Doubt* (late): Vikram begins to ask Betal questions back. Whether he changes is left to the reader.
+  4. *Silence* (TC-024): the one riddle he cannot answer. **The text says he did not know** (N1, *nājñāsīt*). We keep that honestly: it is not a "wise refusal". His not-knowing is what earns the warning. The warning, the confrontation, the ending.
+- **Transitions.** Each tale is bracketed by a **short frame segment** (½ to 2 pages). Each segment varies one or two of: the walk, the weather or hour, a fragment of Betal's past, a reaction to the last answer, a hook for the next. Nothing is repeated as a formula. The tree, shoulder, tale and question loop is *shown* fully twice (the first and the last) and *elided* in between.
+- **Order (Q-413, recommendation):** use the KSS sequence for the slate's tales (it is the base), with TC-024 last. TC-025 to TC-027, which are J-only, are placed by the lead for variety and pacing in the frame blueprint. Final order is approved with the frame blueprint.
+- **Gender in the frame (gender reviewer).** The documented frame has no women, and every judge and questioner is male. **No token woman is invented.** Instead, the frame's own mechanisms make each verdict *a judgement under pressure*, not the collection's last word: Betal's objections (attested in KSS 1, 4, 17), Vikram's strategic answers (TC-022, 12.29.47), and his not-knowing (TC-024). Not using the Hindi prehistory also avoids the Bharthari fruit episode, which in common tellings turns on a queen's infidelity. That is *not verified in this repo*; N9 should check it if the Hindi frame is ever revisited.
+- **Tale-to-frame echoes, not themes.** TC-020 (a king lets a child die for his safety) sits shortly before the reveal that the ascetic means to sacrifice *Vikram*. TC-022's aside (he answers knowing it frees Betal) marks the turn into *Doubt*. TC-001 (early) and 027 (later) both answer "the king is guilty". These are placement choices; no tale is rewritten to fit a frame theme.
+- **Narrator.** Betal tells the tales within the story world (D-035). **Who narrates the frame stays open (Q-005).** The frame blueprint drafts its segments so that they work with an unnamed narrating voice *or* with other options the user may choose. My draft wrote "an unnamed narrator tells the frame", which would have quietly settled part of Q-005 (challenger). Withdrawn.
+
+### 8.4 Ethical review of the frame (revision 2)
+The frame is not exempt from the charter, and it gets the strongest review of anything in the collection (§9). It must stay **entertaining, mysterious and suspenseful**. Each item below is handled through events and atmosphere, never through speeches.
+
+| Issue | Source position | Ethical reasoning | Working proposal | Status |
+|---|---|---|---|---|
+| **The ascetic's identity** | KSS Buddhist *bhikṣu*; Ś a yogī who is *digambara* (Jain) in the printed ending; J *kāpālika*; Hindi a potter-devotee (§8.1) | His sect is **not connected** to his acts (5c). No tradition ties human sacrifice to Buddhist or Jain practice, and the label works as **sectarian colouring of the villain**. Buddhist, Jain and Tantric traditions are living communities (§3.2.8). **One antagonist's acts are not a community's character.** | His sect is unmarked: "a sādhak of the burning ground", with no tantrik or Kāpālika iconography. His name Kṣāntiśīla is kept. | **Open: your decision** (it changes the antagonist's source identity). Alternative: keep one source identity and individualise him against counterweights. I don't recommend that; a single antagonist can't carry counterweights well. |
+| **Vikram's violence** | KSS: Betal instructs the killing by ruse, "so gaining the Vidyādhara sovereignty the monk wanted" (12.31.65–74) | A pre-emptive killing **to win power** is not self-defence. Cleaning it would vindicate the king (§3 principle 6). | The killing stays **morally live**: survival and prize are both present; the sovereignty reward is dropped or reduced; the last pages leave the act honestly open. | Working base; the frame A3 packet tests it |
+| **The spirit's captivity and agency** | Betal is bound to the tree and to being carried; KSS has no servitude at the end, while Ś, J and the Hindi do (§8.1) | A being repeatedly seized and carried. Ś, J and the Hindi end by making it serve. | No servitude ending (KSS). Betal keeps his own agency: he chooses the tales, contests the answers, and decides to warn. His captivity is felt, not celebrated. Any liberation is our invention and recorded as such. KSS's own option is that he simply departs. | Working base; the "freed" vs "departs" choice stays open for the frame blueprint |
+| **Does the ending reward domination?** | KSS: Śiva grants a sword and sovereignty; Ś and J: gods, siddhis, universal rule | An ending that crowns the king for killing turns the frame into a vindication of power. | Keep the KSS request that **the tales be remembered**. The divine coronation is reduced to an image or left out. The night closes on the stories, not on a throne. | Working base; *the degree of divine coda is open* |
+| **Betal's motive** | KSS 63–65 (late evaluation); Ś 25's "deceived many times" (provisional) | Must not become the charter's mouthpiece | Two candidates are kept open (§8.3) | **Open** for the frame blueprint |
+| **Caste-coded prehistory** | Hindi (oilman, potter); J (oil-miller Vetāla) | Identity tied to caste-coded occupations; a "monstrous" artisan origin (5b) | Not used. If J's oil-miller is ever used, he is a working man exploited by a teacher | Working base |
+| **Women in the frame** | None documented | No token woman (§8.3); TC-024's women weigh on the climax through events | — | Working base |
+| **Unresolved source questions** | J's ending (Uhle vs Emeneau); BKM, Newari and Bhaviṣya frames unread; Ś and J penalty | They affect the base only if we borrow from them | Frame A1 lists them; nothing is closed by default | **Open** (research) |
+
+### 8.5 Built for additions after launch
+- The frame's **climax is fixed**: TC-024, then the warning and the ending. Every tale added after launch is **inserted before TC-024**, so the ending never has to be rewritten.
+- Each tale is bracketed by **its own** short frame segments (§8.3 transitions). Adding a tale means writing its segments through the normal workflow. No other segment changes, except where a neighbouring transition line must be amended, and that goes through the frame's own revision cycle with your approval.
+- The four movements are loose enough to absorb insertions, so pacing is re-checked at each addition and not re-planned.
+
