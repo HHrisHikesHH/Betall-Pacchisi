@@ -87,14 +87,14 @@ This is the organised list of unresolved decisions. **None of these may be treat
 
 ## Technical
 
-Nothing technical has been approved (D-030). These questions are for later discussion.
+D-037 (2026-11-18) allows reasonable, reversible technical choices for the MVP. The working choices below can be revisited; none is a permanent architecture decision.
 
 | ID | Question | Status | Notes |
 |---|---|---|---|
-| Q-501 | Which framework and technology stack? | OPEN | Must stay simple and maintainable. |
+| Q-501 | Which framework and technology stack? | WORKING CHOICE (D-037) | Vite + React + TypeScript + react-router, tested with Vitest. Reversible. Must stay simple and maintainable. |
 | Q-502 | Which hosting provider? | OPEN | |
-| Q-503 | Is a database or backend needed at all? | OPEN | |
+| Q-503 | Is a database or backend needed at all? | OPEN | The MVP is a static site with no backend. |
 | Q-504 | How are images and audio stored and delivered? | OPEN | Related to Q-303. |
 | Q-505 | Are readers asked to sign in at all? If so, how? | OPEN | |
-| Q-506 | How is creative content kept technically separate from code, so approved stories cannot be overwritten by accident? | OPEN | The requirement is approved (D-015). The mechanism is not. |
-| Q-507 | How should content be structured so more languages (such as Marathi and Kannada) can be added later? | OPEN | D-014 |
+| Q-506 | How is creative content kept technically separate from code, so approved stories cannot be overwritten by accident? | WORKING CHOICE (D-037) | The requirement is approved (D-015). MVP mechanism: story files live in `content/`, outside `src/`, and are validated at build and test time. Protection of *approved* text (for example review rules or a separate content repository) is still open. |
+| Q-507 | How should content be structured so more languages (such as Marathi and Kannada) can be added later? | OPEN | D-014. MVP layout is per-language folders (`content/stories/hi/`) and UI strings per language (`src/i18n/hi.ts`); only Hindi exists. |

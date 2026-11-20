@@ -226,6 +226,21 @@ Every agreed principle with its reasoning, so the project can stay coherent over
 
 <br>
 
+## Run the reading prototype
+
+The repository also contains an early, browser-based, Hindi-first reading prototype. The collection, story pages and navigation work, but **every story entry is clearly labelled placeholder content**: no tale has yet completed the story workflow.
+
+Requires Node.js 20 or newer.
+
+```bash
+npm install
+npm run dev        # http://localhost:5173
+```
+
+Other commands: `npm test` (tests), `npm run typecheck`, `npm run build` (production build into `dist/`), `npm run preview` (serve the build at http://localhost:4173). Story files live in `content/stories/hi/`; see [CLAUDE.md](CLAUDE.md#where-things-live) for the format. Current status: [docs/HANDOFF.md](docs/HANDOFF.md); milestones: [docs/PROJECT_PLAN.md](docs/PROJECT_PLAN.md).
+
+<br>
+
 <p align="center">
   <img src="assets/readme/closing-the-lamp.svg" alt="An oil lamp has just been put out; its smoke curls upward into the shape of a question mark above a dark treeline." width="100%">
 </p>

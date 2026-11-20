@@ -39,6 +39,7 @@ A **recorded preference** (`PREF-###`, kept in [DECISIONS.md](DECISIONS.md#recor
 | Document | Authoritative for |
 |---|---|
 | [HANDOFF.md](HANDOFF.md) | Current status, completed work, and the next recommended task. It summarises the others and is never the authority on a decision. |
+| [PROJECT_PLAN.md](PROJECT_PLAN.md) | Product milestones, the current milestone, next tasks, dependencies and acceptance criteria. Never the authority on a decision. |
 | [STORYTELLING_NORTH_STAR.md](STORYTELLING_NORTH_STAR.md) | Central creative reference (D-036): the project's storytelling identity, source-adaptation rules and the working definition of the 25 tales, as a practical guide for writers and reviewers. Approved as D-036 (2026-11-17); the decisions it cites are authoritative in DECISIONS.md. |
 | [PROJECT_VISION.md](PROJECT_VISION.md) | Why the project exists, the intended reader experience, scope, and guiding principles. |
 | [DECISIONS.md](DECISIONS.md) | **The single register of decisions**: approved, proposed, and rejected. If another document disagrees with it, the register wins until the conflict is resolved. |

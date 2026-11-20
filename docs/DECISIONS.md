@@ -24,7 +24,7 @@ The first four statuses are the project status labels used across all documents 
 - A **recorded preference** is not a decision. See [Recorded user preferences](#recorded-user-preferences).
 - To change an approved decision, add a new entry that supersedes it. Do not edit the original wording.
 
-**Source of approvals:** the user's project foundation brief, 2026-11-16, for D-001 to D-033. **D-034 and D-035** record agreements the user stated in the task brief of 2026-11-17 (the user's own words in chat). The register wording is a collaborator's formalisation of them, The user **reviewed and approved D-034 and D-035 exactly as written, and approved P-008 (recorded as D-036), in chat on 2026-11-17**.
+**Source of approvals:** the user's project foundation brief, 2026-11-16, for D-001 to D-033. **D-034 and D-035** record agreements the user stated in the task brief of 2026-11-17 (the user's own words in chat). The register wording is a collaborator's formalisation of them, The user **reviewed and approved D-034 and D-035 exactly as written, and approved P-008 (recorded as D-036), in chat on 2026-11-17**. **D-037** records the user's product-development brief of 2026-11-18 (the user's own words in chat; register wording is a collaborator's summary).
 
 ---
 
@@ -117,8 +117,10 @@ Applied in [AUDIO_DIRECTION.md](AUDIO_DIRECTION.md).
 
 | ID | Decision | Status |
 |---|---|---|
-| D-030 | **No technology stack or architecture has been approved.** No framework, hosting, database, backend, storage, audio delivery, or authentication choice has been made. The long-term aim is a simple, maintainable application that does not compromise the storytelling. | APPROVED |
+| D-030 | **No technology stack or architecture has been approved.** No framework, hosting, database, backend, storage, audio delivery, or authentication choice has been made. The long-term aim is a simple, maintainable application that does not compromise the storytelling. | APPROVED; first sentence **superseded by D-037** (2026-11-18). The long-term aim still stands. |
 | D-031 | The illustrated work at `https://visualsarkarsm.com/work-detail/118` (shared by the user, tracking parameter removed) is **a reference for illustrated storytelling and composition, not a design to copy**. The user liked it to some extent. | APPROVED |
+
+| D-037 | **Move from research-heavy preparation to agile product development** (user brief, 2026-11-18). Build a usable version, learn from it, and improve in iterations; open research questions are not development blockers. The working product assumption is a **browser-based, Hindi-first reading experience**, with English adaptation later. The application shell may be built before the 25 tales are selected or drafted, using **clearly labelled placeholder content** that is never presented as an authentic tale. Collaborators may make **reasonable, reversible technical decisions** without waiting for approval. The first stack chosen under this decision (Vite, React, TypeScript, react-router, Vitest; story files in `content/`) is a **working choice**, not a permanent architecture decision. Out of scope for the first MVP: final selection of tales, story authorship, accounts, AI generation, audio, illustration, payments, CMS, unnecessary backend. | APPROVED |
 
 D-032 is not used. It briefly held the layout preference now recorded as PREF-001.
 
@@ -155,7 +157,9 @@ None yet.
 
 ## Superseded decisions
 
-None yet.
+| Entry | Superseded by | Note |
+|---|---|---|
+| D-030, first sentence ("No technology stack or architecture has been approved") | D-037 (2026-11-18) | The user authorised reversible technical choices for the MVP. D-030's aim of a simple, maintainable application that does not compromise the storytelling still applies. |
 
 ## Register corrections
 
