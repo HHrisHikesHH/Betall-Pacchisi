@@ -49,6 +49,7 @@ A **recorded preference** (`PREF-###`, kept in [DECISIONS.md](DECISIONS.md#recor
 | [ART_DIRECTION.md](ART_DIRECTION.md) | Visual identity, illustration pacing, character consistency, and atmosphere in visual form. |
 | [AUDIO_DIRECTION.md](AUDIO_DIRECTION.md) | Music, ambience, sound accents, silence, preloading expectations, and audio licensing. |
 | [OPEN_QUESTIONS.md](OPEN_QUESTIONS.md) | The organised list of unresolved creative, product, research, and technical questions. |
+| [selection/](selection/README.md) | The **selection dossier** for the 27 candidate families: per-candidate evidence and assessment, overlap comparisons, a collection overview, a research triage, a register of outside leads, and the owner's decision sheet. It prepares the choice of the 25 (Q-411) and never makes it. |
 | [research/](research/) | Research reports, such as [SOURCE_TRADITIONS_COMPARISON.md](research/SOURCE_TRADITIONS_COMPARISON.md) and the candidate-tale inventory [CANDIDATE_TALE_CATALOGUE.md](research/CANDIDATE_TALE_CATALOGUE.md) (an inventory, not a selection). They supply evidence for decisions but never make them; their status labels show what has been verified. |
 
 ## Maintenance rules
