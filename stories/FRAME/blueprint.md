@@ -2,7 +2,7 @@
 
 > Editorial record (D-045). **Blueprint only: no scene prose and no dialogue.** Session 3, 2026-11-21. Builds on the A1 research ([chronology.md](research/chronology.md), [sources.md](research/sources.md)) and on the approved base [FRAME_PROPOSAL.md](../../docs/production/FRAME_PROPOSAL.md) §8.2–8.5 (D-043). Charter: [ETHICAL_CHARTER.md](../../docs/ETHICAL_CHARTER.md). Strongest review tier (D-046).
 >
-> **Review status:** `Human review not obtained`. The checks in §12 are the blueprint writer's own; the independent A3 ethics pre-review and a Hindi sensitivity reader have not yet run. Sanskrit readings are AI readings (sources.md header).
+> **Review status:** `Human review not obtained`. The checks in §12 are the blueprint writer's own. The independent **AI** A3 pre-review ran on 2026-11-21 ([ethics/blueprint-review.md](ethics/blueprint-review.md)); its findings are proposals and this blueprint has not been revised for them. A Hindi sensitivity reader has not yet run. Sanskrit readings are AI readings (sources.md header).
 >
 > **Decisions:** R1–R8 were decided by the user on 2026-11-21 as recommended (D-055); the defaults below are now decisions. The options are in [approval-packet.md](approval-packet.md). Beats that depend on one carry an R-tag. The switchboard (§0.3) records the decided option and what would change if it were reopened.
 
