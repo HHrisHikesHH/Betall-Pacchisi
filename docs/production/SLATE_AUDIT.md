@@ -188,6 +188,7 @@ Each note is compact. The full reviewer reports, with file:line citations for ev
   - **Mṛgāṅkavatī:** I withdraw "she chooses to run", which would launder a deception into consent. The deception stays a deception, and her untold fate is left as the source leaves it: a loss, not a comic beat.
   - **Mūladeva** is not just charming. The costs of his tricks (to Śaśiprabhā, to Mṛgāṅkavatī, to a king ruled by fear) stay visible in events.
 - **Must keep:** her prior consent, the disguise union, Mūladeva's public gift, the dispute.
+- *Working rule (D-051, 2026-11-21, provisional):* "her prior consent" is consent given after the disguise was disclosed to her, **not** informed consent to the scheme, and "both deceptions were Mūladeva's" should read "engineered by Mūladeva, with each claimant a knowing participant". See [PLAN_FOLLOWUP_REVIEW.md](PLAN_FOLLOWUP_REVIEW.md) §1.
 - **May alter:** the elephant rescue, the Ilā sub-tale, the length.
 - **Survives:** yes. **MAJOR REWRITE** (reasoning plus one strand), M. *Dissent:* the dossier rates it "Strong core contender" without the rewrite.
 
@@ -394,6 +395,8 @@ Each note is compact. The full reviewer reports, with file:line citations for ev
 **No outright rejections are recommended.** One conditional rejection stands: **TC-003** is REJECTED if A3 cannot find an honestly hard comparison, or if you decline the dilemma change (your own D-048 direction). Six tales are recommended for MAJOR REWRITE. Composed answers and reasoning go through the **batched A3 approval packet** (D-041). TC-027's reasoning is already your direction, so its A3 entry only confirms the wording.
 
 **If a first-release story is rejected (TC-003 is the only live risk):** the first release ships with 18 and nothing is substituted silently. The lead brings **replacement candidates for your decision** from the suspended pool, through the same A1–A3 assessment. Known starting points from the dossiers and this audit:
+
+> **Amended by D-049 (2026-11-21):** 19 remains the target. A rejection still brings replacement candidates for the user's decision, but the first release ships with whatever has completed approval and is not held for a replacement. Suspended candidates stay suspended until the site is live (D-050), so the starting points below are for the user's decision after launch unless the user asks earlier.
 - **TC-004 vs TC-017**: your pending comparison. The caste reviewer flags TC-004's "as the threads, so the cloth" line and TC-017's sati in Ś and the Hindi as the heaviest caste and gender problems in the pool.
 - **TC-005** (multi-suitor; to be compared with the rejected TC-009).
 - **TC-012, 014, 023**: comparisons pending. 014 and 023 would add reaction riddles, which TC-020 is now the only one of.
