@@ -10,7 +10,7 @@ The **governing plan** for stories and release is [production/PRODUCTION_PLAN.md
 
 | Milestone | In short |
 |---|---|
-| **A: Editorial foundation** | Charter, register entries D-038 to D-048, slate audit, frame proposal, `stories/` scaffold; PR #9 brought current (done 2026-11-21) |
+| **A: Editorial foundation** | Charter, register entries D-038 to D-048, slate audit, frame proposal, `stories/` scaffold; **complete**: PR #12 and PR #9 are merged into `main` (2026-11-20 UTC) and R0 is done |
 | **B: Story production** | Frame blueprint; pilots TC-013 and TC-001, then TC-025; one batched A3 packet; the other first-release tales; Hindi then English approvals |
 | **C: First release** | Text-only app (application steps R1 to R8 below, which absorb the old M2 to M4); release with the 19 that pass approval |
 | **D: Post-launch expansion** | Add tales through the same process until the collection reaches 25 |
@@ -27,7 +27,7 @@ Build the smallest usable version, put it in front of the user, learn, iterate. 
 ### M0. Research foundation: done
 Documentation, source-tradition comparison, North Star, candidate tale catalogue, N1 and N3 evidence (PRs #1 to #8, all merged).
 
-### M1. Reading vertical slice: **current** (PR #9, awaiting the user's review)
+### M1. Reading vertical slice: **done and merged** (PR #9, merge commit `64cb4fa`)
 **Goal:** one complete reading journey with placeholder content.
 **Acceptance criteria:**
 - [x] Collection landing page with title, intro and the list of entries.
@@ -38,9 +38,9 @@ Documentation, source-tradition comparison, North Star, candidate tale catalogue
 - [x] Stories are files in `content/`; adding or replacing one needs no code change; invalid files fail tests and the build (the build runs the content tests).
 - [x] Placeholder entries are labelled in the list, on the page and in their own text.
 - [x] Tests, typecheck and production build pass.
-- [ ] User has reviewed it in a browser and merged the branch.
+- [x] The user merged the branch (PR #9). A browser review by the user is not recorded in the repository.
 
-### M2. Shareable preview and reading polish: next
+### M2. Shareable preview and reading polish: later (scheduled in Milestone C, steps R4 to R8; the production plan governs the order)
 **Next tasks (smallest first):**
 1. Deploy the static build to a preview URL so the user can read on their own phone (choose a host; Q-502). Needs SPA fallback for `/kathaen/<slug>` deep links.
 2. Typography pass with a real Hindi sample of literary prose (not a tale from the collection, or one marked as a sample): font, size, line height, measure (Q-105).
