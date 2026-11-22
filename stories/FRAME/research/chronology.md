@@ -32,6 +32,8 @@
 | 22 | **Śiva appears** with the gods: praises the king for slaying the *kūṭatāpasa* ("fraudulent ascetic") who was greedy for the Vidyādhara empire; says the king was first created as **Vikramāditya** to destroy **asuras born as *mlecchas***, and now as Trivikramasena to put down an evildoer; gives the sword **Aparājita**; promises Vidyādhara sovereignty, then union with Śiva. | 12.32.31–38 | The *mleccha/asura* line is an **outgroup-demonising** passage: flag for charter §3.2.8. | H |
 | 23 | Dawn: the king returns to his city; the day passes in worship and celebration; in a few days, by the sword's power, he rules earth, then the Vidyādharas, then reaches *sāyujya* with Śiva. | 12.32.39–41 | Nothing of Betal after row 21. | H |
 
+> **Erratum to row 9 (2026-11-22, AI re-reading of the GRETIL Sanskrit, not a specialist reading).** Row 9 omitted that **the king speaks to the laughing corpse**: 12.8.54 *kiṃ hasasy ehi gacchāva*, "Why are you laughing? Come, let us go". At 12.8.55 the corpse is seen hanging on the tree again **while he is still speaking**, and no cause for the return is stated. Rows 9 and 11 otherwise stand. The omission was found by the focused validation of the frame blueprint revision 2 ([../ethics/focused-validation.md](../ethics/focused-validation.md)).
+
 ## 2. Material variants (only what could change the frame)
 
 | Point | KSS | Ś (Uhle) | J (Emeneau, Bengali) | H (Platts) |

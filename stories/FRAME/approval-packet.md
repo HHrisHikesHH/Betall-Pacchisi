@@ -2,10 +2,12 @@
 
 > Editorial record (D-045). For the user (creative director). Companion to [blueprint.md](blueprint.md); source detail in [research/chronology.md](research/chronology.md) and [research/sources.md](research/sources.md).
 >
-> **Review status:** `Human review not obtained`. Reason: no Hindi literary reader, Sanskritist or sensitivity reader has seen the research or the blueprint; the independent A3 ethics pre-review has not run. The recommendations below are an AI writer's, not a verified judgement.
+> **Review status:** `Human review not obtained`. No Hindi literary reader, Sanskritist or sensitivity reader has seen the research or the blueprint. The independent AI A3 pre-review ran on 2026-11-21 ([ethics/blueprint-review.md](ethics/blueprint-review.md)). The recommendations below are an AI writer's, not a verified judgement.
+>
+> **Status update, 2026-11-22.** The eight questions below were **decided as recommended on 2026-11-21 (D-055)**. The user then approved three further decisions in answer to the A3 review: **D-056** (Betal's arc), **D-057** (minimum-release mechanics) and **D-058** (six corrections). They refine the answers below and reopen none. The cards are kept as the record of the options; the section "Refinements after D-055" at the end says what changed. The blueprint ([blueprint.md](blueprint.md), revision 2) is the frame as it now stands.
 >
 > **What this packet is.** The eight questions that D-043, D-053 and Q-005 reserved for you. Nothing here has been decided for you, and the blueprint's defaults are only the *recommended* option so the beats can be read.
-> **What it is not.** The blueprint's other defaults (voice rule, king's name, clue-seeding, penalty position) are drafting choices listed in blueprint §13 and are not asked here.
+> **What it is not.** The blueprint's other defaults (voice rule, king's name) are drafting choices listed in blueprint §13 and are not asked here. *(Clue-seeding and penalty position, listed here when this packet was written, have since been decided: D-058 item 1 and D-057B.)*
 >
 > **Format of each card:** options, each labelled **S** (attested in a source) or **A** (our adaptation or invention), then a recommendation and the honest disagreement. Reply in the form "R1 A, R2 A, …" or "R4: discuss".
 
@@ -41,7 +43,7 @@
 **Recommendation: A**, laugh only. **Disagreement:** showing his mind (KSS does) would be clearer for readers; withholding it adds mystery but may read as evasive. Both are defensible.
 
 ## R3. Does Vikram's killing stay morally ambiguous?
-*Evidence:* The king learns the plan **only from Betal** in all four witnesses. The monk's own words describe prostration as the way to the king's "success" (12.32.15–16). The king then lies ("I do not know how"), kills a man who has just praised him, and gives his heart and head to Betal. Betal instructs it with a reward attached.
+*Evidence:* The king learns the plan **only from Betal** in all four witnesses. The monk's own words describe prostration as the way to the king's "success" (12.32.15–16). The king then lies ("I do not know how"), kills a man who has just praised him, and gives his heart and head to Betal. Betal instructs the prostration and beheading ruse with a reward attached; the heart-tearing and the offering are the king's own further acts (D-056, D-058 item 3).
 
 | Option | What | S / A |
 |---|---|---|
@@ -126,4 +128,16 @@
 | R7 | A: cut (moot under R6 = C) |
 | R8 | A: unmarked voice as a drafting rule; Q-005 open |
 
-**No decision is recorded in DECISIONS.md until you reply.** On your answers, the next session records them as decisions and amends the blueprint's switchboard.
+R1–R8 were recorded as D-055 on 2026-11-21 (decided as recommended).
+
+## Refinements after D-055 (D-056 to D-058, recorded 2026-11-22)
+
+None of these reopens an R-decision or changes D-054. Full wording is in [DECISIONS.md](../../docs/DECISIONS.md); the blueprint sections are in brackets.
+
+| Decision | What it adds | S / A |
+|---|---|---|
+| **D-056** Betal's arc [§5.6] | KSS is the structure; J supplies only the ascetic's plan to use the corpse and Vikram. A self-preservation motive for Betal may be **inferred** (J does not narrate it; it is not KSS). His curiosity about the king may grow. He stays mischievous and strategic; the claim that he made the obstacles to protect the king is his own. No friendship, self-sacrifice, conversion, apology or stated sympathy. R2 unchanged. | **S:** the KSS endpoints. **A:** the inference and the growth. |
+| **D-057** Minimum-release mechanics [§4, §11] | After the corpse's first escape, **one frame-only loop with no tale** (Betal provokes the king to speak; he speaks; Betal returns to the tree; the king retrieves him), then the first tale begins. The penalty is stated **with the first shipped tale's question**, or with TC-024's if it is alone, before the king falls silent. No silence rule is stated at the opening. | **S:** the penalty's position (KSS 12.8.188–189) and the first escape (12.8.49–57). **A:** the speech-triggered return and the loop. |
+| **D-058** Six corrections [§§4.3, 5, 6, 8, 9, 10, 12] | (1) No B14 seeds. (2) No guarantee of Betal's honesty. (3) The killing's two layers: Betal's ruse and beheading instruction, the king's own heart and offering. (4) The boon is no verdict; no refusal of power; no coda; Betal departs, is not freed. (5) No incidental burning-ground figures. (6) Coerced remarriage is harm, not irony; TC-024 gets its own A3; the rite is staged with restraint and attested details only. | **S:** the structure of 12.31.65–12.32.30. **A:** the removals and the constraints. |
+
+**Still open** (not decided by D-056 to D-058): the name (R1, provisional), the rite's kit, Betal's mind in the narration (R2 sub-question), the blessing's tone, the closing image, the absence of women as a recorded choice, tale numbering, whether the frame-only loop stays in later releases, and the penalty segment's change when a tale first ships before TC-024. See [ethics/blueprint-review.md](ethics/blueprint-review.md) §9 and blueprint §13.

@@ -9,6 +9,8 @@
 > - Reviewer B, gender, agency (Sonnet 5.5, medium effort): [gender-agency-review.md](gender-agency-review.md)
 > - Reviewer C, challenger (Opus 5.5, high effort): [challenge.md](challenge.md)
 >
+> **Update, 2026-11-22.** The user answered part of this review with D-056, D-057 and D-058. §§1–8 below are the original reconciliation and are **kept unchanged as the audit trail**; §9 at the end records, finding by finding, what those decisions resolved and what remains open. The raw reports are untouched.
+>
 > **What this file does not do.** It does not rewrite the blueprint, change D-055, or record a decision. Every remedy below is a **proposal for the user**. The raw reports are authoritative for each reviewer's view; where this summary compresses, the report wins.
 
 ## 1. Outcome at a glance
@@ -162,3 +164,64 @@ None of these options changes D-054.
 
 ## 8. Unresolved
 The dread-versus-plainness tension (§3), the TC-024 constraint conflict (§3), whether to record the absence of women, the B27 graphic level (no audience setting was in the reading list), G12 (tale numbering in the interface), and every item in §7.
+
+## 9. User resolution and open items (added 2026-11-22)
+
+> Written by the integrating session (Sonnet 5.5, high effort). **AI record only.** `Human review not obtained`. The user's decisions are D-056, D-057 and D-058 in [DECISIONS.md](../../../docs/DECISIONS.md); this table only maps them to the findings above. Where this table and a decision differ, the decision wins. Sections 1–8 are not edited.
+
+### 9.1 How the user resolved the BLOCKER and the main disputes
+| Item | Resolution |
+|---|---|
+| **C1 BLOCKER** (minimum-release mechanics) | **D-057.** A frame-only first loop with no tale (reviewer option **O4**) and the penalty with the first shipped tale's question, or with TC-024's if alone (reviewer option **O3**). O1, O2 and O5 are not chosen. Resolved **as a design**; no prose exists and no Hindi literary reader has judged whether a one-tale frame reads as complete. Two consequences are not decided: whether the loop stays in later releases, and the penalty segment's change when a tale ships before TC-024 (blueprint §13 G14, G15). |
+| The B14 seeds and the "Betal never lies" rule (agreed by A, B and C) | **D-058 items 1 and 2.** Removed; nothing replaces them. Trust in the warning rests on nothing the frame asserts (blueprint §5.3). |
+| Burning-ground people (A, B, C) | **D-058 item 5.** Removed. |
+| Boon ending (A, C) | **D-058 item 4** for the boon, the request and Betal's departure; the blessing's tone and the closing image are still open. |
+| Betal as a protector (C3) | **Not decided.** D-056 supplies a source ledger and says what may be inferred; R2 (laugh shown, reasons not) and reviewer C's optional reopening of R2's sub-question are untouched. |
+| Disputes: rite's menace; R1; TC-024 constraint | **Rite:** D-058 item 6 requires restraint and only attested details; the kit-level dispute is open. **R1:** unchanged, provisional (D-055). **TC-024:** D-058 item 6 declines to impose a final reading and sends the question to TC-024's own A3. |
+
+### 9.2 Finding by finding
+Status words: **Resolved** (a decision settles it, and the blueprint is revised); **Partly** (some of it is settled; the rest is named); **Open** (not addressed by D-056 to D-058); **For TC-024's A3** (deliberately deferred by D-058 item 6).
+
+| # | Status | By | What remains |
+|---|---|---|---|
+| A1 name (Buddhist-sounding; "monk") | **Open** | none | R1 stays provisional pending a sensitivity read. |
+| A2 kit still signals the stock tantrik | **Partly** | D-058 #6 (restraint; attested details only; nothing added) | Whether the attested kit is itself reduced. |
+| A3 rite-versus-plan safeguard; dread staging | **Partly** | D-058 #6 | Dread in the walk versus the rite; needs a Tantra-studies reader. |
+| A4 honest-difficulty test tilted | **Partly** | D-058 #1, #2 | B08's "the thinness is itself a clue" note; the monk-innocent reading has no concrete fact yet; no reader test. |
+| A5 boon is the applause; B30 blessing | **Partly** | D-058 #4 | B30's placement and tone. |
+| A6 burning-ground people coded | **Resolved** | D-058 #5 | Community reader no longer needed for this item. |
+| A7 debt framing softens accountability | **Open** | none | A wordless dawn trace was proposed and not adopted. |
+| A8 dignity of the dead | **Open** | none | The plain-care gesture is still only an optional ADAPT (blueprint §9). |
+| A9 summons versus binding | **Resolved** | D-058 #6 (an invocation is not proof of permanent captivity) | B23 revised: a summons, shown, not explained. |
+| A10 bow as a trap | **Open** | none | Keep the bow plain in drafting. |
+| B1 TC-024 coerced remarriage; B17 irony | **Partly / For TC-024's A3** | D-058 #6 | Tone constraint added (blueprint §6); whether the question centres her is TC-024's. |
+| B2 "women weigh on the climax through events" has no beat; no gender test | **Partly** | D-058 #6; blueprint §12.1 gender row; FRAME_PROPOSAL §8.4 note | The claim is qualified, not fulfilled. |
+| B3 absence of women never an R-question | **Open** | D-058 #5 only says none is added | Whether to record it as a separate decision is the user's. |
+| B4 verdicts on women's tales validated by fast answers | **Open** | none | Tale-level. |
+| B5 "three coercions" and "consents blind" vocabulary | **Open** | none | Drafting rule not yet written. |
+| B6 seeds and "never lies" as evidence | **Resolved** | D-058 #1, #2 | |
+| B7 no token woman among incidental figures | **Resolved** | D-058 #5 | |
+| B8 Hindi grammar assigns gender to incidental roles | **Open** | none | |
+| B9 closing perspective; "no one asks" | **Partly** | D-058 #4 (B35 must not present the request as virtue) | The ruler's-perspective close. |
+| C1 BLOCKER minimum release | **Resolved as design** | D-057 | See §9.1. Residue found by the focused validation: wording that presupposes earlier tales in B19, B28 and B29 (blueprint §13 G17). |
+| C2 "Betal has kept his terms" invented | **Resolved** | D-058 #2 | Blueprint §5.3 rewritten; §1.1 corrected; the three verifiable predictions are named. Scope of "deceiving" in 12.31.61–64 still needs a Sanskritist. |
+| C3 "laugh only" makes Betal a protector | **Open** | none (D-056 adds a ledger only) | R2 sub-question. |
+| C4 boon ending acquits by placement | **Partly** | D-058 #4 | B35's closing image. |
+| C5 B27 leans toward the prize; unlabelled | **Partly** | D-056, D-058 #3 | The description now separates Betal's ruse and beheading instruction from the king's heart and offering, on the user's reading of 12.31.72 against 12.32.19, which no Sanskritist has checked (G13). Reviewer C's proposal to say the offering leans toward the prize was **not** adopted. |
+| C6 "open" steered both ways; evaluative glosses | **Partly** | blueprint B22, B25, B27 neutralised under D-058 #3 | No evidence ledger has been built. Evaluative wording remains in §8 ("kills his donor") and §7.2 ("courteous"). |
+| C7 B14 seeds manufactured | **Resolved** | D-058 #1 | |
+| C8 climax depends on TC-024 surviving its own review | **For TC-024's A3** | D-058 #6 | G12 (tale numbering) still open. |
+| C9 burning-ground people | **Resolved** | D-058 #5 | |
+| C10 tone of the blessing (B30) | **Open** | none | |
+| C11 beat count; "not another tale" | **Partly** | B15 reworded (D-057) | Beat count unchanged. |
+
+### 9.3 Found after the decisions (focused validation, 2026-11-22)
+| Item | Status |
+|---|---|
+| The corpse's first return: the king **does** speak to it (12.8.54) and it is back on the tree as he speaks (12.8.55); KSS gives no cause. A1 row 9 omitted this. | Corrected in blueprint §4.1, B09 and the chronology erratum. **For the user:** D-057's phrase "not caused by Vikram speaking" is true only as "KSS states no cause". The decision text is unchanged. |
+| Wording that assumes earlier tales (B19, B28, B29) | Open; blueprint §13 G17. |
+| The self-preservation inference could become foreshadowing | Fenced in blueprint §5.6 (nothing before B19 may point to the ascetic or the rite). |
+
+### 9.4 Not obtained
+Human literary review, Hindi sensitivity review, specialist ritual (Tantra-studies) review, Sanskritist review and any reader from the communities named in §7 have **not** been obtained. The focused validation of revision 2 ([focused-validation.md](focused-validation.md)) is also AI-only.
+
