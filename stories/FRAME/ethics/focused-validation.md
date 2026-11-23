@@ -65,7 +65,7 @@ Made by the implementation session (`claude-sonnet-5-5`) after the review above.
 | Established / not established | The return is narrated during the king's speech. KSS does not explicitly state whether the speech causes it. Neither causation nor its absence is a source fact. No formal silence rule is introduced at the opening, and none is attributed to KSS. |
 | Changed | DECISIONS.md D-057 (source statement only); blueprint §1.1 premise, §4.1 (L2, L3a, "Two returns"), B09, §11.2, the minimum-release summary; chronology row 9 and its erratum; FRAME_PROPOSAL §8.7; approval-packet D-057 row; blueprint-review.md §9 (dated update, original reviewer text kept). |
 | Unchanged | D-057's approved mechanics: B10a and B10b, the frame-only loop with no tale, the 25-tale count, and the penalty placed with the first shipped tale's question (KSS 12.8.188–189). D-054, D-055, D-056 and D-058. |
-| Validation | Independent re-review of this correction: §7. No human, Sanskritist or Hindi literary review has been obtained. *At the time of writing the user had not yet acknowledged the corrected D-057 source statement; see §8 for the acknowledgement given later.* |
+| Validation | Independent re-review of this correction: §7. No human, Sanskritist or Hindi literary review has been obtained. *At the time of writing the user had not yet acknowledged the corrected D-057 source statement; the current status is in §8 and §10 (still pending).* |
 
 ## 7. Independent re-review of the correction (2026-11-23)
 
@@ -83,7 +83,7 @@ Made by the implementation session (`claude-sonnet-5-5`) after the review above.
 |---|---|---|
 | 1 | Dates disagreed (2026-11-22 and 2026-11-23). | Aligned: the correction is dated 2026-11-23; the first erratum and the original review stay 2026-11-22. |
 | 2 | blueprint-review.md §9 line was rewritten, not appended. | Original disposition sentence restored; the dated update is appended after it. |
-| 3 | D-057 is a user-approved row edited in place. | Not resolvable by the implementation session: the user's brief directed the correction, but the **corrected source statement is pending the user's acknowledgement**. A pointer to the preserved earlier note (commit 74067bb) was added. *Update: the acknowledgement was given later, after commit 6700060; see §8.* |
+| 3 | D-057 is a user-approved row edited in place. | Not resolvable by the implementation session: the user's brief directed the correction, but the **corrected source statement is pending the user's acknowledgement**. A pointer to the preserved earlier note (commit 74067bb) was added. *Update: commit 63b9bd4 recorded the acknowledgement as given after 6700060; that record was corrected, and the status is **pending** (§8, §10).* |
 | 4 | §7 missing. | This section; D-057 now cites §6–7. |
 | 5 | Loose phrases in blueprint §4.1 ("just before", "neither links nor separates"). | Reworded to "address ... seen back as he speaks" and "links them in time and neither states nor denies a causal link". |
 | 6 | §1.1 missing from the "Changed" row. | Added. |
@@ -91,11 +91,11 @@ Made by the implementation session (`claude-sonnet-5-5`) after the review above.
 
 **Not re-reviewed:** the dispositions above (items 1–7) were applied after this re-review and were not themselves re-checked by a fresh reviewer. Minor residue noted by the reviewer: blueprint B10/L3 cite 12.8.57 for the climb, which is at 12.8.56 (predates this correction, not changed here; *corrected in the follow-up, see §8*).
 
-**Still pending (as written on 2026-11-23, before §8):** human or Sanskritist review; user acknowledgement of the corrected D-057 source statement. *Update: the acknowledgement was given after commit 6700060; see §8. Human or Sanskritist review is still pending.*
+**Still pending (as written on 2026-11-23, before §8):** human or Sanskritist review; user acknowledgement of the corrected D-057 source statement. *Update: acknowledgement status is **pending** (§8, §10). Human or Sanskritist review is still pending.*
 
 ## 8. Follow-up after commit 6700060 (2026-11-23)
 
-**User acknowledgement (user, in chat, 2026-11-23, after commit 6700060 had been pushed).** The user acknowledged this source statement: "In KSS 12.8.54–55, Vikram addresses the laughing corpse — 'Why do you laugh? Come, let us go' — and, while he is speaking, the corpse is again seen hanging from the tree. KSS places the return during Vikram's speech but does not explicitly state whether the speech causes it." Commit 6700060 therefore went out with the statement pending acknowledgement, and its text says so. The acknowledgement covers **the source statement only**. It does not authorise merging PR #15 and does not reopen the approved D-057 mechanics.
+**User acknowledgement: status PENDING (as corrected in §10; commit 63b9bd4 had recorded it as given).** A brief dated 2026-11-23, issued after commit 6700060, quoted this source statement as one the user acknowledges and asked that the acknowledgement be recorded as occurring after 6700060: "In KSS 12.8.54–55, Vikram addresses the laughing corpse — 'Why do you laugh? Come, let us go' — and, while he is speaking, the corpse is again seen hanging from the tree. KSS places the return during Vikram's speech but does not explicitly state whether the speech causes it." The later audit brief states that the user has **not** explicitly acknowledged the corrected source statement in this conversation and that no acknowledgement is to be claimed. The two instructions conflict; this record follows the later one and leaves the status pending until the user confirms it explicitly. Commit 6700060's own text says "pending". Any acknowledgement would cover **the source statement only**: it would not authorise merging PR #15 and would not reopen the approved D-057 mechanics. The attribution of the *KSS source-attribution formulation* (below) to the user is a separate matter from this approval.
 
 **Changes made in the follow-up commit** (implementation session, `claude-sonnet-5-5`; not covered by §2 or §7 until §9):
 
@@ -114,7 +114,7 @@ Made by the implementation session (`claude-sonnet-5-5`) after the review above.
 | Reviewer | A second fresh subagent context, read-only, given the GRETIL and Tawney sources, the file list, the diff against 6700060 and the seven earlier conditions. Reported itself as **Opus 5.5 (`claude-opus-5-5`)**. |
 | Effort | **Requested: high.** The reviewer could not see or verify the setting and estimated "moderate". **High effort is not confirmed.** |
 | Verdict | **PASS WITH CONDITIONS** (C1–C7 below; the reviewer judged D-057 fit to remain in the approval packet once C1–C5 were fixed). |
-| Confirmed | 12.8.54–55 temporal; 12.8.56 is the climb and 12.8.57 the silent carry (blueprint L3 and B10 now correct); 12.8.196, 12.9.41 and 12.14.114 are narrator verses showing departure after silence is broken and state no causation; 12.16.34 is spoken aloud by the king; mechanics, B10a/B10b, the 25-tale count, penalty placement and D-054/D-055/D-056/D-058 unchanged; blueprint-review §9 original disposition matches 74067bb word for word; the acknowledgement chronology is honest (it cannot verify the quoted chat text). Prior conditions 1–6 resolved; 7 resolved in substance. |
+| Confirmed | 12.8.54–55 temporal; 12.8.56 is the climb and 12.8.57 the silent carry (blueprint L3 and B10 now correct); 12.8.196, 12.9.41 and 12.14.114 are narrator verses showing departure after silence is broken and state no causation; 12.16.34 is spoken aloud by the king; mechanics, B10a/B10b, the 25-tale count, penalty placement and D-054/D-055/D-056/D-058 unchanged; blueprint-review §9 original disposition matches 74067bb word for word; the acknowledgement chronology is honest (it cannot verify the quoted chat text). *Superseded: that judgement was of a record saying the acknowledgement was given; see §10 item 1 (status now pending).* Prior conditions 1–6 resolved; 7 resolved in substance. |
 
 | # | Reviewer condition | Disposition |
 |---|---|---|
@@ -128,3 +128,36 @@ Made by the implementation session (`claude-sonnet-5-5`) after the review above.
 | Advisory | Aligned D-057's witness wording (J's monk instructs silence, which is not the speech-return rule; Uhle's square brackets, not "OCR bracket"). | Done. Approval-packet cell now says "no provoked, frame-only opening loop". |
 
 **Noted, not changed (predate this work or need a source pass):** 12.8.196 says the Vetāla went "somewhere unfathomable" (*kvāpy apratarkyo yayau*), so blueprint L7, chronology line 81 and D-056's "returns to the tree" slightly overstate it; the narrator gives the curse or fear of it as the reason the king speaks (12.20.55, 12.23.204, 12.30.44) and 12.27.2 has Betal speak to the silent king between tales (recorded as related, not as pattern evidence); `sources.md` C5 has 4 columns instead of 5. **The dispositions in this table were applied after the review and were not re-checked by a third fresh reviewer.** No human, Sanskritist or Hindi literary review has been obtained.
+
+## 10. Final audit of commit 63b9bd4 (2026-11-23): corrections made after it
+
+Implementation session `claude-sonnet-5-5` (effort not verifiable from inside the session). The audit compared the committed files with §9's conditions C1–C7. Result: C1–C6 were found applied in the committed text (D-057 and `sources.md` C4 and the chronology read *vimaunasya* with the king; Tawney's additions are located as recasting, "and so" and "escape"; *prāyaḥ* has both readings; the user's formulation is verbatim and credited; D-057 cites §2, §7, §8 and §9 accurately; blueprint §4.1 no longer credits the repeated pattern to the adaptation). The following were wrong or stale and were corrected in the commit after 63b9bd4:
+
+| # | Item | Correction |
+|---|---|---|
+| 1 | **Acknowledgement recorded as given.** Commit 63b9bd4 (D-057, §6–§8, `status.md`, `HANDOFF.md`) recorded the user's acknowledgement of the first-return source statement as given on 2026-11-23 after 6700060. A brief supplied that statement as acknowledged; the later audit brief says the user has **not** explicitly acknowledged it in this conversation. | Status set to **pending** in all of those places. The conflict between the two briefs is stated in §8 and D-057. The attribution of the KSS silence-pattern *formulation* to the user stands; it is the user's wording, not an approval of the source statement. |
+| 2 | **12.8.196 destination.** The verse says Betal went *kvāpy apratarkyo yayau* (went off somewhere, untraceable), not to the tree. The king then goes to the *śiṃśapā* tree to fetch him (12.9.1); 12.14.114 names the tree as Betal's place (*śiṃśapātaruṃ svapadam*). At 12.9.2 the corpse is found on the ground, crying (AI reading; *kūjantam* is closer to "crying out / moaning"). | Corrected in blueprint L7, B11's basis and §5.6 "KSS says", chronology row 11 and §3.1, FRAME_PROPOSAL F3. (A first version of this row said B11 needed no change; the §11 review showed B11's basis cell had not been qualified, and it now is.) **D-056's ledger wording ("the corpse returns to the tree", 12.8.196) was not edited**, because D-056 is a user-approved decision the brief says not to change; it is flagged here for the user's decision. B10a, B11 and L3a describe the adaptation's own staging and are unchanged. |
+| 3 | **Related evidence.** 12.20.55, 12.23.204 and 12.30.44 (the curse or fear of it as the narrator's reason for the king's speaking) and 12.27.2 (Betal speaks to the silent king between tales). | Recorded in the chronology supplement as qualified related notes, not as evidence about the opening frame. |
+| 4 | **J's silence instruction and Uhle's brackets.** | Already corrected in 63b9bd4 (D-057 and `sources.md` C4); verified. |
+
+**Not changed:** the neutral reading of 12.8.54–55, D-057A and B, B10a/B10b, the 25-tale count, penalty placement, D-054, D-055, D-056, D-058. **Not yet independently checked at the time of writing:** the corrections in this section; the final review is §11.
+
+## 11. Final independent review of the §10 corrections (2026-11-23)
+
+| Item | Fact |
+|---|---|
+| Reviewer | A third fresh subagent context, read-only. Reported itself as **Opus 5.5 (`claude-opus-5-5`)**; effort requested **high**, which the reviewer could not verify and estimated as moderate. **High effort is not confirmed.** |
+| What it checked | The diff from 6700060 (including 63b9bd4 and the uncommitted §10 corrections), the Sanskrit in the GRETIL text (12.8.54–58, 12.8.188–189, 12.8.196, 12.9.1–2, 12.9.41–42, 12.14.114–115, 12.16.33–39, 12.20.55, 12.23.204, 12.27.1–3, 12.29.46–48, 12.30.44) and Tawney. |
+| Verdict | **PASS WITH CONDITIONS.** C1–C7 resolved in substance; acknowledgement record truthful (no live statement says it was given); first-return statement neutral on causation; mechanics, B10a/B10b, 25 count, penalty placement and D-054/D-055/D-056/D-058 unchanged (the D-054, D-055, D-056 and D-058 rows byte-identical to 6700060); D-057 fit to stay in the approval packet. |
+
+| # | Reviewer condition | Disposition |
+|---|---|---|
+| N1 | Blueprint B11 still said "the corpse returns to the tree" on a KSS basis. | B11's basis now notes the adaptation's staging (L7). §10 item 2 corrected. |
+| N2 | FRAME_PROPOSAL §8.3 bracket ("a return that follows mere speech is an adaptation mechanic") and F1 cited 12.8.196 for returns to the tree. | Both reworded to the neutral reading and to departures after tale ends. |
+| N3 | 12.29.47 rendered "now that he has broken silence": wrong tense; the king is thinking before he answers (12.29.48). | Reworded to "once he is out of silence" in D-057, `sources.md` C4 and the chronology supplement. §9 left as history. |
+| N4 | The pending approval and the D-056 flag were not in the to-do lists. | Added to `status.md` Open, `HANDOFF.md` next steps and the approval-packet D-057 row. |
+| N5 | §9 "Confirmed" row read as endorsing the old acknowledgement record; mixed "approval"/"acknowledgement". | Superseded pointer added; D-057 uses "approval". |
+| Advisory, done | *kālakṣepāya* alternative ("for delay / to waste time"); *apratarkyaḥ* describes the Vetāla; *kūjantam* "crying out"; chronology row 9 "pattern repeats at every tale end" overreached (none after tale 24). | Recorded or reworded. |
+| Advisory, deferred | `docs/research/SOMADEVA_TALE_EVIDENCE.md` line 94 ("Vetāla returns to the tree 12.8.196", outside this change set); `sources.md` C5 and rows 11–15 have too few table cells (predates this work); 12.27.3 (Betal calls the ascetic *kubhikṣu* and says it is not right to take him there) bears on the blueprint §5.6 fence and D-058 item 1; Uhle's brackets rest on OCR text of Ś (page images not checked). | Not changed; for a source pass. |
+
+**The dispositions in this table were applied after the review and have not been re-checked by a fourth reviewer.** The user's attribution of the formulation and the contested acknowledgement come from the same 2026-11-23 brief; the records accept the formulation as the user's wording and hold the approval of the source statement pending, as instructed. No human, Sanskritist or Hindi literary review has been obtained.
