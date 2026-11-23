@@ -16,7 +16,7 @@ The **governing plan** for stories and release is [production/PRODUCTION_PLAN.md
 | **D: Post-launch expansion** | Add tales through the same process until the collection reaches 25 |
 | **E: Visual and audio** | Only after the written stories and the frame are complete (the old M5 and M6) |
 
-The engineering milestones below stay as the record of M0–M1 and as the task lists. **Where they differ in order, the production plan governs.** Notable changes: M3 ("first real Hindi tale") is now the two pilots in Milestone B. The story-body format grows from the pilot drafts, not speculatively. Asset slots wait for Milestone E.
+The engineering milestones below stay as the record of M0–M1 and as the task lists. **Where they differ in order, the production plan governs.** Notable changes: M3 ("first real Hindi tale") is now the two pilots in Milestone B. The story-body format follows staged R1 (D-059): initial implementation from TC-001 Hindi Draft 1, then validation against all actual Hindi drafts selected for the first release; TC-013 is not an R1 prerequisite. Asset slots wait for Milestone E.
 
 ## Working method (D-037)
 
