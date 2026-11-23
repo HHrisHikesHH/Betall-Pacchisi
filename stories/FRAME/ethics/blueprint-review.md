@@ -218,7 +218,7 @@ Status words: **Resolved** (a decision settles it, and the blueprint is revised)
 ### 9.3 Found after the decisions (focused validation, 2026-11-22)
 | Item | Status |
 |---|---|
-| The corpse's first return: the king **does** speak to it (12.8.54) and it is back on the tree as he speaks (12.8.55); KSS gives no cause. A1 row 9 omitted this. | Corrected in blueprint §4.1, B09 and the chronology erratum. **For the user:** D-057's phrase "not caused by Vikram speaking" is true only as "KSS states no cause". The decision text is unchanged. |
+| The corpse's first return: the king **does** speak to it (12.8.54) and it is back on the tree as he speaks (12.8.55); KSS gives no cause. A1 row 9 omitted this. | Corrected in blueprint §4.1, B09 and the chronology erratum. **For the user:** D-057's phrase "not caused by Vikram speaking" is true only as "KSS states no cause". The decision text is unchanged. *[Update 2026-11-23, appended; the sentences above are the original disposition: D-057's source statement has since been corrected to "KSS places the return during the king's speech and does not explicitly state whether the speech causes it"; see focused-validation.md §6–7. This review did not examine the correction.]* |
 | Wording that assumes earlier tales (B19, B28, B29) | Open; blueprint §13 G17. |
 | The self-preservation inference could become foreshadowing | Fenced in blueprint §5.6 (nothing before B19 may point to the ascetic or the rite). |
 

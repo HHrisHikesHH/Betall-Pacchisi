@@ -53,3 +53,42 @@
 
 ## 5. Not re-reviewed
 The corrections in §4 were made by the integrating session after this review. **They have not been re-reviewed by a fresh reviewer.**
+
+## 6. Implementation note: source-statement correction after the review (2026-11-23)
+
+Made by the implementation session (`claude-sonnet-5-5`) after the review above. **The PASS WITH CONDITIONS verdict in §2 did not validate this correction.** It covers revision 2 as it stood before it. §4 row M1 is kept unaltered as the record of what the reviewer found and how the first correction answered it.
+
+| Item | Fact |
+|---|---|
+| Why | The first correction (M1) left D-057's clause that the initial escape "is not caused by Vikram speaking", and described the adaptation as making speech "the stated cause". Both overstate the source or the adaptation. |
+| Source reading (AI, not specialist; GRETIL `SoKs_12.8.54–55`, cross-checked against Tawney) | 12.8.54: the king, thinking the corpse possessed by a Vetāla, says *kiṃ hasasy ehi gacchāva* ("Why do you laugh? Come, let us go"). 12.8.55: *vakti tāvan na bhūmau savetālaṃ śavam aikṣata / aikṣatātraiva vṛkṣe tu lambamānaṃ sthitaṃ punaḥ*: as he speaks (*yāvat … vakti tāvat*) he does not see the corpse on the ground and sees it hanging again on the tree. |
+| Established / not established | The return is narrated during the king's speech. KSS does not explicitly state whether the speech causes it. Neither causation nor its absence is a source fact. No formal silence rule is introduced at the opening, and none is attributed to KSS. |
+| Changed | DECISIONS.md D-057 (source statement only); blueprint §1.1 premise, §4.1 (L2, L3a, "Two returns"), B09, §11.2, the minimum-release summary; chronology row 9 and its erratum; FRAME_PROPOSAL §8.7; approval-packet D-057 row; blueprint-review.md §9 (dated update, original reviewer text kept). |
+| Unchanged | D-057's approved mechanics: B10a and B10b, the frame-only loop with no tale, the 25-tale count, and the penalty placed with the first shipped tale's question (KSS 12.8.188–189). D-054, D-055, D-056 and D-058. |
+| Validation | Independent re-review of this correction: §7. No human, Sanskritist or Hindi literary review has been obtained. The user has not yet acknowledged the corrected D-057 source statement. |
+
+## 7. Independent re-review of the correction (2026-11-23)
+
+| Item | Fact |
+|---|---|
+| Reviewer | A fresh subagent context, read-only, given the source verses, the file list and the git diff. It reported itself as **Opus 5.5 (`claude-opus-5-5`)**. |
+| Effort | **Requested: high.** The reviewer reported "low to moderate" as its honest estimate and could not verify the setting. **High effort is not confirmed**, as in §1. Treat the verdict as provisional on that point; rerun in a session whose effort is visible if it matters. |
+| Verdict | **PASS WITH CONDITIONS.** |
+| Source reading | Confirmed against the GRETIL text and Tawney: the Sanskrit is quoted exactly; *yāvat … vakti tāvat* is a temporal correlative ("while / just as he speaks … at that moment"), not causal; "as he speaks" is accurate and Tawney's "immediately" is an acceptable free rendering; the text reports what the king sees, not how the corpse moved; the new wording asserts neither causation nor its absence. The reading is AI, not a Sanskritist's. |
+| Mechanics | Unchanged (checked by word-diff): Decisions A and B, B10a/B10b, the 25-tale count, penalty placement (KSS 12.8.188–189). D-054, D-055, D-056 and D-058 untouched. |
+
+**Conditions and dispositions**
+
+| # | Reviewer finding | Disposition |
+|---|---|---|
+| 1 | Dates disagreed (2026-11-22 and 2026-11-23). | Aligned: the correction is dated 2026-11-23; the first erratum and the original review stay 2026-11-22. |
+| 2 | blueprint-review.md §9 line was rewritten, not appended. | Original disposition sentence restored; the dated update is appended after it. |
+| 3 | D-057 is a user-approved row edited in place. | Not resolvable by the implementation session: the user's brief directed the correction, but the **corrected source statement is pending the user's acknowledgement**. A pointer to the preserved earlier note (commit 74067bb) was added. |
+| 4 | §7 missing. | This section; D-057 now cites §6–7. |
+| 5 | Loose phrases in blueprint §4.1 ("just before", "neither links nor separates"). | Reworded to "address ... seen back as he speaks" and "links them in time and neither states nor denies a causal link". |
+| 6 | §1.1 missing from the "Changed" row. | Added. |
+| 7 (advisory) | "Not in KSS" for the speech-return rule is too strong: KSS narrates later returns after the king's silence is broken (12.8.196 *vimuktamaunam*, 12.9.41, 12.14.114), has the king remark on it (12.29.47) and complain that Betal makes him break silence (12.16.34). | Verified in the GRETIL text by the implementation session. D-057 and blueprint L3a now say the rule is stated by no character in KSS and cite those verses. **A1 sources.md C4 and other ledger rows were not re-audited**; this is flagged for the next source pass, not decided here. |
+
+**Not re-reviewed:** the dispositions above (items 1–7) were applied after this re-review and were not themselves re-checked by a fresh reviewer. Minor residue noted by the reviewer: blueprint B10/L3 cite 12.8.57 for the climb, which is at 12.8.56 (predates this correction, not changed).
+
+**Still pending:** human or Sanskritist review; user acknowledgement of the corrected D-057 source statement.
