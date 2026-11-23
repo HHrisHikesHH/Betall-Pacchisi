@@ -1,8 +1,8 @@
 # TC-001 research: sources and evidence (A1)
 
-> Editorial record (D-045). **Research only: no blueprint, no scene prose, no dialogue, no Hindi sample, no English adaptation material.** Session date 2026-11-23. Companion: [chronology.md](chronology.md). Governing: [PRODUCTION_PLAN.md](../../../docs/production/PRODUCTION_PLAN.md) §§9.1–9.3 and §10; [STORY_WORKFLOW.md](../../../docs/STORY_WORKFLOW.md) §6; [SOURCE_AND_RESEARCH_POLICY.md](../../../docs/SOURCE_AND_RESEARCH_POLICY.md) §§3–7 and §10; [D-048](../../../docs/DECISIONS.md); [brief.md](../brief.md).
+> Editorial record (D-045). **A1 research only: this file contains no blueprint, scene prose, dialogue, Hindi sample or English adaptation material** (the A2 blueprint is the separate [../blueprint.md](../blueprint.md)). Session date 2026-11-23. Companion: [chronology.md](chronology.md). Governing: [PRODUCTION_PLAN.md](../../../docs/production/PRODUCTION_PLAN.md) §§9.1–9.3 and §10; [STORY_WORKFLOW.md](../../../docs/STORY_WORKFLOW.md) §6; [SOURCE_AND_RESEARCH_POLICY.md](../../../docs/SOURCE_AND_RESEARCH_POLICY.md) §§3–7 and §10; [D-048](../../../docs/DECISIONS.md); [brief.md](../brief.md).
 >
-> **Status: AI research, not specialist-reviewed. A1 is not recorded as complete**; the exit gate (§13) awaits the coordination review and the user's review. Every reading of Sanskrit and Hindi below is an AI reading (this session's, or N1's). **No human or specialist has reviewed any of it.** The source hierarchy in SOURCE_AND_RESEARCH_POLICY §3 is **PROPOSED** (Q-408 is open); nothing here ranks witnesses. Q-402 and Q-413 stay open.
+> **Status: AI research, not specialist-reviewed. Formal A1 user acceptance is not recorded** (§13 states the position: a ChatGPT coordination review of these A1 files has taken place; it is not specialist verification and not the independent Stage C verifier; the user has directed that A2 proceed without a further A1-only cycle; one consistency correction, to §6.1's closing observation, was made on 2026-11-23). The A2 blueprint is the separate [../blueprint.md](../blueprint.md), with its ledger [additions.md](additions.md). Every reading of Sanskrit and Hindi below is an AI reading (this session's, or N1's). **No human or specialist has reviewed any of it.** The source hierarchy in SOURCE_AND_RESEARCH_POLICY §3 is **PROPOSED** (Q-408 is open); nothing here ranks witnesses. Q-402 and Q-413 stay open.
 
 ## 0. Reading conventions
 
@@ -189,7 +189,7 @@ All pages read from the Devanagari on the page images (✓ on every row). Legibi
 | **J** pp. 20–21 | She sends it "with great show of respect" | Narrator reports **her thought and motive** (§5.4) and "poisoned food" (*viṣasahita*) | Minister's son: "Look at the poisoned food." | **SRC** in the narrator's voice | "An animal" (*jantu*) dies on eating (the translation's footnote says other versions and W have a dog; J's text has *jantu*) |
 | **U-f** | — | (OCR) the minister's son says "poisoned food was sent for me"; the dog dies at once | — | CHAR | Dog |
 
-**Researcher's observation (INF, not a source fact):** KSS is the only witness read in which the poisoning of the food rests on a character's say-so after a narrated death. A retelling that keeps that ambiguity follows KSS; one that confirms it follows Ś, the Hindi or J. This record **does not decide** whether Padmāvatī intended or attempted to poison anyone.
+**Researcher's observation (INF, not a source fact):** KSS is the only witness read in which the narrator does not confirm the poisoning: the dog dies, while poison and motive are alleged only by the minister's son. Ś and the Hindi narrator identify poisoned food but report no thought of hers. J's narrator reports an apparent intention to kill followed by the dispatch of poisoned food to Buddhiśarīra; the precise referent of *taṃ* remains unresolved (§11.5). The adaptation brief directs us to retain the KSS ambiguity rather than settle the question. This distinction is witness-specific and must not be flattened into a claim about every version.
 
 ### 6.2 The drink, the sleep, the drug (not interchangeable)
 
@@ -374,8 +374,15 @@ All pages read from the Devanagari on the page images (✓ on every row). Legibi
 
 ## 13. Exit-gate status and what A1 does not do
 
-**Exit gate (PRODUCTION_PLAN §9.1):** "Every claim cited, or marked 'unverified'." Claims are cited by edition and page, verse or paragraph; the items that are not settled are marked UNV or INF. **Not recorded as complete**: the user's review has not happened.
+**Exit gate (PRODUCTION_PLAN §9.1):** "Every claim cited, or marked 'unverified'." Claims are cited by edition and page, verse or paragraph; the items that are not settled are marked UNV or INF.
 
-**Not done, by design:** no blueprint, additions ledger or A2/A3 document (`research/additions.md` belongs to the blueprint stage; the FRAME record has none at A1); no scene prose or adapted question; no choice among the witnesses; no change to D-048, the brief or any open question (Q-402, Q-408, Q-413).
+**Position as of 2026-11-23 (recorded accurately):**
+- The A1 files exist ([sources.md](sources.md) and [chronology.md](chronology.md)).
+- A ChatGPT **coordination review** of them has taken place. It is not specialist verification, not human review, and not the independent Stage C verifier (CLAUDE_OPERATING_PROTOCOL §H; D-046).
+- The user has **explicitly instructed that A2 proceed** without another A1-only cycle. That instruction changes the execution order only; it is **not** formal A1 acceptance, and it approves no interpretation.
+- **Formal A1 user acceptance is not recorded.** No human or specialist verification has been obtained.
+- **One A1 consistency correction was made in the A2 task:** §6.1's closing observation was replaced by a witness-specific wording (matching §1 item 3 and chronology.md §6), and the redundant opening summary in chronology.md §6's poison bullet was removed. No research was reopened.
+
+**Not done in A1, by design:** no scene prose or adapted question in these A1 files; no choice among the witnesses; no change to D-048, the brief or any open question (Q-401, Q-402, Q-408, Q-413). **The A2 blueprint is a separate file, [../blueprint.md](../blueprint.md), with its source/interpretation/additions ledger at [additions.md](additions.md); these A1 files do not themselves contain a blueprint.**
 
 **Outstanding (specialist checks):** a Sanskritist on KSS 186–195 and the poison, drink, marking and 182 passages (§11.2); on Ś p. 9–12 and the apparatus (§11.3); on J pp. 14–27 (§11.5); a Hindi specialist on Barker and Platts (§11.4).
