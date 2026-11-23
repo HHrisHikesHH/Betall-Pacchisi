@@ -34,7 +34,7 @@ When sources disagree, in this order:
 2. **[DECISIONS.md](DECISIONS.md)** governs what is approved. Other documents summarise it.
 3. **Actual source material and evidence** govern source facts. A summary, handoff or earlier AI claim that disagrees with the source passage loses to the passage.
 4. **Governing plans and policies** ([production/PRODUCTION_PLAN.md](production/PRODUCTION_PLAN.md), [STORY_WORKFLOW.md](STORY_WORKFLOW.md), [SOURCE_AND_RESEARCH_POLICY.md](SOURCE_AND_RESEARCH_POLICY.md), [ETHICAL_CHARTER.md](ETHICAL_CHARTER.md)) govern process.
-5. **Status files** ([HANDOFF.md](HANDOFF.md), `stories/*/status.md`) and **GitHub state** report the present. GitHub is authoritative on whether a PR is merged or open; a status file is authoritative on nothing else. **A dated handoff is a snapshot, not an overriding authority.**
+5. **Status files and GitHub state** report the present. The dated [HANDOFF.md](HANDOFF.md) is a snapshot, not an overriding authority. For story and frame progress, check `stories/<ID>/status.md` together with the actual deliverables it names; neither a status label nor a handoff statement alone proves completion. GitHub is authoritative for branch, commit and PR state, including whether a PR is open or merged.
 
 Procedure: name the two conflicting statements and their files; decide which authority governs the subject; check dates, `git log` and GitHub; resolve only if the evidence makes it clear; otherwise state the conflict and ask the user **one** focused question; name the records needing correction. Never silently pick the convenient version.
 
