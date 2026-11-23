@@ -65,7 +65,7 @@ Made by the implementation session (`claude-sonnet-5-5`) after the review above.
 | Established / not established | The return is narrated during the king's speech. KSS does not explicitly state whether the speech causes it. Neither causation nor its absence is a source fact. No formal silence rule is introduced at the opening, and none is attributed to KSS. |
 | Changed | DECISIONS.md D-057 (source statement only); blueprint §1.1 premise, §4.1 (L2, L3a, "Two returns"), B09, §11.2, the minimum-release summary; chronology row 9 and its erratum; FRAME_PROPOSAL §8.7; approval-packet D-057 row; blueprint-review.md §9 (dated update, original reviewer text kept). |
 | Unchanged | D-057's approved mechanics: B10a and B10b, the frame-only loop with no tale, the 25-tale count, and the penalty placed with the first shipped tale's question (KSS 12.8.188–189). D-054, D-055, D-056 and D-058. |
-| Validation | Independent re-review of this correction: §7. No human, Sanskritist or Hindi literary review has been obtained. *At the time of writing the user had not yet acknowledged the corrected D-057 source statement; the current status is in §8 and §10 (still pending).* |
+| Validation | Independent re-review of this correction: §7. No human, Sanskritist or Hindi literary review has been obtained. *At the time of writing the user had not yet acknowledged the corrected D-057 source statement; the user later approved it (§12).* |
 
 ## 7. Independent re-review of the correction (2026-11-23)
 
@@ -83,7 +83,7 @@ Made by the implementation session (`claude-sonnet-5-5`) after the review above.
 |---|---|---|
 | 1 | Dates disagreed (2026-11-22 and 2026-11-23). | Aligned: the correction is dated 2026-11-23; the first erratum and the original review stay 2026-11-22. |
 | 2 | blueprint-review.md §9 line was rewritten, not appended. | Original disposition sentence restored; the dated update is appended after it. |
-| 3 | D-057 is a user-approved row edited in place. | Not resolvable by the implementation session: the user's brief directed the correction, but the **corrected source statement is pending the user's acknowledgement**. A pointer to the preserved earlier note (commit 74067bb) was added. *Update: commit 63b9bd4 recorded the acknowledgement as given after 6700060; that record was corrected, and the status is **pending** (§8, §10).* |
+| 3 | D-057 is a user-approved row edited in place. | Not resolvable by the implementation session: the user's brief directed the correction, but the **corrected source statement is pending the user's acknowledgement**. A pointer to the preserved earlier note (commit 74067bb) was added. *Update: commit 63b9bd4 recorded the acknowledgement as given after 6700060; that record was corrected (§8, §10) and the user's explicit approval was then given on 2026-11-23 (§12).* |
 | 4 | §7 missing. | This section; D-057 now cites §6–7. |
 | 5 | Loose phrases in blueprint §4.1 ("just before", "neither links nor separates"). | Reworded to "address ... seen back as he speaks" and "links them in time and neither states nor denies a causal link". |
 | 6 | §1.1 missing from the "Changed" row. | Added. |
@@ -91,7 +91,7 @@ Made by the implementation session (`claude-sonnet-5-5`) after the review above.
 
 **Not re-reviewed:** the dispositions above (items 1–7) were applied after this re-review and were not themselves re-checked by a fresh reviewer. Minor residue noted by the reviewer: blueprint B10/L3 cite 12.8.57 for the climb, which is at 12.8.56 (predates this correction, not changed here; *corrected in the follow-up, see §8*).
 
-**Still pending (as written on 2026-11-23, before §8):** human or Sanskritist review; user acknowledgement of the corrected D-057 source statement. *Update: acknowledgement status is **pending** (§8, §10). Human or Sanskritist review is still pending.*
+**Still pending (as written on 2026-11-23, before §8):** human or Sanskritist review; user acknowledgement of the corrected D-057 source statement. *Update: user approval of the source statement was given on 2026-11-23 (§12). Human or Sanskritist review is still pending.*
 
 ## 8. Follow-up after commit 6700060 (2026-11-23)
 
@@ -161,3 +161,7 @@ Implementation session `claude-sonnet-5-5` (effort not verifiable from inside th
 | Advisory, deferred | `docs/research/SOMADEVA_TALE_EVIDENCE.md` line 94 ("Vetāla returns to the tree 12.8.196", outside this change set); `sources.md` C5 and rows 11–15 have too few table cells (predates this work); 12.27.3 (Betal calls the ascetic *kubhikṣu* and says it is not right to take him there) bears on the blueprint §5.6 fence and D-058 item 1; Uhle's brackets rest on OCR text of Ś (page images not checked). | Not changed; for a source pass. |
 
 **The dispositions in this table were applied after the review and have not been re-checked by a fourth reviewer.** The user's attribution of the formulation and the contested acknowledgement come from the same 2026-11-23 brief; the records accept the formulation as the user's wording and hold the approval of the source statement pending, as instructed. No human, Sanskritist or Hindi literary review has been obtained.
+
+## 12. User approval of the corrected source statement (2026-11-23)
+
+After commit ea4858a, the user answered "Yes, approved" to the question whether they approve the corrected D-057 first-return source statement ("In KSS 12.8.54–55, Vikram addresses the laughing corpse … KSS places the return during Vikram's speech but does not explicitly state whether the speech causes it"; the wording in D-057 as of ea4858a). This is the first explicit approval in the conversation; the earlier states in §8 and §10 stay as history. **Scope:** the source statement only. It does not authorise merging PR #15, does not change the approved D-057 mechanics, and is not a human or Sanskritist review. The statement remains an AI reading. **Still open:** D-056's "the corpse returns to the tree" line (§10 item 2), G14 (permanence of the frame-only loop), human or Sanskritist and Hindi literary reviews. The corrections of §10 and §11 have not been re-checked by a fourth independent reviewer.
