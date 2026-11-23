@@ -41,6 +41,20 @@
 >
 > **Established:** the king speaks to the corpse (12.8.54); the corpse is back on the tree in the same narrated moment (12.8.55). The correlative *yāvat … tāvat* is temporal; it can be read "while he speaks" or "just as he speaks / immediately", and this record does not choose between those two. **Not established:** whether the speech causes the return. The text states no cause and gives no reason. Neither "the speech caused it" nor "the speech was irrelevant" is a source fact, and KSS contains no formal silence rule here (the silence at 12.8.57, *maunena*, is the king's manner of carrying). Rows 9 and 11 otherwise stand. The omission was found by the focused validation of the frame blueprint revision 2 ([../ethics/focused-validation.md](../ethics/focused-validation.md)); this fuller wording replaces the first erratum, which said "while he is still speaking" with less qualification.
 
+> **Supplement to row 9: the speech–departure pattern elsewhere in KSS (2026-11-23; AI reading of the GRETIL Sanskrit, not a specialist reading).** It does not bear on whether the speech causes the first return at 12.8.55, which stays unstated.
+>
+> | Verse | Who speaks | What it shows |
+> |---|---|---|
+> | 12.8.196 *vimuktamaunam* | Narrator | After the king's answer, with his silence broken, the Vetāla goes by *māyā* "to gauge his firmness" (narrator's gloss). |
+> | 12.9.41 *muktamaunāt* | Narrator | The Vetāla leaves the shoulder of the king whose silence is released. |
+> | 12.14.114 *nirastamaunasya* | Narrator | The same pattern, "as before" (*pūrvavat*). |
+> | 12.16.34 *maunaṃ tyājayati prāyaḥ kālakṣepāya māṃ bhavān* | The king, to Betal | "You probably / usually make me give up silence, to pass the time" (*prāyaḥ* can mean either; Tawney: "repeatedly"). The king names a purpose, passing time, aloud to Betal. |
+> | 12.29.47 *icchati gantum ayaṃ me* … *vimaunasya* | The king, to himself | *vimaunasya* is read with the king ("of me, now out of silence"): this one wants to go from me; "let him go, I shall bring him back." Tawney recasts it as "This demon wishes me to break silence, and so to escape from me", adding a causal "and so" and "escape". |
+>
+> **Editorial formulation (the user's, 2026-11-23).** KSS does not formulate a general opening rule stating that any speech sends the corpse back. However, it repeatedly narrates Betal's departure after Vikram breaks silence, and Vikram explicitly recognises Betal's strategy of making him break silence. The specific opening frame-only loop and its placement before the first tale remain adaptation decisions.
+>
+> *Related, not used as pattern evidence:* at 12.27.2 Betal speaks to the silently walking king between tales (*rājan kas te 'nubandho 'yaṃ gaccha rātrisukhaṃ bhaja*, "King, what is this persistence of yours? Go, enjoy the night"). It is not a provocation of speech, so B10a remains adaptation.
+
 ## 2. Material variants (only what could change the frame)
 
 | Point | KSS | Ś (Uhle) | J (Emeneau, Bengali) | H (Platts) |
