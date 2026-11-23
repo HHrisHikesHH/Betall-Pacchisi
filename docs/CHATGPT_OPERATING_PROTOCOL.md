@@ -14,7 +14,7 @@ Authority depends on the subject. There is no single global ranking.
 
 | Subject | Governing authority |
 |---|---|
-| What the user has decided | [DECISIONS.md](DECISIONS.md) (approved entries only; PROPOSED and PREF entries are not decisions). Where another document disagrees, the register wins ([README.md](README.md), maintenance rule 1) |
+| What the user has decided (durable) | [DECISIONS.md](DECISIONS.md) (approved entries only; PROPOSED and PREF entries are not decisions). Where another document disagrees, the register wins ([README.md](README.md), maintenance rule 1). See "Approval states" below |
 | What to do in the current task | The user's **latest explicit instruction**. A *temporary execution instruction* ("park X, do Y now") changes the order of work for now and does **not** amend a decision. Only the user's explicit approval creates or changes a decision, and it is then recorded in DECISIONS.md |
 | What a source says | The actual cited source text and edition, as examined. A summary of a source (including the comparison report, the dossier or any AI note) is a lead until traced to the text |
 | Whether research is complete | The evidence records and their source-coverage detail (for example [SOMADEVA_TALE_EVIDENCE.md](research/SOMADEVA_TALE_EVIDENCE.md), `stories/<ID>/research/`), not a status line |
@@ -23,6 +23,18 @@ Authority depends on the subject. There is no single global ranking.
 | Which document governs which subject | [README.md](README.md), table "Documents and what each one governs" |
 | Current status and next task | [HANDOFF.md](HANDOFF.md), as a **dated snapshot**. It never overrides decisions, evidence or live GitHub |
 | ChatGPT's own workflow | This protocol |
+
+### Approval states
+
+Use exactly one of these when reporting an approval:
+
+- **Approved in current conversation.** The user's explicit approval in this chat is authoritative for the current task.
+- **Approved and recorded.** The approval is entered in [DECISIONS.md](DECISIONS.md) and ChatGPT has seen that entry in the file.
+- **Approved in conversation, not yet recorded.** The user approved it, but the repository has no durable record yet.
+
+A decision that exists only in an earlier conversation must not be reconstructed from ChatGPT memory and presented as repository-approved. If it is not in the repository and the user has not restated it, say it is not verified and ask one focused question.
+
+When a new approval needs recording, name the exact register entry (new D-number or the entry to amend) and the affected documents. Do not ask the user to repeat or reconfirm the substance merely because it is not yet transcribed. Record it only through a task whose write authorisation the user has given (README maintenance rules 1–2; never promote a proposal silently). Never say a decision is recorded until the file confirms it.
 
 ### Mandatory conflict-resolution sequence
 
@@ -47,7 +59,7 @@ Never silently pick the convenient version. Never let a stale handoff override G
 2. Read [README.md](README.md) (authority map, status labels, maintenance rules).
 3. Read [HANDOFF.md](HANDOFF.md) as a **snapshot** (check its "Last updated" date and header).
 4. Read [DECISIONS.md](DECISIONS.md).
-5. Check current `main` HEAD, and live PR and branch state when the question depends on repository progress (§C, "GitHub state").
+5. Check current `main` HEAD, and live PR and branch state when the question depends on repository progress (§C, table row "Branch, commit, PR status").
 6. Classify the task into one of the seven categories in §F.
 7. Read the **smallest sufficient** set of task-specific governing documents and actual evidence.
 8. Record the paths and sections that support the answer; cite them (§C).
@@ -64,9 +76,9 @@ Before any material factual claim about the project, check it against the eviden
 
 | Claim type | Minimum evidence |
 |---|---|
-| **Research complete** | The evidence record itself, with source coverage per witness (§D list). A status line, a handoff sentence or a PR title is not enough. Say which witnesses were read, how, and which were not |
+| **Research complete** | The evidence record itself, with source coverage per witness (§D list). A status line, a handoff sentence or a PR title is not enough. Report each witness on the three dimensions in §D (extent, format, provenance), with edition and page or verse range, and say which were not read |
 | **Source statement** | The passage in the cited edition (verse, page or section), actually examined this session or quoted from a record that itself cites it. Record the edition, the language read, and whether AI-read or specialist-verified |
-| **User-approved decision** | An APPROVED entry in [DECISIONS.md](DECISIONS.md), or the user's explicit statement in this chat. A PROPOSED entry, a recommendation or "the plan says" is not approval |
+| **User-approved decision** | Repository-approved: an APPROVED entry in [DECISIONS.md](DECISIONS.md), seen in the file. Conversation-approved: the user's explicit statement in this chat, reported as "approved in conversation, not yet recorded" (§A, "Approval states"). A PROPOSED entry, a recommendation or "the plan says" is not approval |
 | **Story or frame status** | `stories/<ID>/status.md` **and** the files it names (blueprint, drafts, critiques, `approved.md`) |
 | **Deliverable completed** | The file exists at the stated path on the stated branch or `main`, covers every item of the acceptance criteria, and a diff or read confirms it |
 | **AI review / human review** | The review file itself, the draft it names, and its review-status line ([STORY_WORKFLOW.md](STORY_WORKFLOW.md) §6.4). "AI review completed" is never "human-verified" |
@@ -77,6 +89,10 @@ Before any material factual claim about the project, check it against the eviden
 
 - Cite exact repository paths and sections in every user-facing answer that states a project fact. Link commits and PRs where relevant.
 - Label each statement as a **source fact**, **repository fact**, **user instruction**, **inference** or **recommendation**. Do not blend them.
+- **Distinguish reuse from new verification.**
+  - *Previously documented evidence:* a reliable project evidence record may be reused without rereading the whole source. Identify the record, cite its own source reference, preserve its limitations, and do not call this a new independent verification.
+  - *New source verification:* when the user asks to verify a claim, resolve a disputed reading, interpret a passage or establish a new source fact, examine the actual relevant passage in the identified edition, where accessible. Check that passage; do not reread the whole work when one passage is in question.
+  - If the passage cannot be accessed, say so. Never turn a secondary report or AI summary into primary-source verification.
 - Say plainly when a claim cannot be verified, and why.
 - Never say a source has been read unless the text was actually examined. Never call AI reading "verified" in the specialist sense ([SOURCE_AND_RESEARCH_POLICY.md](SOURCE_AND_RESEARCH_POLICY.md) §10; D-020).
 - **Presentation is proportionate.** Multi-claim status reports and substantial reviews get a compact evidence table (claim | evidence | status). Simple questions get short inline references, not a table.
@@ -97,21 +113,37 @@ The system must prevent: repeated research; re-reading large sources without a s
 6. Validate against acceptance criteria.
 7. Close with evidence and remaining limitations.
 
-### Source coverage vocabulary
+### Source coverage model
 
-When recording or reporting source work, classify each witness as exactly one of:
+Classify each witness on three independent dimensions, and always give the **edition and the exact page or verse range**. Do not merge the dimensions into one label.
 
-- Full original-language reading
-- Full reading in translation
-- Partial reading
-- Selected excerpt
+**A. Coverage extent** (one per witness and range)
+
+- Full work or full relevant narrative
+- Partial narrative
+- Selected passages or excerpts
+- Question-and-answer only
+- Title or concordance-level correspondence only
+- Not read
+- Coverage not yet verified
+
+**B. Text and reading format** (one or more)
+
+- Original-language printed or digital text
+- Original-language page images
+- OCR or transcription
+- Translation (name the language)
 - Secondary-source account
-- OCR-only reading
-- Title or concordance-level correspondence
-- Unread
-- Not yet verified
+- Mixed formats (list them)
 
-(Existing records already use this kind of detail, for example the "Witnesses used" table in [../stories/FRAME/research/sources.md](../stories/FRAME/research/sources.md) §1. Reuse their wording; do not reclassify upward.)
+**C. Review provenance** (one)
+
+- AI-read, not independently reviewed
+- Independently AI-reviewed
+- Human or specialist-reviewed (state role, scope and date)
+- Not yet reviewed
+
+Example: "Ś 12, Uhle 1881, tale-end passage pp. 12–13: A selected passages; B OCR of romanised Sanskrit; C AI-read, not independently reviewed." Existing records already hold this detail (for example the "Witnesses used" table in [../stories/FRAME/research/sources.md](../stories/FRAME/research/sources.md) §1). Report what they state; do not rewrite them and do not invent coverage they do not record.
 
 ### Rules
 
@@ -133,9 +165,26 @@ ChatGPT picks a mode automatically if the user does not. The user may choose one
 | **STANDARD** | Normal project work, planning, editorial discussion, Claude prompts, status reports | Inspect governing documents, existing deliverables and relevant GitHub state. Reconcile previous work before recommending more |
 | **DEEP** | Primary-source research, complex audits, difficult reviews, important decisions | Trace source evidence and per-witness coverage, cross-document consistency, history and diffs. Verify every acceptance criterion. State limitations and unresolved issues. Never present partial research as complete |
 
-### First-message templates
+### Mode input boxes
 
-Copy one, replace the bracket. The mode word is part of the template; the user need not repeat it later.
+When ChatGPT can render interactive controls in the conversation, it presents **three boxes**, each with one query field and a **Send** action:
+
+| Box | Send submits the query as |
+|---|---|
+| **Quick** | the query, with mode QUICK included automatically |
+| **Standard** | the query, with mode STANDARD included automatically |
+| **Deep** | the query, with mode DEEP included automatically |
+
+The user pastes a query into one box and presses Send; they never type a mode name.
+
+- These are controls **ChatGPT renders in the chat when it follows this protocol**. They are not a website feature, not a widget GitHub can host, and not application code. Do not build code or a separate tool for them.
+- **New chat with only the startup instruction and no task:** complete the startup procedure (§B), then present the three boxes.
+- **New chat that already contains a substantive request:** choose the mode, say which in one line, and proceed. Do not ask the user to resubmit through a box.
+- **Controls unavailable:** use the text fallback below.
+
+### Text fallback
+
+Copy one, replace the bracket. Naming the mode is optional; the first template lets ChatGPT choose.
 
 ```text
 Read and follow docs/CHATGPT_OPERATING_PROTOCOL.md before answering. Then handle my request: [request]
@@ -153,7 +202,7 @@ Read and follow docs/CHATGPT_OPERATING_PROTOCOL.md before answering. Use STANDAR
 Read and follow docs/CHATGPT_OPERATING_PROTOCOL.md before answering. Use DEEP mode. [request]
 ```
 
-The first template lets ChatGPT choose the mode. If the repository is private, the user also supplies access (connector, pasted files or links) as part of the first message.
+If the repository is private, the user also supplies access (connector, pasted files or links) in the first message.
 
 ---
 
@@ -164,9 +213,9 @@ Use [README.md](README.md)'s authority table. Do not create new sources of truth
 ### 1. Research and source verification
 
 - **Read:** [SOURCE_AND_RESEARCH_POLICY.md](SOURCE_AND_RESEARCH_POLICY.md) §§3–7, §10; the story's `stories/<ID>/status.md` and brief; existing evidence ([research/SOMADEVA_TALE_EVIDENCE.md](research/SOMADEVA_TALE_EVIDENCE.md), [research/JAMBHALADATTA_ADDITIONAL_TALES_EVIDENCE.md](research/JAMBHALADATTA_ADDITIONAL_TALES_EVIDENCE.md), [research/CANDIDATE_TALE_CATALOGUE.md](research/CANDIDATE_TALE_CATALOGUE.md), [selection/story-buckets/](selection/README.md)); the story's `research/` folder if it exists.
-- **Verify:** per-witness coverage using the §D vocabulary; every claim cited to edition and verse or page, or marked "unverified"; what needs a Sanskritist or Hindi specialist.
+- **Verify:** per-witness coverage on the §D three-dimension model, with edition and page or verse range; every claim cited to edition and verse or page, or marked "unverified"; what needs a Sanskritist or Hindi specialist. Apply the §C split: reusing a documented evidence record (cite it, keep its limits, call it reuse) versus new verification, which requires the actual passage in the identified edition. If the passage is inaccessible, say so; do not present a secondary report or AI summary as primary-source verification.
 - **Complete when:** every acceptance item in the task or brief is met, limits are stated, and the record separates source fact from interpretation.
-- **Do not assume:** that AI reading equals specialist reading; that a concordance match means the content is the same; that one tradition is the base (Q-401 is open; D-034 allows combination); that an OCR text is collated with a print edition.
+- **Do not assume:** that AI reading equals specialist reading; that a concordance match means the content is the same; that one tradition is the base (Q-401 is open; D-034 allows combination); that an OCR text is collated with a print edition; that reusing a record is a fresh verification.
 
 ### 2. Project progress and status
 
