@@ -168,6 +168,16 @@ End every session that did work with a report containing:
 
 At the end of a **meaningful** session (work that changes project state), update [HANDOFF.md](HANDOFF.md): a short dated entry and the current status, without duplicating the governing documents. Update [PROJECT_PLAN.md](PROJECT_PLAN.md) too where milestones or next tasks changed (CLAUDE.md). Update HANDOFF only within the scope the task allows; if the task forbids it, say what should be recorded.
 
+### After a PR merges
+
+Whenever a PR from this work is merged (by the user, or by Claude on the user's explicit instruction), the session is not finished until the merge is recorded:
+
+1. **Confirm the merge on GitHub** (`gh pr view`): state, merge commit SHA and time.
+2. **Record it in [HANDOFF.md](HANDOFF.md)**: PR number and link, merge commit, date, and what it changed; replace any "pending" wording; keep the current status and next task accurate. Do this on a short docs-only branch from fresh `origin/main` and open a PR if the task authorises it (the pattern of PR #17 after PR #16). That recording PR does not itself need a further recording PR.
+3. **Update [PROJECT_PLAN.md](PROJECT_PLAN.md)** only if milestones or next tasks changed.
+4. **Report** the merge, the HANDOFF update and its PR, and say if any step is awaiting the user's authorisation. If the task did not authorise the docs branch, push or PR, say the HANDOFF update is outstanding.
+5. Leave the user's local branches and untracked files alone; do not delete branches unless asked.
+
 ---
 
 ## J. Communication
