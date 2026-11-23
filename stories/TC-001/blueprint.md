@@ -6,7 +6,7 @@
 |---|---|
 | Stage | A2 blueprint written; **A3 ethics pre-review pending** (separate reviewer context, D-020, D-042, D-046) |
 | Reader | A Hindi writer who has not taken part in the research |
-| Review status | `Human review not obtained`. AI review: none yet on this blueprint. The A1 files had a ChatGPT **coordination review**, which is neither specialist verification nor the independent Stage C verifier |
+| Review status | `Human review not obtained`. AI review: the A1 files and, later, this blueprint on the pushed branch each had a ChatGPT **coordination review**, which is neither specialist verification, nor the A3 ethics pre-review, nor the independent Stage C verifier. Corrections from the blueprint's coordination review were applied on 2026-11-23 (the king's inquiry, the parents' causal chain, OQ-19, the honest-difficulty wording); A3 has not been run |
 | Not settled here | Q-401, Q-402, Q-408, Q-413; the Sanskritist and Hindi-specialist questions (§13) |
 
 ## 1. Purpose, status and source limits
@@ -64,7 +64,7 @@ Full detail, three dimensions each (extent, format, review provenance): sources.
 | Her origin | Daughter of an ivory-worker, Saṅgrāmavardhana, in Karṇotpala's Kaliṅga; no jāti, no claim that the craft is hereditary | KSS 82, 84–85 (sources.md §4.1). **Not** in Ś (a king's daughter), Hindi (a king's daughter), J (a minister's daughter) | D-048 and the brief direct it; it keeps the class asymmetry; it is **KSS-specific, not shared by all witnesses**. **The occupational sense of *dantaghāṭaka* is disputed (Tawney p. 236 n.: "dentist", "worker in ivory", or a proper name) and not specialist-confirmed** (sources.md §4.2) | IC-02 |
 | The judging king | Karṇotpala, a man other than her father | KSS 81, 84, 180, 190, 194 | Political authority and the duty to inquire are the dilemma; in Ś and the Hindi the judge is probably her father (INF), which would remove the asymmetry | SRC |
 | Signs | KSS's four, possibly fewer (decode at least one) | KSS 72–75, 80–86 | Brief allows altering the number; the decoding shows the minister's son's reading skill, echoed at 195 (IC-14) | SRC, IC-16 |
-| Sign realisation | Either a flower worked with the teeth (KSS *dantaracanā*, nature UNV) or a **bitten lotus** | KSS 73; optional **CB-01**: Hindi *dāṃt se kutar* (Barker p. 34, Platts p. 16), J pp. 14–15 (struck on the teeth) | The sign must work in Hindi; the **decoding stays KSS's** ("an ivory-worker's daughter"). Pending a Sanskritist on 12.8.73 | IC-03, CB-01 (optional), CA-05 |
+| Sign realisation | Either a flower worked with the teeth (KSS *dantaracanā*, nature UNV) or a **bitten lotus** | KSS 73; optional **CB-01**: Hindi *dāṃt se kutar* (Barker p. 34, Platts p. 16), J pp. 14–15 (struck on the teeth) | The sign must work in Hindi; the **decoding stays KSS's** ("an ivory-worker's daughter"). Pending a Sanskritist on 12.8.73 (OQ-19) | IC-03, CB-01 (optional), CA-05 |
 | Go-between | An old household servant, poor, with a gambling son; rebuke cycle compressed to one exchange | KSS 93–114 | Gives the plot its bridge; the "rebukes" are the nurse's report and the minister's son's reading, not narrated facts (NAR-U, CHAR) | IC-04, IC-16 |
 | Her entry | **She** speaks to the nurse and arranges the rope-seat | KSS 115–121 | A real decision the source already places with her (Charter §3.3.6) | SRC |
 | Union | "Wed by the *gāndharva* rite", no more | KSS 131 | The narrator's term; whose act and whose consent is **not stated** | SRC, IC-05 |
@@ -75,8 +75,8 @@ Full detail, three dimensions each (extent, format, review provenance): sources.
 | Marking | Fire-heated trident; hip/loins region; prince's hand visible | KSS 155–160. (N1's "thigh" is not KSS; sources.md §12) | Brief direction 5; restraint, D-044 | IC-08 |
 | Theft and sale | Necklace priced to be noticed; arrest by guards searching after a reported robbery | KSS 162–171 | Manufactured evidence taken from her own belongings | SRC |
 | False account | Told privately to the city chief by the minister's son in an ascetic's guise; religious content kept generic | KSS 172–177 | Must keep; religious detail reduced under Charter §3.2.8 | IC-15 |
-| King's checks | Recognises the necklace; sends a trusted old woman; consults the "ascetic" himself on punishment | KSS 178–181 | Real checks shown as real | SRC |
-| King's omissions | Shown as omissions: no hearing for her, her parents unasked, the account untested, his son's death unexplained | KSS "not recorded" (sources.md §7), made explicit by 194–195 (*nirvicāram*) | **"Not recorded" is not "did not"; this fixes it as an event**, supported by the source's own verdict | IC-09 |
+| King's checks | Recognises the necklace; sends a trusted old woman and receives her report of the mark; consults the "ascetic" himself on punishment | KSS 178–181 | Real checks shown as real | SRC |
+| King's omissions | Shown as omissions beside the checks: the narrative records no hearing of her, no inquiry of her parents, no independent test of the "ascetic's" explanation and no examination of his son's death | KSS "not recorded" (sources.md §7), made explicit by 194–195 (*nirvicāram*) | **"Not recorded" is not "did not" as a source fact; the adaptation chooses to make these visible as omissions**, supported by the source's own verdict | IC-09 |
 | Verdict | Expulsion from the city, on the ascetic's word, her parents present | KSS 181 | Must keep | SRC |
 | After the verdict | Forest; one narrow moment of understanding; two men come at dusk, console her and take her away; no speech or consent | KSS 182–184; CA-02 | Brief direction 8; consent unrecorded and silence kept | IC-11, CA-02 |
 | Parents | Father believed her eaten by beasts and perished of grief; the mother followed; manner of the mother's death left unstated | KSS 185. Ś p. 12 (funeral pyre) **not adopted**; J p. 25 (minister dies with his wife) not used; Hindi has no deaths | Must keep; Charter §3.3.4, §3.4.3 on the pyre | IC-12 |
@@ -90,11 +90,11 @@ Ten alternatives from Ś, the Hindi and J are recorded with reasons in additions
 
 ## 3. Adaptation premise and central dilemma
 
-**Premise (PROPOSED).** Two young people's love affair becomes, through the planning of one clever friend, a lie told to a grieving king; the lie becomes a sentence; the sentence ends two lives that never knew what had been done. Each link in the chain was somebody's choice.
+**Premise (PROPOSED).** Two young people's love affair becomes, through the planning of one clever friend, a lie told to a grieving king; the lie becomes a sentence; after it, her parents die believing their daughter has been eaten in the forest. What, if anything, they were told after the expulsion is not stated. Each act in the chain was somebody's choice.
 
 **The dilemma, with both dimensions kept alive.**
 - **The prince and the minister's son have their own culpable acts**: the drugging, the iron, the theft, the false account to authority. No ground (service to a master, passion, "their own aim") cancels them (§9).
-- **The king held political authority and the duty to examine before he punished**, and had the means to do it. His is the act that reached her parents (§4, §10).
+- **The king held political authority and the duty to examine before he punished.** He made real checks, but none tested the accusation independently. His sentence is the crucial recorded link between the lie and the parents' loss, though KSS does not make it the sole established cause of their belief (§4, §10).
 - Examining the accomplices **must not erase** the king's responsibility, and the king's responsibility **must not erase** theirs. The tale is not "all equally guilty": it does not rank their guilt at all. It asks on whom *these deaths* rest.
 - **The answer stays the king.** Betal's objection (the three were the doers) must be something a thoughtful reader can accept.
 - The tale fails if the king is merely the obvious fool, or if the accomplices are merely monsters, or if all four are collapsed into one verdict (§10).
@@ -119,11 +119,11 @@ Concise adaptation chronology. "Treatment" is one of **retained**, **compressed*
 | B12 | The prince goes by night as before; she is "motionless from liquor"; he marks her with the iron and takes her ornaments; he shows them to the minister's son, who judges the aim achieved | KSS 158–161 (K29–K30) | Retained as a **violation**; restraint (§11) | The central wrong. His hand is visible. She is given no word, thought or reaction |
 | B13 | The minister's son becomes an "ascetic"; the prince is sent to sell the necklace at a price that draws all eyes; guards, searching after a reported robbery, seize him; the "ascetic" is called | KSS 162–171 (K31–K32) | Compressed | The false evidence is taken from her own belongings and walks into the court |
 | B14 | The "ascetic", in private, tells the city chief a false account explaining the necklace and the mark | KSS 172–177 (K33); **CHAR (false)** | Retained; religious detail generic (IC-15) | The lie told to authority. It echoes the king's loss (a prince's heart offered), by design or not (IC-10) |
-| B15 | The chief informs the king; **the king recognises the necklace; a trusted old woman sees the mark; he concludes his son was seized by a *ḍākinī*; he himself consults the "ascetic" on her punishment** | KSS 178–181 (K34–K35) | Retained | These are the king's real checks. The omissions (no hearing for her, her parents unasked, the account untested) are shown beside them (IC-09) |
-| B16 | On the "ascetic's" word she is **expelled from the city**, her parents lamenting; no word of hers is reported | KSS 181 (K35) | Retained | The act that reaches the parents |
+| B15 | The chief informs the king; **the king recognises the necklace; a trusted old woman sees the mark; he concludes his son was seized by a *ḍākinī*; he himself consults the "ascetic" on her punishment** | KSS 178–181 (K34–K35) | Retained | These are the king's real checks. Beside them the adaptation shows, as omissions, what the narrative does not record: no hearing of her, no inquiry of her parents, no independent test of the account (IC-09) |
+| B16 | On the "ascetic's" word she is **expelled from the city**, her parents lamenting; no word of hers is reported | KSS 181 (K35) | Retained | The sentence the parents witness, and the recorded act that precedes their belief at 185 |
 | B17 | In the forest, distressed, she does not give up her life; one narrow moment: she supposes that a stratagem was devised by the minister's son | KSS 182 (K36); CA-02 | **Interpretive** and **CA**, narrow (§5.1) | The "moment of understanding" (D-048), not a choice and not the whole plot |
 | B18 | At day's end the two, out of disguise and mounted, come to her grieving, console her, set her on a horse and take her to their kingdom; the prince lives there content. No word of hers | KSS 183–184 (K37) | Retained; her silence kept | The silence on her consent to removal stays felt |
-| B19 | The father, believing her eaten by beasts in the forest, perishes of grief; the mother follows him | KSS 185 (K38) | Retained; manner of the mother's death unstated; optional observable echo of B2 (CA-03) | The deaths the question is about. The belief implies, without stating, that the parents were not told (IC-19) |
+| B19 | The father, believing her eaten by beasts in the forest, perishes of grief; the mother follows him | KSS 185 (K38) | Retained; manner of the mother's death unstated; optional observable echo of B2 (CA-03) | The deaths the question is about. KSS narrates no communication to the parents after the removal; what they were told, if anything, is unknown. Their belief suggests they did not learn she lived (IC-19, an inference) |
 | B20 | Betal's question; the king's answer; the objection; the reasoning (**penalty formula not in the tale**, D-057B) | KSS 186–195 (K39–K41); §§8–9 | Question retained; **reasoning composed (PROPOSED)** | Closes the tale on the dilemma |
 
 KSS 196 (Betal's departure) belongs to the frame segment, not to this tale; Q-413 and D-057B govern the penalty and placement.
@@ -140,9 +140,9 @@ This table is for the writer and A3. It names the acts the tale must make visibl
 | Conceiving the scheme and using the cry | The minister's son | KSS 150–157 | His authorship; his opportunism; his skill |
 | Drinking until unconscious, marking, theft | The prince | KSS 154–161 | The violation; his hand |
 | Manufactured evidence and the false account | The minister's son (and the prince as seller) | KSS 162–177 | The lie installed. Each clever step has a person on its other side |
-| Partial inquiry; consulting only the accuser's side | The king | KSS 178–181 | Real checks and real omissions |
-| The sentence | The king, on the "ascetic's" word | KSS 181 | The act that reaches the parents |
-| Taking her away; no word to the parents | The prince and the minister's son | KSS 183–185 | **The belief of 185 implies they were not told. KSS does not narrate this; the tale may keep it implied, and must not add a message or an explicit refusal to send one** (IC-19) |
+| Partial, one-sided inquiry: the necklace recognised, the mark inspected, the "ascetic" (in effect the accuser) consulted in person | The king | KSS 178–181 | Real checks that did not test the accusation independently, and, beside them, the omissions the narrative leaves unrecorded (IC-09) |
+| The sentence | The king, on the "ascetic's" word | KSS 181 | The sentence the parents witness (181), which precedes their belief (185): a crucial link, not the sole established cause of that belief |
+| Taking her away | The prince and the minister's son | KSS 183–184; 185 | **No communication to the parents is narrated. What they knew after the removal is unknown, and so is whether the two men knew what the parents believed.** The tale may leave this unstated; it must not add a message, an explicit refusal to send one, or a statement that none was sent (IC-19) |
 | Believing her dead; perishing | Her father; her mother | KSS 185 | Loss, not a moral act |
 
 ## 5. Character motivations, relationships and agency
@@ -181,7 +181,7 @@ Four columns per character, as asked: **established**, **inferred**, **unknown**
 
 ### 5.5 The king (Karṇotpala)
 
-**Established:** Kaliṅga's king (81, 84); his young son has died (152); recognises the necklace (178); sends a trusted old woman and hears her (179); concludes his son was seized by a *ḍākinī* (180); goes **himself** to the "ascetic" and asks about her punishment (180–181); expels her (181). Source verdict on him: untrained in polity, no inquiry by spies, ignorant of rogues and signs, acted without inquiry (194–195). **Inferred:** grief shapes how he reads the evidence; the false account offers him an explanation for his son's death. **Unknown:** how long he considered; whether he thought of a hearing; his relation to the father (*prasādavitta*, 84, sense UNV). **May be added (CA-04):** outward signs of his grief and procedure. **No lecture, no soliloquy.** He is a grieving ruler who makes real checks and still fails, not a fool.
+**Established:** Kaliṅga's king (81, 84); his young son has died (152); recognises the necklace (178); sends a trusted old woman and hears her (179); concludes his son was seized by a *ḍākinī* (180); goes **himself** to the "ascetic" and asks about her punishment (180–181); expels her (181). **Not recorded:** a hearing of Padmāvatī, an inquiry of her parents, an independent test of the "ascetic's" explanation, an examination of his son's death (sources.md §7; IC-09 makes these visible as omissions). Source verdict on him: untrained in polity, no inquiry by spies, ignorant of rogues and signs, acted without inquiry (194–195). **Inferred:** grief shapes how he reads the evidence; the false account offers him an explanation for his son's death. **Unknown:** how long he considered; whether he thought of a hearing; his relation to the father (*prasādavitta*, 84, sense UNV). **May be added (CA-04):** outward signs of his grief and procedure. **No lecture, no soliloquy.** He is a grieving ruler who makes real checks and still fails, not a fool.
 
 ### 5.6 Her father and mother
 
@@ -330,12 +330,12 @@ In all four witnesses the answer is the king. **The crow-and-geese objection and
 **9.5 Proposed reasoning (PROPOSED, composed; outline only, not wording for the tale).**
 1. **The prince's and the minister's son's acts are wrongs of their own**, whatever their motives: the drink, the iron, the theft, the lie told to authority. Neither service to a friend nor love cancels any of them. (Replaces 192–193.)
 2. **Padmāvatī is measured by the same standard.** Whether she meant harm with the food is not known to the tale. If she did, that was her wrong; it would not make the scheme against her lighter, and no one ever asked her.
-3. **The question asks about the deaths.** The parents died of a belief that their daughter was dead. That belief entered their house through one act: the sentence of expulsion. The deceivers made the sentence possible; the king made it real.
-4. **The duty to examine was the king's office, and the means were within his reach** (the accused, her parents, the account, his son's death). The source's own grounds for his fault (194–195: no inquiry, ignorant of rogues and signs) are kept.
+3. **The question asks about the deaths.** The parents died believing their daughter dead. KSS narrates the sentence of expulsion, which they witness (181), and later their belief that she was eaten in the forest (185); it does not narrate what they were told in between. The sentence is the crucial recorded link in that chain, not its sole established cause. The deceivers made the sentence possible; the king made it real.
+4. **The duty to examine was the king's office.** He did make checks: he recognised the necklace, received the old woman's report of the mark and consulted the "ascetic" himself. But the narrative records no hearing of Padmāvatī, no inquiry of her parents and no independent test of the "ascetic's" explanation or of his son's death. The fault proposed is not that he made no checks but that the checks he made did not test the accusation independently. The source's own grounds for his fault (194–195: no inquiry, ignorant of rogues and signs) are kept.
 5. **Examining the accomplices does not clear the king, and the king's fault does not clear them.** The answer does not say their guilt is less. It says these deaths rest on the sentence, and the sentence was his. The tale does not rank who is worst.
 6. **The prince, too, acted without asking her (B10, IC-14).** The same failure to inquire recurs, first privately, then by a king with the power to destroy. This is a structural echo the writer may use through events, not a speech.
 
-**9.6 Does the central dilemma change? (PROPOSED assessment, for the user.)** The core question, whether a ruler's unexamined verdict carries guilt for deaths that deceivers engineered, is preserved. **What changes is the balance:** KSS clears the accomplices in advance, so its dilemma is "the king against nobody"; the proposal makes it "the king against people who really did wrong", which D-048 intends and which should make it harder, not easier. Whether this counts as a "dilemma change" under D-041 is a classification the researcher cannot settle; **the reasoning is composed in either case, so it goes to the user at A3.**
+**9.6 Does the central dilemma change? (PROPOSED assessment, for the user.)** The core question, whether a ruler's unexamined verdict carries guilt for deaths that deceivers engineered, is preserved. **What changes is the balance:** KSS clears the accomplices in advance, so its dilemma is "the king against nobody"; the proposal makes it "the king against people who really did wrong", which D-048 intends. Three things stay distinct: the source's exemptions (192–193, attested); the project's proposed removal of them (composed, PROPOSED); and the user's D-041 decision on whether that removal is a dilemma change (not taken). The removal is **intended** to make the dilemma harder. It could instead make the answer look obvious or weaken one side of the case; whether it actually makes the dilemma harder is untested and is for A3 and the user to assess. Whether this counts as a "dilemma change" under D-041 is a classification the researcher cannot settle; **the reasoning is composed in either case, so it goes to the user at A3.**
 
 **9.7 Attested and composed.**
 - **Attested:** the three named parties in the question (KSS 187); the answer "the king" in all four witnesses (KSS 190; Ś p. 12; Barker p. 64; J p. 27); the crow-and-geese objection (KSS 191 only); the king's grounds (KSS 194–195); the king's recorded checks (178–181).
@@ -349,15 +349,15 @@ This is the **researcher's pre-test, not the A3 test, and it claims no PASS** (D
 
 **Strongest case for the king's responsibility.**
 1. **Office.** Only he had the authority and the duty to examine before he punished (194–195).
-2. **Means.** The accused, her parents (present, 181), the "ascetic's" story and the unexplained death of his own son were all within his reach; he heard none.
+2. **Partial inquiry.** He did make inquiries: he recognised the necklace, received the old woman's report about the mark, and personally consulted the ascetic (178–181). But the narrative records no hearing of Padmāvatī, no inquiry into her parents' account (they are present at the expulsion, 181) and no independent test of the ascetic's explanation or of his son's unexplained death. His failure is not that he made no checks; it is that the checks he made did not test the accusation independently. ("Not recorded" is not "did not" as a source fact; making these omissions visible is the adaptation's choice, IC-09.)
 3. **He consulted the accuser's side.** On the ascetic's word he banished her (181). The remedy came from the deceiver, and it served the deceiver's end (carrying her off, 150).
-4. **The sentence is the one act that reached the parents.**
+4. **The sentence is the crucial recorded link to the parents.** They witness it (181), and their belief that she was eaten (185) follows it in the narrative. KSS does not narrate how that belief arose.
 5. **Grief explains him; it does not excuse him.** A duty to examine is heaviest when feeling is strongest.
 
 **Strongest counter-case (could lead a thoughtful reader to answer otherwise).**
-1. **The deception was built for him.** The false account offers a prince's heart to a deity, matching his own loss (IC-10). Three confirmations (the necklace, his own trusted woman's report of the mark, a holy man's account) fit together. A grieving ruler could be taken in.
+1. **The deception was built for him.** The false account offers a prince's heart to a deity, matching his own loss (IC-10). Three pieces of evidence (the necklace, his own trusted woman's report of the mark, a holy man's account) appear to fit together. They do not independently establish the accusation: the necklace and the mark were produced by the same scheme that the account explains, and only the account supplies the *ḍākinī* reading. To a grieving ruler they could still look corroborative, and he could be taken in.
 2. **He did inquire.** The source records real checks (178–181), and the sentence was expulsion, not death. J's king resolves to kill her (not adopted); KSS's does not.
-3. **The deaths followed from a belief the accomplices could have corrected and did not.** 185 implies, without stating, that the parents were not told. If so, the deaths trace to the silence of the two who knew (IC-19).
+3. **A possible second route, conditional only.** If the two men knew that the parents remained under a false belief and could have corrected it, their failure to do so might carry responsibility for the deaths. KSS does not establish that they knew what the parents believed, or that anyone deliberately kept the parents uninformed; it narrates no communication either way. This route stays an inference, not an attested explanation (IC-19).
 4. **"But for."** Without the minister's son's and the prince's acts there is no mark, no story, no sentence. A deceived man is a victim of deceivers, which is exactly Betal's rice and geese.
 5. **The standard may be too high.** Spies, polity and a reading of rogues are an ideal ruler's skills; blaming the deceived for being deceived may be a harsh test.
 
@@ -365,8 +365,8 @@ This is the **researcher's pre-test, not the A3 test, and it claims no PASS** (D
 - **C1** The king's evidence is genuinely persuasive inside the tale (the account is not absurd).
 - **C2** The king's checks are shown as real checks.
 - **C3** The accomplices' wrongs are fully visible, not softened by love or service, so "they were the doers" carries moral weight.
-- **C4** Two causal routes to the deaths remain live: the sentence, and (by implication) the silence after it.
-- **C5** The king's omissions are specific and available, not a generic "he should have investigated".
+- **C4** The tale can make the king's sentence central to the deaths while keeping the possible role of later non-communication explicitly conditional: neither a second proven route nor ruled out.
+- **C5** The king's omissions are specific, as the adaptation makes them visible (IC-09), not a generic "he should have investigated"; the tale does not claim that every possible witness was certainly within his reach at the moment of judgment.
 - **C6** No narrator or character states the thesis. A fix that only works by having Vikram state it fails (Charter §3.5).
 - **C7** The answer never turns on the accomplices being lesser or innocent.
 - **C8** The poison stays unresolved, so no reader can settle the weighing by deciding she was "a poisoner" or "only a victim".
@@ -401,7 +401,7 @@ Possibilities, not prescribed morals, and none for narration to state.
 - **Complicity and public responsibility:** one adviser's word is accepted by the prince, then by the king.
 - **The cost of manufactured evidence:** each clever step has a person on the other side.
 - **Padmāvatī's constrained position:** an artisan's daughter, her own purposeful acts, then a plot that treats her body as evidence. The tale can hold her signs and her silence together.
-- **A house that never learns the truth:** the loss of the parents, felt through the setting the tale built early, not through their thoughts.
+- **A house that dies believing its daughter dead:** the loss of the parents, felt through the setting the tale built early, not through their thoughts.
 - **Signs and readers of signs:** the minister's son reads signs well; the king, faulted at 195, cannot. A reader may notice that the lie was also a kind of sign.
 - **Grief and judgment:** the king's loss makes him easy to deceive, and it does not excuse him.
 - **Contentment bought elsewhere:** the prince's ease at the end.
@@ -428,15 +428,16 @@ Possibilities, not prescribed morals, and none for narration to state.
 | OQ-12 | Consent to the union, the rite and the removal | None can resolve it (source silence) | Treated as three separate silences (§5.2) | No; for A3 (gender/agency) |
 | OQ-13 | Whether the tale should end its narrative on the removal and the prince's contentment, then the deaths, as KSS orders them | A3 and the writer | Keeps the KSS order (181–185) | No; for A3 |
 | OQ-14 | Whether making the king's omissions explicit (IC-09) turns "not recorded" into an invention | A3 | Supported by 195 *nirvicāram*, recorded as an interpretive choice | No; for A3 |
-| OQ-15 | Whether leaving the accomplices' silence to the parents implied (IC-19) is acceptable | A3 | Kept implied, never stated | No; for A3 |
+| OQ-15 | Whether leaving unstated what the parents were told after the removal (IC-19) is acceptable, given that KSS narrates no communication and does not say who knew what they believed | A3 | Kept unstated; never presented as deliberate withholding | No; for A3 |
 | OQ-16 | Whether naming Padmāvatī in the question risks victim-blame | A3, user | §9.3 flags it | No; for A3 |
 | OQ-17 | The father's standing with the king (*prasādavitta*, UNV) | Sanskritist | Not used | No |
 | OQ-18 | Sensitivity-reader and Hindi literary review | The user (recommended, D-046) | `Human review not obtained`; gender H | No |
+| OQ-19 | What exactly does *dantaracanā* mean at KSS 12.8.73, and what does that permit for the Hindi realisation of the sign? | Sanskritist | Affects IC-03, CA-05 and the optional CB-01. The meaning is not settled from the current AI reading; the bitten-lotus gesture is **not** assumed adopted (CB-01 stays optional and pending). The KSS decoding ("an ivory-worker's daughter", 82) stays separate from the uncertain physical gesture: the answer may change how the sign is realised, not silently change the decoding | Recommended before the sign is drafted; not blocking |
 
 ### 13.2 Confidence
 
 - **Source coverage: moderate to high for the KSS narrative and Q/A**, which A1 read in full and N1 reviewed (independently, as AI) on the Q/A verses. **Moderate for Ś and the Hindi** (page images, AI reading, no specialist). **Moderate to low for J's translation pages 19–25** (OCR only) and for the Hindi register (Barker's Devanagari only). BKM and Ryder not read. **Nothing is specialist-verified.**
-- **Interpretive confidence: moderate for the structure** (the chain of acts, the preserved ambiguities, the role table) **and low to moderate for the composed reasoning** (§9.5) and for the narrow reading of 182cd. The reasoning has not been tested by an independent reviewer, and several of its premises (§10, counter-case 3) rest on an implication of one verse.
+- **Interpretive confidence: moderate for the structure** (the chain of acts, the preserved ambiguities, the role table) **and low to moderate for the composed reasoning** (§9.5) and for the narrow reading of 182cd. The reasoning has not been tested by an independent reviewer, and §10's counter-case 3 is only a conditional possibility resting on an inference from one verse.
 - Overall: **moderate**, matching the slate row (SLATE_AUDIT: M).
 
 ### 13.3 Handoff to A3

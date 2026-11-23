@@ -41,7 +41,7 @@ Where the source is silent, ambiguous or contested and the blueprint chooses a t
 |---|---|---|---|
 | IC-01 | KSS is the **tale-local working spine**. No hierarchy; no decision under Q-401/Q-408 | D-048 and the brief are KSS-framed (blueprint §2.2) | Reversible; user's call (OQ-1) |
 | IC-02 | Keep the **ivory-worker** reading of *dantaghāṭaka* as the adaptation direction; craft as skill; no jāti; no hereditary occupation | KSS 82, 84–85, 93; Emeneau p. 17 n. 8 ("ivory-carver"); D-048 | **Disputed:** Tawney p. 236 n. ("dentist", "worker in ivory" or a proper name). **Not specialist-confirmed.** Not in Ś, Hindi or J. If the trade reading fails the origin is a project adaptation (OQ-5) |
-| IC-03 | Realise the sign so it works in Hindi; the **decoding stays "an ivory-worker's daughter"** | KSS 73, 82 | *dantaracanā* nature UNV; Tawney reads another word (*dantapatra*) |
+| IC-03 | Realise the sign so it works in Hindi; the **decoding stays "an ivory-worker's daughter"** | KSS 73, 82 | *dantaracanā* nature UNV; Tawney reads another word (*dantapatra*). For a Sanskritist (blueprint OQ-19); the answer may change the realisation, not the decoding |
 | IC-04 | Compress the rebuke cycle to one exchange; do not make "refusal means invitation" the tale's template; her entry (B7) is her own act | KSS 100–121: the rebukes are NAR-U and CHAR; her speech at 118–120 is SRC | None on the source; an ethical choice for A3 |
 | IC-05 | Use the narrator's *gāndharva* term only; treat consent to union and to the rite as unrecorded | KSS 130–131; sources.md §5.1 | *udūḍhayā*, the rite's doctrinal sense: for a Sanskritist |
 | IC-06 | Preserve the poison ambiguity: the narrator confirms only the dog's death after eating; **no clue is added in any direction**; both readings of the friend's act (143–144) kept | KSS 142–149; contrast Ś p. 10, Barker pp. 53–54, J pp. 20–21 | *niṣeddhum*, *yuktitaḥ*, 150 UNV |
@@ -57,7 +57,7 @@ Where the source is silent, ambiguous or contested and the blueprint chooses a t
 | IC-16 | Compressions: Benares opening; number of signs; rebuke cycle; elephant outcry; market scene; city chief | KSS 59–67, 72–75, 100–114, 116–117, 162–171 | Brief allows altering the signs, the dog and the Benares opening |
 | IC-17 | Names follow KSS (Vajramukuṭa, Buddhiśarīra, Karṇotpala, Saṅgrāmavardhana, Padmāvatī); Hindi spellings are for the writer and the user | KSS 59–63, 85, 151 | Hindi forms differ in Barker (*Dantbāṭ*) and Platts (*Danta-vat*) (sources.md §4.1) |
 | IC-18 | Retain the source question's three named parties, Padmāvatī included, so the same standard applies to her | KSS 187; brief §4 | Victim-blame risk for A3 (OQ-16) |
-| IC-19 | Leave implied, never stated, that the parents were not told she lived | KSS 185 (*matvā*, "believing"); no witness records a message | **Implication of one verse** (OQ-15) |
+| IC-19 | Leave implied, never stated, that the parents were not told she lived | KSS 185 (*matvā*, "believing"); no witness records a message | **Inference from one verse.** KSS narrates no communication either way and does not say who knew what the parents believed; no deliberate withholding is attested (OQ-15) |
 | IC-20 | The composed reasoning (blueprint §9.5), which refuses the exemptions and keeps the king as answer | D-041, D-048 | **User approval at A3** |
 
 ## 3. Proposed creative additions
@@ -70,7 +70,7 @@ Material that is ours. **PROPOSED, not planned as text.** None gives dialogue, e
 | CA-02 | **A post-banishment moment of understanding**: the narrator reports that she supposed a stratagem devised by the minister's son | D-048 and the brief ask for "understanding, not an invented choice"; KSS 182cd may report it | Nothing more. Not the whole plot; not the prince's part; not the intended outcome; no claim it is why she lived; no speech; no choice. Re-judged at A3 if 182cd is rejected (OQ-4) |
 | CA-03 | Optional **observable echo** of the early setting at 185 | To carry one verse's weight without inventing thoughts | No thoughts; no last words. A3 to judge |
 | CA-04 | Outward signs of the king's grief and procedure; sensory and atmospheric detail | Makes the king's checks and omissions visible as events | Must not alter events or add checks or omissions beyond those in §4 of the blueprint |
-| CA-05 | A Hindi realisation of the sign and its pun | The Sanskrit compound does not carry over | Decoding stays KSS's; the gesture options are in CB-01 |
+| CA-05 | A Hindi realisation of the sign and its pun | The Sanskrit compound does not carry over | Decoding stays KSS's; the gesture options are in CB-01. Pending a Sanskritist on *dantaracanā* (blueprint OQ-19) |
 | CA-06 | **The composed reasoning** (blueprint §9.5) and any extension of Betal's objection beyond KSS 191 | D-041 | **Needs the user's approval at A3.** The objection stays at full strength. No penalty formula (D-057B) |
 
 **Not planned (to prevent drift):** any consent, speech, thought or choice of Padmāvatī about the union, the rite, the drink, the marking, the accusation or the removal beyond SE-06 to SE-08; any speech by her after the banishment; any parental thought or dialogue; any decision that she did or did not poison; any invented cause for the king's son's death; any message to the parents or any statement that none was sent; any prince's remorse that moves the verdict; the funeral pyre; a hereditary-craft claim.
@@ -81,7 +81,7 @@ Material that is ours. **PROPOSED, not planned as text.** None gives dialogue, e
 
 | ID | Borrowed element | Witness and location | Used with | Why | Status |
 |---|---|---|---|---|---|
-| CB-01 | The **lotus bitten between the teeth** as the gesture for the sign | Hindi: *dāṃt se kutar*, Barker p. 34 ✓, Platts p. 16; J: struck on the teeth, Emeneau pp. 14–15; K by Emeneau's note, p. 17 n. 8 (secondary, not verified) | KSS decoding: "an ivory-worker's daughter" (KSS 82) | The gesture must be performable and readable in Hindi; KSS's *dantaracanā* is unsettled | **Optional.** Pending a Sanskritist on 12.8.73 (OQ-4's neighbour). A combination, never presented as attested |
+| CB-01 | The **lotus bitten between the teeth** as the gesture for the sign | Hindi: *dāṃt se kutar*, Barker p. 34 ✓, Platts p. 16; J: struck on the teeth, Emeneau pp. 14–15; K by Emeneau's note, p. 17 n. 8 (secondary, not verified) | KSS decoding: "an ivory-worker's daughter" (KSS 82) | The gesture must be performable and readable in Hindi; KSS's *dantaracanā* is unsettled | **Optional.** Pending a Sanskritist on *dantaracanā* at 12.8.73 (blueprint OQ-19); not adopted until then. A combination, never presented as attested |
 
 ### 4.2 Considered and not adopted
 
