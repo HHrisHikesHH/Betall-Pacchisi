@@ -76,7 +76,7 @@ Before any material factual claim about the project, check it against the eviden
 
 | Claim type | Minimum evidence |
 |---|---|
-| **Research complete** | The evidence record itself, with source coverage per witness (§D list). A status line, a handoff sentence or a PR title is not enough. Report each witness on the three dimensions in §D (extent, format, provenance), with edition and page or verse range, and say which were not read |
+| **Research complete** | The evidence record itself, with source coverage per witness (§D model). A status line, a handoff sentence or a PR title is not enough. Report each witness on the three dimensions in §D (extent, format, provenance), with edition and page or verse range, and say which were not read |
 | **Source statement** | The passage in the cited edition (verse, page or section), actually examined this session or quoted from a record that itself cites it. Record the edition, the language read, and whether AI-read or specialist-verified |
 | **User-approved decision** | Repository-approved: an APPROVED entry in [DECISIONS.md](DECISIONS.md), seen in the file. Conversation-approved: the user's explicit statement in this chat, reported as "approved in conversation, not yet recorded" (§A, "Approval states"). A PROPOSED entry, a recommendation or "the plan says" is not approval |
 | **Story or frame status** | `stories/<ID>/status.md` **and** the files it names (blueprint, drafts, critiques, `approved.md`) |
