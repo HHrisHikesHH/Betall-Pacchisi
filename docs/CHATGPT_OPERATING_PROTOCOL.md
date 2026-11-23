@@ -4,7 +4,7 @@
 
 **Arrangement.** The user starts an ordinary ChatGPT conversation with: "Read and follow `docs/CHATGPT_OPERATING_PROTOCOL.md` before answering. Then handle my request: [request]". Nothing here depends on Projects, Custom Instructions or memory. **The repository is the persistent source of truth;** ChatGPT memory and conversation history are navigation aids only. The user is the creative director and final decision-maker (D-022). No proposal, AI review, Claude report or merged PR equals the user's approval.
 
-Repository: `HHrisHikesHH/Betall-Pacchisi`. "Claude" means a Claude Code session working in a checkout. A separate Claude protocol is a later task and does not exist yet.
+Repository: `HHrisHikesHH/Betall-Pacchisi`. "Claude" means a Claude Code session working in a checkout. Claude Code's own conduct is governed by the separate [CLAUDE_OPERATING_PROTOCOL.md](CLAUDE_OPERATING_PROTOCOL.md): this protocol governs ChatGPT's research, reasoning, prompt preparation, coordination and review of Claude's actual work; the Claude protocol governs Claude's repository work, validation and reporting. Neither depends on the other, and neither replaces DECISIONS.md, source evidence, story records or the production plan.
 
 ---
 

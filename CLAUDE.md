@@ -4,6 +4,10 @@ A browser-based, Hindi-first reading experience for the 25 Vikram–Betal tales 
 
 **Current phase:** agile product development (D-037). Build a usable version, learn, iterate. Open research questions are not blockers. Status: [docs/HANDOFF.md](docs/HANDOFF.md). Plan: [docs/PROJECT_PLAN.md](docs/PROJECT_PLAN.md).
 
+## Mandatory: operating protocol
+
+**Every new Claude Code session must read and follow [docs/CLAUDE_OPERATING_PROTOCOL.md](docs/CLAUDE_OPERATING_PROTOCOL.md)** (authority and conflict resolution, startup, modes, evidence, story workflow, repository discipline, reviews, reporting) before doing any task. This file is only the orientation; the protocol governs how you work. Nothing in it is permission to commit, push, open a PR or merge: those need the task's explicit authorisation, and merging is always the user's.
+
 ## Stack and commands
 
 Vite + React 19 + TypeScript + react-router-dom 7, tests with Vitest + jsdom + Testing Library. Static site, no backend. These are working, reversible choices (D-037).
