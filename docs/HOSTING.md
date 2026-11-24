@@ -1,12 +1,12 @@
 # Hosting
 
-*Working note, 2026-11-24. Q-502 (hosting) is still open; Cloudflare Pages is a provisional choice by the coordinator and is **not deployed**. This records no decision (see [LAUNCH_EXCEPTIONS.md](LAUNCH_EXCEPTIONS.md)).*
+*Working note, 2026-11-24. Q-502 (hosting) is still open; Cloudflare is a provisional choice by the coordinator. This records no decision (see [LAUNCH_EXCEPTIONS.md](LAUNCH_EXCEPTIONS.md)). The first deploy attempt (Cloudflare build log, 2026-11-24 18:16 UTC) went through the Workers path, not Pages.*
 
 The app is a static single-page site: no server, no environment secrets. `npm run build` writes everything to `dist/`.
 
-## Cloudflare Pages (provisional)
+## Cloudflare (provisional)
 
-In the Cloudflare dashboard: **Workers & Pages → Create → Pages → Connect to Git**.
+In the Cloudflare dashboard: **Workers & Pages → Create → connect the Git repository**. The dashboard may create a *Workers* project whose deploy command is `npx wrangler deploy`; that is what happened on 2026-11-24, and it is supported. The repository carries `wrangler.jsonc` (assets from `dist`, `not_found_handling: single-page-application`), so both the Workers and the Pages path work from the settings below.
 
 | Setting | Value |
 |---|---|
@@ -21,7 +21,7 @@ In the Cloudflare dashboard: **Workers & Pages → Create → Pages → Connect 
 
 `npm run build` runs the type check and the content tests before building, so a broken story file fails the deploy instead of shipping.
 
-**Deep links.** `public/_redirects` contains `/*    /index.html   200`. Vite copies it to `dist/_redirects`. Without it, opening or refreshing `/kathaen/<slug>` would return a 404, because only `/` exists as a file. Cloudflare serves real files (assets, `favicon.svg`) first and falls back to `index.html` for every other path.
+**Deep links.** `wrangler.jsonc` sets `not_found_handling` to `single-page-application`: any path that is not a real file returns `index.html` with status 200, so opening or refreshing `/kathaen/<slug>` works. There is deliberately **no** `public/_redirects`: the Workers deploy rejected `/*    /index.html   200` with error 100324 ("Infinite loop detected"), which failed the first deploy. Checked locally with `wrangler dev` (workerd): `/`, `/kathaen/kamal-ke-teen-ishare` and an unknown path all return 200 `text/html`; real assets such as `/favicon.svg` return their own type.
 
 `vite.config.ts` has `base: '/'`, which is correct for a Pages domain (`*.pages.dev` or a custom domain at the root).
 
@@ -30,7 +30,7 @@ In the Cloudflare dashboard: **Workers & Pages → Create → Pages → Connect 
 Possible, but it needs extra work:
 
 - A project site is served under `/Betall-Pacchisi/`, so `base` must change to `'/Betall-Pacchisi/'` (and the router needs a matching `basename`). A custom domain at the root keeps `base: '/'`.
-- GitHub Pages ignores `_redirects`. It serves `404.html` for unknown paths, so deep links only work if `dist/404.html` is a copy of `index.html` (the router then renders the page, though the response status is 404, which is poor for search engines and link previews).
+- GitHub Pages has no SPA fallback setting. It serves `404.html` for unknown paths, so deep links only work if `dist/404.html` is a copy of `index.html` (the router then renders the page, though the response status is 404, which is poor for search engines and link previews).
 - It needs a workflow that builds and publishes `dist/`; none is in the repository.
 
 Any other static host works the same way: serve `dist/` and fall back to `index.html` for unknown paths.
