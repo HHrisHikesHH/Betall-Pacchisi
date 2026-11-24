@@ -6,6 +6,8 @@ Read this first when you start a new session on this project. It summarises the 
 
 **Launch exceptions:** rules bent for the one-tale launch (D-062) are listed in [LAUNCH_EXCEPTIONS.md](LAUNCH_EXCEPTIONS.md).
 
+**Launch status (2026-11-24, dated snapshot):** live with one draft story (TC-001 Hindi Draft 2, labelled `draft`). Code for scenes and original SVG art (PR #38), generated sound (PR #39) and polish plus Cloudflare Pages config (PR #40) is stacked and awaiting the user's merge, in that order. Hosting is not yet connected: see [HOSTING.md](HOSTING.md). Critique 2 on the live text is planned for the end of the week. Older text below that says there is no hosting is stale.
+
 ## Current status
 
 **The project has moved from research to product development (D-037, user brief 2026-11-18).** Research is merged and paused; a first reading prototype exists on a feature branch.
