@@ -6,7 +6,9 @@ A browser-based, Hindi-first reading experience for the 25 Vikram–Betal tales 
 
 ## Mandatory: operating protocol
 
-**Every new Claude Code session must read and follow [docs/CLAUDE_OPERATING_PROTOCOL.md](docs/CLAUDE_OPERATING_PROTOCOL.md)** (authority and conflict resolution, startup, modes, evidence, story workflow, repository discipline, reviews, reporting) before doing any task. This file is only the orientation; the protocol governs how you work. Nothing in it is permission to commit, push, open a PR or merge: those need the task's explicit authorisation, and merging is always the user's.
+**Every new Claude Code session must read and follow [docs/CLAUDE_OPERATING_PROTOCOL.md](docs/CLAUDE_OPERATING_PROTOCOL.md)** (authority and conflict resolution, startup, modes, evidence, story workflow, repository discipline, reviews, roles and independence, reporting) before doing any task. It is the single protocol for all Claude-led work; no other AI tool is part of the workflow. This file is only the orientation; the protocol governs how you work. Nothing in it is permission to commit, push, open a PR or merge: those need the task's explicit authorisation, and merging is always the user's.
+
+Startup, in order: the protocol; [docs/README.md](docs/README.md) (authority map); [docs/HANDOFF.md](docs/HANDOFF.md) (a **dated snapshot**, never an authority); the [docs/DECISIONS.md](docs/DECISIONS.md) entries the task touches; then live git and GitHub state (`git status --short --branch`, `git log -1`, open PRs). A Claude **conversation** (not Claude Code) starts from [docs/AI_SESSION_START.md](docs/AI_SESSION_START.md).
 
 ## Stack and commands
 
