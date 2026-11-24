@@ -4,3 +4,6 @@ coverage/
 .DS_Store
 *.log
 /*.patch
+
+# Claude Code personal settings (machine-only)
+.claude/settings.local.json
