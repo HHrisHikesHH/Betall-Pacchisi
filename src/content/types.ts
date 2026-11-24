@@ -10,6 +10,14 @@ export interface Story {
   paragraphs: string[];
 }
 
+export interface SceneCue {
+  /** 0-based paragraph index where this scene starts; it holds until the next cue. */
+  index: number;
+  art: string | null;
+  mood: import('../scenes/artIds').Mood;
+  alt: string;
+}
+
 export interface Collection {
   title: string;
   subtitle: string;

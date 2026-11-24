@@ -270,3 +270,131 @@ h2 {
     display: none;
   }
 }
+
+/* Scenes (D-023, D-026): a compact sticky illustration and a faint page tint per mood.
+   The tint only shifts --bg/--surface slightly, so --text, --muted and --accent keep AA contrast in both themes. */
+body {
+  transition: background-color 0.9s ease;
+}
+
+html[data-mood='day'] { --bg: #f8f0dd; --surface: #fffaf0; }
+html[data-mood='dusk'] { --bg: #f2e4d4; --surface: #fbf1e4; }
+html[data-mood='night'] { --bg: #e6e3e6; --surface: #f1eff1; }
+html[data-mood='fire'] { --bg: #f1ddcc; --surface: #faeadc; }
+html[data-mood='forest'] { --bg: #e8ecdc; --surface: #f3f6ea; }
+
+@media (prefers-color-scheme: dark) {
+  html[data-mood='day'] { --bg: #1d1913; --surface: #26211a; }
+  html[data-mood='dusk'] { --bg: #211a1a; --surface: #2a2222; }
+  html[data-mood='night'] { --bg: #14161d; --surface: #1c1f27; }
+  html[data-mood='fire'] { --bg: #241711; --surface: #2d1e17; }
+  html[data-mood='forest'] { --bg: #141a15; --surface: #1c231d; }
+}
+
+.scene-toggle {
+  display: block;
+  min-height: 44px;
+  margin: 0 0 0.75rem auto;
+  padding: 0.25rem 0.9rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--muted);
+  font: inherit;
+  font-size: 0.85em;
+  cursor: pointer;
+}
+
+.scene-toggle:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 3px;
+}
+
+/* The dock sits in the flow at the top of the story body and sticks while the paragraphs scroll under it.
+   Its height is capped so the text stays the hero on a 390 px phone. */
+.scene-dock {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  height: 0;
+  margin: 0;
+  overflow: hidden;
+  background: var(--bg);
+  transition: height 0.6s ease, margin 0.6s ease, background-color 0.9s ease;
+}
+
+.scene-dock[data-open='true'] {
+  height: min(24svh, 10rem);
+  margin-bottom: 1rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.scene-stage {
+  position: relative;
+  height: 100%;
+  padding-bottom: 0.4rem;
+}
+
+.scene-layer,
+.scene-inline {
+  margin: 0;
+  display: grid;
+  place-items: center;
+}
+
+.scene-layer {
+  position: absolute;
+  inset: 0 0 0.4rem;
+  animation: scene-in 0.7s ease both;
+}
+
+.scene-layer[data-leaving='true'] {
+  animation: scene-out 0.7s ease both;
+}
+
+.scene-layer > svg,
+.scene-layer > .scene-img {
+  height: 100%;
+  width: auto;
+  max-width: 100%;
+  aspect-ratio: 5 / 3;
+}
+
+.scene-img {
+  object-fit: cover;
+  border: 3px double var(--note-border);
+  border-radius: 3px;
+}
+
+.scene-inline {
+  margin: 0 0 1.2em;
+}
+
+.scene-inline > svg,
+.scene-inline > .scene-img {
+  width: min(100%, 22rem);
+  height: auto;
+  aspect-ratio: 5 / 3;
+}
+
+@keyframes scene-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes scene-out {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body,
+  .scene-dock {
+    transition: none;
+  }
+
+  .scene-layer,
+  .scene-layer[data-leaving='true'] {
+    animation: none;
+  }
+}
