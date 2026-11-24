@@ -41,5 +41,6 @@ npm run preview     # serve the built site (http://localhost:4173)
 - Make reasonable, reversible technical decisions without waiting; record anything the user decides in DECISIONS.md, never promote a proposal silently.
 - Keep docs proportional. Update [docs/HANDOFF.md](docs/HANDOFF.md) and [docs/PROJECT_PLAN.md](docs/PROJECT_PLAN.md) at the end of a meaningful session.
 - Work on a feature branch; run `npm test` and `npm run build` before committing. Never merge to `main` yourself: the user merges.
+- Documentation-only changes also run `npm run docs:check` (links, anchors, decision IDs, status consistency).
 
 Note: story bodies are **plain text**, not Markdown. `*bold*` or `# heading` show literally. Keep it that way until a real tale needs formatting.

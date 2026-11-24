@@ -160,7 +160,7 @@ Content edits and code edits go in **separate commits**. Engineering work must n
 
 **Standing authorisation (user instruction, 2026-11-24).** For any task the user gives or relays, Claude may create a feature branch, commit, push that branch and open **one** PR for it, unless the task says otherwise. Still stop for a conflict with the record, protected or approved text, user changes in the way, or anything outside the task's scope. **Merging is never authorised; the user merges.** The user may withdraw or narrow this at any time.
 
-**Validate** in proportion: `npm test`, `npm run typecheck` and `npm run build` for code or content changes (CLAUDE.md requires tests and build before committing); for documentation-only changes, check every changed relative link, anchor and section reference, and inspect the diff. Do not install new dependencies for a task that does not need them. Report what you actually ran. If something could not be run, say so.
+**Validate** in proportion: `npm test`, `npm run typecheck` and `npm run build` for code or content changes (CLAUDE.md requires tests and build before committing); for documentation-only changes, check every changed relative link, anchor and section reference, and inspect the diff. Documentation-only changes also run `npm run docs:check`. Do not install new dependencies for a task that does not need them. Report what you actually ran. If something could not be run, say so.
 
 ---
 
