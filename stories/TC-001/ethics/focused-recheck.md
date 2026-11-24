@@ -38,6 +38,8 @@
 | C1–C8 | C2, C3, C4, C5, C7, C8 **PASS** at blueprint level; C1 PASS at blueprint level, tested in the draft; **C6 cannot be tested on an outline** and stays a drafting risk (§7) |
 | Draft 1 | **Not started and not authorised.** It waits for the user's D-041 decisions (§9) |
 
+> **Correction note (2026-11-24, coordination review; wording only).** The "Original findings" row above is kept as the reviewer wrote it. Its tally is wrong: its parts sum to 16. The finding-by-finding table (§4) gives the correct count: **12 resolved** (F1–F4, F6–F12, F15), **2 resolved as drafting rules** (F5, F13), **1 routed** (F14) = **15 of 15 addressed**. Likewise, §6's restatement of the counter-case (item 2) said the deception "predicted a mark"; the scheme made the mark (160), the account described it (172–177), and the king's trusted woman found it (179), so that wording is corrected in place. No finding, verdict or test result changes.
+
 ## 4. Finding-by-finding re-check
 
 "Resolved" means the correction answers the finding's substance, not only that the revision map points somewhere. Section references are to the blueprint unless marked "add." (additions.md).
@@ -85,7 +87,7 @@ The test: could a thoughtful reader defensibly reach a verdict other than Vikram
 
 **The alternative, at its strongest honest form, on the events the blueprint keeps (KSS order).**
 1. The minister's son's own words set the aim: carry her off (150, SRC). The king took the punishment from him and expelled her on his word (181 *tadgirā*, SRC). The sentence was the accuser's prescription, and it delivered the accuser's aim (INF).
-2. The deception was built to beat an ordinary judge. It predicted a mark that the king's own trusted woman then found (175–179, SRC). Nothing in front of him pointed at the holy man as the one who made it.
+2. The deception was built to beat an ordinary judge. The scheme made the mark (160); the account then described it (172–177); the king's own trusted woman looked and found it (179) (SRC). Nothing in front of him pointed at the holy man as the one who made it.
 3. Every link but the sentence is theirs: the drink, the iron, the theft, the sale, the lie (154–177, SRC). Their acts are a necessary condition of the deaths.
 4. When the parents died believing her eaten, the two men had her alive in their own kingdom (183–185, SRC). The tale shows no one else knowing she lived (INF from silence). Their contentment and the parents' deaths share one verse's "but" (184–185).
 5. (Unresolved reading, N-2) On Tawney's reading of 150, separating her from her relations was part of the plan.
