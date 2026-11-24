@@ -113,6 +113,7 @@ function StoryReader({
           </p>
         )}
 
+        <div className="story-tools">
         {hasArt && (
           <button
             type="button"
@@ -125,6 +126,7 @@ function StoryReader({
         )}
 
         <SoundControl />
+        </div>
 
         <div className="story-body">
           {observed && artVisible && <SceneFigure art={activeCue?.art ?? null} alt={activeCue?.alt ?? ''} />}
