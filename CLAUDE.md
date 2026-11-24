@@ -29,6 +29,7 @@ npm run preview     # serve the built site (http://localhost:4173)
   - `content/collection.hi.json`: collection title, subtitle, intro.
   - `content/stories/hi/<slug>.md`: one story per file. Front matter `order`, `slug`, `title`, `summary`, `status` (`placeholder` | `draft` | `approved`), then paragraphs separated by blank lines. Adding a file adds a story; no code change. Invalid files fail the tests and the build with a message naming the file.
 - `src/content/`: loader, front-matter parser, validation. `src/pages/`: collection, story reader, not-found. `src/i18n/hi.ts`: all interface text.
+- `.claude/`: Claude Code tooling (commands, guard hook, status line, `/next`). See [.claude/README.md](.claude/README.md).
 - `stories/`: per-story editorial records (D-045): research, blueprints, drafts, critiques, verification, approvals. Never read by the app; only approved text is copied into `content/` (D-047).
 - Production: [docs/production/PRODUCTION_PLAN.md](docs/production/PRODUCTION_PLAN.md) is the governing plan for stories; [docs/ETHICAL_CHARTER.md](docs/ETHICAL_CHARTER.md) binds every tale and the frame.
 - `docs/`: project documentation and research. [docs/DECISIONS.md](docs/DECISIONS.md) is the authority on every decision.
