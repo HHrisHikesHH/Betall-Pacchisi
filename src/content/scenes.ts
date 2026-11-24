@@ -47,11 +47,15 @@ export function parseSceneFile(
     }
     const alt = typeof cue.alt === 'string' ? cue.alt.trim() : '';
     if (cue.art !== null && !alt) fail(`cue ${index}: "alt" text is required when "art" is set`);
+    if ('sound' in cue && cue.sound !== 'silence') {
+      fail(`cue ${index}: "sound" must be "silence" when present (omit it to use the mood's sound)`);
+    }
     cues.push({
       index,
       art: cue.art as string | null,
       mood: cue.mood as Mood,
       alt,
+      ...(cue.sound === 'silence' ? { sound: 'silence' as const } : {}),
     });
   }
   return cues.sort((a, b) => a.index - b.index);

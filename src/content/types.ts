@@ -16,6 +16,8 @@ export interface SceneCue {
   art: string | null;
   mood: import('../scenes/artIds').Mood;
   alt: string;
+  /** Optional sound override. "silence" holds the scene in deliberate silence whatever its mood (D-027). Absent: the mood's bed. */
+  sound?: 'silence';
 }
 
 export interface Collection {

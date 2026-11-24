@@ -398,3 +398,49 @@ html[data-mood='forest'] { --bg: #e8ecdc; --surface: #f3f6ea; }
     animation: none;
   }
 }
+
+.sound-control {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.5rem 0.9rem;
+  margin: 0 0 0.75rem;
+}
+
+.sound-toggle {
+  min-height: 44px;
+  padding: 0.25rem 0.9rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--muted);
+  font: inherit;
+  font-size: 0.85em;
+  cursor: pointer;
+}
+
+.sound-toggle[aria-pressed='true'] {
+  color: var(--text, inherit);
+  border-color: var(--accent);
+}
+
+.sound-toggle:focus-visible,
+.sound-volume input:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.sound-volume {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-height: 44px;
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.sound-volume input {
+  width: 6.5rem;
+  accent-color: var(--accent);
+}

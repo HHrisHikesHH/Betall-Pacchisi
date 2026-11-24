@@ -20,4 +20,7 @@ export const ui = {
   illustrationOn: 'चित्र दिखाएँ',
   illustrationOff: 'चित्र छिपाएँ',
   illustrationLoading: 'चित्र खुल रहा है…',
+  sound: 'ध्वनि चालू / बंद',
+  soundVolume: 'आवाज़',
+  soundVolumeLevels: ['धीमी', 'मध्यम', 'ऊँची'],
 };

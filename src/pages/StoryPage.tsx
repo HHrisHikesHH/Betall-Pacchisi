@@ -6,6 +6,7 @@ import { useDocumentTitle } from '../components/useDocumentTitle';
 import { ui } from '../i18n/hi';
 import { ArtView } from '../scenes/ArtView';
 import { NEUTRAL_SCENE, SceneContext, type SceneState } from '../scenes/SceneContext';
+import { SoundControl } from '../audio/SoundControl';
 import { SceneFigure } from '../scenes/SceneFigure';
 import { canObserve, useActiveCue } from '../scenes/useActiveCue';
 import { NotFoundPage } from './NotFoundPage';
@@ -73,6 +74,7 @@ function StoryReader({
             cueIndex: activeCue.index,
             art: activeCue.art,
             mood: activeCue.mood,
+            sound: activeCue.sound,
           }
         : NEUTRAL_SCENE,
     [activeCue],
@@ -121,6 +123,8 @@ function StoryReader({
             {artVisible ? ui.illustrationOff : ui.illustrationOn}
           </button>
         )}
+
+        <SoundControl />
 
         <div className="story-body">
           {observed && artVisible && <SceneFigure art={activeCue?.art ?? null} alt={activeCue?.alt ?? ''} />}
