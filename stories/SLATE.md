@@ -20,7 +20,7 @@ The 19 first-release tales and the frame (D-038). The long-term goal is 25 (D-00
 | [TC-020](TC-020/status.md) | The brahman boy who laughed at his sacrifice | MAJOR REWRITE | Moderate | `research` | not started / not obtained | — |
 | [TC-021](TC-021/status.md) | Anaṅgamañjarī, Maṇivarman and Kamalākara | ADAPT | Moderate to high | `research` | not started / not obtained | — |
 | [TC-022](TC-022/status.md) | The four brothers who revived a lion | ADAPT | High | `research` | not started / not obtained | — |
-| [TC-024](TC-024/status.md) | The father who marries the daughter and the son who marries the mother (the final riddle) | ADAPT | Moderate to high | `research` | not started / not obtained | — |
+| [TC-024](TC-024/status.md) | The father who marries the daughter and the son who marries the mother (the final riddle) | ADAPT | Moderate to high | `research` (A1 files exist; AI research, not reviewed; formal acceptance not recorded) | none (A1 AI research only) / not obtained | — |
 | [TC-025](TC-025/status.md) | Four brothers and the harlot | MAJOR REWRITE | Low to moderate | `research` | not started / not obtained | — |
 | [TC-026](TC-026/status.md) | Mūladeva wins a bride for Śaśideva | ADAPT | Low to moderate (provisional) | `research` | not started / not obtained | — |
 | [TC-027](TC-027/status.md) | An ogre devastates Arimaulimaṇi's kingdom | MAJOR REWRITE | Low (provisional) | `research` | not started / not obtained | — |
