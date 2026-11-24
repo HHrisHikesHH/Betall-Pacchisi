@@ -7,3 +7,6 @@ coverage/
 
 # Claude Code personal settings (machine-only)
 .claude/settings.local.json
+
+# Wrangler local state
+.wrangler/
