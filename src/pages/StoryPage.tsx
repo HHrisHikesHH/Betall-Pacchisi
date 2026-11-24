@@ -44,6 +44,12 @@ function StoryReader({ story, stories, collectionTitle }: { story: Story; storie
         </p>
       )}
 
+      {story.status === 'draft' && (
+        <p className="placeholder-banner draft-banner" role="note">
+          {ui.draftBanner}
+        </p>
+      )}
+
       <div className="story-body">
         {story.paragraphs.map((paragraph, index) => (
           <p key={index}>{paragraph}</p>

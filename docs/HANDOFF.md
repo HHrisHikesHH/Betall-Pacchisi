@@ -4,6 +4,8 @@
 
 Read this first when you start a new session on this project. It summarises the current state and links to the authoritative documents. **It is never the authority on a decision.** [DECISIONS.md](DECISIONS.md) is.
 
+**Launch exceptions:** rules bent for the one-tale launch (D-062) are listed in [LAUNCH_EXCEPTIONS.md](LAUNCH_EXCEPTIONS.md).
+
 ## Current status
 
 **The project has moved from research to product development (D-037, user brief 2026-11-18).** Research is merged and paused; a first reading prototype exists on a feature branch.
