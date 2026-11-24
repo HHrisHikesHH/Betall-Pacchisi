@@ -481,15 +481,15 @@ See the dedicated analysis in **§5.A**. See also the full reading in [HINDI_XXI
 | | |
 |---|---|
 | **Identity** | Tawney's title: father marries the daughter, son marries the mother. The riddle asks what their children are to each other. |
-| **Appearances** | KSS 12.31.1–75 (ch. 98) · BKM 24 (prov.) · Ś **24** · J **25** · Hindi **XXV** · Ryder 22. |
+| **Appearances** | KSS 12.31.1–75 (ch. 98) · BKM 24 (prov.) · Ś **24** · J **25** · Hindi **XXV** · Ryder 22. *[Corrected 2026-11-24 per [stories/TC-024/research/sources.md](../../stories/TC-024/research/sources.md) §1 item 2 and §7; AI reading, not independently reviewed; Sanskritist needed where stated. "Ś 24" is **two different texts**: Uhle's prose tale XXIV (p. 61), whose narrative body is now read and is a different story from KSS (different royal house, a kinsmen's raid, no *śabara*, the two children marry each other), and the metrical XXV from manuscript B (pp. 64–66), KSS-like, which Uhle assigns to Kṣemendra (Vorwort pp. XI–XII; his inference, not verified). Read on page images]* |
 | **Correspondence** | E. |
-| **Plot and dilemma** | **Vikrama falls silent** (KSS 12.31.60): the report records this as the only riddle left unanswered by design (§9). **N1:** the KSS text says Vikrama did not know the answer (12.31.60, 62); "by design" is an interpretation of the narrative, not a statement of the text. J omits the key marriage detail (Emeneau §6). |
-| **Variants** | The tale's role in the frame differs. In KSS, Vikrama's silence at 12.31.60 begins the cycle's ending (the Vetāla then warns him about the monk, 12.31.61–74). In the Hindi the final riddle and the frame's conclusion are both inside XXV. In J the tale is the 25th narrated tale, followed by the conclusion. |
+| **Plot and dilemma** | **Vikrama falls silent** (KSS 12.31.60): the report records this as the only riddle left unanswered by design (§9). **N1:** the KSS text says Vikrama did not know the answer (12.31.60, 62); "by design" is an interpretation of the narrative, not a statement of the text. J omits the key marriage detail (Emeneau §6). *[Corrected 2026-11-24 per [stories/TC-024/research/sources.md](../../stories/TC-024/research/sources.md) §1 item 1 and §9; AI reading, not independently reviewed; Sanskritist needed where stated. Confirmed and made exact from Emeneau pp. 143–145, read directly (page images): J's Sanskrit (p. 144) gives the father "the long-footed" woman and the son "the short-footed" one but never says which of Candrāvatī and Vilāsavatī is which, so **which man took which woman is not stated**; the two possible pairings give different kin results (§6.4)]* |
+| **Variants** | The tale's role in the frame differs. In KSS, Vikrama's silence at 12.31.60 begins the cycle's ending (the Vetāla then warns him about the monk, 12.31.61–74). In the Hindi the final riddle and the frame's conclusion are both inside XXV. In J the tale is the 25th narrated tale, followed by the conclusion. *[Corrected 2026-11-24 per [stories/TC-024/research/sources.md](../../stories/TC-024/research/sources.md) §1 item 8 and §10.2; AI reading, not independently reviewed; Sanskritist needed where stated. In J the frame conclusion is **inside numbered story 25** (Emeneau pp. 143–155; colophon p. 154), as in the Hindi; J's narrated tales before it number 24]* |
 | **Distinctness** | Separate family. The catalogue's own observation (not the report's or Q-411's): it is the riddle after which the frame's ending begins in KSS. KSS counts it among the 24 question-tales (12.32.24–27). Nothing is decided here. |
 | **Literary opportunities** | The riddle is a kinship puzzle that Vikrama cannot answer, a different effect from the other riddles. The report does not assess further. |
 | **Collection contribution** | Preliminary: the only recorded tale whose riddle goes unanswered (see §6.4). |
 | **Evidence** | Standard. |
-| **Gaps** | Full text of the riddle in each tradition and J's missing detail. |
+| **Gaps** | Full text of the riddle in each tradition and J's missing detail. *[Largely closed 2026-11-24 by [stories/TC-024/research/sources.md](../../stories/TC-024/research/sources.md) §§7–9 (Ś, Hindi and J read; J's detail confirmed missing); AI reading, not independently reviewed; BKM and Ryder still not read]* |
 
 ---
 
@@ -626,7 +626,7 @@ The report documents several places where the traditions diverge in ending, answ
 | **TC-018** | The Hindi adds fate (Ś 17 already has a *karma* verse; N1) | The explanation | §3 |
 | **TC-022** | Lion (KSS) vs tiger (J, Hindi) | Detail | §3 |
 | **TC-012, TC-014** | Absent from J's Bengali text | Availability, not content | §2.1 |
-| **TC-024** | Role in the frame differs; J omits the key marriage detail | The tale's function and clarity | §3 |
+| **TC-024** | Role in the frame differs; J omits the key marriage detail *[confirmed, sources.md §9; J's conclusion is inside its story 25, §10.2: corrected 2026-11-24 per [stories/TC-024/research/sources.md](../../stories/TC-024/research/sources.md); AI reading, not independently reviewed]* | The tale's function and clarity | §3 |
 | **TC-026** (J 22 / Newari 22) | The Newari answer is the bawd, not Mūladeva; actions redistributed between the tricksters (N3) | The answer | §4 |
 | **TC-025** (J 21 / Newari 21) | Kanakadatta's false story differs; the couple marry; same answer in substance (N3) | Detail and ending | §4 |
 
@@ -663,7 +663,7 @@ These clusters show where to look for repetition. They say nothing about whether
 
 ### 6.4 The last riddle, the frame's conclusion and the count
 
-- KSS and Ś count the **frame's conclusion** as the 25th unit; their narrated tales number 24. The Hindi puts the conclusion inside XXV. J has 25 narrated tales plus the conclusion. D-035 excludes the frame from the 25, so a collection built from KSS-type material would need a 25th *narrated* tale from elsewhere in the pool (Q-411 records this).
+- KSS and Ś count the **frame's conclusion** as the 25th unit; their narrated tales number 24. The Hindi puts the conclusion inside XXV. J has 25 narrated tales plus the conclusion. *[Corrected 2026-11-24 per [stories/TC-024/research/sources.md](../../stories/TC-024/research/sources.md) §1 item 8 and §10.2; AI reading, not independently reviewed; Sanskritist needed where stated. In J the frame conclusion is **inside numbered story 25** (Emeneau pp. 143–155; colophon p. 154), as in the Hindi; J's narrated tales before it number 24]* D-035 excludes the frame from the 25, so a collection built from KSS-type material would need a 25th *narrated* tale from elsewhere in the pool (Q-411 records this).
 - **TC-024** is the only recorded unanswered riddle and leads into the frame's ending (§3). Whether it is among the 25 is therefore connected to Q-002 and Q-411.
 
 ### 6.5 Repeated plots in the traditions themselves
