@@ -66,8 +66,8 @@ describe('the real content in /content/stories/hi', () => {
     stories.forEach((story) => expect(story.paragraphs.length).toBeGreaterThan(0));
   });
 
-  it('labels every story as placeholder until real tales are approved', () => {
-    // When the first real tale lands, change this to a check that matches the workflow status.
-    expect(stories.every((story) => story.status === 'placeholder')).toBe(true);
+  it('shows only placeholder or draft stories until the approved-text protection exists (D-052, D-062)', () => {
+    // Never `approved` yet: nothing has passed the story workflow. Revisit when the first tale is approved.
+    expect(stories.every((story) => story.status === 'placeholder' || story.status === 'draft')).toBe(true);
   });
 });

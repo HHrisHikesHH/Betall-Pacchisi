@@ -51,7 +51,6 @@ describe('story page', () => {
     expect(screen.getByText('दूसरी का पहला अनुच्छेद')).toBeInTheDocument();
     expect(screen.getByText('दूसरी का दूसरा अनुच्छेद')).toBeInTheDocument();
     expect(screen.getByText('मसौदा')).toBeInTheDocument();
-    expect(screen.queryByRole('note')).not.toBeInTheDocument();
     const nav = screen.getByRole('navigation');
     expect(within(nav).getByRole('link', { name: /पिछली/ })).toHaveAttribute('href', '/kathaen/pehli');
     expect(within(nav).getByRole('link', { name: /अगली/ })).toHaveAttribute('href', '/kathaen/teesri');
@@ -62,6 +61,14 @@ describe('story page', () => {
     const heading = await screen.findByRole('heading', { level: 1, name: /पहली/ });
     expect(screen.getByRole('note')).toHaveTextContent('नमूना पाठ');
     expect(heading).toHaveFocus();
+  });
+
+  it('labels a draft with a banner that says it is unreviewed and not approved text', async () => {
+    renderAt('/kathaen/doosri');
+    await screen.findByRole('heading', { level: 1, name: /दूसरी/ });
+    expect(screen.getByRole('note')).toHaveTextContent(
+      'मसौदा पाठ — यह कथा अभी समीक्षा में है, स्वीकृत पाठ नहीं है, और इसमें बदलाव हो सकते हैं।',
+    );
   });
 
   it('has no previous link on the first story and no next link on the last', async () => {
