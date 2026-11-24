@@ -16,7 +16,7 @@ Each row names the rule or decision, what the launch does instead, why, when to 
 | Q-502 (hosting) | A provisional hosting choice | A host is needed to publish | When the hosting decision is taken | Low; the site is static and can move |
 | H2 repo cleanup (slimming HANDOFF; guard-hook gaps) | Deferred | Launch comes first | After launch | Documentation drift; the guard hook has known gaps |
 | The story title (no decision) | The title "कमल के तीन इशारे" is provisional and is the user's to change | The app needs a title to show | When the user chooses | A changed title may need a new slug and links |
-| D-043, D-057 (the frame, Betal and Vikram around the tales) | The tale ships standalone, with no frame, pending D-043 and D-057 (Decision B) | The frame is not written | When the frame is drafted and approved | The reader meets the tale without the Vikram-Betal setting |
+| D-043, D-057 (the frame, Betal and Vikram around the tales) | The tale ships standalone, with no frame, pending D-043 and D-057 (Decision A, the frame-only first loop) | The frame is not written | When the frame is drafted and approved | The reader meets the tale without the Vikram-Betal setting |
 
 ## Not changed by this register
 
