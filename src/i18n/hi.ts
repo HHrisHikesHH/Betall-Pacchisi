@@ -17,4 +17,10 @@ export const ui = {
   notFoundBody: 'हो सकता है पता गलत हो, या यह कथा अब संग्रह में न हो।',
   backToCollection: 'सभी कथाओं पर लौटें',
   storyNavigation: 'कथाओं के बीच जाएँ',
+  illustrationOn: 'चित्र दिखाएँ',
+  illustrationOff: 'चित्र छिपाएँ',
+  illustrationLoading: 'चित्र खुल रहा है…',
+  sound: 'ध्वनि चालू / बंद',
+  soundVolume: 'आवाज़',
+  soundVolumeLevels: ['धीमी', 'मध्यम', 'ऊँची'],
 };

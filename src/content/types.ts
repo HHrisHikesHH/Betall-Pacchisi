@@ -10,6 +10,16 @@ export interface Story {
   paragraphs: string[];
 }
 
+export interface SceneCue {
+  /** 0-based paragraph index where this scene starts; it holds until the next cue. */
+  index: number;
+  art: string | null;
+  mood: import('../scenes/artIds').Mood;
+  alt: string;
+  /** Optional sound override. "silence" holds the scene in deliberate silence whatever its mood (D-027). Absent: the mood's bed. */
+  sound?: 'silence';
+}
+
 export interface Collection {
   title: string;
   subtitle: string;
