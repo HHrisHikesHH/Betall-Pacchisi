@@ -24,3 +24,30 @@ export const ui = {
   soundVolume: 'आवाज़',
   soundVolumeLevels: ['धीमी', 'मध्यम', 'ऊँची'],
 };
+
+// Interface text for the pothi prototype (/pothi).
+export const pothiUi = {
+  open: 'पोथी खोलें',
+  sampleNote: [
+    'यह एक नमूना है। पाठ मसौदा है, जिसकी समीक्षा नहीं हुई।',
+    'चित्र AI से बना है और इस पाठ का कोई दृश्य नहीं है।',
+  ],
+  aiCredit: 'चित्र: AI से निर्मित',
+  paintingAlt:
+    'लघुचित्र शैली में AI से बना चित्र: बाग़ के आगे सफ़ेद मेहराबों वाले मंडप में एक राजा गद्दी पर बैठा है। सफ़ेद वस्त्र पहने एक वृद्ध, हरे जामे वाले एक व्यक्ति के हाथों की ओर एक फल बढ़ा रहा है। बाईं ओर एक बंदर बैठा है।',
+  readingRegion: 'पोथी का पाठ',
+  previousLeaf: 'पिछला पन्ना',
+  nextLeaf: 'अगला पन्ना',
+  leafStatus: (leaf: string, total: string) => `पन्ना ${leaf}, कुल ${total}`,
+  scrollShort: 'स्क्रोल',
+  scrollLabel: 'स्क्रोल करके पढ़ें',
+  pagesShort: 'पन्ने',
+  pagesLabel: 'पन्ने पलटकर पढ़ें',
+  enterFullscreen: 'पूरी स्क्रीन',
+  leaveFullscreen: 'पूरी स्क्रीन से बाहर आएँ',
+  close: 'पोथी बंद करें',
+  rotateTitle: 'फ़ोन घुमाइए',
+  rotateBody: 'फ़ोन आड़ा करने पर पोथी पूरी खुलती है।',
+  readAnyway: 'ऐसे ही पढ़ें',
+  end: 'नमूना यहीं तक है।',
+};

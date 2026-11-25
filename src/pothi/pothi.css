@@ -1,0 +1,809 @@
+/* The pothi prototype. Every rule is scoped under .pothi, so no other page changes. */
+.pothi {
+  --vermilion: #8f2416;
+  --vermilion-deep: #5c120b;
+  --gold: #c9a14a;
+  --gold-pale: #f1dc9e;
+  --ink: #24120a;
+  --paper: #e5c795;
+  --body-face: 'Tiro Devanagari Hindi', 'Noto Serif Devanagari', serif;
+  --title-face: 'Rozha One', 'Tiro Devanagari Hindi', serif;
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  color-scheme: light;
+  color: var(--ink);
+  font-family: var(--body-face);
+  font-size: 1rem;
+  line-height: 1.75;
+  font-synthesis: none;
+}
+
+.pothi--yatra {
+  --title-face: 'Yatra One', 'Tiro Devanagari Hindi', serif;
+}
+
+/* The surround: aged paper, drawn with gradients and generated grain. */
+.pothi,
+.pothi-cover,
+.pothi-invite {
+  background-color: #b6965f;
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .28 0 0 0 0 .17 0 0 0 0 .06 0 0 0 .55 -.14'/%3E%3C/filter%3E%3Crect width='240' height='240' filter='url(%23g)'/%3E%3C/svg%3E"),
+    radial-gradient(ellipse 22% 30% at 82% 18%, rgb(110 70 25 / 0.16), transparent 100%),
+    radial-gradient(ellipse 30% 22% at 12% 86%, rgb(110 70 25 / 0.18), transparent 100%),
+    radial-gradient(ellipse at 50% 45%, #d9bd89 0%, #bd9d68 55%, #7d5d34 100%);
+}
+
+.pothi p,
+.pothi h1,
+.pothi h2,
+.pothi figure {
+  margin: 0;
+}
+
+.pothi h1,
+.pothi h2 {
+  font-weight: 400;
+}
+
+.pothi button {
+  font-family: var(--body-face);
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.pothi button:disabled {
+  cursor: default;
+}
+
+.pothi :focus-visible {
+  outline: 3px solid #17315f;
+  outline-offset: 2px;
+  border-radius: 3px;
+}
+
+/* Views that receive focus only so that reading can start there. */
+.pothi [tabindex='-1']:focus-visible {
+  outline: none;
+}
+
+.pothi-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* ---------- The closed pothi ---------- */
+.pothi-cover {
+  position: absolute;
+  inset: 0;
+  z-index: 10;
+  display: flex;
+  overflow: auto;
+  padding: max(12px, env(safe-area-inset-top)) max(16px, env(safe-area-inset-right))
+    max(12px, env(safe-area-inset-bottom)) max(16px, env(safe-area-inset-left));
+}
+
+.pothi-cover-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+
+.pothi-bundle {
+  position: relative;
+  width: min(100%, 880px, calc((100vh - 190px) * 2.2));
+  width: min(100%, 880px, calc((100dvh - 190px) * 2.2));
+  min-width: min(100%, 300px);
+  margin-bottom: 30px;
+  perspective: 1600px;
+  /* the leaves and the bottom board, seen edge on beneath the lid */
+  border-radius: 4px;
+  box-shadow:
+    0 3px 0 #e8d09c,
+    0 4px 0 #86673c,
+    0 7px 0 #dcc08a,
+    0 8px 0 #86673c,
+    0 11px 0 #d3b47c,
+    0 12px 0 #70151a,
+    0 17px 0 #4d0f09,
+    0 28px 36px rgb(45 22 6 / 0.55);
+}
+
+/* the first leaf, uncovered as the lid lifts */
+.pothi-under {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 3px solid var(--vermilion);
+}
+
+.pothi-lid {
+  position: relative;
+  container-type: inline-size;
+  aspect-ratio: 11 / 5;
+  transform-origin: 50% 0;
+}
+
+.pothi-board-art {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.pothi-board-words {
+  position: absolute;
+  inset: 16% 19%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--gold-pale);
+  text-shadow: 0 0.04em 0 #2c0703;
+}
+
+.pothi .pothi-board-title {
+  font-family: var(--title-face);
+  font-size: 9.2cqw;
+  line-height: 1.35;
+  white-space: nowrap;
+}
+
+.pothi .pothi-board-subtitle {
+  font-size: max(12px, 2.7cqw);
+  line-height: 1.6;
+}
+
+.pothi-cover-note span {
+  display: block;
+}
+
+.pothi .pothi-cover-note {
+  max-width: 34em;
+  margin-bottom: 12px;
+  font-size: clamp(0.9rem, 0.86rem + 0.25vw, 1.05rem);
+  line-height: 1.7;
+  text-wrap: balance;
+}
+
+.pothi-open {
+  min-height: 48px;
+  padding: 6px 34px 4px;
+  border: 1px solid var(--gold);
+  border-radius: 3px;
+  background: var(--vermilion);
+  box-shadow:
+    0 0 0 3px var(--vermilion),
+    0 8px 18px rgb(45 22 6 / 0.4);
+  color: var(--gold-pale);
+  font-size: 1.15rem;
+  line-height: 1.6;
+}
+
+.pothi-open:hover {
+  background: #a42c1b;
+}
+
+.pothi-cover--opening {
+  pointer-events: none;
+  animation: pothi-reveal 1.25s ease-in forwards;
+}
+
+.pothi-cover--opening .pothi-lid {
+  z-index: 1;
+  animation: pothi-lift 1.15s cubic-bezier(0.45, 0.05, 0.35, 1) forwards;
+}
+
+.pothi-cover--opening .pothi-cover-note,
+.pothi-cover--opening .pothi-open {
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+@keyframes pothi-lift {
+  to {
+    transform: rotateX(112deg);
+    filter: brightness(0.6);
+  }
+}
+
+@keyframes pothi-reveal {
+  0%,
+  55% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* ---------- The open leaf (landscape) ---------- */
+.pothi-reader {
+  position: absolute;
+  inset: 0;
+}
+
+.pothi-reader--landscape {
+  inset: max(4px, env(safe-area-inset-top)) max(4px, env(safe-area-inset-right))
+    max(4px, env(safe-area-inset-bottom)) max(4px, env(safe-area-inset-left));
+  display: grid;
+  place-content: center;
+  container-type: size;
+}
+
+.pothi-leafwrap {
+  --frame: 3px;
+  --text-left: 59.8%;
+  --text-right: 3.6%;
+  --text-top: max(25px, 3.4cqw);
+  --text-bottom: 47px;
+  position: relative;
+  width: min(100cqw, calc((100cqh - 2 * var(--frame)) * 1860 / 846 + 2 * var(--frame)));
+  container-type: inline-size;
+}
+
+.pothi-leaf {
+  position: relative;
+  border: var(--frame) solid var(--vermilion);
+  background: var(--paper);
+  box-shadow: 0 8px 22px rgb(45 22 6 / 0.45);
+  perspective: 2200px;
+}
+
+.pothi-leaf--pages {
+  touch-action: none;
+}
+
+.pothi-sheet {
+  position: relative;
+  aspect-ratio: 1860 / 846;
+  overflow: hidden;
+  background: var(--paper);
+}
+
+/* the gold hairline just inside the border */
+.pothi-sheet::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border: 1px solid var(--gold-pale);
+  box-shadow:
+    0 0 0 0.5px #8a6420 inset,
+    0 0 26px rgb(110 70 25 / 0.2) inset;
+  pointer-events: none;
+}
+
+.pothi-painting {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  user-select: none;
+}
+
+.pothi .pothi-credit,
+.pothi .pothi-seal {
+  position: absolute;
+  top: max(4px, 0.6cqw);
+  font-size: max(11px, 1.05cqw);
+  line-height: 1.55;
+  white-space: nowrap;
+}
+
+.pothi .pothi-credit {
+  left: var(--text-left);
+  color: #4a2c16;
+}
+
+.pothi .pothi-seal {
+  right: var(--text-right);
+  padding: 0.1em 0.8em 0;
+  border: 1px solid var(--gold-pale);
+  border-radius: 2px;
+  background: var(--vermilion);
+  box-shadow: 0 0 0 1px var(--vermilion);
+  color: #fff0c4;
+}
+
+.pothi-text {
+  position: absolute;
+  top: var(--text-top);
+  right: var(--text-right);
+  bottom: var(--text-bottom);
+  left: var(--text-left);
+  overflow: hidden;
+  font-size: clamp(15px, 1.68cqw, 28px);
+  line-height: 1.72;
+}
+
+.pothi-flow {
+  display: flow-root;
+  text-align: left;
+  overflow-wrap: break-word;
+}
+
+.pothi .pothi-tale {
+  margin-bottom: 0.15em;
+  color: var(--vermilion);
+  font-family: var(--title-face);
+  font-size: 1.6em;
+  line-height: 1.5;
+  text-align: center;
+  text-wrap: balance;
+}
+
+.pothi .pothi-p + .pothi-p {
+  margin-top: 0.4em;
+}
+
+.pothi-danda {
+  color: #a3200f;
+}
+
+.pothi .pothi-end {
+  margin-top: 0.8em;
+  color: var(--vermilion);
+  text-align: center;
+}
+
+.pothi-measure {
+  position: absolute;
+  inset: var(--frame);
+  visibility: hidden;
+  pointer-events: none;
+}
+
+/* Turning: the leaf hinges on its long upper edge. */
+.pothi-turn {
+  position: absolute;
+  inset: 0;
+  transform-origin: 50% 0;
+  transform-style: preserve-3d;
+  pointer-events: none;
+}
+
+.pothi-turn--next {
+  animation: pothi-turn-up 0.75s cubic-bezier(0.4, 0.05, 0.35, 1) forwards;
+}
+
+.pothi-turn--previous {
+  animation: pothi-turn-down 0.75s cubic-bezier(0.4, 0.05, 0.35, 1) forwards;
+}
+
+.pothi-face {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  box-shadow: 0 10px 28px rgb(45 22 6 / 0.35);
+}
+
+.pothi-turn--next .pothi-face {
+  animation: pothi-fade-out 0.75s linear forwards;
+}
+
+.pothi-turn--previous .pothi-face {
+  animation: pothi-fade-in 0.75s linear forwards;
+}
+
+.pothi-face--back {
+  border: 1px solid var(--vermilion);
+  background: linear-gradient(#c7a46c, #e9d09f 45%, #d4b47c);
+  transform: rotateX(180deg);
+}
+
+@keyframes pothi-turn-up {
+  from {
+    transform: rotateX(0);
+  }
+  to {
+    transform: rotateX(165deg);
+  }
+}
+
+@keyframes pothi-turn-down {
+  from {
+    transform: rotateX(165deg);
+  }
+  to {
+    transform: rotateX(0);
+  }
+}
+
+@keyframes pothi-fade-out {
+  0%,
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes pothi-fade-in {
+  0% {
+    opacity: 0;
+  }
+  30%,
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Scrolling on the leaf */
+.pothi-leaf--scroll .pothi-text {
+  overflow: visible;
+}
+
+.pothi-scroller {
+  height: 100%;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding-right: 6px;
+  scrollbar-width: thin;
+  scrollbar-color: #8f241699 transparent;
+  mask-image: linear-gradient(transparent, #000 0.8em, #000 calc(100% - 1.1em), transparent);
+}
+
+.pothi-scroller:focus-visible {
+  mask-image: none;
+}
+
+.pothi-scroller .pothi-flow {
+  padding: 0.65em 0 1.2em;
+}
+
+/* ---------- Controls ---------- */
+/* On a short, wide screen they sit on the leaf, in the calm strip below the text. */
+.pothi-tools {
+  position: absolute;
+  right: calc(var(--frame) + 0.8%);
+  bottom: calc(var(--frame) + 1px);
+  left: calc(var(--text-left) - 0.8%);
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  pointer-events: none;
+}
+
+.pothi-settings,
+.pothi-pager {
+  display: flex;
+  align-items: center;
+  pointer-events: auto;
+}
+
+.pothi-pager {
+  margin-left: auto;
+}
+
+.pothi-button {
+  display: inline-grid;
+  place-items: center;
+  min-width: 44px;
+  min-height: 44px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--vermilion-deep);
+}
+
+@media (hover: hover) {
+  .pothi-tools .pothi-button:hover:not(:disabled) {
+    background: rgb(143 36 22 / 0.12);
+  }
+}
+
+.pothi-button:disabled {
+  opacity: 0.28;
+}
+
+.pothi-button--word {
+  padding: 2px 6px 0;
+  border-radius: 3px;
+  font-size: 13px;
+  line-height: 1.6;
+  text-decoration: underline;
+  text-decoration-color: var(--gold);
+  text-underline-offset: 5px;
+}
+
+.pothi-icon {
+  width: 19px;
+  height: 19px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.pothi .pothi-number {
+  min-width: 3.6em;
+  color: #4a2c16;
+  font-size: 13px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+/* On a narrow leaf the five buttons fill the strip, so the page number moves up between the two labels. */
+@container (max-width: 660px) {
+  .pothi .pothi-tools .pothi-number {
+    position: absolute;
+    right: 17cqw;
+    bottom: calc(100cqw * 846 / 1860 - 25px);
+    min-width: 0;
+    font-size: 11px;
+    line-height: 1.55;
+  }
+
+  .pothi .pothi-button--word {
+    min-width: 44px;
+    padding-inline: 2px;
+  }
+}
+
+/* Where there is room to spare (a laptop), the leaf lies clear of the controls. */
+@media (min-height: 500px) and (max-aspect-ratio: 2 / 1) {
+  .pothi-reader--landscape {
+    inset: max(28px, env(safe-area-inset-top)) max(40px, env(safe-area-inset-right))
+      max(28px, env(safe-area-inset-bottom)) max(40px, env(safe-area-inset-left));
+  }
+
+  .pothi-leafwrap {
+    --frame: 5px;
+    --text-top: 7.2cqw;
+    --text-bottom: 6%;
+    width: min(100cqw, calc((100cqh - 190px) * 1860 / 846), 1480px);
+    min-width: min(100cqw, 640px);
+  }
+
+  .pothi .pothi-credit,
+  .pothi .pothi-seal {
+    top: 2.2cqw;
+  }
+
+  /* the rest of the bundle, seen under the open leaf */
+  .pothi-leaf {
+    box-shadow:
+      0 0 0 1px var(--gold),
+      0 4px 0 #e8d09c,
+      0 5px 0 #86673c,
+      0 8px 0 #d9bc85,
+      0 9px 0 #86673c,
+      0 12px 0 #cdae76,
+      0 14px 0 var(--vermilion-deep),
+      0 28px 40px rgb(45 22 6 / 0.5);
+  }
+
+  .pothi-leafwrap {
+    margin-bottom: 76px;
+  }
+
+  .pothi-tools {
+    top: calc(100% + 28px);
+    right: 0;
+    bottom: auto;
+    left: 0;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+  }
+
+  .pothi-pager {
+    grid-area: 1 / 2;
+    margin: 0;
+    gap: 4px;
+  }
+
+  .pothi-settings {
+    grid-area: 1 / 3;
+    justify-self: end;
+    gap: 8px;
+  }
+
+  .pothi-tools .pothi-button {
+    min-width: 48px;
+    min-height: 48px;
+    border: 1px solid rgb(92 18 11 / 0.35);
+    background: rgb(244 226 184 / 0.75);
+  }
+
+  .pothi-tools .pothi-button--word {
+    padding-inline: 16px;
+    border-radius: 24px;
+    font-size: 15px;
+    text-decoration: none;
+  }
+
+  .pothi .pothi-number {
+    min-width: 5em;
+    color: var(--ink);
+    font-size: 16px;
+  }
+}
+
+@media (min-height: 500px) and (max-aspect-ratio: 2 / 1) and (hover: hover) {
+  .pothi-tools .pothi-button:hover:not(:disabled) {
+    background: #f6e6bd;
+  }
+}
+
+/* ---------- Turn the phone ---------- */
+.pothi-invite {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  padding: 24px;
+  overflow: auto;
+  text-align: center;
+}
+
+.pothi-phone {
+  width: 120px;
+  height: 120px;
+  fill: none;
+  stroke: var(--vermilion);
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.pothi-phone rect {
+  fill: #ead09d;
+}
+
+.pothi-phone-body {
+  transform-origin: 60px 60px;
+  animation: pothi-rotate 2.8s ease-in-out 0.6s 3 both;
+}
+
+@keyframes pothi-rotate {
+  0%,
+  15% {
+    transform: rotate(0);
+  }
+  55%,
+  85% {
+    transform: rotate(-90deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+
+.pothi .pothi-invite h1 {
+  color: var(--vermilion-deep);
+  font-family: var(--title-face);
+  font-size: 2.4rem;
+  line-height: 1.5;
+}
+
+.pothi .pothi-invite p {
+  max-width: 24em;
+  margin-bottom: 14px;
+}
+
+.pothi-quiet {
+  min-height: 44px;
+  margin-top: 6px;
+  padding: 4px 16px;
+  border: 0;
+  background: transparent;
+  color: var(--ink);
+  font-size: 0.95rem;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
+/* ---------- Upright reading ---------- */
+.pothi-upright {
+  overflow: hidden auto;
+  scroll-padding-top: calc(60px + env(safe-area-inset-top));
+}
+
+.pothi-column {
+  max-width: 640px;
+  min-height: 100%;
+  margin: 0 auto;
+  background-color: #e7ca97;
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.75' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .45 0 0 0 0 .28 0 0 0 0 .1 0 0 0 .38 -.11'/%3E%3C/filter%3E%3Crect width='240' height='240' filter='url(%23g)'/%3E%3C/svg%3E"),
+    linear-gradient(90deg, rgb(125 85 35 / 0.18), transparent 12%, transparent 88%, rgb(125 85 35 / 0.18));
+  box-shadow: 0 0 30px rgb(45 22 6 / 0.45);
+}
+
+.pothi-bar {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 56px;
+  padding: env(safe-area-inset-top) max(6px, env(safe-area-inset-right)) 0 max(6px, env(safe-area-inset-left));
+  border-bottom: 1px solid var(--gold);
+  background: var(--vermilion-deep);
+  box-shadow:
+    0 -4px 0 var(--vermilion-deep) inset,
+    0 -5px 0 var(--gold) inset,
+    0 4px 12px rgb(45 22 6 / 0.35);
+  color: var(--gold-pale);
+}
+
+.pothi .pothi-bar h1 {
+  flex: 1;
+  padding-bottom: 3px;
+  font-family: var(--title-face);
+  font-size: 1.35rem;
+  line-height: 1.6;
+}
+
+.pothi .pothi-bar .pothi-seal {
+  position: static;
+  margin-bottom: 4px;
+  font-size: 0.8rem;
+  background: var(--vermilion);
+}
+
+.pothi-bar .pothi-button {
+  margin-bottom: 4px;
+  color: var(--gold-pale);
+}
+
+@media (hover: hover) {
+  .pothi-bar .pothi-button:hover {
+    background: rgb(241 220 158 / 0.15);
+  }
+}
+
+.pothi-bar :focus-visible {
+  outline-color: #fff;
+}
+
+.pothi-crop img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1097 / 846;
+  object-fit: cover;
+  object-position: left center;
+  border-bottom: 3px solid var(--vermilion);
+  box-shadow: 0 1px 0 var(--gold);
+}
+
+.pothi-crop figcaption {
+  padding: 6px max(22px, env(safe-area-inset-right)) 0;
+  color: #4a2c16;
+  font-size: 0.78rem;
+  text-align: right;
+}
+
+.pothi-upright .pothi-flow {
+  padding: 4px max(22px, env(safe-area-inset-right)) calc(40px + env(safe-area-inset-bottom))
+    max(22px, env(safe-area-inset-left));
+  font-size: clamp(1.1rem, 1rem + 0.5vw, 1.25rem);
+  line-height: 1.85;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pothi *,
+  .pothi-cover--opening {
+    animation: none !important;
+    transition: none !important;
+  }
+}

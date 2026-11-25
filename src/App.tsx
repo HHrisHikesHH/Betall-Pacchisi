@@ -7,6 +7,8 @@ import { NotFoundPage } from './pages/NotFoundPage';
 import { ui } from './i18n/hi';
 
 const StoryPage = lazy(() => import('./pages/StoryPage'));
+// A prototype with its own look: its code, styles, fonts and picture load only at /pothi, and nothing links to it.
+const PothiPage = lazy(() => import('./pothi/PothiPage'));
 
 interface AppProps {
   collection?: Collection;
@@ -16,6 +18,14 @@ interface AppProps {
 export function App({ collection = defaultCollection, stories = defaultStories }: AppProps) {
   return (
     <Routes>
+      <Route
+        path="pothi"
+        element={
+          <Suspense fallback={<p role="status">{ui.loading}</p>}>
+            <PothiPage collection={collection} stories={stories} />
+          </Suspense>
+        }
+      />
       <Route element={<Layout title={collection.title} />}>
         <Route index element={<CollectionPage collection={collection} stories={stories} />} />
         <Route
