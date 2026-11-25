@@ -2,7 +2,7 @@
 
 > **The user's brief, given in chat on 2026-11-25 (IST). Wording by a collaborator (an AI context), in substance.** It was written from session handoff F (claude.ai Project doc `claude/session-handoff-2026-11-25-f.md`), not from the chat itself. Only text in quotation marks under a "User" label or in a "user's words" position is the user's own wording; quotations of repository documents are marked as such.
 >
-> **This is not a decision register.** [DECISIONS.md](DECISIONS.md) governs. The proposed decisions drawn from this brief are in [DESIGN_DECISION_PACKET.md](DESIGN_DECISION_PACKET.md) and are **pending the user's approval**. Nothing here closes an item in [OPEN_QUESTIONS.md](OPEN_QUESTIONS.md).
+> **This is not a decision register.** [DECISIONS.md](DECISIONS.md) governs. The decisions drawn from this brief were put to the user in [DESIGN_DECISION_PACKET.md](DESIGN_DECISION_PACKET.md), answered on 2026-11-25 and recorded as D-063 to D-074. Nothing in this brief itself closes an item in [OPEN_QUESTIONS.md](OPEN_QUESTIONS.md).
 
 **Labels:** **User** = the user's words or choices. **Coordinator** = a note, diagnosis or observation by the coordinating Claude context. **Unverified** = not checked or tested.
 
@@ -105,7 +105,7 @@ Handoff F says there were 18 questions and records the answers by topic; the num
 
 ## The plan
 
-The user replied "approved" on 2026-11-25 at 15:11 IST. Status: **approved in conversation, not yet recorded** in DECISIONS.md.
+The user replied "approved" on 2026-11-25 at 15:11 IST. Status of this plan: **approved in conversation, not yet recorded** in DECISIONS.md. (The design decisions D-063 to D-074 were recorded afterwards; they do not record the plan as a whole.)
 
 | Step | Content |
 |---|---|

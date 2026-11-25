@@ -1,8 +1,8 @@
 # Art Direction
 
-This document records the visual direction for the project's illustrations. It applies decisions D-023 to D-026 and D-031 in [DECISIONS.md](DECISIONS.md), and notes the layout preference PREF-001. **The final art style and reading layout are not decided.** The questions are tracked in [OPEN_QUESTIONS.md](OPEN_QUESTIONS.md) (`Q-1xx`, `Q-2xx`).
+This document records the visual direction for the project's illustrations. It applies decisions D-023 to D-026, D-031 and D-063 to D-069 in [DECISIONS.md](DECISIONS.md). **The art style and reading layout are decided only in part** (the former layout preference PREF-001 is superseded by D-066). The questions are tracked in [OPEN_QUESTIONS.md](OPEN_QUESTIONS.md) (`Q-1xx`, `Q-2xx`).
 
-The user's design brief of 2026-11-25 is in [DESIGN_BRIEF.md](DESIGN_BRIEF.md); proposed decisions in [DESIGN_DECISION_PACKET.md](DESIGN_DECISION_PACKET.md) are not yet approved.
+The user's design brief of 2026-11-25 is in [DESIGN_BRIEF.md](DESIGN_BRIEF.md); D-063 to D-069 bear on the visual direction ([DECISIONS.md](DECISIONS.md); the answered [packet](DESIGN_DECISION_PACKET.md) is history).
 
 ## 1. Purpose of illustration
 
@@ -42,6 +42,8 @@ The artwork is **AI-generated** and must be **unmistakably Indian** in visual ch
 
 **These are inspirations to research, not a decision to combine every style.** Research should establish, for each tradition, its characteristic palette, line, composition, treatment of figures and space, and depiction of night, forest, and the supernatural, and how well it suits these stories. Mixing styles without a rationale is to be avoided.
 
+**APPROVED (D-067):** Betal Pachisi uses one tradition, Rajasthani/Mughal miniature painting, with faces able to carry emotion. Other collections may use different traditions later. The school or variant is not chosen.
+
 ### Things to avoid
 
 PROPOSED. These follow from the approved direction, but the user has not separately approved them.
@@ -57,7 +59,7 @@ PROPOSED. These follow from the approved direction, but the user has not separat
 
 The project must eventually establish **one coherent art direction**. Within it, style and composition **serve each story's setting and emotional atmosphere**. A tale of court intrigue and a tale set in a cremation ground may differ in treatment and still clearly belong to the same work.
 
-**OPEN (`Q-201`):** the final art style. **OPEN (`Q-202`):** how far the style may vary between stories.
+**OPEN (`Q-201`, partly resolved by D-067):** the final art style beyond the tradition, including the school or variant. **OPEN (`Q-202`):** how far the style may vary between stories.
 
 ## 5. Character consistency
 
@@ -84,11 +86,15 @@ A rainy night in dense forest should look different from a clear, quiet night in
 
 ## 7. Layout and composition
 
-**OPEN**
+**APPROVED in part (D-063 to D-066, D-069)**
 
-- **Recorded user preference (PREF-001), not a decision:** the user currently likes text on the left with one or two relevant illustrations on the right, arranged with deliberate composition. No layout has been approved.
+- The experience opens as a pothi (D-063). Phone reading asks for landscape and goes full screen; portrait still works; a laptop is supported (D-064).
+- Page-turn, with animated turns, is preferred; scroll is the fallback (D-065).
+- Aged paper, a thin border, the painting edge to edge, the words on the painted canvas (D-066).
+- Calligraphic names and titles; a readable traditional body face (D-069).
+- PREF-001 (text on the left, illustrations on the right) is **superseded** by D-066 on all screens.
 - The reference `https://visualsarkarsm.com/work-detail/118` is useful for illustrated storytelling and composition. **It is not a design to copy.** (D-031)
-- Undecided: continuous scroll, page-turn, or a hybrid (`Q-101`); mobile behaviour (`Q-106`); typography and visual treatment (`Q-105`).
+- Still open in part: when the scroll fallback applies (`Q-101`) and reading controls (`Q-102`); the rest of mobile behaviour (`Q-106`) and layout (`Q-107`); faces, sizes and English typography (`Q-105`).
 
 ## 8. AI generation: open matters
 

@@ -51,7 +51,7 @@ A **recorded preference** (`PREF-###`, kept in [DECISIONS.md](DECISIONS.md#recor
 | [ART_DIRECTION.md](ART_DIRECTION.md) | Visual identity, illustration pacing, character consistency, and atmosphere in visual form. |
 | [AUDIO_DIRECTION.md](AUDIO_DIRECTION.md) | Music, ambience, sound accents, silence, preloading expectations, and audio licensing. |
 | [DESIGN_BRIEF.md](DESIGN_BRIEF.md) | The user's design brief of 2026-11-25 (look, reading experience, references, answers), recorded in substance, with an anti-drift checklist for design PRs. **Not** a decision register. |
-| [DESIGN_DECISION_PACKET.md](DESIGN_DECISION_PACKET.md) | **Draft, PROPOSED** design decisions awaiting the user's answer. Decides nothing until recorded in DECISIONS.md. |
+| [DESIGN_DECISION_PACKET.md](DESIGN_DECISION_PACKET.md) | The design decision packet, **answered 2026-11-25** and recorded as D-063 to D-074. Kept as history; [DECISIONS.md](DECISIONS.md) governs. |
 | [HOSTING.md](HOSTING.md) | How the static site is built and served (Cloudflare Pages settings, SPA fallback, GitHub Pages fallback). Provisional (Q-502); records no decision. |
 | [OPEN_QUESTIONS.md](OPEN_QUESTIONS.md) | The organised list of unresolved creative, product, research, and technical questions. |
 | [ETHICAL_CHARTER.md](ETHICAL_CHARTER.md) | The **ethical editorial charter** (D-039, D-040): caste, gender and agency, human dignity and power, informed by Dr B. R. Ambedkar's documented principles, with no claim of his endorsement. Binding on every tale and the frame, alongside the North Star. |

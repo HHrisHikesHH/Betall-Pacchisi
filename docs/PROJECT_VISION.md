@@ -4,7 +4,7 @@
 
 > The storytelling identity in practical form is in [STORYTELLING_NORTH_STAR.md](STORYTELLING_NORTH_STAR.md) (D-036).
 
-The user's design brief of 2026-11-25 is in [DESIGN_BRIEF.md](DESIGN_BRIEF.md); proposed decisions in [DESIGN_DECISION_PACKET.md](DESIGN_DECISION_PACKET.md) are not yet approved.
+The user's design brief of 2026-11-25 is in [DESIGN_BRIEF.md](DESIGN_BRIEF.md); the user's answers are recorded as D-063 to D-074 ([DECISIONS.md](DECISIONS.md); the answered [packet](DESIGN_DECISION_PACKET.md) is history).
 
 ## The ambition
 
@@ -14,7 +14,7 @@ We take storytelling seriously. The aim is not to put old stories online. It is 
 
 ## The intended reader experience
 
-**It should feel like entering a story, not visiting a website.** Everything the reader meets should belong to the telling: the narration, the illustrations, the atmosphere, and the sound. Navigation and controls should serve that experience and not interrupt it. *How* this is achieved is still OPEN. See [OPEN_QUESTIONS.md](OPEN_QUESTIONS.md). (D-004)
+**It should feel like entering a story, not visiting a website.** Everything the reader meets should belong to the telling: the narration, the illustrations, the atmosphere, and the sound. Navigation and controls should serve that experience and not interrupt it. *How* this is achieved is still largely OPEN (parts are set by D-063 to D-072). See [OPEN_QUESTIONS.md](OPEN_QUESTIONS.md). (D-004)
 
 **Entertainment comes first** *(user's brief of 2026-11-17; adopted in D-036)*. The reader should want to keep reading. Reflection may follow and is rewarded (D-005), but is never forced (see the guiding line in the [North Star](STORYTELLING_NORTH_STAR.md)).
 

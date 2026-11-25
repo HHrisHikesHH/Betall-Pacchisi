@@ -1,8 +1,8 @@
 # Design decision packet: `D-063` to `D-074`
 
-> **DRAFT. PROPOSED. Not approved.** Prepared 2026-11-25 by an AI context from [DESIGN_BRIEF.md](DESIGN_BRIEF.md). The IDs are written in code style because **none of them exists in [DECISIONS.md](DECISIONS.md)**. Recording them is a separate task that the user authorises. Until then every related question stays as [OPEN_QUESTIONS.md](OPEN_QUESTIONS.md) shows it.
+> **ANSWERED AND RECORDED, 2026-11-25. Kept as history.** The user answered every entry in chat on 2026-11-25 at 16:03 IST, and the answers are recorded as D-063 to D-074 in [DECISIONS.md](DECISIONS.md#design-reading-experience-sound-and-order-of-work-approved-2026-11-25). **The register governs**, including which added clauses and choices were taken. This packet was prepared on 2026-11-25 by an AI context from [DESIGN_BRIEF.md](DESIGN_BRIEF.md). Everything below this note is the text as drafted, before the answers: its recommendations, risks, "Settles" lines and statements of what was then open or unrecorded are not current status. The IDs are in code style because they did not yet exist in the register when it was drafted.
 >
-> The only thing already approved is the plan (A: record the vision; B: style test; C: `/pothi` prototype; D: later): the user's "approved", 2026-11-25 15:11 IST, **approved in conversation, not yet recorded**. Approving the plan did not approve the wording below.
+> At drafting time the only thing already approved was the plan (A: record the vision; B: style test; C: `/pothi` prototype; D: later): the user's "approved", 2026-11-25 15:11 IST, approved in conversation, not recorded in DECISIONS.md (D-063 to D-074 do not record the plan as a whole). Approving the plan did not approve the wording below.
 
 ## Answer here
 

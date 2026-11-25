@@ -6,12 +6,15 @@ A practical milestone plan. Decisions live in [DECISIONS.md](DECISIONS.md); curr
 
 ## Next tasks: design reset (2026-11-25)
 
-Plan approved in conversation, not yet recorded; brief in [DESIGN_BRIEF.md](DESIGN_BRIEF.md). It runs ahead of the Milestone E order below, which stays as written until the user decides ([packet](DESIGN_DECISION_PACKET.md)).
+Brief in [DESIGN_BRIEF.md](DESIGN_BRIEF.md). The design decisions are recorded as D-063 to D-074 ([DECISIONS.md](DECISIONS.md)); the A to D plan itself is approved in conversation, not yet recorded. D-073 lets design and app work run before the story work, amending the Milestone E order below.
 
-1. The user answers the decision packet.
-2. Style test, no code: image prompts for the frame-opening scene.
-3. `/pothi` prototype, one PR; the live site stays untouched.
-4. Later: frame writing (workflow gates apply), sound sourcing and register, full redesign.
+| Item | State (2026-11-25) |
+|---|---|
+| Decision packet | Answered and recorded |
+| Style test (image prompts for the frame-opening scene) | Prompts given in chat; the chosen variant is not recorded (D-067 leaves it open) |
+| `/pothi` prototype | Merged, [PR #44](https://github.com/HHrisHikesHH/Betall-Pacchisi/pull/44) (`f0a0523`). The user's trial on the Realme phone: not reported |
+| Next task | **Not yet chosen by the user.** Coordinator's recommendation: make the pothi design the real reading experience (full app redesign, plan step D), subject to the user's Realme feedback |
+| Later | Frame story writing then TC-001 (phase 2, D-073; workflow gates apply), sound sourcing and register (D-072) |
 
 ## Production milestones (approved 2026-11-21)
 
@@ -23,9 +26,9 @@ The **governing plan** for stories and release is [production/PRODUCTION_PLAN.md
 | **B: Story production** | Frame blueprint; pilots TC-013 and TC-001, then TC-025; one batched A3 packet; the other first-release tales; Hindi then English approvals |
 | **C: First release** | Text-only app (application steps R1 to R8 below, which absorb the old M2 to M4); release with the 19 that pass approval |
 | **D: Post-launch expansion** | Add tales through the same process until the collection reaches 25 |
-| **E: Visual and audio** | Only after the written stories and the frame are complete (the old M5 and M6) |
+| **E: Visual and audio** | Planned for after the written stories and the frame (the old M5 and M6). **Amended by D-073 (2026-11-25):** design and app work may run before the story work |
 
-The engineering milestones below stay as the record of M0–M1 and as the task lists. **Where they differ in order, the production plan governs.** Notable changes: M3 ("first real Hindi tale") is now the two pilots in Milestone B. The story-body format follows staged R1 (D-059): initial implementation from TC-001 Hindi Draft 1, then validation against all actual Hindi drafts selected for the first release; TC-013 is not an R1 prerequisite. Asset slots wait for Milestone E.
+The engineering milestones below stay as the record of M0–M1 and as the task lists. **Where they differ in order, the production plan governs.** Notable changes: M3 ("first real Hindi tale") is now the two pilots in Milestone B. The story-body format follows staged R1 (D-059): initial implementation from TC-001 Hindi Draft 1, then validation against all actual Hindi drafts selected for the first release; TC-013 is not an R1 prerequisite. Asset slots were to wait for Milestone E; since D-073 (2026-11-25) design and app work may run before the story work.
 
 ## Working method (D-037)
 
@@ -69,11 +72,11 @@ Documentation, source-tradition comparison, North Star, candidate tale catalogue
 **Acceptance:** a reader switches language on a story and lands on the same story.
 
 ### M5. Illustration and layout
-**Dependencies:** art direction (Q-201, Q-203), layout and book behaviour (Q-101, Q-106, Q-107; PREF-001).
-**Tasks:** image slots in the story format, text-left / illustration-right composition on wide screens, a mobile behaviour, image loading.
+**Dependencies:** art direction (D-067; the rest of Q-201, and Q-203), layout and book behaviour (D-063 to D-066; the open parts of Q-101, Q-106, Q-107).
+**Tasks:** image slots in the story format, words on the painting (D-066), phone landscape with a portrait fallback and laptop support (D-064), image loading.
 
 ### M6. Atmosphere and audio
-**Dependencies:** audio direction (P-006, Q-303), licensed assets (D-029), loading strategy (D-028).
+**Dependencies:** audio direction (D-072; P-006 still proposed; Q-303), licensed assets (D-029), loading strategy (D-028).
 
 ## Not planned yet
 Accounts, payments, AI generation features, a CMS, a backend. Revisit only if a milestone needs one.

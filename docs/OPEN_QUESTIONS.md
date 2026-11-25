@@ -26,7 +26,7 @@ This is the organised list of unresolved decisions. **None of these may be treat
 |---|---|---|---|
 | Q-001 | What will the application be called? | OPEN | No name approved (D-003). The repository name is not a working title. |
 | Q-002 | How is the outer frame story of King Vikram and the Betal presented around the individual tales: as a story of its own, as an introduction, or woven between tales? | RESOLVED → D-043 | The answer depends partly on Q-401. **Resolved 2026-11-21 (D-043):** the frame is a continuous story arc, not a repeated introduction, with short frame segments bracketing each tale. Working base: [production/FRAME_PROPOSAL.md](production/FRAME_PROPOSAL.md). The frame's *source* stays open (Q-401). |
-| Q-003 | In what order will the tales be produced and released? Does the experience launch with all 25 tales, or with a subset? | OPEN (partly resolved by D-038) | **D-038 (2026-11-21):** launch with the 19 first-release tales plus the frame; add the remaining tales after launch. Order within the collection is Q-413. |
+| Q-003 | In what order will the tales be produced and released? Does the experience launch with all 25 tales, or with a subset? | OPEN (partly resolved by D-038, D-073) | **D-038 (2026-11-21):** launch with the 19 first-release tales plus the frame; add the remaining tales after launch. Order within the collection is Q-413. **D-073 (2026-11-25):** story work is phase 2, after the app is in good shape; it starts with the frame story, then TC-001. |
 | Q-004 | Who is the intended audience (age range, familiarity with the tales), and should any tales or content be handled differently for younger readers? | RESOLVED → D-044 | Some tales may involve mature themes. RESEARCH REQUIRED once sources are compared. **Resolved 2026-11-21 (D-044):** adults. |
 | Q-005 | What is the narrator's identity, if any: gender, persona, biography, and whether it is presented as human or AI? Or does it remain an unnamed storytelling presence? | OPEN | The sensibility is approved (D-033). The identity is not. For the frame, D-055 (R8) sets an unmarked voice as a drafting rule only; Q-005 stays open. |
 
@@ -36,24 +36,24 @@ This is the organised list of unresolved decisions. **None of these may be treat
 
 | ID | Question | Status | Notes |
 |---|---|---|---|
-| Q-101 | **Book behaviour:** continuous scrolling, page-turning, or a hybrid? | OPEN | A major future discussion. |
+| Q-101 | **Book behaviour:** continuous scrolling, page-turning, or a hybrid? | OPEN (partly resolved by D-063, D-065) | A major future discussion. **D-063, D-065 (2026-11-25):** the experience opens as a pothi; page-turn is preferred (animated) and scroll is the fallback, which settles this in substance. When the fallback applies stays open; controls are Q-102. |
 | Q-102 | What are the reading navigation and controls (moving forward and back, chapters or scenes, bookmarks, resuming)? | OPEN | Controls should serve immersion (D-004). |
 | Q-103 | How often do illustrations appear, and how does the rhythm vary between scenes? | OPEN | Must follow cinematic pacing (D-023). |
 | Q-104 | How do illustrations enter, stay, and change as the reader moves through a scene? | OPEN | |
-| Q-105 | What are the typography and visual treatment for Hindi (Devanagari) and English text? | OPEN | Both scripts must read beautifully. |
-| Q-106 | How does reading behave on mobile, given the preferred text-left, illustrations-right layout? | OPEN | PREF-001 is a preference, not a decision. |
-| Q-107 | **Reading layout:** confirm or revise the text-left, illustrations-right composition, and decide whether it varies by scene. | OPEN | A major future discussion. Reference: D-031. Preference: PREF-001. |
+| Q-105 | What are the typography and visual treatment for Hindi (Devanagari) and English text? | OPEN (partly resolved by D-069) | Both scripts must read beautifully. **D-069 (2026-11-25):** the approach for Hindi: calligraphic names and titles, a readable traditional body face. Faces, sizes and English stay open. |
+| Q-106 | How does reading behave on mobile, given the preferred text-left, illustrations-right layout? | OPEN (partly resolved by D-064) | PREF-001, the layout this question assumes, was a preference and is superseded by D-066. **D-064 (2026-11-25):** on a phone the reader is asked to turn to landscape and the app goes full screen; portrait still works. The rest stays open; accessibility is Q-111. |
+| Q-107 | **Reading layout:** confirm or revise the text-left, illustrations-right composition, and decide whether it varies by scene. | OPEN (partly resolved by D-066) | A major future discussion. Reference: D-031. Preference PREF-001 is superseded by D-066. **D-066 (2026-11-25):** words on the painted canvas, the painting edge to edge on aged paper with a thin border, replacing the text-left composition on all screens. The rest, including variation by scene, stays open. |
 | Q-108 | How many shared atmosphere themes are there (for example, combinations of time, weather, and setting), and how are they defined? | OPEN | Atmosphere is story-led (D-026). |
-| Q-109 | How does atmosphere show in the interface itself (colour, light, texture, motion) beyond the illustrations and audio? | OPEN | |
+| Q-109 | How does atmosphere show in the interface itself (colour, light, texture, motion) beyond the illustrations and audio? | OPEN (partly resolved by D-066) | **D-066 (2026-11-25):** aged paper, a thin border, and the website as the frame of the painting. The rest stays open. |
 | Q-110 | How does the language toggle behave: where it sits, whether it keeps the reader's position, and whether it remembers a preference? | OPEN | Toggle approved (D-011). Behaviour not decided. |
 | Q-111 | What accessibility requirements apply (readable contrast, reduced motion, alternatives to audio, screen-reader support)? | OPEN | |
-| Q-112 | Is any reader-facing material provided beyond the story itself, such as notes on sources or variants? | OPEN | See also Q-404. |
+| Q-112 | Is any reader-facing material provided beyond the story itself, such as notes on sources or variants? | OPEN (partly resolved by D-070) | See also Q-404. **D-070 (2026-11-25):** a reader-facing layer exists: an optional margin layer, hidden by default. Source and variant notes are not decided. |
 
 ## Art and visuals
 
 | ID | Question | Status | Notes |
 |---|---|---|---|
-| Q-201 | What is the final art style? | OPEN / RESEARCH REQUIRED | Research the traditions named in [ART_DIRECTION.md](ART_DIRECTION.md) §3 first. |
+| Q-201 | What is the final art style? | OPEN / RESEARCH REQUIRED (partly resolved by D-067) | Research the traditions named in [ART_DIRECTION.md](ART_DIRECTION.md) §3 first. **D-067 (2026-11-25):** Rajasthani/Mughal miniature painting for Betal Pachisi. The school or variant waits for the style test. The research above has not been done. |
 | Q-202 | How far may the visual treatment vary between stories within one coherent direction? | OPEN | D-025 |
 | Q-203 | How should Vikram, Betal, and other recurring characters look? | OPEN / RESEARCH REQUIRED | Check how the sources describe them. |
 | Q-204 | Which image-generation tools or models are used, and how is character consistency maintained? Are prompts and settings recorded? | OPEN | |
@@ -63,11 +63,11 @@ This is the organised list of unresolved decisions. **None of these may be treat
 
 | ID | Question | Status | Notes |
 |---|---|---|---|
-| Q-301 | What is the musical direction (instruments, traditions, character)? | OPEN / RESEARCH REQUIRED | Guardrails such as avoiding lyrics are PROPOSED (P-006). |
+| Q-301 | What is the musical direction (instruments, traditions, character)? | OPEN / RESEARCH REQUIRED (partly resolved by D-072) | Guardrails such as avoiding lyrics are PROPOSED (P-006). **D-072 (2026-11-25):** film-like scoring led by emotion, no instrument ruled out by taste. P-006 stays PROPOSED. |
 | Q-302 | How do sound transitions behave, and how do they line up with the reader's position? | OPEN | |
 | Q-303 | What is the audio preloading and loading strategy? | OPEN | Preloading expected (D-028). Not everything should load at first page load. |
 | Q-304 | What sound controls do readers get, and is sound on or off by default? | OPEN | |
-| Q-305 | Where does the audio come from: commissioned, licensed libraries, generated, or recorded? | OPEN | Licensing checks required (D-029). |
+| Q-305 | Where does the audio come from: commissioned, licensed libraries, generated, or recorded? | OPEN (partly resolved by D-072) | Licensing checks required (D-029). **D-072 (2026-11-25):** royalty-free first, AI-generated second; every asset licence-checked and registered. The rest stays open. |
 
 ## Research and editorial
 
