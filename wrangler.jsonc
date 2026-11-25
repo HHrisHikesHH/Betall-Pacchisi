@@ -5,5 +5,7 @@
   "assets": {
     "directory": "./dist",
     "not_found_handling": "single-page-application"
-  }
+  },
+  // Required by `npx wrangler preview`, which Cloudflare runs for non-production branches. Empty: no preview-only settings.
+  "previews": {}
 }
