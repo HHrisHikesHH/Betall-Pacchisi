@@ -1,6 +1,6 @@
 # Audio Direction
 
-This document records the role of sound in the reading experience. It applies decisions D-026 to D-029 in [DECISIONS.md](DECISIONS.md). It separates three kinds of content:
+This document records the role of sound in the reading experience. It applies decisions D-026 to D-029 and D-072 in [DECISIONS.md](DECISIONS.md). It separates three kinds of content:
 
 | Kind | Sections | Status |
 |---|---|---|
@@ -8,7 +8,7 @@ This document records the role of sound in the reading experience. It applies de
 | Sound-design principle and recommendations | §1 (second part), §3 | PROPOSED (P-006) |
 | Implementation considerations: loading, controls, asset register | §5 (second part), §6, §7 (second part) | PROPOSED or OPEN |
 
-The user's design brief of 2026-11-25 is in [DESIGN_BRIEF.md](DESIGN_BRIEF.md); proposed decisions in [DESIGN_DECISION_PACKET.md](DESIGN_DECISION_PACKET.md) are not yet approved.
+The user's design brief of 2026-11-25 is in [DESIGN_BRIEF.md](DESIGN_BRIEF.md); D-072 bears on sound ([DECISIONS.md](DECISIONS.md); the answered [packet](DESIGN_DECISION_PACKET.md) is history).
 
 ## 1. Role of audio
 
@@ -31,6 +31,8 @@ Background music and environmental sound are **important parts of the experience
 
 Silence is a **choice**, not a gap. Some moments are strongest with nothing playing.
 
+**APPROVED (D-072):** sound is scored like a film, led by emotion; no instrument is ruled out by taste (for example a fierce damru in intense scenes, a bansuri for love or peace, and combinations).
+
 ## 3. Sound-design guardrails
 
 **PROPOSED (P-006).** These came up as recommendations in project discussions. They follow from the proposed principle in §1 that audio supports reading. The user has not confirmed them.
@@ -40,7 +42,7 @@ Silence is a **choice**, not a gap. Some moments are strongest with nothing play
 - **No constant or unnecessary music.** Music should not play just because it can.
 - **Sparing sound accents**, so they do not become a gimmick.
 - **No audio that contradicts the scene**, such as birdsong during a midnight storm.
-- **No music whose cultural character clashes with the Indian identity of the work.** *The musical direction itself is OPEN (`Q-301`).*
+- **No music whose cultural character clashes with the Indian identity of the work.** *The musical direction is partly set by D-072; the rest is OPEN (`Q-301`).*
 
 ## 4. Story-led changes
 
@@ -75,6 +77,8 @@ All of these depend on technology choices that have **not** been made (D-030). T
 
 **APPROVED (D-029):** usage rights and licensing **must be checked for every audio asset**.
 
+**APPROVED (D-072):** sources are royalty-free first and AI-generated second, and every asset is licence-checked (D-029) and entered in an asset register.
+
 PROPOSED (P-004): keep an **audio asset register** that records, for each file:
 
 - what it is and where it is used,
@@ -83,4 +87,4 @@ PROPOSED (P-004): keep an **audio asset register** that records, for each file:
 - any attribution requirement,
 - who checked the licence, and when.
 
-No asset should be used in the experience until its entry is complete. Whether the audio is commissioned, licensed, generated, or recorded is OPEN (`Q-305`).
+No asset should be used in the experience until its entry is complete. Beyond the sourcing order in D-072, where the audio comes from (for example commissioned or recorded) is OPEN (`Q-305`).
