@@ -242,12 +242,15 @@
 
 .pothi-leafwrap {
   --frame: 3px;
-  --text-left: 59.8%;
-  --text-right: 3.6%;
-  --text-top: max(25px, 3.4cqw);
+  /* Measured on the painting: the carpet and right pillar end near 63.6% of its width;
+     the roof tip reaches 70.4% in the top 7%, and the bracket under it 66% at 10% of the height. */
+  --text-left: 66.2%;
+  --text-right: 2.4%;
+  --tools-left: 64.4%;
+  --text-top: max(29px, 4.6cqw);
   --text-bottom: 47px;
   position: relative;
-  width: min(100cqw, calc((100cqh - 2 * var(--frame)) * 1860 / 846 + 2 * var(--frame)));
+  width: min(100cqw, calc((100cqh - 2 * var(--frame)) * 1860 / 845 + 2 * var(--frame)));
   container-type: inline-size;
 }
 
@@ -265,7 +268,7 @@
 
 .pothi-sheet {
   position: relative;
-  aspect-ratio: 1860 / 846;
+  aspect-ratio: 1860 / 845;
   overflow: hidden;
   background: var(--paper);
 }
@@ -301,7 +304,7 @@
 }
 
 .pothi .pothi-credit {
-  left: var(--text-left);
+  left: 71.4%; /* clear of the roof tip */
   color: #4a2c16;
 }
 
@@ -469,7 +472,7 @@
   position: absolute;
   right: calc(var(--frame) + 0.8%);
   bottom: calc(var(--frame) + 1px);
-  left: calc(var(--text-left) - 0.8%);
+  left: var(--tools-left);
   z-index: 2;
   display: flex;
   align-items: center;
@@ -538,20 +541,39 @@
   white-space: nowrap;
 }
 
-/* On a narrow leaf the five buttons fill the strip, so the page number moves up between the two labels. */
-@container (max-width: 660px) {
-  .pothi .pothi-tools .pothi-number {
-    position: absolute;
-    right: 17cqw;
-    bottom: calc(100cqw * 846 / 1860 - 25px);
-    min-width: 0;
-    font-size: 11px;
-    line-height: 1.55;
+/* On a narrow leaf the five buttons fill the strip, so the page number sits just above the two arrows. */
+@media (max-height: 499.98px), (min-aspect-ratio: 2001 / 1000) {
+  @container (max-width: 780px) {
+    .pothi-leaf--pages .pothi-text,
+    .pothi-measure .pothi-text {
+      bottom: 61px;
+    }
+
+    .pothi .pothi-tools .pothi-number {
+      position: absolute;
+      right: 0;
+      bottom: 41px;
+      width: 88px;
+      min-width: 0;
+      font-size: 11px;
+      line-height: 1.55;
+    }
+
+    .pothi .pothi-button--word {
+      min-width: 44px;
+      padding-inline: 2px;
+    }
   }
 
-  .pothi .pothi-button--word {
-    min-width: 44px;
-    padding-inline: 2px;
+  @container (max-width: 650px) {
+    .pothi-tools .pothi-button,
+    .pothi .pothi-button--word {
+      min-width: 36px;
+    }
+
+    .pothi .pothi-tools .pothi-number {
+      width: 72px;
+    }
   }
 }
 
@@ -566,7 +588,7 @@
     --frame: 5px;
     --text-top: 7.2cqw;
     --text-bottom: 6%;
-    width: min(100cqw, calc((100cqh - 190px) * 1860 / 846), 1480px);
+    width: min(100cqw, calc((100cqh - 190px) * 1860 / 845), 1480px);
     min-width: min(100cqw, 640px);
   }
 
@@ -779,7 +801,7 @@
 .pothi-crop img {
   display: block;
   width: 100%;
-  aspect-ratio: 1097 / 846;
+  aspect-ratio: 1330 / 845; /* the whole pavilion and the visitor */
   object-fit: cover;
   object-position: left center;
   border-bottom: 3px solid var(--vermilion);

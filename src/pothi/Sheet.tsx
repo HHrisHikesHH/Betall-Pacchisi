@@ -1,6 +1,6 @@
 import type { Ref } from 'react';
 import { pothiUi } from '../i18n/hi';
-import painting from '../assets/pothi/court-fruit.webp';
+import painting from '../assets/pothi/court-offering.webp';
 import type { Leaf } from './paginate';
 import { aroundDandas } from './text';
 
