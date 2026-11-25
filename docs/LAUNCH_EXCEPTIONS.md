@@ -19,6 +19,7 @@ Each row names the rule or decision, what the launch does instead, why, when to 
 | H2 repo cleanup (slimming HANDOFF; guard-hook gaps) | Deferred | Launch comes first | After launch | Documentation drift; the guard hook has known gaps |
 | The story title (no decision) | The title "कमल के तीन इशारे" is provisional and is the user's to change | The app needs a title to show | When the user chooses | A changed title may need a new slug and links |
 | D-043, D-057 (the frame, Betal and Vikram around the tales) | The tale ships standalone, with no frame, pending D-043 and D-057 (Decision A, the frame-only first loop) | The frame is not written | When the frame is drafted and approved | The reader meets the tale without the Vikram-Betal setting |
+| Working arrangement set by the user in chat, 2026-11-25 (Sonnet subagents implement, the coordinator verifies) | The coordinator wrote the branch-build fix itself (commit `2e39223`: `wrangler.jsonc`, [HOSTING.md](HOSTING.md), [HANDOFF.md](HANDOFF.md)) and checked its own work. The outside checks are CI and the Cloudflare build | A very small config fix; quota is short | If the coordinator edits files again | Author and verifier are the same |
 
 ## Not changed by this register
 
