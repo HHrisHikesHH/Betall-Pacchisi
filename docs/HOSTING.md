@@ -21,6 +21,8 @@ In the Cloudflare dashboard: **Workers & Pages → Create → connect the Git re
 
 `npm run build` runs the type check and the content tests before building, so a broken story file fails the deploy instead of shipping.
 
+**Branch previews.** For non-production branches the build log of 2026-11-25 shows the deploy command `npx wrangler preview`, which fails without a `previews` block in `wrangler.jsonc`. The block is present and empty ([Cloudflare: Previews configuration](https://developers.cloudflare.com/workers/previews/configuration/)).
+
 **Deep links.** `wrangler.jsonc` sets `not_found_handling` to `single-page-application`: any path that is not a real file returns `index.html` with status 200, so opening or refreshing `/kathaen/<slug>` works. There is deliberately **no** `public/_redirects`: the Workers deploy rejected `/*    /index.html   200` with error 100324 ("Infinite loop detected"), which failed the first deploy. Checked locally with `wrangler dev` (workerd): `/`, `/kathaen/kamal-ke-teen-ishare` and an unknown path all return 200 `text/html`; real assets such as `/favicon.svg` return their own type.
 
 `vite.config.ts` has `base: '/'`, which is correct for a Pages domain (`*.pages.dev` or a custom domain at the root).
