@@ -1,8 +1,17 @@
 # Project Plan
 
-*Last updated: 2026-11-21*
+*Last updated: 2026-11-25*
 
 A practical milestone plan. Decisions live in [DECISIONS.md](DECISIONS.md); current status in [HANDOFF.md](HANDOFF.md). Milestones after the current one are a direction, not a commitment: reorder them as we learn.
+
+## Next tasks: design reset (2026-11-25)
+
+Plan approved in conversation, not yet recorded; brief in [DESIGN_BRIEF.md](DESIGN_BRIEF.md). It runs ahead of the Milestone E order below, which stays as written until the user decides ([packet](DESIGN_DECISION_PACKET.md)).
+
+1. The user answers the decision packet.
+2. Style test, no code: image prompts for the frame-opening scene.
+3. `/pothi` prototype, one PR; the live site stays untouched.
+4. Later: frame writing (workflow gates apply), sound sourcing and register, full redesign.
 
 ## Production milestones (approved 2026-11-21)
 

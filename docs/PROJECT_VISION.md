@@ -4,6 +4,8 @@
 
 > The storytelling identity in practical form is in [STORYTELLING_NORTH_STAR.md](STORYTELLING_NORTH_STAR.md) (D-036).
 
+The user's design brief of 2026-11-25 is in [DESIGN_BRIEF.md](DESIGN_BRIEF.md); proposed decisions in [DESIGN_DECISION_PACKET.md](DESIGN_DECISION_PACKET.md) are not yet approved.
+
 ## The ambition
 
 We want to create an immersive, illustrated storytelling experience built on the tales of **Vikram and Betal**, the collection known as *Betal Pachisi* (the "twenty-five tales of the Betal"). What counts as the 25 is defined in D-035. (D-001, D-035)

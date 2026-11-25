@@ -2,6 +2,8 @@
 
 This document records the visual direction for the project's illustrations. It applies decisions D-023 to D-026 and D-031 in [DECISIONS.md](DECISIONS.md), and notes the layout preference PREF-001. **The final art style and reading layout are not decided.** The questions are tracked in [OPEN_QUESTIONS.md](OPEN_QUESTIONS.md) (`Q-1xx`, `Q-2xx`).
 
+The user's design brief of 2026-11-25 is in [DESIGN_BRIEF.md](DESIGN_BRIEF.md); proposed decisions in [DESIGN_DECISION_PACKET.md](DESIGN_DECISION_PACKET.md) are not yet approved.
+
 ## 1. Purpose of illustration
 
 **APPROVED (D-023)**
