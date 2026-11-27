@@ -1,6 +1,6 @@
 # TC-026 brief: Mūladeva wins a bride for Śaśideva (J 22)
 
-Status: brief · Written 2026-11-27 · User look required: yes (D-081; answer kept, reasoning is composed, and a rival answer exists)
+Status: brief · Written 2026-11-27 · User look required: yes (D-081; answer kept, reasoning is composed, and a rival answer exists) · **Settled by the user: D-091 (2026-11-27).**
 
 ## 1. Source beats
 All [source: J 22, Tr pp. 125–133; P and V only] unless marked.

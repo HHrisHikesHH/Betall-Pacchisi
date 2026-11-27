@@ -11,17 +11,17 @@ The 19 first-release tales and the frame (D-038). The long-term goal is 25 (D-00
 | 4 | TC-007 | The king who married his dependant to a Nereid (Sattvaśīla) | ADAPT | High | `brief` | — |  |
 | 5 | TC-006 | The woman who switched her husband's and brother's heads | ADAPT | High | `brief` | — |  |
 | 6 | TC-010 | Madanasenā and her rash promise (the "promise tale") | ADAPT | High | `brief` | — |  |
-| 7 | TC-003 | The king and the two wise birds: are men or women worse? | MAJOR REWRITE | Moderate | `brief` | — | Brief needs the user's look (D-081). |
+| 7 | TC-003 | The king and the two wise birds: are men or women worse? | MAJOR REWRITE | Moderate | `brief` | — | Brief look done (D-091): test comparison (a), else reject. |
 | 8 | TC-013 | Harisvāmin, who died of poisoned food | ADAPT | High | `brief` | — |  |
-| 9 | TC-015 | The magic pill (Manaḥsvāmin as a woman) | MAJOR REWRITE | Moderate | `brief` | — |  |
+| 9 | TC-015 | The magic pill (Manaḥsvāmin as a woman) | MAJOR REWRITE | Moderate | `brief` | — | D-091: Ś's deceit reasoning; shown with the draft. |
 | 10 | TC-016 | The sacrifice of Jīmūtavāhana | ADAPT | High | `brief` | — |  |
 | 11 | TC-021 | Anaṅgamañjarī, Maṇivarman and Kamalākara | ADAPT | Moderate to high | `brief` | — |  |
-| 12 | TC-025 | Four brothers and the harlot | MAJOR REWRITE | Low to moderate | `brief` | — | Brief needs the user's look (D-081). |
+| 12 | TC-025 | Four brothers and the harlot | MAJOR REWRITE | Low to moderate | `brief` | — | Brief look done (D-091): option B. |
 | 13 | TC-019 | The thief's son: to whom should the funeral offering go? | MAJOR REWRITE | Moderate | `brief` | — |  |
-| 14 | TC-026 | Mūladeva wins a bride for Śaśideva | ADAPT | Low to moderate (provisional) | `brief` | — | Brief needs the user's look (D-081). |
+| 14 | TC-026 | Mūladeva wins a bride for Śaśideva | ADAPT | Low to moderate (provisional) | `brief` | — | Brief look done (D-091): option A. |
 | 15 | TC-018 | The brahman's son who failed to gain the magic power | ADAPT | High | `brief` | — |  |
 | 16 | TC-022 | The four brothers who revived a lion | ADAPT | High | `brief` | — |  |
-| 17 | TC-027 | An ogre devastates Arimaulimaṇi's kingdom | MAJOR REWRITE | Low (provisional) | `brief` | — | Brief needs the user's look (D-081). |
+| 17 | TC-027 | An ogre devastates Arimaulimaṇi's kingdom | MAJOR REWRITE | Low (provisional) | `brief` | — | Brief look done (D-091): option B. |
 | 18 | TC-020 | The brahman boy who laughed at his sacrifice | MAJOR REWRITE | Moderate | `brief` | — |  |
 | 19 | TC-024 | The father who marries the daughter and the son who marries the mother (the final riddle) | ADAPT | Moderate to high | `brief` | — | Research files exist. |
 

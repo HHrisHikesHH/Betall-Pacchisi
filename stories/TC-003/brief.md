@@ -1,6 +1,6 @@
 # TC-003 brief: The parrot and the mynah
 
-Status: brief · Written 2026-11-27 · User look required: yes (D-081). **The composition in section 2 is PROPOSED, needs the user's approval.** DECISIONS records only the direction (D-048), not any approval of a composed answer.
+Status: brief · Written 2026-11-27 · User look required: yes (D-081). **The composition in section 2 is PROPOSED, needs the user's approval.** DECISIONS records only the direction (D-048), not any approval of a composed answer. · **Settled by the user: D-091 (2026-11-27).**
 
 ## 1. Source beats
 1. In Pāṭaliputra, Prince Vikramakesarin owns a learned parrot, a cursed celestial; on its advice he marries the Magadha princess Candraprabhā, who owns an equally learned mynah [KSS 12.10.4–9].

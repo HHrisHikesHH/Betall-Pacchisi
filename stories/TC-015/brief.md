@@ -1,6 +1,6 @@
 # TC-015 brief: The magic pill (Manaḥsvāmin and Śaśiprabhā)
 
-Status: brief · Written 2026-11-27 · User look required: no per D-081's list, but see §2 (D-041 conflict if the answer is composed)
+Status: brief · Written 2026-11-27 · User look required: no per D-081's list, but see §2 (D-041 conflict if the answer is composed) · **Settled by the user: D-091 (2026-11-27).**
 
 ## 1. Source beats
 Base: KSS 15 (12.22.1–115). Evidence: SOMADEVA_TALE_EVIDENCE TC-015; N3 §3.1 (J 13 read in full).

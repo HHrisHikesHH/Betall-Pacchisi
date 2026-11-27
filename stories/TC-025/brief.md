@@ -1,6 +1,6 @@
 # TC-025 brief: Four brothers and the courtesan (J 21)
 
-Status: brief · Written 2026-11-27 · User look required: yes (D-081: verdict reasoning is our own composition, D-041)
+Status: brief · Written 2026-11-27 · User look required: yes (D-081: verdict reasoning is our own composition, D-041) · **Settled by the user: D-091 (2026-11-27).**
 
 ## 1. Source beats
 All [source: J 21, Emeneau Tr pp. 109–125] unless marked. Base is J: KSS, Ś and Hindi lack the tale (bucket §3).

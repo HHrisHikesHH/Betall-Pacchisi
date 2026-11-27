@@ -1,6 +1,6 @@
 # TC-027 brief: The ogre and Arimaulimaṇi's kingdom (J 23)
 
-Status: brief · Written 2026-11-27 · User look required: yes (D-081: the answer has no source reasoning; ours is composed, D-041)
+Status: brief · Written 2026-11-27 · User look required: yes (D-081: the answer has no source reasoning; ours is composed, D-041) · **Settled by the user: D-091 (2026-11-27).**
 
 ## 1. Source beats
 All [source: J 23, Tr pp. 133–139; P and V only] unless marked.
