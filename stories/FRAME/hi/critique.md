@@ -109,3 +109,15 @@ Revised text: [revised.md](revised.md). Words 4,746 → 4,517 (भाग 1 2,599
 | C15 | taken | "ख़ून जम गया" → the king steps back, hand to sword; "ज़मीन साँस ले रही हो" → shadows lengthen and shrink; P2 "न कोई" cut to three (the death line); penalty recall spoken: "याद रखना, राजा।", which also works as a first statement (G17). |
 
 Not changed: खंड; the "और तुम भी" count stays at 3; the Betal obstacle claim stays (KSS 12.31.73, his own word).
+
+## Sanitation (Haiku, 2026-11-27)
+
+Three batches ([1]–[34], [35]–[68], [69]–[101]) and one continuity read; the coordinator applied the fixes.
+
+| ¶ | Finding | Action |
+|---|---|---|
+| 61 | Missing `।` after «[कथा का प्रश्न]» | Fixed |
+| 59 | Part 2 opens with Betal on the king's shoulder; last seen walking back to the tree | Fixed: «मुर्दा फिर से राजा के कंधे पर था।» added |
+| 59 | Tales 2–24 not counted | Declined: by design (the middle is the tales themselves) |
+| 9 | Fruit still in the king's hand | Declined: the text already marks it, «उस वक़्त फल राजा के हाथ में ही था» |
+| 99 | Rope stub on the branch at dawn vs the cut piece on the ground (¶35) | Declined: both can be true; the stub is what stays on the branch |
