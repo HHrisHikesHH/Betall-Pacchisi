@@ -86,3 +86,26 @@ Paragraph numbers (¶) are approximate, counted inside each Part from its first 
 1. **P1 ¶12-¶13** ("बंदर के लिए वह कंकड़ था... चीज़ वही थी; देखने वाले बदलते रहे।"). The hidden layer arrives through the plot object, with no sermon.
 2. **P2 ¶11-¶13** (nothing happens; "देखने वाला बस एक था, और वह उसके कंधे पर था।"). Reversal, dread and the broken loop come through staging alone.
 3. **P2 ¶27-¶29** (the monk prostrates, "तलवार उठी, और गिरी।", then "न कोई आख़िरी बात..."). It is restrained and unapplauded, and the narrator's one honest "मैं नहीं जानता" (¶27) keeps both layers of the killing open.
+
+## Revision response (2026-11-27)
+Revised text: [revised.md](revised.md). Words 4,746 → 4,517 (भाग 1 2,599, खंड 181, भाग 2 1,737).
+
+| ID | Taken / declined | Note |
+|---|---|---|
+| C1 | taken | Fragment and ledger merged into one beat; the doubt is the king's sweating palm (callback to the night's start); kept "मौत बस बेताल की बात में थी।" "कोई नहीं बता सकता" replaced by the praise taken "बिना यह जाने कि भीतर क्या है" (fruit callback). |
+| C2 | taken | "राजा उस मुर्दे के पास झुका जिसे वह रात भर ढोता रहा था" — referent is the hanged man. |
+| C3 | taken | Boon "तुम्हारी कहानियाँ लोग जानें…"; "और यह रात भी" and the motive sentence cut; gloss "उसने राज की बात नहीं की; बस कहानियाँ माँगीं।" |
+| C4 | taken | Bone and blood dropped; "जो रेखाएँ अधूरी थीं, वे अब पूरा घेरा बन चुकी थीं"; lamps and fire stay. |
+| C5 | taken | New elder beat before the praise: "याद है, यह कहानी एक सवाल से शुरू हुई थी?… क्या वह सब इसी घेरे के लिए था?" Asked, not answered. |
+| C6 | taken | "…यह उस रात राजा नहीं जानता था, और यह कहानी भी नहीं जानती।" |
+| C7 | taken | "राजा झूठ बोल रहा था: बेताल के कहने पर, उस आदमी से, जिसने अभी-अभी उसकी तारीफ़ की थी।" Used "बेताल" rather than "मुर्दे" since the speaker was Betal, not the corpse. |
+| C8 | taken | The "कोई निशान नहीं" paragraph cut; B34 still shows no sovereignty. |
+| C9 | taken | Treasurer named in the reward sentence; "ख़ज़ाने से बड़ा ख़ज़ाना" cut; "देखा तक नहीं" kept only for the monk. |
+| C10 | taken | Both asides cut to 3 sentences and closed with "ख़ैर" (P1 treasurer ¶ and the monk's reply ¶ now open with it). Also closed the hanged-man aside and P2's "समझदारी मत समझ बैठना" aside with "ख़ैर". |
+| C11 | taken | Ends on "मैं नहीं जानता।" |
+| C12 | taken | Post-loop fetch cut to 3 sentences; "जब पूछने की सबसे ज़्यादा ज़रूरत थी" cut. The first re-fetch (flight temptation, the silence is his own, B10) kept whole. |
+| C13 | taken (moved) | Monk says only "शिंशपा"; the narrator glosses at the tree: "शिंशपा की, जिसे तुम शीशम कहते हो, …डालें". |
+| C14 | taken | "उसके हाथ फल बढ़ाते हुए फैलते थे"; prefixed "देखो उसे:" to keep the elder pointing at the climax. |
+| C15 | taken | "ख़ून जम गया" → the king steps back, hand to sword; "ज़मीन साँस ले रही हो" → shadows lengthen and shrink; P2 "न कोई" cut to three (the death line); penalty recall spoken: "याद रखना, राजा।", which also works as a first statement (G17). |
+
+Not changed: खंड; the "और तुम भी" count stays at 3; the Betal obstacle claim stays (KSS 12.31.73, his own word).
