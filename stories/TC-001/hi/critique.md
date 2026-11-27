@@ -86,3 +86,12 @@ Text: [revised.md](revised.md), 3,395 words (draft 3,598). ¶ refer to draft.md.
 | C10 | taken | Cut. |
 | C11 | taken | "राजा न यह मेल देख सका कि 'किसी राजकुमार का हृदय' उसके अपने बेटे की मौत के अगले ही दिन सुनाई दिया, न छल करने वालों को पहचान सका।" The draft's P54 said "उसी दिन", but by the draft's own sequence the son died the day before the ascetic's story, so this is corrected to "अगले ही दिन". |
 | C12 | taken | "देह पर राख" dropped. The guise is now "हाथ में माला", which the false story needs. Easy to revert if the user prefers. |
+
+## Sanitation (Haiku, 2026-11-27)
+
+Three batches ([1]–[27], [28]–[54], [55]–[81]): no errors. Continuity read: two findings, both fixed by the coordinator.
+
+| ¶ | Finding | Fix |
+|---|---|---|
+| 53 | The prince is arrested, but his release is never told | «गुरु की बात सुनकर कोतवाल ने राजकुमार को छोड़ दिया» |
+| 62 | "यह" has no clear antecedent | «यह सब, हार से लेकर देश-निकाले तक, मंत्री के बेटे की कोई युक्ति है» |
