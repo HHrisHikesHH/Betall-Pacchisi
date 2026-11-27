@@ -40,3 +40,33 @@ The three changes that would most raise grip:
 1. Fix the mantra/theft logic (#1) and pay off "नाम" in the quarrel (#3).
 2. Cut the front half (¶7, ¶13, ¶18, ¶62 and the asides) and move the "and you too" turn out of the quarrel's peak (#5, #13, #14).
 3. Rework the ending (#12): drop the echoes of the frame and TC-001, and add one forward line from Betal.
+
+## Revision response
+
+Text: `stories/TC-002/hi/revised.md` (88 paragraphs, 3,279 words).
+
+| # | Response | Reason |
+|---|---|---|
+| 1 | taken | No memorised words. He reads from the page, tracing each letter. A night paragraph gives the motive: he heard it only once, one wrong mātrā fails (set up by Agnisvāmin's finger), copying is too slow for one night, and nobody would hand the book to a stranger. |
+| 2 | taken | Exact wording: "आपस में क्या-क्या कहा". |
+| 3 | taken | The promise now ends "और कौन पुकारता ही नहीं". At the quarrel's peak: "किसी ने एक बार भी उसका नाम नहीं लिया". Vikram gives बेटी / माँ / पत्नी, and after the shoulder lightens: "नाम उसका फिर भी किसी ने नहीं लिया, राजा ने भी नहीं।" |
+| 4 | taken | The label now comes before the river detail, the marriage talk and the wish, in the dada's voice, kept apart from Betal ("मेरी ओर से, बेताल की नहीं"). It is closed with "यहाँ से फिर पुरानी कथा है". "सत्रह बरस" and the clerk's phrasing are cut. |
+| 5 | taken | The "and you too" turn moved to just after her watching their eyes, and is reworded to a person ("कोई प्यारा"). The quarrel runs straight to its peak and the riddle. |
+| 6 | taken | Betal adds the bones objection (they went into the Ganges; she rose from ash). "कठिन काम का इनाम पत्नी नहीं होती" now stands as its own paragraph. Vikram answers thinly ("बेटे का काम विदा करना है"). |
+| 7 | taken | The verdict opens with "शास्त्र जैसे गिनते हैं, मैं वैसे ही गिनता हूँ… उस गिनती में", so it reads as Vikram's reckoning. |
+| 8 | taken | The "जानते थे" clause is deleted. "जाते भी कैसे?" is used instead. |
+| 9 | taken | "अग्निस्वामी आँगन की देहरी से आगे न जा सका; अर्थी तीनों ने उठाई।" |
+| 10 | taken | Changed to "बरसों". |
+| 11 | taken | The lecture sentence is cut, and the recommended "और तुम?" line is used. |
+| 12 | partly | The echoes are dropped: pressed lips, ear leaning to the shoulder, the satisfied breath. A new hook comes from the walk instead: Betal catches the king treading softly on ash ("उसे पता होता है कि नीचे कोई है"), with a fresh pyre smoking ahead. I declined the suggested line because the king did speak in this tale. |
+| 13 | taken | The river paragraph is cut to three sentences, the suitors to one trait each, and the dew-soaked-pothi and astrologer images removed. ¶22 is kept. |
+| 14 | taken | ¶62 and the ash/bones maxim are cut, and the mother and book asides are merged. "नहीं बताती" now appears twice, with the payoff line the stronger. "ख़ैर" appears 3 times. Asides excluding devices 1 and 10 come to about 7%. |
+| 15 | taken (note) | No text change. For the §5.3 audit: brahmans are the father (decides from fear), the suitors (devoted and possessive), the thief (driven by grief) and the householder (hospitable keeper of a spell); women are the daughter (voice and wish are ours) and one angry mother. |
+| 16 | taken | Changed to "हो सकता है उसने… समय बदला भी हो" and "कहते हैं, उन्होंने…". |
+| 17 | taken | Changed to "कुछ ब्राह्मण". |
+| 18 | taken | The sweet payoff is undercut: "पर यहाँ उसे किसी ने पूछकर नहीं लौटाया था।" |
+| 19 | taken (note) | ¶55–60, her waking perception, is invented interiority (brief beat 8, ours). The text is unchanged. |
+| 20 | taken | "माँ ने बच्चे की ओर हाथ बढ़ाया, और हाथ बीच में रुक गया।" |
+| 21 | taken | Reduced to 3 uses. |
+| 22 | partly | Kept both, unverified. The brief gives वक्रोलक as a source place (beat 5, spelling marked "?"). The dust (KSS rajas?) is not checked against 12.9.20–23. Check both before approval. |
+| 23 | taken | The walk now recalls the householder and his empty shelf. |
