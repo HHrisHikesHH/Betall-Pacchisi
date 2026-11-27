@@ -4,6 +4,8 @@
 
 > **Amendments after approval:** D-049 (release ships with whatever is ready; 19 stays the target), D-050 (suspended candidates stay suspended until the site is live), D-054 (any release needs the completed frame and TC-024), D-051 to D-053 (see [../DECISIONS.md](../DECISIONS.md)). Where this plan says the first release is "the 19" or waits for all 19, D-049 governs. **D-073 (2026-11-25):** design and app work may run before the story work; this amends the Milestone E ordering wherever this plan states it (§1, §11.1, §11.3, §12). It changes no story gate and not D-054.
 
+> **D-075 (2026-11-25):** the frame opening and the joins around TC-001 are written before further design work; this amends the order in D-073. No story gate and not D-054 is changed.
+
 > **Post-merge status (documentation correction, 2026-11-21).** **Milestone A is complete.** [PR #9](https://github.com/HHrisHikesHH/Betall-Pacchisi/pull/9) (reading MVP, merge commit `64cb4fa`) and [PR #12](https://github.com/HHrisHikesHH/Betall-Pacchisi/pull/12) (this plan and the editorial foundation, merge commit `554088f`) are **merged into `main`**, both on 2026-11-20 UTC. **R0 is completed.** The reading MVP and the editorial foundation are now on `main`. **No story blueprints and no story drafts have been produced yet.** The next production milestone is **B**: the frame blueprint, then the two pilot stories **TC-013** and **TC-001** (§11.1). Statements below that describe PR #9 as open or its code as absent from `main` are a **dated historical record** of 2026-11-21 before the merges, and are marked as such; they are not current. The plan's decisions and research history are unchanged.
 
 ## 0. Two targets: first release and long-term collection

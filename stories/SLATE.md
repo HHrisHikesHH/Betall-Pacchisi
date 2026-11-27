@@ -4,8 +4,8 @@ The 19 first-release tales and the frame (D-038). The long-term goal is 25 (D-00
 
 | ID | Working title | Audit | Evidence confidence | Status | Review (AI / human) | Approved (hi / en) |
 |---|---|---|---|---|---|---|
-| [FRAME](FRAME/status.md) | The Vikram–Betal frame | strongest tier | — | `blueprint-ready` | not started / not obtained | — |
-| [TC-001](TC-001/status.md) | The prince who won a wife with his minister's son's help (Padmāvatī) | ADAPT | Moderate | `hindi-draft-2` (Hindi Draft 2 written 2026-11-24 by an AI writer in response to AI Critique 1; Critique 2 pending) | AI writer only; Critique 2 pending / not obtained | — |
+| [FRAME](FRAME/status.md) | The Vikram–Betal frame | strongest tier | — | `hindi-draft-2` | AI review of Draft 1; human review not obtained | — |
+| [TC-001](TC-001/status.md) | The prince who won a wife with his minister's son's help (Padmāvatī) | ADAPT | Moderate | `hindi-draft-2` (Hindi Draft 2 written 2026-11-24 by an AI writer in response to AI Critique 1; Critique 2 written 2026-11-25; Draft 3 not started) | AI review completed to Critique 2; human review not obtained | — |
 | [TC-002](TC-002/status.md) | Three young brahmans who restored a dead girl to life | ADAPT | Moderate to high | `research` | not started / not obtained | — |
 | [TC-003](TC-003/status.md) | The king and the two wise birds: are men or women worse? | MAJOR REWRITE | Moderate | `research` | not started / not obtained | — |
 | [TC-006](TC-006/status.md) | The woman who switched her husband's and brother's heads | ADAPT | High | `research` | not started / not obtained | — |

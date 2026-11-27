@@ -177,6 +177,16 @@ Each *Wording* is the text put to the user in [DESIGN_DECISION_PACKET.md](DESIGN
 | D-073 | **Frame story first in phase 2.** *Wording:* Story work is phase 2, after the app is in good shape. It starts with the frame story, then TC-001. **Added clause (under choice A), not from the brief:** Design and app work may run before it; this amends the order in [PRODUCTION_PLAN.md](production/PRODUCTION_PLAN.md) §11.1, which places visual and audio production (Milestone E) after the written stories and the frame. *The user's answer:* "73 - yes". *How this was read:* the entry asked for A or B and the user wrote "yes"; the coordinator reads it as **A**, the recommendation ("record the amendment, so the approved plan and the register agree"), so the clause under A is included. | APPROVED |
 | D-074 | **Grandpa-narrator idea parked.** *Wording:* The grandpa-narrator opening idea is parked ("forget grandpa for now."). It is recorded as a parked idea only. *The user's answer:* "74 - yes". | APPROVED |
 
+### Story opening first (approved 2026-11-25, evening)
+
+The user's request in chat, 2026-11-25 17:08 IST: "i think we need to fix the story first, the story must start with logical start and then the inside stories must start". The coordinator put four numbered questions with recommendations; the user answered "approved" at 17:17 IST, accepting all four and the recording of items 1 to 3. The wording below is a collaborator's formalisation. Item 4 (the writer's model for this task) is a temporary execution instruction, noted in [HANDOFF.md](HANDOFF.md), not a decision.
+
+| ID | Decision | Status |
+|---|---|---|
+| D-075 | **Story opening before further design.** The frame opening and the joins around TC-001 are written now, before further design work; paintings wait until the user is happy with the text. The frame's ending comes later. This amends the order in D-073 ("after the app is in good shape"); D-073's frame-then-TC-001 order stands. No story gate and not D-054 is changed. *The user's answer:* "approved" (item 1). | APPROVED |
+| D-076 | **The frame opening may be shown as a labelled draft.** After the user has read it, the frame opening may go live clearly labelled as a draft. This narrows D-047 for that text only; it is not story approval. It does not by itself approve any changed published text of TC-001 (D-062 names Draft 2); that is put to the user with the reading draft. *The user's answer:* "approved" (item 2). | APPROVED |
+| D-077 | **The frame-only first loop stays.** The loop of D-057 decision A, in which Betal provokes the king to speak and escapes before the first tale, remains when more tales are added. Answers the question D-057 left open (frame blueprint §13 G14). *The user's answer:* "approved" (item 3). | APPROVED |
+
 ## Recorded user preferences
 
 **These are not decisions.** A preference records the user's current leaning, so collaborators can take it into account when they explore options. The decision it relates to stays **OPEN** until the user decides, and it may then be confirmed, changed, or dropped.
