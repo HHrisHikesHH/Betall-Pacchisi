@@ -1,8 +1,8 @@
-import { render, screen, within } from '@testing-library/react';
+import { fireEvent, render, screen, within } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
-import { describe, expect, it } from 'vitest';
+import { afterEach, describe, expect, it, vi } from 'vitest';
 import { App } from './App';
-import { stories as realStories } from './content';
+import { scenes, stories as realStories } from './content';
 import { buildStories } from './content/stories';
 import type { Collection } from './content';
 
@@ -23,88 +23,115 @@ function renderAt(path: string, list = stories) {
   );
 }
 
-describe('collection page', () => {
-  it('lists every story in order with links', () => {
+/** jsdom has no media queries: answer the ones named here with yes. */
+function screenIs(...features: string[]) {
+  vi.stubGlobal('matchMedia', (query: string) => ({
+    matches: features.some((feature) => query.includes(feature)),
+    addEventListener: () => {},
+    removeEventListener: () => {},
+  }));
+}
+
+afterEach(() => {
+  vi.unstubAllGlobals();
+  window.sessionStorage.clear();
+});
+
+const words = (text: string) => text.replace(/\s+/g, ' ').trim();
+const shownParagraphs = () => Array.from(document.querySelectorAll('.pothi-sheet .pothi-p'), (p) => words(p.textContent!));
+
+describe('home and contents', () => {
+  it('opens the closed pothi onto the list of tales', async () => {
+    screenIs('prefers-reduced-motion');
     renderAt('/');
     expect(screen.getByRole('heading', { level: 1, name: 'संग्रह' })).toBeInTheDocument();
-    const links = within(screen.getByRole('list')).getAllByRole('link');
-    expect(links.map((link) => link.getAttribute('href'))).toEqual([
-      '/kathaen/pehli',
-      '/kathaen/doosri',
-      '/kathaen/teesri',
-    ]);
-    expect(screen.getAllByText('नमूना — कथा नहीं')).toHaveLength(1);
+    fireEvent.click(screen.getByRole('button', { name: 'पोथी खोलें' }));
+    const links = within(await screen.findByRole('list')).getAllByRole('link');
+    expect(links.map((link) => link.getAttribute('href'))).toEqual(['/kathaen/pehli', '/kathaen/doosri', '/kathaen/teesri']);
     expect(screen.getByText('मसौदा')).toBeInTheDocument();
   });
 
+  it('sends the old prototype address home', () => {
+    renderAt('/pothi');
+    expect(screen.getByRole('button', { name: 'पोथी खोलें' })).toBeInTheDocument();
+  });
+
   it('shows an empty state when there are no stories', () => {
-    renderAt('/', []);
+    renderAt('/kathaen', []);
     expect(screen.getByText('अभी कोई कथा उपलब्ध नहीं है')).toBeInTheDocument();
     expect(screen.queryByRole('list')).not.toBeInTheDocument();
   });
 });
 
-describe('story page', () => {
-  it('shows the story text, the placeholder banner and both neighbours', async () => {
+describe('reader', () => {
+  it('shows the whole tale on a leaf, labels a draft and leads to the next tale', async () => {
     renderAt('/kathaen/doosri');
-    expect(await screen.findByRole('heading', { level: 1, name: /दूसरी/ })).toBeInTheDocument();
-    expect(screen.getByText('दूसरी का पहला अनुच्छेद')).toBeInTheDocument();
-    expect(screen.getByText('दूसरी का दूसरा अनुच्छेद')).toBeInTheDocument();
+    expect(await screen.findByRole('heading', { level: 2, name: 'दूसरी' })).toBeInTheDocument();
+    expect(shownParagraphs()).toEqual(['दूसरी का पहला अनुच्छेद', 'दूसरी का दूसरा अनुच्छेद']);
     expect(screen.getByText('मसौदा')).toBeInTheDocument();
-    const nav = screen.getByRole('navigation');
-    expect(within(nav).getByRole('link', { name: /पिछली/ })).toHaveAttribute('href', '/kathaen/pehli');
-    expect(within(nav).getByRole('link', { name: /अगली/ })).toHaveAttribute('href', '/kathaen/teesri');
+    expect(screen.getByRole('link', { name: 'अगली कथा: तीसरी' })).toHaveAttribute('href', '/kathaen/teesri');
+    expect(screen.getByRole('main')).toHaveFocus();
+    expect(screen.getByRole('button', { name: 'ध्वनि चालू / बंद' })).toBeInTheDocument();
   });
 
-  it('labels a placeholder with a banner and moves focus to the title', async () => {
-    renderAt('/kathaen/pehli');
-    const heading = await screen.findByRole('heading', { level: 1, name: /पहली/ });
-    expect(screen.getByRole('note')).toHaveTextContent('नमूना पाठ');
-    expect(heading).toHaveFocus();
-  });
-
-  it('labels a draft with a banner that says it is unreviewed and not approved text', async () => {
-    renderAt('/kathaen/doosri');
-    await screen.findByRole('heading', { level: 1, name: /दूसरी/ });
-    expect(screen.getByRole('note')).toHaveTextContent(
-      'मसौदा पाठ — यह कथा अभी समीक्षा में है, स्वीकृत पाठ नहीं है, और इसमें बदलाव हो सकते हैं।',
-    );
-  });
-
-  it('has no previous link on the first story and no next link on the last', async () => {
-    const first = renderAt('/kathaen/pehli');
-    const firstNav = await screen.findByRole('navigation');
-    expect(within(firstNav).queryByRole('link', { name: /पिछली/ })).not.toBeInTheDocument();
-    expect(within(firstNav).getByRole('link', { name: /अगली/ })).toBeInTheDocument();
-    first.unmount();
-
+  it('gives approved text no label, ends on the contents, and closes to them', async () => {
     renderAt('/kathaen/teesri');
-    const lastNav = await screen.findByRole('navigation');
-    expect(within(lastNav).getByRole('link', { name: /पिछली/ })).toBeInTheDocument();
-    expect(within(lastNav).queryByRole('link', { name: /अगली/ })).not.toBeInTheDocument();
-    expect(screen.queryByRole('note')).not.toBeInTheDocument();
+    await screen.findByRole('heading', { level: 2, name: 'तीसरी' });
+    expect(screen.queryByText('मसौदा')).not.toBeInTheDocument();
+    expect(screen.getByRole('link', { name: 'सभी कथाओं पर लौटें' })).toHaveAttribute('href', '/kathaen');
+    fireEvent.click(screen.getByRole('button', { name: 'पोथी बंद करें' }));
+    expect(screen.getByRole('list')).toBeInTheDocument();
   });
 
-  it('shows a not-found state for an unknown story', async () => {
-    renderAt('/kathaen/koi-nahin');
+  it('switches between leaves and scrolling', async () => {
+    renderAt('/kathaen/pehli');
+    fireEvent.click(await screen.findByRole('button', { name: 'स्क्रोल करके पढ़ें' }));
+    expect(screen.getByRole('region', { name: 'पहली' })).toBeInTheDocument();
+    fireEvent.click(screen.getByRole('button', { name: 'पन्ने पलटकर पढ़ें' }));
+    expect(screen.getByRole('button', { name: 'अगला पन्ना' })).toBeInTheDocument();
+  });
+
+  it('invites an upright phone to turn, once, and reads upright if the reader prefers', async () => {
+    screenIs('orientation: portrait', 'max-width: 600px');
+    const first = renderAt('/kathaen/pehli');
+    expect(await screen.findByRole('heading', { level: 1, name: 'फ़ोन घुमाइए' })).toHaveFocus();
+    fireEvent.click(screen.getByRole('button', { name: 'ऐसे ही पढ़ें' }));
+    expect(screen.getByRole('heading', { level: 2, name: 'पहली' })).toBeInTheDocument();
+    first.unmount();
+    renderAt('/kathaen/doosri');
+    expect(await screen.findByRole('heading', { level: 2, name: 'दूसरी' })).toBeInTheDocument();
+  });
+
+  it('shows a not-found state for an unknown story and an unknown route', async () => {
+    const view = renderAt('/kathaen/koi-nahin');
     expect(await screen.findByRole('heading', { name: 'यह कथा नहीं मिली' })).toBeInTheDocument();
-    expect(screen.getByRole('link', { name: 'सभी कथाओं पर लौटें' })).toHaveAttribute('href', '/');
+    view.unmount();
+    renderAt('/kuchh/aur');
+    expect(screen.getByRole('heading', { name: 'यह पृष्ठ नहीं मिला' })).toBeInTheDocument();
   });
 });
 
-it('shows a not-found page for an unknown route', () => {
-  renderAt('/kuchh/aur');
-  expect(screen.getByRole('heading', { name: 'यह पृष्ठ नहीं मिला' })).toBeInTheDocument();
-});
+describe('real content: placeholders and review mode', () => {
+  const [first] = realStories;
+  const opening = () => scenes[first.slug][0];
+  const renderReal = (query = '') =>
+    render(
+      <MemoryRouter initialEntries={[`/kathaen/${first.slug}${query}`]}>
+        <App />
+      </MemoryRouter>,
+    );
 
-it('renders the real content from /content without errors', async () => {
-  render(
-    <MemoryRouter initialEntries={[`/kathaen/${realStories[0].slug}`]}>
-      <App />
-    </MemoryRouter>,
-  );
-  expect(await screen.findByRole('heading', { level: 1, name: new RegExp(realStories[0].title) })).toBeInTheDocument();
-  // Placeholder and draft texts carry a labelled banner; approved text (D-083) does not.
-  if (realStories[0].status === 'approved') expect(screen.queryByRole('note')).not.toBeInTheDocument();
-  else expect(screen.getByRole('note')).toBeInTheDocument();
+  it('shows readers a described empty panel and never the prompt', async () => {
+    renderReal();
+    await screen.findByRole('heading', { level: 2, name: first.title });
+    expect(screen.getByRole('img', { name: opening().alt })).toBeInTheDocument();
+    expect(screen.queryByText(opening().prompt)).not.toBeInTheDocument();
+  });
+
+  it('shows the prompt and sound cues with ?review=1', async () => {
+    renderReal('?review=1');
+    await screen.findByRole('heading', { level: 2, name: first.title });
+    expect(screen.getByText(opening().prompt)).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: 'Copy full prompt' })).toBeInTheDocument();
+  });
 });

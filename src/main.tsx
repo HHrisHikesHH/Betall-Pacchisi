@@ -1,9 +1,11 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
-import '@fontsource/noto-serif-devanagari/400.css';
-import '@fontsource/noto-serif-devanagari/600.css';
+import '@fontsource/tiro-devanagari-hindi/400.css';
+import '@fontsource/rozha-one/400.css';
+import '@fontsource/yatra-one/400.css';
 import './styles.css';
+import './pothi/pothi.css';
 import { App } from './App';
 
 createRoot(document.getElementById('root')!).render(

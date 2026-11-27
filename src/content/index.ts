@@ -1,8 +1,10 @@
+import artNotes from '../../content/art.json';
 import collectionHi from '../../content/collection.hi.json';
-import { ART_IDS } from '../scenes/artIds';
+import sharedScenesHi from '../../content/scenes.shared.hi.json';
+import soundPalette from '../../content/sound.json';
 import { buildScenes } from './scenes';
 import { buildStories } from './stories';
-import type { Collection, SceneCue, Story } from './types';
+import type { Collection, Scene, Story } from './types';
 
 // Story files live in /content (outside the app code, D-015). Adding a .md file there adds a story.
 const storyFilesHi = import.meta.glob<string>('/content/stories/hi/*.md', {
@@ -11,7 +13,7 @@ const storyFilesHi = import.meta.glob<string>('/content/stories/hi/*.md', {
   eager: true,
 });
 
-// Optional scene cues (`<slug>.scenes.json`): which illustration and mood a story paragraph begins.
+// `<slug>.scenes.json`: where each picture, mood and sound begins in a story.
 const sceneFilesHi = import.meta.glob<string>('/content/stories/hi/*.scenes.json', {
   query: '?raw',
   import: 'default',
@@ -20,7 +22,12 @@ const sceneFilesHi = import.meta.glob<string>('/content/stories/hi/*.scenes.json
 
 export const collection: Collection = collectionHi;
 export const stories: Story[] = buildStories(storyFilesHi);
-export const scenes: Record<string, SceneCue[]> = buildScenes(sceneFilesHi, stories, ART_IDS);
+export const scenes: Record<string, Scene[]> = buildScenes(sceneFilesHi, stories, {
+  art: artNotes,
+  sound: soundPalette,
+  shared: sharedScenesHi,
+});
 
+export { sceneAt } from './scenes';
 export { findNeighbours, findStory } from './stories';
-export type { Collection, Neighbours, SceneCue, Story, StoryStatus } from './types';
+export type { Collection, Neighbours, Scene, Story, StoryStatus } from './types';

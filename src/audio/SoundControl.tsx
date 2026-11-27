@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { ui } from '../i18n/hi';
-import { useScene } from '../scenes/SceneContext';
+import { useScene } from '../scene/SceneContext';
 import { bedFor } from './beds';
 import type { SoundEngine } from './engine';
 import { clampVolume, loadPrefs, savePrefs } from './prefs';

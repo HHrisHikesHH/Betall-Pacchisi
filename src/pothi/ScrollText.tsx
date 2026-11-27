@@ -1,7 +1,7 @@
-import { useLayoutEffect, useRef, type RefObject } from 'react';
-import { pothiUi } from '../i18n/hi';
+import { Fragment, useLayoutEffect, useRef, type RefObject } from 'react';
+import { SceneArt } from '../scene/SceneArt';
 import { splitSentences, type Position } from './paginate';
-import { Words, type Tale } from './Sheet';
+import { TaleEnd, Words, type Tale } from './Sheet';
 
 /**
  * Keeps the reading position in a scrolling view: scrolls to it when the view appears or changes size,
@@ -59,21 +59,31 @@ export function useScrollPosition(
   }, [scroller, ready, onPosition]);
 }
 
-/** The whole sample as one flowing text. */
-export function ScrollText({ tale }: { tale: Tale }) {
+/** The whole tale as one flowing text. `pictures` puts each scene's picture where the scene begins. */
+export function ScrollText({ tale, pictures = false }: { tale: Tale; pictures?: boolean }) {
   return (
     <div className="pothi-flow">
       <h2 className="pothi-tale">{tale.title}</h2>
-      {tale.paragraphs.map((text, paragraph) => (
-        <p key={paragraph} className="pothi-p">
-          {splitSentences(text).map(({ start, end }) => (
-            <span key={start} data-paragraph={paragraph} data-start={start}>
-              <Words text={text.slice(start, end)} />
-            </span>
-          ))}
-        </p>
-      ))}
-      <p className="pothi-end">{pothiUi.end}</p>
+      {tale.paragraphs.map((text, paragraph) => {
+        const scene = pictures ? tale.scenes.find((s) => s.start === paragraph) : undefined;
+        return (
+          <Fragment key={paragraph}>
+            {scene && (
+              <figure className="pothi-crop">
+                <SceneArt scene={scene} review={tale.review} />
+              </figure>
+            )}
+            <p className="pothi-p">
+              {splitSentences(text).map(({ start, end }) => (
+                <span key={start} data-paragraph={paragraph} data-start={start}>
+                  <Words text={text.slice(start, end)} />
+                </span>
+              ))}
+            </p>
+          </Fragment>
+        );
+      })}
+      <TaleEnd tale={tale} />
     </div>
   );
 }
