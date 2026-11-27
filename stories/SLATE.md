@@ -4,7 +4,7 @@ The 19 first-release tales and the frame (D-038). The long-term goal is 25 (D-00
 
 | # | ID | Working title | Audit | Evidence confidence | Status | Approved (date, commit) | Note |
 |---|---|---|---|---|---|---|---|
-| — | FRAME | The Vikram–Betal frame | strongest tier | — | `brief` | — | Rewrite in Voice A (D-078). Old drafts at commit 58d0060. |
+| — | FRAME | The Vikram–Betal frame | strongest tier | — | `user-review` | — | Rewrite in Voice A (D-078). Old drafts at commit 58d0060. |
 | 1 | TC-001 | The prince who won a wife with his minister's son's help (Padmāvatī) | ADAPT | Moderate | `brief` | — | Old-voice Draft 2 is in content/ as `status: draft`; rewrite in Voice A after the frame. Brief needs the user's look (D-081). |
 | 2 | TC-008 | The three fastidious men (food, women, bed) | ADAPT | Moderate to high | `brief` | — |  |
 | 3 | TC-002 | Three young brahmans who restored a dead girl to life | ADAPT | Moderate to high | `brief` | — |  |
