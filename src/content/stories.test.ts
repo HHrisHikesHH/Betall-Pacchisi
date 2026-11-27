@@ -30,6 +30,14 @@ describe('buildStories', () => {
     expect(() => buildStories({ 'content/x.md': file(fields) })).toThrow(/content\/x\.md/);
   });
 
+  it('accepts approved only with approved_on and approved_commit (D-083)', () => {
+    const approved = { ...valid, status: 'approved' };
+    expect(() => buildStories({ 'x.md': file(approved) })).toThrow(/approved_on/);
+    expect(() => buildStories({ 'x.md': file({ ...approved, approved_on: '2026-11-27' }) })).toThrow(/approved_commit/);
+    expect(() => buildStories({ 'x.md': file({ ...approved, approved_on: '27-11-2026', approved_commit: 'abc1234' }) })).toThrow(/approved_on/);
+    expect(buildStories({ 'x.md': file({ ...approved, approved_on: '2026-11-27', approved_commit: '58d0060' }) })[0].status).toBe('approved');
+  });
+
   it('rejects a story with no text', () => {
     expect(() => buildStories({ 'x.md': file(valid, '') })).toThrow(/no text/);
   });
@@ -66,8 +74,7 @@ describe('the real content in /content/stories/hi', () => {
     stories.forEach((story) => expect(story.paragraphs.length).toBeGreaterThan(0));
   });
 
-  it('shows only placeholder or draft stories until the approved-text protection exists (D-052, D-062)', () => {
-    // Never `approved` yet: nothing has passed the story workflow. Revisit when the first tale is approved.
-    expect(stories.every((story) => story.status === 'placeholder' || story.status === 'draft')).toBe(true);
+  it('uses only known statuses; approved ones passed the D-083 checks on load', () => {
+    expect(stories.every((story) => ['placeholder', 'draft', 'approved'].includes(story.status))).toBe(true);
   });
 });
