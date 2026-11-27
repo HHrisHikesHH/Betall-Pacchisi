@@ -1,55 +1,150 @@
 {
-  "0": {
-    "art": "cover",
-    "mood": "neutral",
-    "sound": "silence",
-    "alt": "कमल, दो कलियों और एक नक़्क़ाशीदार मेहराब वाला सजावटी शीर्षक-चित्र"
-  },
-  "3": {
-    "art": "lake",
-    "mood": "day",
-    "alt": "कमलों से भरी झील; किनारे पर नहाने आई सखियाँ और दूर खड़े दो शिकारी"
-  },
-  "12": {
-    "art": "workshop",
-    "mood": "day",
-    "alt": "हाथीदाँत के कारीगर का घर: नीचे कार्यशाला, ऊपर खिड़कियों वाली मंज़िल"
-  },
-  "21": {
-    "art": "window",
-    "mood": "dusk",
-    "alt": "साँझ के आसमान के सामने बड़ी खिड़की, और उससे रस्सियों से लटका एक पीढ़ा"
-  },
-  "39": {
-    "art": null,
-    "mood": "night",
-    "sound": "silence",
-    "alt": ""
-  },
-  "46": {
-    "art": "cremation",
-    "mood": "fire",
-    "alt": "रात का श्मशान: धूनी की आग के सामने बैठा एक तपस्वी"
-  },
-  "52": {
-    "art": "king",
-    "mood": "day",
-    "alt": "सिंहासन पर बैठा राजा, हाथ में एक हार"
-  },
-  "56": {
-    "art": "gate",
-    "mood": "dusk",
-    "alt": "साँझ में नगर का फाटक और दूर जंगल की ओर जाती पगडंडी पर अकेली आकृति"
-  },
-  "59": {
-    "art": "gate",
-    "mood": "forest",
-    "alt": "साँझ में नगर का फाटक और दूर जंगल की ओर जाती पगडंडी पर अकेली आकृति"
-  },
-  "65": {
-    "art": null,
-    "mood": "neutral",
-    "sound": "silence",
-    "alt": ""
-  }
+  "scenes": [
+    {
+      "at": "बेताल की आवाज़",
+      "use": "night-walk"
+    },
+    {
+      "at": "एक दिन शिकार",
+      "id": "lotus-signals",
+      "mood": "day",
+      "alt": "कमलों भरी झील में कान पर कमल टिकाती लड़की और किनारे पर दो दोस्त",
+      "prompt": "A forest lake crowded with lotuses; Padmavati stands in the water with her attendants, fully dressed, setting a lotus at her ear and meeting the prince's eyes; the prince and his friend sit on the shaded bank.",
+      "characters": [
+        "padmavati",
+        "prince",
+        "friend"
+      ],
+      "ambience": "forest",
+      "music": "bansuri",
+      "accent": "none"
+    },
+    {
+      "at": "वाराणसी लौटकर राजकुमार",
+      "id": "signals-decoded",
+      "mood": "dusk",
+      "alt": "उदास राजकुमार को कमल के इशारों का अर्थ समझाता दोस्त",
+      "prompt": "In a palace room at evening, an untouched food plate; the smiling friend holds up a lotus and explains on his fingers to the lovesick prince.",
+      "characters": [
+        "prince",
+        "friend"
+      ],
+      "ambience": "indoors",
+      "music": "bansuri",
+      "accent": "none"
+    },
+    {
+      "at": "कलिंग के उस",
+      "id": "ivory-house",
+      "mood": "day",
+      "alt": "हाथीदाँत के कारीगर का घर: नीचे कार्यशाला, ऊपर खिड़कियाँ",
+      "prompt": "An ivory carver's house in section: craftsmen with fine chisels below, a master lifting a comb to the light, white dust in the air; large windows and a garden above.",
+      "ambience": "workshop",
+      "music": "court-strings",
+      "accent": "none"
+    },
+    {
+      "at": "इस बार कुछ",
+      "id": "rope-seat",
+      "mood": "dusk",
+      "alt": "साँझ को खिड़की से रस्सियों वाले पीढ़े पर उतरती बूढ़ी",
+      "prompt": "At dusk, maids lower an old woman on a small rope seat from a high window to the garden beside a wall and a tree; Padmavati directs from the window.",
+      "characters": [
+        "padmavati"
+      ],
+      "ambience": "city",
+      "music": "damru",
+      "accent": "rope-creak"
+    },
+    {
+      "at": "राजकुमार पहुँचा तो",
+      "id": "window-meeting",
+      "mood": "night",
+      "alt": "दीये की रोशनी में खिड़की के पास राजकुमार का स्वागत करती पद्मावती",
+      "prompt": "A lamp-lit upper room at night; Padmavati rises to welcome the prince who has just come through the window; tender and modest.",
+      "characters": [
+        "padmavati",
+        "prince"
+      ],
+      "ambience": "indoors",
+      "music": "bansuri",
+      "accent": "none"
+    },
+    {
+      "at": "बुद्धिशरीर ने थाल",
+      "id": "food-and-dog",
+      "mood": "day",
+      "alt": "आँगन में पकवान का थाल, उसे देर तक देखता दोस्त और पास एक कुत्ता",
+      "prompt": "A small courtyard: a tray of sweets and betel; the friend holds one piece toward a stray dog while the prince watches uneasily.",
+      "characters": [
+        "prince",
+        "friend"
+      ],
+      "ambience": "city",
+      "music": "damru",
+      "accent": "none"
+    },
+    {
+      "at": "ख़ैर। रात हुई।",
+      "id": "the-lamp-night",
+      "mood": "fire",
+      "alt": "रात में बंद खिड़की, लटकता पीढ़ा और आग पर तपता लोहे का त्रिशूल",
+      "prompt": "Night: a small iron trident glowing in a brazier in the foreground, the prince's hand on it; behind a drawn curtain only a still sleeping shape; the empty rope seat at the window. No wound or body shown.",
+      "characters": [
+        "prince"
+      ],
+      "ambience": "silence",
+      "music": "damru",
+      "accent": "none"
+    },
+    {
+      "at": "सुबह उसने तपस्वी",
+      "id": "false-ascetic",
+      "mood": "fire",
+      "alt": "श्मशान में तपस्वी के भेस में बैठा दोस्त, हार थामे राजकुमार",
+      "prompt": "In a cremation ground at dawn the friend sits disguised as an ascetic with a rosary by a fire; the prince as disciple receives a jewelled necklace.",
+      "characters": [
+        "friend",
+        "prince"
+      ],
+      "ambience": "pyre",
+      "music": "night-drone",
+      "accent": "none"
+    },
+    {
+      "at": "ख़ैर। गुरु की",
+      "id": "king-and-necklace",
+      "mood": "day",
+      "alt": "शोक में बैठा राजा, हाथ में पहचाना हुआ हार",
+      "prompt": "A grieving king on his throne gazes long at a necklace in his hand while the city officer reports; heavy still court.",
+      "ambience": "court",
+      "music": "grief-string",
+      "accent": "none"
+    },
+    {
+      "at": "सिपाही उसे घर",
+      "id": "city-gate",
+      "mood": "dusk",
+      "alt": "साँझ को नगर के फाटक से बाहर निकाली जाती पद्मावती, पीछे रोते माँ-बाप",
+      "prompt": "At the city gate at dusk, guards lead Padmavati out toward the forest; far behind, her parents weep at their doorway.",
+      "characters": [
+        "padmavati"
+      ],
+      "ambience": "city",
+      "music": "grief-string",
+      "accent": "none"
+    },
+    {
+      "at": "कहानी ख़त्म हुई,",
+      "use": "riddle"
+    },
+    {
+      "at": "राजा ने एक",
+      "use": "verdict"
+    },
+    {
+      "at": "जवाब पूरा होते",
+      "use": "flight"
+    }
+  ]
 }

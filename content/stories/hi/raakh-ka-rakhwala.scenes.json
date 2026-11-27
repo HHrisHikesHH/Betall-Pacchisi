@@ -1,0 +1,187 @@
+{
+  "scenes": [
+    {
+      "at": "शीशम की डाल",
+      "use": "night-walk"
+    },
+    {
+      "at": "\"यमुना के किनारे,\"",
+      "id": "yamuna-ghat",
+      "mood": "day",
+      "alt": "यमुना के घाट पर घड़ा लिए मन्दारवती",
+      "prompt": "A brahmin settlement on the Yamuna in morning light: steps to the river, students reciting on a verandah; Mandaravati comes down the ghat with her water pot.",
+      "characters": [
+        "mandaravati"
+      ],
+      "ambience": "river",
+      "music": "bansuri",
+      "accent": "none"
+    },
+    {
+      "at": "कुछ ही दिनों",
+      "id": "three-requests",
+      "mood": "day",
+      "alt": "पिता के सामने अलग-अलग हाथ माँगते तीन युवक",
+      "prompt": "On the verandah the father sits troubled while three young men, one after another, press their request; the third clasps ink-stained fingers.",
+      "characters": [
+        "three-suitors"
+      ],
+      "ambience": "city",
+      "music": "court-strings",
+      "accent": "none"
+    },
+    {
+      "at": "ख़ैर। तो मन्दारवती",
+      "id": "three-shadows",
+      "mood": "dusk",
+      "alt": "धुँधले घाट पर अकेली लड़की और सीढ़ियों के ऊपर तीन परछाइयाँ",
+      "prompt": "Misty river steps before dawn: Mandaravati alone with her pot, her back half turned; at the top of the steps three watching shadowed figures.",
+      "characters": [
+        "mandaravati",
+        "three-suitors"
+      ],
+      "ambience": "river",
+      "music": "night-drone",
+      "accent": "none"
+    },
+    {
+      "at": "फिर एक गर्मी",
+      "id": "funeral-by-river",
+      "mood": "dusk",
+      "alt": "यमुना किनारे चिता के पास शोक में खड़े तीन युवक",
+      "prompt": "A funeral pyre beside the Yamuna at dusk, seen from a distance with no body visible; three young men stand silent, equal in grief.",
+      "characters": [
+        "three-suitors"
+      ],
+      "ambience": "pyre",
+      "music": "grief-string",
+      "accent": "none"
+    },
+    {
+      "at": "पहले ने उसी",
+      "id": "ashes-and-journeys",
+      "mood": "night",
+      "alt": "राख के पास झोंपड़ी, गंगा को जाता एक युवक, भटकता दूसरा",
+      "prompt": "Three paths in one painting: one man lies guarding a bed of ashes beside a small hut; one walks away toward a wide river with a cloth bundle; one leaves as a wandering ascetic with a bag.",
+      "characters": [
+        "three-suitors"
+      ],
+      "ambience": "night",
+      "music": "grief-string",
+      "accent": "none"
+    },
+    {
+      "at": "बरसों भटकने के",
+      "id": "guest-at-vakrolaka",
+      "mood": "dusk",
+      "alt": "गृहस्थ के घर भोजन के आसन पर बैठा थका तपस्वी और रसोई का चूल्हा",
+      "prompt": "A humble house at evening: the weary wandering scholar seated before a food plate, a hearth glowing, a mother holding a crying infant safely in her arms, the host nearby. No harm shown.",
+      "characters": [
+        "three-suitors"
+      ],
+      "ambience": "indoors",
+      "music": "night-drone",
+      "accent": "child-silence"
+    },
+    {
+      "at": "वह भीतर गया,",
+      "id": "book-and-ashes",
+      "mood": "fire",
+      "alt": "चूल्हे के पास पोथी पढ़ता गृहस्थ और राख से उठकर बैठा बच्चा",
+      "prompt": "The host reads from an old thread-bound book and sprinkles dust over hearth ash; from a soft glow a small child sits up whole; the guest stares, the mother's hand stops midway.",
+      "characters": [
+        "three-suitors"
+      ],
+      "ambience": "silence",
+      "music": "bansuri",
+      "accent": "none"
+    },
+    {
+      "at": "रात हुई। घर",
+      "id": "the-theft",
+      "mood": "night",
+      "alt": "सोते घर में आले से पोथी उठाता तपस्वी",
+      "prompt": "Night inside the sleeping house: the scholar lifts the wrapped book from a wall niche and hesitates at the door.",
+      "characters": [
+        "three-suitors"
+      ],
+      "ambience": "indoors",
+      "music": "night-drone",
+      "accent": "none"
+    },
+    {
+      "at": "ख़ैर। वह कई",
+      "id": "reunion-at-ashes",
+      "mood": "night",
+      "alt": "श्मशान की राख के पास बरसों बाद मिले तीनों",
+      "prompt": "At the riverside cremation ground the three meet again: matted-haired ash keeper on his ash bed, the traveller with an empty dusty cloth, the third opening his bag with the book.",
+      "characters": [
+        "three-suitors"
+      ],
+      "ambience": "night",
+      "music": "night-drone",
+      "accent": "none"
+    },
+    {
+      "at": "पहले अँधेरा था,",
+      "id": "awakening",
+      "mood": "night",
+      "alt": "दीये के घेरे में आँखें खोलती मन्दारवती, ऊपर झुके तीन चेहरे",
+      "prompt": "Seen from just above: Mandaravati opens her eyes on the ground by the river, lifting a golden-lit hand; a lamp, and three bearded ash-smeared faces bent over her.",
+      "characters": [
+        "mandaravati",
+        "three-suitors"
+      ],
+      "ambience": "river",
+      "music": "bansuri",
+      "accent": "none"
+    },
+    {
+      "at": "\"यह मेरी है,\"",
+      "id": "quarrel-over-her",
+      "mood": "fire",
+      "alt": "झगड़ते तीन आदमी और बीच में चुप बैठी मन्दारवती",
+      "prompt": "Three men shout and gesture around the small lamp; Mandaravati sits silent at the centre, looking toward the river; jackals watch from the dark.",
+      "characters": [
+        "mandaravati",
+        "three-suitors"
+      ],
+      "ambience": "night",
+      "music": "damru",
+      "accent": "none"
+    },
+    {
+      "at": "फिर बेताल की",
+      "use": "riddle"
+    },
+    {
+      "at": "विक्रम ने एक",
+      "use": "verdict"
+    },
+    {
+      "at": "जवाब पूरा होते",
+      "id": "silent-leaving",
+      "mood": "night",
+      "alt": "सूने कंधे के साथ अँधेरे की ओर मुड़कर देखते राजा विक्रम",
+      "prompt": "King Vikram alone in the cremation ground at night, his shoulder empty, standing steady and looking back into the darkness toward a distant twisted tree; soft grey ash underfoot, low smouldering pyres. No flying figure, no laughter.",
+      "characters": [
+        "vikram"
+      ],
+      "ambience": "silence",
+      "music": "none",
+      "accent": "none"
+    },
+    {
+      "at": "शीशम आई",
+      "use": "shinshapa-tree",
+      "music": "none"
+    },
+    {
+      "at": "वह बरगद की",
+      "use": "night-walk",
+      "ambience": "silence",
+      "music": "none",
+      "accent": "none"
+    }
+  ]
+}

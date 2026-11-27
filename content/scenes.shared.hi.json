@@ -1,0 +1,74 @@
+{
+  "shinshapa-tree": {
+    "mood": "night",
+    "alt": "रात में शीशम का टेढ़ा पेड़, डाल से लटकी एक आकृति",
+    "prompt": "A twisted shinshapa tree in a moonless cremation ground; from one branch a shrouded figure hangs, turning slowly, seen at a distance; King Vikram stands below looking up.",
+    "characters": [
+      "vikram",
+      "betal"
+    ],
+    "ambience": "night",
+    "music": "night-drone",
+    "accent": "rope-creak"
+  },
+  "night-walk": {
+    "mood": "night",
+    "alt": "कंधे पर बेताल को लादे श्मशान से गुज़रते राजा विक्रम",
+    "prompt": "King Vikram walks through a cremation ground at night carrying Betal over his shoulder; Betal's mouth is close to the king's ear; small fires far off, a dark swirling sky.",
+    "characters": [
+      "vikram",
+      "betal"
+    ],
+    "ambience": "night",
+    "music": "night-drone",
+    "accent": "betal-rattle"
+  },
+  "riddle": {
+    "mood": "night",
+    "alt": "रुके हुए क़दम; राजा के कान के पास बेताल का चेहरा",
+    "prompt": "Close view: King Vikram halted mid-step, eyes narrowed in thought, Betal's face beside his ear waiting; everything else fallen into deep still darkness.",
+    "characters": [
+      "vikram",
+      "betal"
+    ],
+    "ambience": "silence",
+    "music": "none",
+    "accent": "none"
+  },
+  "verdict": {
+    "mood": "night",
+    "alt": "चलते हुए फ़ैसला सुनाते राजा विक्रम",
+    "prompt": "King Vikram walking and speaking with calm certainty, one hand raised in reasoning, Betal on his shoulder listening; a single pyre glows behind.",
+    "characters": [
+      "vikram",
+      "betal"
+    ],
+    "ambience": "night",
+    "music": "none",
+    "accent": "none"
+  },
+  "betal-argues": {
+    "mood": "night",
+    "alt": "कंधे पर से बहस करता, हँसता बेताल",
+    "prompt": "Close view: Betal leaning forward from the king's shoulder, arguing with lively mocking hands; King Vikram looks straight ahead, listening.",
+    "characters": [
+      "vikram",
+      "betal"
+    ],
+    "ambience": "night",
+    "music": "night-drone",
+    "accent": "betal-laugh"
+  },
+  "flight": {
+    "mood": "night",
+    "alt": "हवा में उड़कर शीशम की ओर लौटता बेताल",
+    "prompt": "Betal flies laughing back through the night sky toward the distant shinshapa tree, cloth streaming; below, King Vikram turns, his shoulder suddenly empty.",
+    "characters": [
+      "vikram",
+      "betal"
+    ],
+    "ambience": "night",
+    "music": "damru",
+    "accent": "wind-rush"
+  }
+}

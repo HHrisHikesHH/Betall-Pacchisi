@@ -1,0 +1,33 @@
+{
+  "ambience": {
+    "silence": "Deliberate silence",
+    "night": "Cremation ground at night: insects, distant jackals, wind",
+    "pyre": "Crackling funeral fire",
+    "court": "Murmur of a full court",
+    "river": "River water on stone steps, morning birds",
+    "forest": "Forest birds and leaves",
+    "city": "Town street, distant voices",
+    "indoors": "Quiet house at night, lamp flicker",
+    "workshop": "Fine chisels tapping",
+    "sea": "Waves and sea wind"
+  },
+  "music": {
+    "none": "No music",
+    "night-drone": "Low sustained drone",
+    "court-strings": "Soft court strings",
+    "bansuri": "Bansuri: love, longing, peace",
+    "damru": "Damru: danger, a sudden turn",
+    "grief-string": "Single bowed string: grief",
+    "playful": "Light plucked strings and hand drum: comedy"
+  },
+  "accent": {
+    "none": "No accent",
+    "betal-rattle": "Dry rattle and breath as Betal speaks",
+    "betal-laugh": "Betal's laugh",
+    "wind-rush": "Rush of wind as Betal flies back",
+    "rope-creak": "Creaking rope",
+    "gem-fall": "A gem ringing on marble",
+    "conch": "A single conch",
+    "child-silence": "Everything stops for one breath"
+  }
+}
