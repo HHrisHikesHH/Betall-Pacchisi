@@ -1,17 +1,11 @@
 ## Summary
 
-<!-- What changed and why, in a few lines. -->
+<!-- What changed and why, in a few lines. Which tale moves forward? (D-084) -->
 
 ## Checklist
 
-- [ ] Scope matches the task prompt
-- [ ] Only authorised files changed (`git diff --stat` checked)
-- [ ] Story status recorded in `stories/<ID>/status.md` only (not invented elsewhere)
-- [ ] `npm run docs:check` passed (and `npm test`, `npm run typecheck`, `npm run build` for code or content)
-- [ ] No merge and no approval implied: the user merges and approves
-
-## Independence statement
-
-- Written by:
-- Reviewed by:
-- Review kind: <!-- AI (coordination or independent) / human / none. An AI review is not a human review and not user approval. -->
+- [ ] Changes `content/`, or says which writing it unblocks (D-084)
+- [ ] `stories/SLATE.md` row updated if a status changed
+- [ ] `npm test`, `npm run build` and `npm run docs:check` pass
+- [ ] Content and code are in separate commits (D-015)
+- [ ] Nothing marked `approved` without the user's approval (D-083)

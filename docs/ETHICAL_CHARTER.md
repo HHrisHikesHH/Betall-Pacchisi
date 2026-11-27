@@ -1,6 +1,6 @@
 # Ethical Editorial Charter
 
-> **Status: APPROVED by the user (creative director) in chat on 2026-11-21**, as part of the 19-story production plan, revision 2 (D-038 to D-048). Section numbers follow the [production plan](production/PRODUCTION_PLAN.md) so that cross-references such as "§3.2.5" resolve the same way everywhere. Written by the lead (an AI coordinator); first-person notes ("my draft", "I adopt") are the lead's reconciliation record, kept so that dissent stays visible.
+> **Status: APPROVED by the user (creative director) in chat on 2026-11-21**, as part of the 19-story production plan, revision 2 (D-038 to D-048). Section numbers follow the [production plan](https://github.com/HHrisHikesHH/Betall-Pacchisi/blob/58d00606394f38801e94e4c258c431b02457f7aa/docs/production/PRODUCTION_PLAN.md) so that cross-references such as "§3.2.5" resolve the same way everywhere. Written by the lead (an AI coordinator); first-person notes ("my draft", "I adopt") are the lead's reconciliation record, kept so that dissent stays visible.
 
 It is binding on all tales, the frame, interface copy and reader-facing notes (D-039, D-040). It sits alongside the [Storytelling North Star](STORYTELLING_NORTH_STAR.md) (D-036) and does not rank above it: the charter sets what a story may endorse, the North Star how it is told.
 

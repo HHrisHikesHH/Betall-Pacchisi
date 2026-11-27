@@ -1,6 +1,6 @@
 # Frame Narrative Proposal: the night of the corpse
 
-> **Status: APPROVED by the user (creative director) in chat on 2026-11-21**, as part of the 19-story production plan, revision 2 (D-038 to D-048). Section numbers follow the [production plan](PRODUCTION_PLAN.md) so that cross-references such as "§3.2.5" resolve the same way everywhere. Written by the lead (an AI coordinator); first-person notes ("my draft", "I adopt") are the lead's reconciliation record, kept so that dissent stays visible.
+> **Status: APPROVED by the user (creative director) in chat on 2026-11-21**, as part of the 19-story production plan, revision 2 (D-038 to D-048). Section numbers follow the [production plan](https://github.com/HHrisHikesHH/Betall-Pacchisi/blob/58d00606394f38801e94e4c258c431b02457f7aa/docs/production/PRODUCTION_PLAN.md) so that cross-references such as "§3.2.5" resolve the same way everywhere. Written by the lead (an AI coordinator); first-person notes ("my draft", "I adopt") are the lead's reconciliation record, kept so that dissent stays visible.
 
 **Approved as the working base for the frame blueprint.** Items marked *open* in §8.4 are decided in the frame's A3 packet. The ascetic's identity is settled: **unmarked by sect** (user, 2026-11-21). The charter is [../ETHICAL_CHARTER.md](../ETHICAL_CHARTER.md).
 

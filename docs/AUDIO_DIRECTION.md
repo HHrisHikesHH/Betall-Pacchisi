@@ -8,7 +8,7 @@ This document records the role of sound in the reading experience. It applies de
 | Sound-design principle and recommendations | §1 (second part), §3 | PROPOSED (P-006) |
 | Implementation considerations: loading, controls, asset register | §5 (second part), §6, §7 (second part) | PROPOSED or OPEN |
 
-The user's design brief of 2026-11-25 is in [DESIGN_BRIEF.md](DESIGN_BRIEF.md); D-072 bears on sound ([DECISIONS.md](DECISIONS.md); the answered [packet](DESIGN_DECISION_PACKET.md) is history).
+The user's design brief of 2026-11-25 is in [DESIGN_BRIEF.md](DESIGN_BRIEF.md); D-072 bears on sound ([DECISIONS.md](DECISIONS.md); the answered [packet](https://github.com/HHrisHikesHH/Betall-Pacchisi/blob/58d00606394f38801e94e4c258c431b02457f7aa/docs/DESIGN_DECISION_PACKET.md) is history).
 
 ## 1. Role of audio
 

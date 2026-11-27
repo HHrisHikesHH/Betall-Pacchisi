@@ -1,6 +1,6 @@
 # Hosting
 
-*Working note, 2026-11-24. Q-502 (hosting) is still open; Cloudflare is a provisional choice by the coordinator. This records no decision (see [LAUNCH_EXCEPTIONS.md](LAUNCH_EXCEPTIONS.md)). The first deploy attempt (Cloudflare build log, 2026-11-24 18:16 UTC) went through the Workers path, not Pages.*
+*Working note, 2026-11-24. Q-502 (hosting) is still open; Cloudflare is a provisional choice by the coordinator. This records no decision (see [LAUNCH_EXCEPTIONS.md](https://github.com/HHrisHikesHH/Betall-Pacchisi/blob/58d00606394f38801e94e4c258c431b02457f7aa/docs/LAUNCH_EXCEPTIONS.md)). The first deploy attempt (Cloudflare build log, 2026-11-24 18:16 UTC) went through the Workers path, not Pages.*
 
 The app is a static single-page site: no server, no environment secrets. `npm run build` writes everything to `dist/`.
 

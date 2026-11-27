@@ -2,7 +2,7 @@
 
 This document records the visual direction for the project's illustrations. It applies decisions D-023 to D-026, D-031 and D-063 to D-069 in [DECISIONS.md](DECISIONS.md). **The art style and reading layout are decided only in part** (the former layout preference PREF-001 is superseded by D-066). The questions are tracked in [OPEN_QUESTIONS.md](OPEN_QUESTIONS.md) (`Q-1xx`, `Q-2xx`).
 
-The user's design brief of 2026-11-25 is in [DESIGN_BRIEF.md](DESIGN_BRIEF.md); D-063 to D-069 bear on the visual direction ([DECISIONS.md](DECISIONS.md); the answered [packet](DESIGN_DECISION_PACKET.md) is history).
+The user's design brief of 2026-11-25 is in [DESIGN_BRIEF.md](DESIGN_BRIEF.md); D-063 to D-069 bear on the visual direction ([DECISIONS.md](DECISIONS.md); the answered [packet](https://github.com/HHrisHikesHH/Betall-Pacchisi/blob/58d00606394f38801e94e4c258c431b02457f7aa/docs/DESIGN_DECISION_PACKET.md) is history).
 
 ## 1. Purpose of illustration
 
