@@ -1,6 +1,6 @@
 # TC-001: your A3 decisions (batched D-041 packet)
 
-> **For the user.** This packet asks you for the decisions D-041 reserves for you before TC-001 can be drafted. **Everything below marked PROPOSED is not approved until you say so.** Nothing here is story text. Prepared 2026-11-24 by the TC-001 ethics-review context (AI) after the focused A3 re-check passed ([focused-recheck.md](focused-recheck.md)). Review status: **AI review only; `Human review not obtained`.** No Sanskritist, Hindi specialist or sensitivity reader has read the blueprint.
+> **For the user.** This packet asks you for the decisions D-041 reserves for you before TC-001 can be drafted. **Everything below marked PROPOSED is not approved until you say so.** Nothing here is story text. Prepared 2026-11-24 by the TC-001 ethics-review context (AI) after the focused A3 re-check passed ([focused-recheck.md](https://github.com/HHrisHikesHH/Betall-Pacchisi/blob/58d00606394f38801e94e4c258c431b02457f7aa/stories/TC-001/ethics/focused-recheck.md)). Review status: **AI review only; `Human review not obtained`.** No Sanskritist, Hindi specialist or sensitivity reader has read the blueprint.
 >
 > Blueprint reviewed: [../blueprint.md](../blueprint.md) at `main` `2426954` (last changed `ff290a5`). Section references (§) are to the blueprint.
 

@@ -1,28 +1,28 @@
 # First-release slate
 
-The 19 first-release tales and the frame (D-038). The long-term goal is 25 (D-001, D-035); later tales are added here after launch through the same process. Status values: [STORY_WORKFLOW.md](../docs/STORY_WORKFLOW.md) §4. Review status: §6.4.
+The 19 first-release tales and the frame (D-038). The long-term goal is 25 (D-001, D-035). This table is the **only** status record: there are no per-story status files. Status values and steps: [STORY_WORKFLOW.md](../docs/STORY_WORKFLOW.md#status-values-slatemd). Reading order: to be chosen by the user (D-086).
 
-| ID | Working title | Audit | Evidence confidence | Status | Review (AI / human) | Approved (hi / en) |
+| ID | Working title | Audit | Evidence confidence | Status | Approved (date, commit) | Note |
 |---|---|---|---|---|---|---|
-| [FRAME](FRAME/status.md) | The Vikram–Betal frame | strongest tier | — | `hindi-draft-2` | AI review of Draft 1; human review not obtained | — |
-| [TC-001](TC-001/status.md) | The prince who won a wife with his minister's son's help (Padmāvatī) | ADAPT | Moderate | `hindi-draft-2` (Hindi Draft 2 written 2026-11-24 by an AI writer in response to AI Critique 1; Critique 2 written 2026-11-25; Draft 3 not started) | AI review completed to Critique 2; human review not obtained | — |
-| [TC-002](TC-002/status.md) | Three young brahmans who restored a dead girl to life | ADAPT | Moderate to high | `research` | not started / not obtained | — |
-| [TC-003](TC-003/status.md) | The king and the two wise birds: are men or women worse? | MAJOR REWRITE | Moderate | `research` | not started / not obtained | — |
-| [TC-006](TC-006/status.md) | The woman who switched her husband's and brother's heads | ADAPT | High | `research` | not started / not obtained | — |
-| [TC-007](TC-007/status.md) | The king who married his dependant to a Nereid (Sattvaśīla) | ADAPT | High | `research` | not started / not obtained | — |
-| [TC-008](TC-008/status.md) | The three fastidious men (food, women, bed) | ADAPT | Moderate to high | `research` | not started / not obtained | — |
-| [TC-010](TC-010/status.md) | Madanasenā and her rash promise (the "promise tale") | ADAPT | High | `research` | not started / not obtained | — |
-| [TC-013](TC-013/status.md) | Harisvāmin, who died of poisoned food | ADAPT | High | `research` | not started / not obtained | — |
-| [TC-015](TC-015/status.md) | The magic pill (Manaḥsvāmin as a woman) | MAJOR REWRITE | Moderate | `research` | not started / not obtained | — |
-| [TC-016](TC-016/status.md) | The sacrifice of Jīmūtavāhana | ADAPT | High | `research` | not started / not obtained | — |
-| [TC-018](TC-018/status.md) | The brahman's son who failed to gain the magic power | ADAPT | High | `research` | not started / not obtained | — |
-| [TC-019](TC-019/status.md) | The thief's son: to whom should the funeral offering go? | MAJOR REWRITE | Moderate | `research` | not started / not obtained | — |
-| [TC-020](TC-020/status.md) | The brahman boy who laughed at his sacrifice | MAJOR REWRITE | Moderate | `research` | not started / not obtained | — |
-| [TC-021](TC-021/status.md) | Anaṅgamañjarī, Maṇivarman and Kamalākara | ADAPT | Moderate to high | `research` | not started / not obtained | — |
-| [TC-022](TC-022/status.md) | The four brothers who revived a lion | ADAPT | High | `research` | not started / not obtained | — |
-| [TC-024](TC-024/status.md) | The father who marries the daughter and the son who marries the mother (the final riddle) | ADAPT | Moderate to high | `research` (A1 files exist; AI research, not reviewed; formal acceptance not recorded) | none (A1 AI research only) / not obtained | — |
-| [TC-025](TC-025/status.md) | Four brothers and the harlot | MAJOR REWRITE | Low to moderate | `research` | not started / not obtained | — |
-| [TC-026](TC-026/status.md) | Mūladeva wins a bride for Śaśideva | ADAPT | Low to moderate (provisional) | `research` | not started / not obtained | — |
-| [TC-027](TC-027/status.md) | An ogre devastates Arimaulimaṇi's kingdom | MAJOR REWRITE | Low (provisional) | `research` | not started / not obtained | — |
+| FRAME | The Vikram–Betal frame | strongest tier | — | `not-started` | — | Rewrite in Voice A (D-078). Old drafts at commit 58d0060. |
+| TC-001 | The prince who won a wife with his minister's son's help (Padmāvatī) | ADAPT | Moderate | `published-draft` | — | Draft 2 (old voice) is in content/ as `status: draft`; rewrite in Voice A after the frame. |
+| TC-002 | Three young brahmans who restored a dead girl to life | ADAPT | Moderate to high | `not-started` | — |  |
+| TC-003 | The king and the two wise birds: are men or women worse? | MAJOR REWRITE | Moderate | `not-started` | — |  |
+| TC-006 | The woman who switched her husband's and brother's heads | ADAPT | High | `not-started` | — |  |
+| TC-007 | The king who married his dependant to a Nereid (Sattvaśīla) | ADAPT | High | `not-started` | — |  |
+| TC-008 | The three fastidious men (food, women, bed) | ADAPT | Moderate to high | `not-started` | — |  |
+| TC-010 | Madanasenā and her rash promise (the "promise tale") | ADAPT | High | `not-started` | — |  |
+| TC-013 | Harisvāmin, who died of poisoned food | ADAPT | High | `not-started` | — |  |
+| TC-015 | The magic pill (Manaḥsvāmin as a woman) | MAJOR REWRITE | Moderate | `not-started` | — |  |
+| TC-016 | The sacrifice of Jīmūtavāhana | ADAPT | High | `not-started` | — |  |
+| TC-018 | The brahman's son who failed to gain the magic power | ADAPT | High | `not-started` | — |  |
+| TC-019 | The thief's son: to whom should the funeral offering go? | MAJOR REWRITE | Moderate | `not-started` | — |  |
+| TC-020 | The brahman boy who laughed at his sacrifice | MAJOR REWRITE | Moderate | `not-started` | — |  |
+| TC-021 | Anaṅgamañjarī, Maṇivarman and Kamalākara | ADAPT | Moderate to high | `not-started` | — |  |
+| TC-022 | The four brothers who revived a lion | ADAPT | High | `not-started` | — |  |
+| TC-024 | The father who marries the daughter and the son who marries the mother (the final riddle) | ADAPT | Moderate to high | `not-started` | — | Research files exist. |
+| TC-025 | Four brothers and the harlot | MAJOR REWRITE | Low to moderate | `not-started` | — |  |
+| TC-026 | Mūladeva wins a bride for Śaśideva | ADAPT | Low to moderate (provisional) | `not-started` | — |  |
+| TC-027 | An ogre devastates Arimaulimaṇi's kingdom | MAJOR REWRITE | Low (provisional) | `not-started` | — |  |
 
 **Not on the slate:** suspended TC-004, 005, 012, 014, 017, 023 (reconsidered only at the user's request); rejected TC-009, 011.
