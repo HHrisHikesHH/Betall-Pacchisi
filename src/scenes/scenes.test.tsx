@@ -77,16 +77,16 @@ describe('launch cues for kamal-ke-teen-ishare', () => {
     }
   });
 
-  it('has no art cue for the branding night, section 11 (paragraphs 36 to 39)', () => {
-    expect(cues.filter((c) => c.index >= 36 && c.index <= 39)).toEqual([]);
+  it('has no art cue for the branding night (paragraphs 40 to 45, Voice A text of 2026-11-27)', () => {
+    expect(cues.filter((c) => c.index >= 40 && c.index <= 45)).toEqual([]);
     // the scene holding through those paragraphs is dark and has no art
-    const holding = [...cues].reverse().find((c) => c.index < 36)!;
+    const holding = [...cues].reverse().find((c) => c.index < 40)!;
     expect(holding.art).toBeNull();
     expect(holding.mood).toBe('night');
   });
 
-  it('adds no new art in the verdict (58 to 65) and ends neutral', () => {
-    const verdict = cues.filter((c) => c.index >= 58);
+  it('adds no new art in the verdict and ending (65 on) and ends neutral', () => {
+    const verdict = cues.filter((c) => c.index >= 65);
     expect(verdict.every((c) => c.art === null)).toBe(true);
     expect(cues[cues.length - 1]).toMatchObject({ art: null, mood: 'neutral' });
   });

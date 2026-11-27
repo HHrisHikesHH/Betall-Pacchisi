@@ -111,18 +111,19 @@ describe('launch cues: deliberate silence (D-027)', () => {
   const holding = (i: number) => [...cues].reverse().find((c) => c.index <= i)!;
   const bedAt = (i: number) => bedFor(holding(i));
 
-  it('has sound "silence" on cues 0, 34 and 58', () => {
-    for (const i of [0, 34, 58]) expect(cues.find((c) => c.index === i)?.sound).toBe('silence');
+  // Paragraph indices of the Voice A text (2026-11-27): 81 paragraphs.
+  it('has sound "silence" on cues 0, 39 and 65', () => {
+    for (const i of [0, 39, 65]) expect(cues.find((c) => c.index === i)?.sound).toBe('silence');
   });
-  it('plays no bed at the cover, the marking night (34 to 39) or the verdict (58 to 65)', () => {
-    for (const i of [0, 34, 35, 36, 37, 38, 39, 58, 59, 60, 61, 62, 63, 64, 65]) {
+  it('plays no bed at the cover, the marking night (39 to 45) or the verdict and ending (65 to 80)', () => {
+    for (const i of [0, 39, 40, 41, 42, 43, 44, 45, 65, 70, 75, 80]) {
       expect(bedAt(i), `paragraph ${i}`).toBeNull();
     }
   });
   it('plays the beds of the story between', () => {
     const expected: [number, string][] = [
-      [1, 'day'], [7, 'day'], [8, 'day'], [16, 'day'], [17, 'dusk'], [33, 'dusk'],
-      [40, 'fire'], [45, 'fire'], [46, 'day'], [49, 'day'], [50, 'dusk'], [51, 'dusk'], [52, 'forest'], [57, 'forest'],
+      [3, 'day'], [11, 'day'], [12, 'day'], [20, 'day'], [21, 'dusk'], [38, 'dusk'],
+      [46, 'fire'], [51, 'fire'], [52, 'day'], [55, 'day'], [56, 'dusk'], [58, 'dusk'], [59, 'forest'], [64, 'forest'],
     ];
     for (const [i, bed] of expected) expect(bedAt(i), `paragraph ${i}`).toBe(bed);
   });
