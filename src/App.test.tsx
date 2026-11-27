@@ -104,5 +104,7 @@ it('renders the real content from /content without errors', async () => {
     </MemoryRouter>,
   );
   expect(await screen.findByRole('heading', { level: 1, name: new RegExp(realStories[0].title) })).toBeInTheDocument();
-  expect(screen.getByRole('note')).toBeInTheDocument();
+  // Placeholder and draft texts carry a labelled banner; approved text (D-083) does not.
+  if (realStories[0].status === 'approved') expect(screen.queryByRole('note')).not.toBeInTheDocument();
+  else expect(screen.getByRole('note')).toBeInTheDocument();
 });
