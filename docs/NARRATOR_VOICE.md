@@ -42,6 +42,10 @@ They come from a study of how Osho tells the frame story (tale 1), made from a B
 - Asides under about 10% of a tale's words, and no more than 3 sentences each.
 - No ending sermon. The tale ends on the story or on Betal's question.
 
+## Chapter endings (D-090)
+
+Every tale ends by pulling the reader into the next. Use a cliffhanger, a taunt, a turn, or an image: something creative and different each time. Build it from the frame situation, such as Betal's laugh and what he says as he goes back, the king's body and mind, the hour, or the walk to the tree. Never name the next tale's content or its number.
+
 ## Callbacks
 
 Use them only where a tale has a real use for one (D-087). The rules are in [CALLBACKS.md](../stories/CALLBACKS.md).

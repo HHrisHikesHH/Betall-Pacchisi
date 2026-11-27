@@ -5,6 +5,7 @@ export const ui = {
   previous: 'पिछली',
   next: 'अगली',
   storyNumber: (n: number) => `कथा ${n.toLocaleString('hi-IN-u-nu-deva')}`,
+  frameLabel: 'कथामुख',
   placeholderBadge: 'नमूना — कथा नहीं',
   placeholderBanner: 'नमूना पाठ — यह संग्रह की कोई कथा नहीं है। यह पृष्ठ केवल पठन अनुभव परखने के लिए है।',
   draftBadge: 'मसौदा',
@@ -29,7 +30,7 @@ export const ui = {
 export const pothiUi = {
   open: 'पोथी खोलें',
   sampleNote: [
-    'यह एक नमूना है। पाठ मसौदा है, जिसकी समीक्षा नहीं हुई।',
+    'यह पोथी का एक नमूना है।',
     'चित्र AI से बना है और इस पाठ का कोई दृश्य नहीं है।',
   ],
   aiCredit: 'चित्र: AI से निर्मित',
