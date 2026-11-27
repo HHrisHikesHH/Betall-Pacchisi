@@ -3,7 +3,9 @@ order: 1
 slug: katha-ka-aarambh
 title: कथा का आरंभ
 summary: दस बरस तक रोज़ एक फल, एक रत्न, और आधी रात का श्मशान, जहाँ एक मुर्दा राजा से बात करता है।
-status: draft
+status: approved
+approved_on: 2026-11-27
+approved_commit: 55670ce
 kind: frame
 ---
 
