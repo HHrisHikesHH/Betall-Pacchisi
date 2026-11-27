@@ -17,13 +17,15 @@ export function readSlate(root = ROOT) {
   const out = [];
   for (const line of readFileSync(file, "utf8").split("\n")) {
     const c = line.split("|").map((s) => s.trim());
-    if (!/^(FRAME|TC-\d{3})$/.test(c[1] ?? "")) continue;
+    // Columns: # | ID | title | audit | evidence | status | approved | note
+    if (!/^(FRAME|TC-\d{3})$/.test(c[2] ?? "")) continue;
     out.push({
-      id: c[1],
-      title: c[2],
-      status: c[5]?.match(/`([^`]+)`/)?.[1] ?? "unknown",
-      approved: !!c[6] && c[6] !== "—",
-      note: c[7] ?? "",
+      position: c[1],
+      id: c[2],
+      title: c[3],
+      status: c[6]?.match(/`([^`]+)`/)?.[1] ?? "unknown",
+      approved: !!c[7] && c[7] !== "—",
+      note: c[8] ?? "",
     });
   }
   return out.map((s) => ({ ...s, waitingOnUser: s.status === "user-review" }));

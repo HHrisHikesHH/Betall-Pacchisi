@@ -38,7 +38,7 @@ Variants: Ś, J, H give the villain a sect or trade, a prehistory for Betal (oil
 - **Where the frame ends for the first release (D-054):** "a release must include the frame, completed through its ending, and TC-024". Minimum cut: B09, B10, B10a, B10b, B15 (fused with end of B10b), TC-024, B16, then B17–B35.
 - **Penalty placement (D-057B):** with the first shipped tale's question; if TC-024 is alone, with its question, before the king falls silent. Draft it as its own short segment (G15), since it migrates when a tale ships earlier.
 - **Our answer to Betal's ending:** the source has no riddle here; the frame's moral question is the killing, left open (D-055 R3).
-- **Not yet approved (our composition):** B10a's staging and its permanence; the staged form of B09's non-causal return; the rite's kit and menace (B22); the blessing's tone (B30); the closing image (B35); the release-invariant wording of B15, B19, B28, B29 (G17). Voice A's lines of foreshadowing ("a big ask follows") would violate D-058 item 1, so cut them from the voice-test opening.
+- **Not yet approved (our composition):** B10a's staging and its permanence; the staged form of B09's non-causal return; the rite's kit and menace (B22); the blessing's tone (B30); the closing image (B35); the release-invariant wording of B15, B19, B28, B29 (G17). Voice A's closing line ("माँग छोटी नहीं होती") stays: the source does have him make a big request (B04), so it is supported, not the invented foreshadowing D-058 item 1 bars. (Coordinator correction, 2026-11-27.)
 - **Honest-difficulty:** a reader may think the king right to kill a man who plotted his death, or wrong to kill a host on a spirit's word alone.
 
 ## 3. Locked directions
@@ -46,7 +46,7 @@ Variants: Ś, J, H give the villain a sect or trade, a prehistory for Betal (oil
 - D-055: R1 keep the name Kṣāntiśīla, "describe him by function with no sect word; provisional until a Hindi sensitivity read"; R2 "layered and unresolved; the narration shows his laugh, not his reasons"; R3 "the prize stays in Betal's warning and is never shown delivered"; R4 heart-and-head offering "kept, restrained, no applause"; R5 "Betal departs by his own power; the word 'free' is not used"; R6 "no divine coda; the night closes on the boon and dawn"; R7 the mleccha/asura passage cut; R8 the unmarked voice is now superseded by D-078.
 - D-056: no friendship, self-sacrifice, conversion, apology or stated sympathy; J supplies only the plan; self-preservation may be inferred but not asserted.
 - D-057 and D-058 (six corrections): no B14 seeds; no guarantee of Betal's honesty; killing's two layers; boon proves nothing, no refusal of power claimed; no incidental burning-ground figures; coerced remarriage is harm (TC-024's own A3).
-- D-078: narrator is Voice A, "तुम"; supersedes the blueprint's voice-neutrality rule. D-053 is marked superseded by D-080 although D-055 R1 is what settled the name.
+- D-078: narrator is Voice A, "तुम"; supersedes the blueprint's voice-neutrality rule. D-053 (no sect words) stands; D-055 R1 settled the name.
 
 ## 4. Charter points
 - Ascetic by function only, no sect marker or tantrik/Kāpālika imagery (3.2.5); his act is not a community's character (3.2.8).
