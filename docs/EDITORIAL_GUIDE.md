@@ -4,6 +4,8 @@ This guide explains how stories should be written and judged. It applies decisio
 
 ## 1. The narrator
 
+> **Updated 2026-11-27:** the narrator is now Voice A, and [NARRATOR_VOICE.md](NARRATOR_VOICE.md) governs (D-078, D-079). Where this section conflicts with it, NARRATOR_VOICE wins.
+
 **APPROVED (D-007, D-008, D-033)**
 
 The narrator is **not a character standing outside the story to explain it**. The narrator is the way the story is told. Two things need to be kept apart:

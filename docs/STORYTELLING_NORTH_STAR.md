@@ -30,6 +30,8 @@ Do not force a lesson, a transformation or an interpretation onto the reader. Th
 
 ## 5. The storyteller
 
+> **Updated 2026-11-27:** the narrator is now Voice A, and [NARRATOR_VOICE.md](NARRATOR_VOICE.md) governs (D-078, D-079). Where this section conflicts with it, NARRATOR_VOICE wins.
+
 ### 5.1 What is approved
 
 - The **manner of telling changes** with the story and the moment: contemplative, expressive, humorous, suspenseful, warm, challenging or quiet (D-007). The narrator is not an outside lecturer or a fixed philosophical character.

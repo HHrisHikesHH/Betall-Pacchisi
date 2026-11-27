@@ -13,8 +13,7 @@
       "Bash(git diff *)",
       "Bash(git branch --show-current)",
       "Bash(git fetch *)",
-      "Bash(gh pr list *)",
-      "Bash(gh pr view *)"
+      "Bash(gh api repos/HHrisHikesHH/Betall-Pacchisi/pulls*)"
     ]
   },
   "hooks": {

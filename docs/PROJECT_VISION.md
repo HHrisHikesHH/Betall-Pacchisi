@@ -4,7 +4,7 @@
 
 > The storytelling identity in practical form is in [STORYTELLING_NORTH_STAR.md](STORYTELLING_NORTH_STAR.md) (D-036).
 
-The user's design brief of 2026-11-25 is in [DESIGN_BRIEF.md](DESIGN_BRIEF.md); the user's answers are recorded as D-063 to D-074 ([DECISIONS.md](DECISIONS.md); the answered [packet](DESIGN_DECISION_PACKET.md) is history).
+The user's design brief of 2026-11-25 is in [DESIGN_BRIEF.md](DESIGN_BRIEF.md); the user's answers are recorded as D-063 to D-074 ([DECISIONS.md](DECISIONS.md); the answered [packet](https://github.com/HHrisHikesHH/Betall-Pacchisi/blob/58d00606394f38801e94e4c258c431b02457f7aa/docs/DESIGN_DECISION_PACKET.md) is history).
 
 ## The ambition
 

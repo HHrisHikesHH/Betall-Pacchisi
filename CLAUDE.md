@@ -1,47 +1,46 @@
-# Betal Pachisi: project orientation
+# Betal Pachisi
 
-A browser-based, Hindi-first reading experience for the 25 Vikram–Betal tales (Betal Pachisi). English adaptation comes later. The app has no approved name; "Betall-Pacchisi" is only the repository name.
+A Hindi-first web reading experience of the Vikram–Betal tales: the frame plus 19 tales in the first release (D-038), with 25 as the goal. English comes later (D-012). "Betall-Pacchisi" is only the repo name.
 
-**Current phase:** agile product development (D-037). Build a usable version, learn, iterate. Open research questions are not blockers. Status: [docs/HANDOFF.md](docs/HANDOFF.md). Plan: [docs/PROJECT_PLAN.md](docs/PROJECT_PLAN.md).
+**The goal is published stories.** Every story PR changes `content/` (D-084). A PR that only changes process is allowed only when it unblocks writing.
 
-## Mandatory: operating protocol
+## Read first (and only)
 
-**Every new Claude Code session must read and follow [docs/CLAUDE_OPERATING_PROTOCOL.md](docs/CLAUDE_OPERATING_PROTOCOL.md)** (authority and conflict resolution, startup, modes, evidence, story workflow, repository discipline, reviews, roles and independence, reporting) before doing any task. It is the single protocol for all Claude-led work; no other AI tool is part of the workflow. This file is only the orientation; the protocol governs how you work. Nothing in it is permission to commit, push, open a PR or merge: those need the task's explicit authorisation, and merging is always the user's.
+1. This file.
+2. Live state: `git status --short --branch`, `git log -1`, open PRs (`gh api repos/HHrisHikesHH/Betall-Pacchisi/pulls`).
+3. [stories/SLATE.md](stories/SLATE.md): the only status table.
+4. Then what the task needs: [docs/STORY_WORKFLOW.md](docs/STORY_WORKFLOW.md), [docs/NARRATOR_VOICE.md](docs/NARRATOR_VOICE.md), [docs/ETHICAL_CHARTER.md](docs/ETHICAL_CHARTER.md), and the [docs/DECISIONS.md](docs/DECISIONS.md) entries it touches.
 
-Startup, in order: the protocol; [docs/README.md](docs/README.md) (authority map); [docs/HANDOFF.md](docs/HANDOFF.md) (a **dated snapshot**, never an authority); the [docs/DECISIONS.md](docs/DECISIONS.md) entries the task touches; then live git and GitHub state (`git status --short --branch`, `git log -1`, open PRs). A Claude **conversation** (not Claude Code) starts from [docs/AI_SESSION_START.md](docs/AI_SESSION_START.md).
+## Roles
+
+- **The user** decides creative and story matters, approves decisions and texts, and merges every PR.
+- **The coordinator** (a Claude conversation) runs the workflow, picks models, writes PRs and checks results from the files. It may branch, commit, push and open PRs for a given task. It never merges.
+
+## Rules that stay
+
+- **Decisions:** only the user decides. Record his decisions in DECISIONS.md with the date; never promote a proposal silently.
+- **`approved`** means the user approved it. The story's front matter then carries `approved_on` and `approved_commit` (D-083). Ask before writing `status: approved`.
+- **Content and code stay separate** (D-015). Never mix `src/` with `content/` or `stories/` in one commit.
+- **Never present invented text as an authentic tale.** Unreviewed text is `status: placeholder` or `draft`, and the reader labels it.
+- **Spend effort only where it pays off later** (D-085). No new process documents, trace files or review loops (D-082).
 
 ## Stack and commands
 
-Vite + React 19 + TypeScript + react-router-dom 7, tests with Vitest + jsdom + Testing Library. Static site, no backend. These are working, reversible choices (D-037).
+Vite + React 19 + TypeScript + react-router-dom 7; Vitest + jsdom. Static site, no backend. Hosting: [docs/HOSTING.md](docs/HOSTING.md).
 
 ```bash
-npm install         # once
-npm run dev         # local dev server (http://localhost:5173)
-npm test            # unit and page tests
-npm run typecheck
-npm run build       # typecheck + production build into dist/
-npm run preview     # serve the built site (http://localhost:4173)
+npm install
+npm run dev          # http://localhost:5173
+npm test
+npm run build        # typecheck + build
+npm run docs:check   # links and decision IDs; CI runs it
 ```
 
 ## Where things live
 
-- `content/`: creative content, kept separate from code (D-015).
-  - `content/collection.hi.json`: collection title, subtitle, intro.
-  - `content/stories/hi/<slug>.md`: one story per file. Front matter `order`, `slug`, `title`, `summary`, `status` (`placeholder` | `draft` | `approved`), then paragraphs separated by blank lines. Adding a file adds a story; no code change. Invalid files fail the tests and the build with a message naming the file.
-- `src/content/`: loader, front-matter parser, validation. `src/pages/`: collection, story reader, not-found. `src/i18n/hi.ts`: all interface text.
-- `.claude/`: Claude Code tooling (commands, guard hook, status line, `/next`). See [.claude/README.md](.claude/README.md).
-- `stories/`: per-story editorial records (D-045): research, blueprints, drafts, critiques, verification, approvals. Never read by the app; only approved text is copied into `content/` (D-047).
-- Production: [docs/production/PRODUCTION_PLAN.md](docs/production/PRODUCTION_PLAN.md) is the governing plan for stories; [docs/ETHICAL_CHARTER.md](docs/ETHICAL_CHARTER.md) binds every tale and the frame.
-- `docs/`: project documentation and research. [docs/DECISIONS.md](docs/DECISIONS.md) is the authority on every decision.
-
-## Working rules
-
-- **Never present invented text as an authentic tale.** Until a tale has gone through the story workflow ([docs/STORY_WORKFLOW.md](docs/STORY_WORKFLOW.md)), story files are `status: placeholder` and say so in their text. The reader shows a placeholder banner for them.
-- Hindi first; English only after the Hindi is approved (D-012). Do not write or adapt tales unless the user asks.
-- Software changes must not overwrite story content (D-015): content edits and code edits go in separate commits.
-- Make reasonable, reversible technical decisions without waiting; record anything the user decides in DECISIONS.md, never promote a proposal silently.
-- Keep docs proportional. Update [docs/HANDOFF.md](docs/HANDOFF.md) and [docs/PROJECT_PLAN.md](docs/PROJECT_PLAN.md) at the end of a meaningful session.
-- Work on a feature branch; run `npm test` and `npm run build` before committing. Never merge to `main` yourself: the user merges.
-- Documentation-only changes also run `npm run docs:check` (links, anchors, decision IDs, status consistency).
-
-Note: story bodies are **plain text**, not Markdown. `*bold*` or `# heading` show literally. Keep it that way until a real tale needs formatting.
+- `content/stories/hi/<slug>.md`: what the app shows. The front matter is `order`, `slug`, `title`, `summary`, `status` (`placeholder` | `draft` | `approved`). The body is **plain text**, with paragraphs separated by blank lines.
+- `content/collection.hi.json`: collection title and intro. `src/i18n/hi.ts`: all interface text.
+- `stories/<ID>/`: brief, draft, critique, revision, research. See [stories/README.md](stories/README.md). Callbacks: [stories/CALLBACKS.md](stories/CALLBACKS.md).
+- Source notes: `docs/selection/story-buckets/`, [docs/production/SLATE_AUDIT.md](docs/production/SLATE_AUDIT.md), [docs/production/FRAME_PROPOSAL.md](docs/production/FRAME_PROPOSAL.md), `docs/research/`.
+- Design (parked, D-088): `docs/DESIGN_BRIEF.md`, `docs/ART_DIRECTION.md`, `docs/AUDIO_DIRECTION.md`.
+- Old process documents were deleted in the reset of 2026-11-27. They are still readable at commit `58d0060`.

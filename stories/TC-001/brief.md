@@ -8,7 +8,7 @@ The user has already agreed that TC-013 and TC-001 are the pilots (PRODUCTION_PL
 
 | Item | State |
 |---|---|
-| Record | [status.md](status.md): `research`, A1 **not started** |
+| Record | [status.md](https://github.com/HHrisHikesHH/Betall-Pacchisi/blob/58d00606394f38801e94e4c258c431b02457f7aa/stories/TC-001/status.md): `research`, A1 **not started** |
 | Audit | **ADAPT (substantial)** ([SLATE_AUDIT.md](../../docs/production/SLATE_AUDIT.md) §5, entry TC-001), confidence M; caste L–M, gender **H**, power M |
 | User direction | **D-048:** preserve the justice-and-inquiry dilemma **while examining the accomplices' guilt**; the king's duty to inquire must not erase their responsibility (SLATE_AUDIT §5.0) |
 | Dossier | [docs/selection/story-buckets/TC-001.md](../../docs/selection/story-buckets/TC-001.md) |

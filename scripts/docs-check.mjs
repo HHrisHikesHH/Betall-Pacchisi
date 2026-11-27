@@ -5,11 +5,11 @@
 //   a. relative markdown links and #anchors resolve (CLAUDE.md, README.md, docs/**, stories/**)
 //   b. every D-nnn, Q-nnn, P-nnn referenced in docs/ or stories/ is defined in
 //      docs/DECISIONS.md or docs/OPEN_QUESTIONS.md
-//   c. "ChatGPT" mentions: FAIL in CLAUDE.md, docs/README.md, docs/AI_SESSION_START.md
-//      (WARN if the line is only a link into docs/archive/); WARN elsewhere except
-//      allowlisted history locations (docs/archive/, stories/**, HANDOFF.md, protocol "History" bullet)
-//   d. stories/<ID>/status.md status value matches its row in stories/SLATE.md
-//   e. byte sizes of the startup-read set; WARN if HANDOFF.md > 15 KB
+//   c. "ChatGPT" in CLAUDE.md (the startup file) is a FAIL; it is not part of the workflow
+//   e. CLAUDE.md size; WARN if over 8 KB (it must stay a one-page orientation)
+//
+// Links into deleted pre-reset files point at the GitHub permalink of commit 58d0060
+// (D-085), so they are external and not checked here.
 
 import { existsSync, readdirSync, readFileSync, statSync } from "node:fs";
 import { dirname, join, relative, resolve, sep } from "node:path";
@@ -163,79 +163,19 @@ for (const [id, files] of [...missing].sort()) {
 }
 report("INFO", "b", `${defined.size} IDs defined in DECISIONS.md / OPEN_QUESTIONS.md`);
 
-// ---------- c. ChatGPT mentions ----------
-const STRICT = new Set(["CLAUDE.md", "docs/README.md", "docs/AI_SESSION_START.md"]);
-const isAllowlisted = (path, line) =>
-  path.startsWith("docs/archive/") ||
-  path.startsWith("stories/") ||
-  path === "docs/HANDOFF.md" ||
-  // the "History" bullet of protocol section K
-  (path === "docs/CLAUDE_OPERATING_PROTOCOL.md" && /^\s*-\s+\*\*History\.\*\*/.test(line));
-for (const file of linkFiles) {
-  const path = rel(file);
+// ---------- c. ChatGPT in the startup file ----------
+for (const file of linkFiles.filter((f) => rel(f) === "CLAUDE.md")) {
   read(file).split("\n").forEach((line, i) => {
-    if (!/chatgpt/i.test(line)) return;
-    if (STRICT.has(path)) {
-      // A line that only points at the archived protocol is history, not a live reference: WARN.
-      if (/\]\((?:\.\.\/)?(?:docs\/)?archive\//.test(line)) report("WARN", "c", `${path}:${i + 1}: "ChatGPT" mention is a pointer into docs/archive/ (kept as history; review wording)`);
-      else report("FAIL", "c", `${path}:${i + 1}: "ChatGPT" mentioned in a startup file`);
-    }
-    else if (!isAllowlisted(path, line)) report("WARN", "c", `${path}:${i + 1}: "ChatGPT" mention outside allowlisted history`);
+    if (/chatgpt/i.test(line)) report("FAIL", "c", `CLAUDE.md:${i + 1}: "ChatGPT" mentioned in the startup file`);
   });
 }
 
-// ---------- d. story status.md vs SLATE.md ----------
-const slatePath = join(ROOT, "stories", "SLATE.md");
-if (!existsSync(slatePath)) {
-  report("WARN", "d", "stories/SLATE.md not found; status comparison skipped");
-} else {
-  const slate = new Map();
-  for (const line of read(slatePath).split("\n")) {
-    const cells = line.split("|").map((c) => c.trim());
-    const id = cells[1]?.match(/^\[([A-Z0-9-]+)\]\([^)]*status\.md\)/)?.[1];
-    if (!id) continue;
-    const val = cells[5]?.match(/`([^`]+)`/)?.[1];
-    slate.set(id, val ?? null);
-  }
-  const storiesDir = join(ROOT, "stories");
-  let compared = 0;
-  for (const name of readdirSync(storiesDir).sort()) {
-    const sp = join(storiesDir, name, "status.md");
-    if (!existsSync(sp)) continue;
-    if (!slate.has(name)) {
-      report("WARN", "d", `stories/${name}/status.md has no parseable row in stories/SLATE.md`);
-      continue;
-    }
-    const row = read(sp).split("\n").find((l) => /^\|\s*Current status\s*\|/.test(l));
-    const fileVal = row?.split("|")[2]?.match(/`([^`]+)`/)?.[1];
-    const slateVal = slate.get(name);
-    if (!fileVal || !slateVal) {
-      report("WARN", "d", `${name}: could not parse a status value reliably (status.md: ${fileVal ?? "none"}, SLATE.md: ${slateVal ?? "none"}); comparison skipped`);
-      continue;
-    }
-    compared++;
-    if (fileVal !== slateVal) report("FAIL", "d", `${name}: status.md says \`${fileVal}\` but SLATE.md says \`${slateVal}\``);
-  }
-  report("INFO", "d", `${compared} status.md files compared with SLATE.md (first backticked token of each status cell)`);
-}
-
-// ---------- e. startup-read set sizes ----------
-const startup = ["CLAUDE.md", "docs/CLAUDE_OPERATING_PROTOCOL.md", "docs/README.md", "docs/HANDOFF.md", "docs/DECISIONS.md", "docs/OPEN_QUESTIONS.md"];
-let total = 0;
-for (const p of startup) {
-  const f = join(ROOT, p);
-  if (!existsSync(f)) {
-    report("WARN", "e", `${p} is missing`);
-    continue;
-  }
-  const bytes = statSync(f).size;
-  total += bytes;
-  report("INFO", "e", `${p}: ${bytes} bytes (${(bytes / 1024).toFixed(1)} KB)`);
-}
-report("INFO", "e", `startup-read set total: ${total} bytes (${(total / 1024).toFixed(1)} KB)`);
-const handoff = join(ROOT, "docs/HANDOFF.md");
-if (existsSync(handoff) && statSync(handoff).size > 15 * 1024) {
-  report("WARN", "e", `docs/HANDOFF.md is ${(statSync(handoff).size / 1024).toFixed(1)} KB, over the 15 KB guide`);
+// ---------- e. CLAUDE.md size ----------
+const claudeMd = join(ROOT, "CLAUDE.md");
+if (existsSync(claudeMd)) {
+  const bytes = statSync(claudeMd).size;
+  report("INFO", "e", `CLAUDE.md: ${bytes} bytes (${(bytes / 1024).toFixed(1)} KB)`);
+  if (bytes > 8 * 1024) report("WARN", "e", `CLAUDE.md is over the 8 KB guide; keep it one page`);
 }
 
 // ---------- output ----------

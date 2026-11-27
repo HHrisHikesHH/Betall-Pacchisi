@@ -10,12 +10,12 @@ Compiled 2026-11-18 by an AI session (Claude Code) on branch `selection/27-candi
 
 | File | Use it for |
 |---|---|
-| [SELECTION_OVERVIEW.md](SELECTION_OVERVIEW.md) | **Start here.** All 27 in one table; the pool through the seven proposed lenses; variety, gaps and the hardest trade-offs |
-| [SELECTION_DECISION_SHEET.md](SELECTION_DECISION_SHEET.md) | The owner's worksheet: one entry per candidate with a **blank** decision field, then collection-level questions |
+| [SELECTION_OVERVIEW.md](https://github.com/HHrisHikesHH/Betall-Pacchisi/blob/58d00606394f38801e94e4c258c431b02457f7aa/docs/selection/SELECTION_OVERVIEW.md) | **Start here.** All 27 in one table; the pool through the seven proposed lenses; variety, gaps and the hardest trade-offs |
+| [SELECTION_DECISION_SHEET.md](https://github.com/HHrisHikesHH/Betall-Pacchisi/blob/58d00606394f38801e94e4c258c431b02457f7aa/docs/selection/SELECTION_DECISION_SHEET.md) | The owner's worksheet: one entry per candidate with a **blank** decision field, then collection-level questions |
 | [story-buckets/](story-buckets/) | One dossier per family, TC-001 to TC-027 |
-| [COMPARISON_BUCKETS.md](COMPARISON_BUCKETS.md) | Fourteen tested overlaps: which pairs share a plot, a dilemma, or only a motif |
-| [RESEARCH_IMPACT_AUDIT.md](RESEARCH_IMPACT_AUDIT.md) | Whether research items N4–N9 are needed before choosing (in short: none is; two are worth a narrow check on a shortlist) |
-| [SUPPLEMENTARY_MATERIAL_REGISTER.md](SUPPLEMENTARY_MATERIAL_REGISTER.md) | Leads outside the 27, with honest status labels |
+| [COMPARISON_BUCKETS.md](https://github.com/HHrisHikesHH/Betall-Pacchisi/blob/58d00606394f38801e94e4c258c431b02457f7aa/docs/selection/COMPARISON_BUCKETS.md) | Fourteen tested overlaps: which pairs share a plot, a dilemma, or only a motif |
+| [RESEARCH_IMPACT_AUDIT.md](https://github.com/HHrisHikesHH/Betall-Pacchisi/blob/58d00606394f38801e94e4c258c431b02457f7aa/docs/selection/RESEARCH_IMPACT_AUDIT.md) | Whether research items N4–N9 are needed before choosing (in short: none is; two are worth a narrow check on a shortlist) |
+| [SUPPLEMENTARY_MATERIAL_REGISTER.md](https://github.com/HHrisHikesHH/Betall-Pacchisi/blob/58d00606394f38801e94e4c258c431b02457f7aa/docs/selection/SUPPLEMENTARY_MATERIAL_REGISTER.md) | Leads outside the 27, with honest status labels |
 
 ## The frozen scope: 27 candidates
 
@@ -65,7 +65,7 @@ Each group tests a suspected overlap against the actual events and dilemmas, and
 
 ## Decisions that stay with the owner
 
-- Which 25 tales (Q-411), and which J-only tales are admitted. Since only 24 candidates are core, any 25 drawn wholly from this pool includes at least one J-only tale (two if one core tale is excluded; all three if two are). If all three are ruled out, a 25th would need a bounded outside investigation (N7). See [SELECTION_OVERVIEW.md](SELECTION_OVERVIEW.md) §5.
+- Which 25 tales (Q-411), and which J-only tales are admitted. Since only 24 candidates are core, any 25 drawn wholly from this pool includes at least one J-only tale (two if one core tale is excluded; all three if two are). If all three are ruled out, a 25th would need a bounded outside investigation (N7). See [SELECTION_OVERVIEW.md](https://github.com/HHrisHikesHH/Betall-Pacchisi/blob/58d00606394f38801e94e4c258c431b02457f7aa/docs/selection/SELECTION_OVERVIEW.md) §5.
 - Whether TC-008 and TC-011 share a slot, and how many reaction or suitor riddles the collection carries.
 - Whether TC-024 is one of the 25 (Q-411). It is a distinct Betal-narrated tale under D-035; Q-002 governs only how the outer frame is presented.
 - Which version of a tale is used (D-034; Q-401, Q-408), including TC-010's, TC-020's and TC-026's endings and answers.

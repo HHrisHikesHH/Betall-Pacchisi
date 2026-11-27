@@ -8,7 +8,7 @@ The user has already agreed that TC-013 and TC-001 are the pilots (PRODUCTION_PL
 
 | Item | State |
 |---|---|
-| Record | [status.md](status.md): `research`, A1 **not started** |
+| Record | [status.md](https://github.com/HHrisHikesHH/Betall-Pacchisi/blob/58d00606394f38801e94e4c258c431b02457f7aa/stories/TC-013/status.md): `research`, A1 **not started** |
 | Audit | **ADAPT** ([SLATE_AUDIT.md](../../docs/production/SLATE_AUDIT.md) §5, entry TC-013), confidence High; caste M, gender M, power L |
 | Dossier | [docs/selection/story-buckets/TC-013.md](../../docs/selection/story-buckets/TC-013.md) (evidence summary; not a selection) |
 | Evidence | [SOMADEVA_TALE_EVIDENCE.md](../../docs/research/SOMADEVA_TALE_EVIDENCE.md) N1 record TC-013 (KSS 12.20.1–60 read in the GRETIL Sanskrit by an AI; not collated with the 1915 print) |

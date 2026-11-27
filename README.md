@@ -237,7 +237,7 @@ npm install
 npm run dev        # http://localhost:5173
 ```
 
-Other commands: `npm test` (tests), `npm run typecheck`, `npm run build` (production build into `dist/`), `npm run preview` (serve the build at http://localhost:4173). Story files live in `content/stories/hi/`; see [CLAUDE.md](CLAUDE.md#where-things-live) for the format. Current status: [docs/HANDOFF.md](docs/HANDOFF.md); milestones: [docs/PROJECT_PLAN.md](docs/PROJECT_PLAN.md).
+Other commands: `npm test` (tests), `npm run typecheck`, `npm run build` (production build into `dist/`), `npm run preview` (serve the build at http://localhost:4173). Story files live in `content/stories/hi/`; see [CLAUDE.md](CLAUDE.md#where-things-live) for the format. Current status: [stories/SLATE.md](stories/SLATE.md); workflow: [docs/STORY_WORKFLOW.md](docs/STORY_WORKFLOW.md).
 
 <br>
 

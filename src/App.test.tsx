@@ -8,7 +8,7 @@ import type { Collection } from './content';
 
 const collection: Collection = { title: 'संग्रह', subtitle: 'उपशीर्षक', intro: 'परिचय' };
 const story = (order: number, slug: string, title: string, status = 'placeholder') =>
-  `---\norder: ${order}\nslug: ${slug}\ntitle: ${title}\nsummary: ${title} का सार\nstatus: ${status}\n---\n${title} का पहला अनुच्छेद\n\n${title} का दूसरा अनुच्छेद\n`;
+  `---\norder: ${order}\nslug: ${slug}\ntitle: ${title}\nsummary: ${title} का सार\nstatus: ${status}\n${status === 'approved' ? 'approved_on: 2026-11-27\napproved_commit: 58d0060\n' : ''}---\n${title} का पहला अनुच्छेद\n\n${title} का दूसरा अनुच्छेद\n`;
 const stories = buildStories({
   'a.md': story(1, 'pehli', 'पहली'),
   'b.md': story(2, 'doosri', 'दूसरी', 'draft'),

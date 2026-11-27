@@ -24,6 +24,11 @@ function parseStory(path: string, source: string): Story {
   if (!(STORY_STATUSES as readonly string[]).includes(data.status)) {
     fail(`"status" must be one of ${STORY_STATUSES.join(', ')}, got "${data.status}"`);
   }
+  if (data.status === 'approved') {
+    // D-083: approved means the user approved it, recorded by date and commit.
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(data.approved_on ?? '')) fail('"approved" needs "approved_on" as YYYY-MM-DD (D-083)');
+    if (!/^[0-9a-f]{7,40}$/.test(data.approved_commit ?? '')) fail('"approved" needs "approved_commit" as a git commit SHA (D-083)');
+  }
   const paragraphs = toParagraphs(body);
   if (paragraphs.length === 0) fail('the story has no text after the front matter');
   return {
