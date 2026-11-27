@@ -68,3 +68,21 @@ All 18 are present, in source order. 1 P3–4 · 2 P5–7 (three signs P6) · 3 
 1. **P57–58:** "बिना वजह की मौत बहुत भारी होती है; अब किसी ने उसके हाथ में वजह रख दी थी." Then "सवाल का जवाब... वही आवाज़ जिसने इल्ज़ाम लगाया था". It is the hidden layer made concrete, and Voice A at its best.
 2. **P46:** "किसी मंत्र से नहीं हुआ, किसी डाकिनी से नहीं हुआ: राजकुमार के अपने हाथ से हुआ." The violation stays his, and it is delivered in the frame's plain register.
 3. **P60 with P79:** "उस दिन नीचे के कमरे में छेनियाँ नहीं चलीं" and the king carrying that room back to the tree. The CA-01 image pays off with no invented thoughts.
+
+## Revision response (2026-11-27)
+Text: [revised.md](revised.md), 3,395 words (draft 3,598). ¶ refer to draft.md.
+
+| ID | Taken/declined | Note |
+|---|---|---|
+| C1 | taken | P49 cut (Betal's ascetic line and the stumble). P48 runs straight into P50. |
+| C2 | taken, own wording | The approval ("ठीक किया"), the unclear "इतना अच्छा कि मैं फिर यहीं हूँ" and "किसकी बात पर आए हो?" are cut. The suggested "कितने सवाल पूछे? एक भी नहीं" is declined: the king did ask one ("क्यों हँसते हो?", frame), and stressing that he never asks points back at the frame's errand. New taunt: "बड़ा लंबा जवाब था, राजा। मुर्दे को भी नींद आ जाए।… पर एक बात माननी पड़ेगी: सवाल सुनकर तुमसे चुप नहीं रहा जाता।" / "राजा हो न। फ़ैसला सुनाए बिना तुम्हें चैन कहाँ। और मेरे पास सवालों की कमी नहीं।" It mocks, does not vindicate, and promises more questions without naming one. P82 and P83 are kept, including "यह उसने पिछली बार भी तय किया था". It avoids "you know the answer", which would point at the frame's ending. |
+| C3 | taken | "ज़हर था या नहीं, किसने डाला, किसलिए: यह बुद्धिशरीर कहता है।" "यहाँ एक पल रुकना" and the last clause are cut for the budget. |
+| C4 | taken | "राजकुमार के लिए"; P44 is also tightened. |
+| C5 | taken | "कहानी (कभी) नहीं बताती" stays only at P21 and P65. P23 becomes "ठीक उसी साँझ क्यों, किसी ने नहीं पूछा।" P34 drops the clause. P41 becomes "यह कोई नहीं जानता". P66 is rewritten (C7). |
+| C6 | taken | P8 is cut (Betal's P7 already asks the question). P40 loses "सब करते हैं" and is shortened. P54 loses its opening and the day-match, which moves to Vikram's answer (C11). In P57, "हार असली था, निशान असली था; बस कहानी झूठी थी।" is kept and joined into one sentence. P61 loses its last sentence. P2, P21 and P34 are trimmed. Result: 330 words, 9.7%, none over 3 sentences. The count is narrator comment and reader-address; the approved खंड aside is excluded, and the figure is 11.7% with it. |
+| C7 | taken | "राजकुमार का सुख कहानी में दर्ज है; पद्मावती का नहीं।" This also ends the P65–P66 repetition. |
+| C8 | declined (text) | No text change. P1 assumes the frame comes right before, which holds while TC-001 carries the खंड. The coordinator should log "TC-001 follows the frame" in SLATE. |
+| C9 | taken | P64 now sits between P62 and P63. |
+| C10 | taken | Cut. |
+| C11 | taken | "राजा न यह मेल देख सका कि 'किसी राजकुमार का हृदय' उसके अपने बेटे की मौत के अगले ही दिन सुनाई दिया, न छल करने वालों को पहचान सका।" The draft's P54 said "उसी दिन", but by the draft's own sequence the son died the day before the ascetic's story, so this is corrected to "अगले ही दिन". |
+| C12 | taken | "देह पर राख" dropped. The guise is now "हाथ में माला", which the false story needs. Easy to revert if the user prefers. |
