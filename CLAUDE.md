@@ -39,8 +39,9 @@ npm run docs:check   # links and decision IDs; CI runs it
 ## Where things live
 
 - `content/stories/hi/<slug>.md`: what the app shows. The front matter is `order`, `slug`, `title`, `summary`, `status` (`placeholder` | `draft` | `approved`). The body is **plain text**, with paragraphs separated by blank lines.
+- `content/stories/hi/<slug>.scenes.json`: where picture, theme and sound change, with image prompts and cues (D-092, D-093). Shared scenes: `content/scenes.shared.hi.json`; style and characters: `content/art.json`; sound ids: `content/sound.json`. Images: [content/images/README.md](content/images/README.md).
 - `content/collection.hi.json`: collection title and intro. `src/i18n/hi.ts`: all interface text.
 - `stories/<ID>/`: brief, draft, critique, revision, research. See [stories/README.md](stories/README.md). Callbacks: [stories/CALLBACKS.md](stories/CALLBACKS.md).
 - Source notes: `docs/selection/story-buckets/`, [docs/production/SLATE_AUDIT.md](docs/production/SLATE_AUDIT.md), [docs/production/FRAME_PROPOSAL.md](docs/production/FRAME_PROPOSAL.md), `docs/research/`.
-- Design (parked, D-088): `docs/DESIGN_BRIEF.md`, `docs/ART_DIRECTION.md`, `docs/AUDIO_DIRECTION.md`.
+- Design (D-063 to D-074, D-092 to D-096): `docs/DESIGN_BRIEF.md`, `docs/ART_DIRECTION.md`, `docs/AUDIO_DIRECTION.md`.
 - Old process documents were deleted in the reset of 2026-11-27. They are still readable at commit `58d0060`.
