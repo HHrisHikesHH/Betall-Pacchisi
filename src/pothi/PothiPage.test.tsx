@@ -34,11 +34,11 @@ describe('/pothi', () => {
     expect(screen.getAllByRole('heading', { level: 1 })).toHaveLength(1);
     expect(screen.queryByRole('banner')).not.toBeInTheDocument();
     expect(screen.queryByRole('link')).not.toBeInTheDocument();
-    expect(document.querySelector('.pothi-cover-note')).toHaveTextContent(/नमूना.*मसौदा.*AI.*दृश्य नहीं/);
+    expect(document.querySelector('.pothi-cover-note')).toHaveTextContent(/नमूना.*AI.*दृश्य नहीं/);
     expect(screen.getByRole('button', { name: 'पोथी खोलें' })).toBeInTheDocument();
   });
 
-  it('opens on the first eight paragraphs, with the draft label, the AI credit and a Hindi description', async () => {
+  it('opens on the first eight paragraphs, with no draft label (the sample is approved), the AI credit and a Hindi description', async () => {
     screenIs('prefers-reduced-motion');
     renderPothi();
     fireEvent.click(await screen.findByRole('button', { name: 'पोथी खोलें' }));
@@ -47,7 +47,7 @@ describe('/pothi', () => {
     expect(screen.getByRole('main')).toHaveFocus();
     const shown = Array.from(document.querySelectorAll('.pothi-sheet .pothi-p'), (p) => words(p.textContent!));
     expect(shown).toEqual(sample.paragraphs.slice(0, 8).map(words));
-    expect(screen.getByText('मसौदा')).toBeInTheDocument();
+    expect(screen.queryByText('मसौदा')).not.toBeInTheDocument();
     expect(screen.getByText('चित्र: AI से निर्मित')).toBeInTheDocument();
     expect(screen.getByRole('img', { name: /AI से बना चित्र/ })).toBeInTheDocument();
   });
@@ -58,7 +58,7 @@ describe('/pothi', () => {
     fireEvent.click(await screen.findByRole('button', { name: 'पोथी खोलें' }));
     fireEvent.click(await screen.findByRole('button', { name: 'स्क्रोल करके पढ़ें' }));
     expect(screen.getByRole('region', { name: sample.title })).toBeInTheDocument();
-    expect(screen.getByText('मसौदा')).toBeInTheDocument();
+    expect(screen.queryByText('मसौदा')).not.toBeInTheDocument();
     expect(screen.queryByRole('button', { name: 'अगला पन्ना' })).not.toBeInTheDocument();
     fireEvent.click(screen.getByRole('button', { name: 'पन्ने पलटकर पढ़ें' }));
     expect(screen.getByRole('button', { name: 'अगला पन्ना' })).toBeInTheDocument();
@@ -74,7 +74,7 @@ describe('/pothi', () => {
     fireEvent.click(screen.getByRole('button', { name: 'ऐसे ही पढ़ें' }));
     expect(screen.getByRole('heading', { level: 2, name: sample.title })).toBeInTheDocument();
     expect(screen.getAllByRole('heading', { level: 1 })).toHaveLength(1);
-    expect(screen.getByText('मसौदा')).toBeInTheDocument();
+    expect(screen.queryByText('मसौदा')).not.toBeInTheDocument();
     expect(screen.getByText('चित्र: AI से निर्मित')).toBeInTheDocument();
   });
 
