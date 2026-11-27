@@ -1,5 +1,5 @@
 import { parseFrontMatter, toParagraphs } from './frontmatter';
-import { STORY_STATUSES, type Neighbours, type Story, type StoryStatus } from './types';
+import { STORY_KINDS, STORY_STATUSES, type Neighbours, type Story, type StoryKind, type StoryStatus } from './types';
 
 const SLUG_PATTERN = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const REQUIRED_FIELDS = ['order', 'slug', 'title', 'summary', 'status'] as const;
@@ -24,6 +24,8 @@ function parseStory(path: string, source: string): Story {
   if (!(STORY_STATUSES as readonly string[]).includes(data.status)) {
     fail(`"status" must be one of ${STORY_STATUSES.join(', ')}, got "${data.status}"`);
   }
+  const kind = (data.kind ?? 'tale') as StoryKind;
+  if (!(STORY_KINDS as readonly string[]).includes(kind)) fail(`"kind" must be one of ${STORY_KINDS.join(', ')}, got "${data.kind}"`);
   if (data.status === 'approved') {
     // D-083: approved means the user approved it, recorded by date and commit.
     if (!/^\d{4}-\d{2}-\d{2}$/.test(data.approved_on ?? '')) fail('"approved" needs "approved_on" as YYYY-MM-DD (D-083)');
@@ -33,6 +35,7 @@ function parseStory(path: string, source: string): Story {
   if (paragraphs.length === 0) fail('the story has no text after the front matter');
   return {
     order,
+    kind,
     slug: data.slug,
     title: data.title,
     summary: data.summary,
@@ -56,7 +59,10 @@ export function buildStories(files: Record<string, string>): Story[] {
     orderPaths.set(story.order, path);
     stories.push(story);
   }
-  return stories.sort((a, b) => a.order - b.order);
+  stories.sort((a, b) => a.order - b.order);
+  let n = 0;
+  for (const story of stories) if (story.kind === 'tale') story.number = ++n;
+  return stories;
 }
 
 export function findStory(stories: Story[], slug: string): Story | undefined {

@@ -38,6 +38,23 @@ describe('buildStories', () => {
     expect(buildStories({ 'x.md': file({ ...approved, approved_on: '2026-11-27', approved_commit: '58d0060' }) })[0].status).toBe('approved');
   });
 
+  it('numbers tales in order, skips frame pages and allows gaps in order', () => {
+    const list = buildStories({
+      'f.md': file({ ...valid, slug: 'frame', order: '5', kind: 'frame' }),
+      'a.md': file({ ...valid, slug: 'a', order: '10' }),
+      'b.md': file({ ...valid, slug: 'b', order: '30' }),
+    });
+    expect(list.map((s) => [s.slug, s.kind, s.number])).toEqual([
+      ['frame', 'frame', undefined],
+      ['a', 'tale', 1],
+      ['b', 'tale', 2],
+    ]);
+  });
+
+  it('rejects an unknown kind', () => {
+    expect(() => buildStories({ 'x.md': file({ ...valid, kind: 'prologue' }) })).toThrow(/kind/);
+  });
+
   it('rejects a story with no text', () => {
     expect(() => buildStories({ 'x.md': file(valid, '') })).toThrow(/no text/);
   });

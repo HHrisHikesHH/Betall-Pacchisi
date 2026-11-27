@@ -1,8 +1,16 @@
 export const STORY_STATUSES = ['placeholder', 'draft', 'approved'] as const;
 export type StoryStatus = (typeof STORY_STATUSES)[number];
 
+export const STORY_KINDS = ['tale', 'frame'] as const;
+export type StoryKind = (typeof STORY_KINDS)[number];
+
 export interface Story {
+  /** Sort key only; gaps are fine. */
   order: number;
+  /** `frame` pages (the Vikram–Betal frame) carry no tale number. Default `tale`. */
+  kind: StoryKind;
+  /** Tale number shown to readers: 1, 2, 3… counted over tales in order. Undefined for frame pages. */
+  number?: number;
   slug: string;
   title: string;
   summary: string;

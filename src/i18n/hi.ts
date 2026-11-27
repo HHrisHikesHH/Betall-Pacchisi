@@ -5,6 +5,7 @@ export const ui = {
   previous: 'पिछली',
   next: 'अगली',
   storyNumber: (n: number) => `कथा ${n.toLocaleString('hi-IN-u-nu-deva')}`,
+  frameLabel: 'कथामुख',
   placeholderBadge: 'नमूना — कथा नहीं',
   placeholderBanner: 'नमूना पाठ — यह संग्रह की कोई कथा नहीं है। यह पृष्ठ केवल पठन अनुभव परखने के लिए है।',
   draftBadge: 'मसौदा',

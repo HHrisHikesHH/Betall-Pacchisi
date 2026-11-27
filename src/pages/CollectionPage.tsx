@@ -28,7 +28,7 @@ export function CollectionPage({ collection, stories }: { collection: Collection
             {stories.map((story) => (
               <li key={story.slug}>
                 <Link to={`/kathaen/${story.slug}`} className="story-card">
-                  <span className="story-card-number">{ui.storyNumber(story.order)}</span>
+                  <span className="story-card-number">{story.number ? ui.storyNumber(story.number) : ui.frameLabel}</span>
                   <span className="story-card-title">
                     {story.title} <StatusBadge status={story.status} />
                   </span>

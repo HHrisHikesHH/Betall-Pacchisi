@@ -95,7 +95,7 @@ function StoryReader({
     <SceneContext.Provider value={scene}>
       <article className="story">
         <header className="story-header">
-          <p className="story-number">{ui.storyNumber(story.order)}</p>
+          <p className="story-number">{story.number ? ui.storyNumber(story.number) : ui.frameLabel}</p>
           <h1 className="story-title" ref={headingRef} tabIndex={-1}>
             {story.title} <StatusBadge status={story.status} />
           </h1>
