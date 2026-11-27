@@ -6,8 +6,8 @@ The 19 first-release tales and the frame (D-038). The long-term goal is 25 (D-00
 |---|---|---|---|---|---|---|---|
 | — | FRAME | The Vikram–Betal frame | strongest tier | — | `approved` | 2026-11-27, `55670ce` | Rewrite in Voice A (D-078). Old drafts at commit 58d0060. |
 | 1 | TC-001 | The prince who won a wife with his minister's son's help (Padmāvatī) | ADAPT | Moderate | `approved` | 2026-11-27, `c7570c6` | Voice A text (D-078), approved by the user. |
-| 2 | TC-008 | The three fastidious men (food, women, bed) | ADAPT | Moderate to high | `brief` | — |  |
-| 3 | TC-002 | Three young brahmans who restored a dead girl to life | ADAPT | Moderate to high | `brief` | — |  |
+| 2 | TC-008 | The three fastidious men (food, women, bed) | ADAPT | Moderate to high | `user-review` | — | Voice A text (D-078) in content/ as `status: draft`, for the user's review. |
+| 3 | TC-002 | Three young brahmans who restored a dead girl to life | ADAPT | Moderate to high | `user-review` | — | Voice A text (D-078) in content/ as `status: draft`, for the user's review. |
 | 4 | TC-007 | The king who married his dependant to a Nereid (Sattvaśīla) | ADAPT | High | `brief` | — |  |
 | 5 | TC-006 | The woman who switched her husband's and brother's heads | ADAPT | High | `brief` | — |  |
 | 6 | TC-010 | Madanasenā and her rash promise (the "promise tale") | ADAPT | High | `brief` | — |  |
