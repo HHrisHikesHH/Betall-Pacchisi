@@ -61,6 +61,42 @@ describe('home and contents', () => {
     expect(screen.getByText('मसौदा')).toBeInTheDocument();
   });
 
+  it('shows each tale as a card with time, state chip and an ornament, and marks the frame start', () => {
+    renderAt('/kathaen');
+    const cards = within(screen.getByRole('list')).getAllByRole('link');
+    expect(cards).toHaveLength(3);
+    expect(cards[0]).toHaveTextContent('पहली');
+    expect(cards[0]).toHaveTextContent('पहली का सार');
+    expect(cards[0]).toHaveTextContent('लगभग १ मिनट');
+    expect(cards[0]).toHaveTextContent('नई');
+    expect(cards[0].querySelector('.pothi-card-art--ornament')).not.toBeNull();
+    expect(screen.queryByText('यहीं से शुरू करें')).toBeNull();
+  });
+
+  it('shows in-progress and finished chips', () => {
+    window.localStorage.setItem(
+      'betal-pachisi:progress',
+      JSON.stringify({
+        pehli: { paragraph: 1, offset: 0, updated: 100, finished: false },
+        teesri: { paragraph: 1, offset: 0, updated: 300, finished: true },
+      }),
+    );
+    renderAt('/kathaen');
+    const cards = within(screen.getByRole('list')).getAllByRole('link');
+    expect(cards[0]).toHaveTextContent('अधूरी');
+    expect(cards[1]).toHaveTextContent('नई');
+    expect(cards[2]).toHaveTextContent('पढ़ ली');
+  });
+
+  it('marks the frame card as the place to start when nothing has been read', () => {
+    const framed = buildStories({
+      'f.md': `---\norder: 1\nslug: katha-mukh\ntitle: कथामुख\nsummary: आरम्भ\nstatus: draft\nkind: frame\n---\nएक\n`,
+      'a.md': story(2, 'pehli', 'पहली'),
+    });
+    renderAt('/kathaen', framed);
+    expect(screen.getByText('यहीं से शुरू करें')).toBeInTheDocument();
+  });
+
   it('sends the old prototype address home', () => {
     renderAt('/pothi');
     expect(screen.getByRole('button', { name: 'पोथी खोलें' })).toBeInTheDocument();
