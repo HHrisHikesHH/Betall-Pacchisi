@@ -1,18 +1,19 @@
 import { useState } from 'react';
 import type { Scene } from '../content';
 import { pothiUi } from '../i18n/hi';
+import { AnimatedPainting } from './AnimatedPainting';
 import { imageFor } from './images';
 
 /**
  * A scene's picture. Until the picture exists, readers see an empty painted panel; in review mode the panel
- * carries the image prompt and the sound cues.
+ * carries the image prompt and the sound cues. A finished picture may carry motion (see motion.ts).
  */
 export function SceneArt({ scene, review, decorative = false }: { scene?: Scene; review: boolean; decorative?: boolean }) {
   const src = scene && imageFor(scene.key);
   if (scene && src) {
     return (
       <>
-        <img className="pothi-painting" src={src} alt={decorative ? '' : scene.alt} draggable={false} />
+        <AnimatedPainting sceneKey={scene.key} src={src} alt={decorative ? '' : scene.alt} still={decorative} />
         <p className="pothi-credit">{pothiUi.aiCredit}</p>
         {review && !decorative && <Notes scene={scene} overImage />}
       </>
