@@ -1,0 +1,10 @@
+{
+  "cycle": 20,
+  "effects": [
+    { "type": "breeze", "box": [0, 7, 59, 34], "window": [8, 40] },
+    { "type": "glow", "x": 45.9, "y": 46.7, "r": 9, "window": [36, 78] },
+    { "type": "motes", "box": [38, 25, 20, 45], "count": 7, "window": [34, 86] },
+    { "type": "glint", "x": 45.9, "y": 46.7, "r": 1.9, "window": [48, 64] }
+  ],
+  "layers": []
+}
