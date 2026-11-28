@@ -56,6 +56,7 @@ The revision answers the critique and goes to `stories/<ID>/hi/revised.md`. Draf
 - Work in batches of 30–40 paragraphs, using the brief's glossary. The output is **an error table only** (paragraph, error, fix): spelling, mātrā, names, punctuation, repeated words.
 - Then do one continuity read of the whole story (names, facts, time and place).
 - The coordinator applies the fixes.
+- Then mark highlights (D-097) in one pass, following the marks and limits in D-097. A script confirms that the text without marks is unchanged.
 
 ## 6. User review (always)
 
