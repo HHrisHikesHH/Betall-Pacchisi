@@ -9,11 +9,15 @@ import { Icon } from '../pothi/Icons';
 import { canFullscreen, enterFullscreen, leaveFullscreen } from '../pothi/immersive';
 import { Invitation } from '../pothi/Invitation';
 import { PagedLeaves } from '../pothi/PagedLeaves';
-import { START, type Position } from '../pothi/paginate';
+import { type Position } from '../pothi/paginate';
 import { ScrollText, useScrollPosition } from '../pothi/ScrollText';
-import { Sheet, type Tale } from '../pothi/Sheet';
+import { Sheet, TaleEndSeen, type Tale } from '../pothi/Sheet';
 import { Shell } from '../pothi/Shell';
 import { useArrivalFocus } from '../pothi/useArrivalFocus';
+import { FONT_FAMILIES } from '../reader/prefs';
+import { markFinished, resumePoint, saveProgress } from '../reader/progress';
+import { ReadingButton, ReadingPanel } from '../reader/ReadingSettings';
+import { useReading } from '../reader/ReadingContext';
 import { SceneContext, type SceneState } from '../scene/SceneContext';
 import { useReview } from '../scene/review';
 import { SMALL_TOUCH } from './HomePage';
@@ -75,12 +79,44 @@ function Reader({ story, next, collectionTitle, scenes }: ReaderProps) {
     }),
     [story, next, scenes, review],
   );
-  const fonts = useFonts([
-    ['400 16px "Tiro Devanagari Hindi"', `${tale.paragraphs.join(' ')} ${tale.label ?? ''} ${tale.next.label}`],
-    ['400 32px "Rozha One"', tale.title],
-  ]);
+  const { prefs } = useReading();
+  const bodyText = `${tale.paragraphs.join(' ')} ${tale.label ?? ''} ${tale.next.label}`;
+  // The reader's own font is loaded before any measuring, and any change of settings counts the fonts up again,
+  // so leaves are cut afresh (and the scroll view re-aligned) only once the new text can be measured.
+  const fonts = useFonts(
+    [
+      [`400 16px "${FONT_FAMILIES[prefs.font]}"`, bodyText],
+      ['400 32px "Rozha One"', tale.title],
+    ],
+    `${prefs.size}/${prefs.font}/${prefs.leading}`,
+  );
 
-  const [position, setPosition] = useState<Position>(START);
+  const first = useRef<Position | null>(null);
+  first.current ??= resumePoint(story.slug, story.paragraphs.length);
+  const [position, setPosition] = useState<Position>(first.current);
+  const pending = useRef<Position | null>(null);
+  const onPosition = useCallback((next: Position) => setPosition(next), []);
+  // The place is written a moment after it settles, and at once when the reader leaves.
+  useEffect(() => {
+    if (position === first.current) return;
+    pending.current = position;
+    const timer = window.setTimeout(() => {
+      saveProgress(story.slug, position);
+      pending.current = null;
+    }, 400);
+    return () => window.clearTimeout(timer);
+  }, [position, story.slug]);
+  useEffect(
+    () => () => {
+      if (pending.current) saveProgress(story.slug, pending.current);
+    },
+    [story.slug],
+  );
+  const finish = useCallback(() => {
+    if (pending.current) saveProgress(story.slug, pending.current);
+    pending.current = null;
+    markFinished(story.slug);
+  }, [story.slug]);
   // The paragraph on show: its scene sets the mood of the room and its sound.
   const [shown, setShown] = useState(0);
   const mood = sceneAt(scenes, shown)?.mood ?? 'neutral';
@@ -106,20 +142,22 @@ function Reader({ story, next, collectionTitle, scenes }: ReaderProps) {
   return (
     <Shell mood={mood}>
       <SceneContext.Provider value={sound}>
-        {portrait && narrow && !stayUpright ? (
-          <Invitation onStay={stay} onClose={close} />
-        ) : (
-          <Leaves
-            collectionTitle={collectionTitle}
-            tale={tale}
-            fonts={fonts}
-            portrait={portrait}
-            position={position}
-            onPosition={setPosition}
-            onShow={setShown}
-            onClose={close}
-          />
-        )}
+        <TaleEndSeen.Provider value={finish}>
+          {portrait && narrow && !stayUpright ? (
+            <Invitation onStay={stay} onClose={close} />
+          ) : (
+            <Leaves
+              collectionTitle={collectionTitle}
+              tale={tale}
+              fonts={fonts}
+              portrait={portrait}
+              position={position}
+              onPosition={onPosition}
+              onShow={setShown}
+              onClose={close}
+            />
+          )}
+        </TaleEndSeen.Provider>
         {/* one control for every view, so turning the phone does not stop the sound */}
         {!(portrait && narrow && !stayUpright) && <SoundControl />}
       </SceneContext.Provider>
@@ -146,16 +184,25 @@ function Leaves(props: LeavesProps) {
   const onCannotFit = useCallback(() => setCannotFit(true), []);
   const scrolling = choice === 'scroll' || cannotFit;
   const fullscreen = useFullscreen();
+  const { prefs } = useReading();
+  const [panel, setPanel] = useState(false);
 
-  // A new size deserves a new attempt at leaves.
+  // A new size, or new text settings, deserve a new attempt at leaves.
   useEffect(() => {
     const retry = () => setCannotFit(false);
     window.addEventListener('resize', retry);
     return () => window.removeEventListener('resize', retry);
   }, []);
+  useEffect(() => setCannotFit(false), [prefs.size, prefs.font, prefs.leading]);
 
   const closeButton = (
-    <button type="button" className="pothi-button" aria-label={pothiUi.close} title={pothiUi.close} onClick={props.onClose}>
+    <button
+      type="button"
+      className="pothi-button"
+      aria-label={pothiUi.close}
+      title={pothiUi.close}
+      onClick={props.onClose}
+    >
       <Icon name="close" />
     </button>
   );
@@ -172,12 +219,27 @@ function Leaves(props: LeavesProps) {
     </button>
   );
 
-  if (portrait) return <Upright {...props} closeButton={closeButton} fullscreenButton={fullscreenButton} />;
+  const readingButton = <ReadingButton open={panel} onOpen={() => setPanel(true)} />;
+  const readingPanel = panel && <ReadingPanel onClose={() => setPanel(false)} />;
+  if (portrait) {
+    return (
+      <>
+        <Upright
+          {...props}
+          closeButton={closeButton}
+          fullscreenButton={fullscreenButton}
+          readingButton={readingButton}
+        />
+        {readingPanel}
+      </>
+    );
+  }
 
   const tools = (
     <div className="pothi-settings">
       {closeButton}
       {fullscreenButton}
+      {readingButton}
       {!cannotFit && (
         <button
           type="button"
@@ -192,22 +254,37 @@ function Leaves(props: LeavesProps) {
   );
 
   return (
-    <main className="pothi-reader pothi-reader--landscape" ref={main} tabIndex={-1} aria-label={pothiUi.readingRegion}>
-      <h1 className="pothi-hidden">{props.collectionTitle}</h1>
-      {scrolling ? (
-        <ScrollLeaf tale={tale} fonts={fonts} position={position} onPosition={onPosition} onShow={onShow} tools={tools} />
-      ) : (
-        <PagedLeaves
-          tale={tale}
-          fonts={fonts}
-          position={position}
-          onPosition={onPosition}
-          onCannotFit={onCannotFit}
-          onShow={onShow}
-          tools={tools}
-        />
-      )}
-    </main>
+    <>
+      <main
+        className="pothi-reader pothi-reader--landscape"
+        ref={main}
+        tabIndex={-1}
+        aria-label={pothiUi.readingRegion}
+      >
+        <h1 className="pothi-hidden">{props.collectionTitle}</h1>
+        {scrolling ? (
+          <ScrollLeaf
+            tale={tale}
+            fonts={fonts}
+            position={position}
+            onPosition={onPosition}
+            onShow={onShow}
+            tools={tools}
+          />
+        ) : (
+          <PagedLeaves
+            tale={tale}
+            fonts={fonts}
+            position={position}
+            onPosition={onPosition}
+            onCannotFit={onCannotFit}
+            onShow={onShow}
+            tools={tools}
+          />
+        )}
+      </main>
+      {readingPanel}
+    </>
   );
 }
 
@@ -247,7 +324,12 @@ function Upright({
   onShow,
   closeButton,
   fullscreenButton,
-}: LeavesProps & { closeButton: ReactNode; fullscreenButton: ReactNode }) {
+  readingButton,
+}: LeavesProps & {
+  closeButton: ReactNode;
+  fullscreenButton: ReactNode;
+  readingButton: ReactNode;
+}) {
   // The page itself is what scrolls, so focusing it lets the arrow keys move the text.
   const scroller = useArrivalFocus<HTMLElement>();
   useScrollPosition(scroller, fonts, position, onPosition);
@@ -259,6 +341,7 @@ function Upright({
           {closeButton}
           <h1>{collectionTitle}</h1>
           {tale.label && <p className="pothi-seal">{tale.label}</p>}
+          {readingButton}
           {fullscreenButton}
         </header>
         <ScrollText tale={tale} pictures />

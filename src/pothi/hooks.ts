@@ -28,11 +28,12 @@ export function useFullscreen(): boolean {
 
 /**
  * Counts up each time the web fonts settle. 0 means "not yet": text must not be measured before then,
- * or leaves would be cut for a fallback font. A slow or failed download stops blocking after three seconds.
+ * or leaves would be cut for a fallback font. A change of `refresh` or of the requests counts up again once the new fonts are in. A slow or failed download stops blocking after three seconds.
  */
-export function useFonts(requests: ReadonlyArray<readonly [font: string, text: string]>): number {
+export function useFonts(requests: ReadonlyArray<readonly [font: string, text: string]>, refresh = ''): number {
   const [version, setVersion] = useState(0);
-  const key = JSON.stringify(requests);
+  // `refresh` names a change that needs a new settle (the reader's text settings) even if no font is new.
+  const key = JSON.stringify([requests, refresh]);
   useEffect(() => {
     const fonts = document.fonts;
     let live = true;
@@ -44,7 +45,7 @@ export function useFonts(requests: ReadonlyArray<readonly [font: string, text: s
       return;
     }
     const timer = window.setTimeout(settle, 3000);
-    const wanted = JSON.parse(key) as [string, string][];
+    const wanted = (JSON.parse(key) as [[string, string][], string])[0];
     Promise.all(wanted.map(([font, text]) => fonts.load(font, text)))
       .then(() => fonts.ready)
       .catch(() => undefined)

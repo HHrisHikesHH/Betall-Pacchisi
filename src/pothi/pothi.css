@@ -11,6 +11,16 @@
   --room-3: #7d5d34;
   --body-face: 'Tiro Devanagari Hindi', 'Noto Serif Devanagari', serif;
   --title-face: 'Rozha One', 'Tiro Devanagari Hindi', serif;
+  /* the reader's own settings (set on this element by the Shell) */
+  --read-scale: 1;
+  --read-leading: 1.72;
+  --read-face: var(--body-face);
+  /* colours that the night page changes */
+  --heading: var(--vermilion);
+  --control: var(--vermilion-deep);
+  --muted: #4a2c16;
+  --danda: #a3200f;
+  --edge: var(--vermilion);
   position: fixed;
   inset: 0;
   overflow: hidden;
@@ -247,7 +257,7 @@
 
 .pothi-leaf {
   position: relative;
-  border: var(--frame) solid var(--vermilion);
+  border: var(--frame) solid var(--edge);
   background: var(--paper);
   box-shadow: 0 8px 22px rgb(45 22 6 / 0.45);
   perspective: 2200px;
@@ -296,7 +306,7 @@
 
 .pothi .pothi-credit {
   left: 71.4%; /* clear of the roof tip */
-  color: #4a2c16;
+  color: var(--muted);
 }
 
 .pothi .pothi-seal {
@@ -316,8 +326,9 @@
   bottom: var(--text-bottom);
   left: var(--text-left);
   overflow: hidden;
-  font-size: clamp(15px, 1.68cqw, 28px);
-  line-height: 1.72;
+  font-family: var(--read-face);
+  font-size: calc(clamp(17px, 1.68cqw, 28px) * var(--read-scale));
+  line-height: var(--read-leading);
 }
 
 .pothi-flow {
@@ -328,7 +339,7 @@
 
 .pothi .pothi-tale {
   margin-bottom: 0.15em;
-  color: var(--vermilion);
+  color: var(--heading);
   font-family: var(--title-face);
   font-size: 1.6em;
   line-height: 1.5;
@@ -341,12 +352,12 @@
 }
 
 .pothi-danda {
-  color: #a3200f;
+  color: var(--danda);
 }
 
 .pothi .pothi-end {
   margin-top: 0.8em;
-  color: var(--vermilion);
+  color: var(--heading);
   text-align: center;
 }
 
@@ -491,7 +502,7 @@
   border: 0;
   border-radius: 50%;
   background: transparent;
-  color: var(--vermilion-deep);
+  color: var(--control);
 }
 
 @media (hover: hover) {
@@ -526,7 +537,7 @@
 
 .pothi .pothi-number {
   min-width: 3.6em;
-  color: #4a2c16;
+  color: var(--muted);
   font-size: 13px;
   text-align: center;
   white-space: nowrap;
@@ -534,7 +545,7 @@
 
 /* On a narrow leaf the five buttons fill the strip, so the page number sits just above the two arrows. */
 @media (max-height: 499.98px), (min-aspect-ratio: 2001 / 1000) {
-  @container (max-width: 780px) {
+  @container (max-width: 920px) {
     .pothi-leaf--pages .pothi-text,
     .pothi-measure .pothi-text {
       bottom: 61px;
@@ -617,7 +628,7 @@
   .pothi-pager {
     grid-area: 1 / 2;
     margin: 0;
-    gap: 4px;
+    gap: 6px;
   }
 
   .pothi-settings {
@@ -627,17 +638,22 @@
   }
 
   .pothi-tools .pothi-button {
-    min-width: 48px;
-    min-height: 48px;
+    min-width: 56px;
+    min-height: 56px;
     border: 1px solid rgb(92 18 11 / 0.35);
     background: rgb(244 226 184 / 0.75);
   }
 
   .pothi-tools .pothi-button--word {
-    padding-inline: 16px;
-    border-radius: 24px;
-    font-size: 15px;
+    padding-inline: 18px;
+    border-radius: 28px;
+    font-size: 17px;
     text-decoration: none;
+  }
+
+  .pothi-tools .pothi-icon {
+    width: 26px;
+    height: 26px;
   }
 
   .pothi .pothi-number {
@@ -779,6 +795,11 @@
   color: var(--gold-pale);
 }
 
+.pothi-bar .pothi-aa {
+  font-size: 17px;
+  text-decoration: none;
+}
+
 @media (hover: hover) {
   .pothi-bar .pothi-button:hover {
     background: rgb(241 220 158 / 0.15);
@@ -792,8 +813,9 @@
 .pothi-upright .pothi-flow {
   padding: 4px max(22px, env(safe-area-inset-right)) calc(40px + env(safe-area-inset-bottom))
     max(22px, env(safe-area-inset-left));
-  font-size: clamp(1.1rem, 1rem + 0.5vw, 1.25rem);
-  line-height: 1.85;
+  font-family: var(--read-face);
+  font-size: calc(clamp(1.1rem, 1rem + 0.5vw, 1.25rem) * var(--read-scale));
+  line-height: var(--read-leading);
 }
 
 /* ---------- Moods: the room and the paper follow the story (D-026). Ink stays dark on every paper. ---------- */
@@ -925,7 +947,7 @@
 
 .pothi-end a {
   display: inline-block;
-  color: var(--vermilion);
+  color: var(--heading);
   text-underline-offset: 0.3em;
 }
 
@@ -975,7 +997,7 @@
 /* upright reading has text under the thumb, so the switch sits in the top bar */
 .pothi:has(.pothi-upright) .sound-control {
   top: calc(8px + env(safe-area-inset-top));
-  right: max(58px, calc((100% - 640px) / 2 + 58px));
+  right: max(106px, calc((100% - 640px) / 2 + 106px));
   bottom: auto;
   left: auto;
   flex-direction: column;
@@ -994,7 +1016,7 @@
   max-width: 680px;
   margin: 0 auto;
   padding: 20px clamp(16px, 4vw, 36px) 28px;
-  border: 3px solid var(--vermilion);
+  border: 3px solid var(--edge);
   background: var(--paper);
   box-shadow:
     0 0 0 1px var(--gold),
@@ -1003,7 +1025,7 @@
 }
 
 .pothi .pothi-contents h1 {
-  color: var(--vermilion);
+  color: var(--heading);
   font-family: var(--title-face);
   font-size: 2.1rem;
   line-height: 1.5;
@@ -1029,7 +1051,7 @@
 }
 
 .pothi-contents-number {
-  color: var(--vermilion-deep);
+  color: var(--control);
   font-size: 0.82rem;
 }
 
@@ -1043,7 +1065,29 @@
 }
 
 .pothi-contents a {
-  color: var(--vermilion-deep);
+  color: var(--control);
+}
+
+.pothi-resume {
+  margin-top: 18px;
+}
+
+.pothi .pothi-contents .pothi-open {
+  display: inline-grid;
+  gap: 2px;
+  max-width: 100%;
+  padding: 8px 30px 6px;
+  color: var(--gold-pale);
+  text-decoration: none;
+}
+
+.pothi-resume-label {
+  font-size: 1.05rem;
+}
+
+.pothi-resume-title {
+  font-family: var(--title-face);
+  font-size: 1.3rem;
 }
 
 .badge {
@@ -1060,5 +1104,221 @@
   .pothi-cover--opening {
     animation: none !important;
     transition: none !important;
+  }
+}
+
+/* ---------- Reading settings (the Aa panel) ---------- */
+.pothi-panel-backdrop {
+  position: absolute;
+  inset: 0;
+  z-index: 20;
+  display: grid;
+  place-items: center;
+  padding: max(8px, env(safe-area-inset-top)) max(8px, env(safe-area-inset-right)) max(8px, env(safe-area-inset-bottom))
+    max(8px, env(safe-area-inset-left));
+  background: rgb(20 10 4 / 0.55);
+}
+
+.pothi-panel {
+  display: grid;
+  gap: 10px;
+  width: min(460px, 100%);
+  max-height: 100%;
+  padding: 10px 16px 14px;
+  overflow: auto;
+  border: 3px solid var(--edge);
+  background: var(--paper);
+  box-shadow:
+    0 0 0 1px var(--gold),
+    0 14px 30px rgb(0 0 0 / 0.5);
+  color: var(--ink);
+}
+
+.pothi-panel-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.pothi .pothi-panel-head h2 {
+  color: var(--heading);
+  font-family: var(--title-face);
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+
+.pothi .pothi-panel h3 {
+  margin: 0 0 4px;
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.pothi-panel-row {
+  display: flex;
+  gap: 8px;
+}
+
+.pothi-panel-size {
+  align-items: center;
+}
+
+.pothi .pothi-panel-step {
+  min-width: 4.4em;
+  flex: 1;
+  text-align: center;
+}
+
+.pothi-choice,
+.pothi-panel-close {
+  min-width: 44px;
+  min-height: 44px;
+  padding: 2px 12px 0;
+  border: 1px solid var(--edge);
+  border-radius: 22px;
+  background: transparent;
+  color: var(--ink);
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.pothi-choice {
+  flex: 1;
+}
+
+.pothi-panel-size .pothi-choice {
+  flex: 0 0 auto;
+  min-width: 64px;
+}
+
+.pothi-choice[aria-pressed='true'] {
+  border-color: var(--gold);
+  background: var(--vermilion);
+  box-shadow: 0 0 0 1px var(--vermilion);
+  color: #fff0c4;
+}
+
+.pothi-sample {
+  max-height: 6.5em;
+  margin: 0;
+  padding-top: 8px;
+  overflow: hidden;
+  border-top: 1px solid var(--gold);
+  font-family: var(--read-face);
+  font-size: calc(1rem * var(--read-scale));
+  line-height: var(--read-leading);
+}
+
+/* a sideways phone: two columns, so the panel needs no scrolling */
+@media (max-height: 520px) {
+  .pothi-panel {
+    grid-template-columns: 1fr 1fr;
+    gap: 6px 22px;
+    width: min(840px, 100%);
+    padding-block: 6px 10px;
+  }
+
+  .pothi-panel-head,
+  .pothi-sample {
+    grid-column: 1 / -1;
+  }
+
+  .pothi-sample {
+    max-height: 4.2em;
+    padding-top: 4px;
+  }
+}
+
+/* ---------- Night page ---------- */
+.pothi[data-theme='night'] {
+  --paper: #1d1611;
+  --room-1: #2b2119;
+  --room-2: #1a130e;
+  --room-3: #0c0805;
+  --ink: #e9dcc0;
+  --heading: #ee9a80;
+  --control: #f1dc9e;
+  --muted: #cdbd9c;
+  --danda: #f0907a;
+  --edge: #7a5c2a;
+  color-scheme: dark;
+}
+
+.pothi[data-theme='night'] .pothi-sheet::after {
+  border-color: #6b5226;
+  box-shadow: 0 0 26px rgb(0 0 0 / 0.5) inset;
+}
+
+/* the picture dims; the calm side behind the words goes to dark paper */
+.pothi[data-theme='night'] .pothi-sheet .pothi-painting {
+  filter: brightness(0.55) saturate(0.9);
+}
+
+.pothi[data-theme='night'] .pothi-sheet::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(90deg, transparent 58%, rgb(29 22 17 / 0.94) var(--text-left, 66.2%));
+  pointer-events: none;
+}
+
+.pothi[data-theme='night'] .pothi-sheet .pothi-text,
+.pothi[data-theme='night'] .pothi-sheet .pothi-credit,
+.pothi[data-theme='night'] .pothi-sheet .pothi-seal {
+  z-index: 2;
+}
+
+.pothi[data-theme='night'] .pothi-crop .pothi-painting {
+  filter: brightness(0.7) saturate(0.9);
+}
+
+.pothi[data-theme='night'] .pothi-placeholder {
+  opacity: 0.55;
+}
+
+.pothi[data-theme='night'] .pothi-column {
+  background-image: none;
+  box-shadow: 0 0 30px rgb(0 0 0 / 0.6);
+}
+
+.pothi[data-theme='night'] .pothi-contents li a {
+  border-top-color: rgb(233 220 192 / 0.25);
+}
+
+.pothi[data-theme='night'] .pothi-button:disabled {
+  opacity: 0.4;
+}
+
+@media (hover: hover) {
+  .pothi[data-theme='night'] .pothi-tools .pothi-button:hover:not(:disabled) {
+    background: rgb(241 220 158 / 0.14);
+  }
+}
+
+@media (min-height: 500px) and (max-aspect-ratio: 2 / 1) {
+  .pothi[data-theme='night'] .pothi-leaf {
+    box-shadow:
+      0 0 0 1px #6b5226,
+      0 4px 0 #2b2117,
+      0 5px 0 #4a3a1d,
+      0 8px 0 #251b13,
+      0 9px 0 #4a3a1d,
+      0 12px 0 #1f1710,
+      0 14px 0 #0c0805,
+      0 28px 40px rgb(0 0 0 / 0.6);
+  }
+
+  .pothi[data-theme='night'] .pothi-tools .pothi-button {
+    border-color: rgb(241 220 158 / 0.4);
+    background: rgb(43 33 25 / 0.9);
+  }
+}
+
+@media (min-height: 500px) and (max-aspect-ratio: 2 / 1) and (hover: hover) {
+  .pothi[data-theme='night'] .pothi-tools .pothi-button:hover:not(:disabled) {
+    background: #3a2d21;
   }
 }
