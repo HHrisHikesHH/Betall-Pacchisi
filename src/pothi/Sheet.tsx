@@ -1,4 +1,4 @@
-import type { Ref } from 'react';
+import { createContext, useContext, useEffect, useRef, type Ref } from 'react';
 import { Link } from 'react-router-dom';
 import { sceneAt, type Scene } from '../content';
 import { SceneArt } from '../scene/SceneArt';
@@ -57,10 +57,29 @@ export function Sheet({
   );
 }
 
-/** The close of a tale and the way on. */
-export function TaleEnd({ tale }: { tale: Tale }) {
+/** Told when the close of the tale has been shown to the reader. */
+export const TaleEndSeen = createContext<(() => void) | null>(null);
+
+/** The close of a tale and the way on. On a leaf it counts as seen when it appears; in a scroll, when it scrolls into view. */
+export function TaleEnd({ tale, onLeaf = false }: { tale: Tale; onLeaf?: boolean }) {
+  const seen = useContext(TaleEndSeen);
+  const ref = useRef<HTMLParagraphElement>(null);
+  useEffect(() => {
+    const el = ref.current;
+    if (!seen || !el) return;
+    if (onLeaf) return seen();
+    if (typeof IntersectionObserver === 'undefined') return;
+    const observer = new IntersectionObserver((entries) => {
+      if (entries.some((entry) => entry.isIntersecting)) {
+        seen();
+        observer.disconnect();
+      }
+    });
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, [seen, onLeaf]);
   return (
-    <p className="pothi-end">
+    <p className="pothi-end" ref={ref}>
       <Link to={tale.next.to}>{tale.next.label}</Link>
     </p>
   );
@@ -81,7 +100,7 @@ export function LeafText({ tale, leaf, index }: { tale: Tale; leaf: Leaf; index:
           <Words text={piece.text} />
         </p>
       ))}
-      {endsTale(tale, leaf) && <TaleEnd tale={tale} />}
+      {endsTale(tale, leaf) && <TaleEnd tale={tale} onLeaf />}
     </div>
   );
 }

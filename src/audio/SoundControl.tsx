@@ -83,7 +83,7 @@ export function SoundControl() {
         data-sound-bed={on ? (bed ?? 'silence') : 'off'}
         onClick={() => void toggle()}
       >
-        {ui.sound}
+        {ui.sound(on)}
       </button>
       {on && (
         <label className="sound-volume">

@@ -237,7 +237,7 @@ describe('SoundControl', () => {
     });
     vi.stubGlobal('AudioContext', ctor);
     render(withScene('day'));
-    const button = screen.getByRole('button', { name: 'ध्वनि चालू / बंद' });
+    const button = screen.getByRole('button', { name: 'ध्वनि: बंद' });
     expect(button).toHaveAttribute('aria-pressed', 'false');
     expect(button).toHaveAttribute('data-sound-bed', 'off');
     expect(screen.queryByRole('slider')).toBeNull();
@@ -249,12 +249,13 @@ describe('SoundControl', () => {
       return new FakeContext();
     });
     const { rerender, unmount } = render(withScene('day'));
-    const button = screen.getByRole('button', { name: 'ध्वनि चालू / बंद' });
+    const button = screen.getByRole('button', { name: 'ध्वनि: बंद' });
     fireEvent.click(button);
     await waitFor(() => expect(button).toHaveAttribute('aria-pressed', 'true'));
     expect(contexts.length).toBe(1);
     expect(contexts[0].state).toBe('running');
     expect(button).toHaveAttribute('data-sound-bed', 'day');
+    expect(button).toHaveTextContent('ध्वनि: चालू');
     expect(loadPrefs().on).toBe(true);
 
     rerender(withScene('fire'));
@@ -276,18 +277,17 @@ describe('SoundControl', () => {
     const ctor = vi.fn();
     vi.stubGlobal('AudioContext', ctor);
     render(withScene('day'));
-    expect(screen.getByRole('button', { name: 'ध्वनि चालू / बंद' })).toHaveAttribute('aria-pressed', 'false');
+    expect(screen.getByRole('button', { name: 'ध्वनि: बंद' })).toHaveAttribute('aria-pressed', 'false');
     expect(ctor).not.toHaveBeenCalled();
   });
 
   it('stays quietly off when Web Audio is unavailable', async () => {
     vi.stubGlobal('AudioContext', undefined);
     render(withScene('day'));
-    const button = screen.getByRole('button', { name: 'ध्वनि चालू / बंद' });
+    const button = screen.getByRole('button', { name: 'ध्वनि: बंद' });
     await act(async () => {
       fireEvent.click(button);
     });
     expect(button).toHaveAttribute('aria-pressed', 'false');
   });
 });
-

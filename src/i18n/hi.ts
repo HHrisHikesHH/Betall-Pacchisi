@@ -11,9 +11,10 @@ export const ui = {
   storyNotFoundTitle: 'यह कथा नहीं मिली',
   notFoundBody: 'हो सकता है पता गलत हो, या यह कथा अब संग्रह में न हो।',
   backToCollection: 'सभी कथाओं पर लौटें',
-  sound: 'ध्वनि चालू / बंद',
+  sound: (on: boolean) => (on ? 'ध्वनि: चालू' : 'ध्वनि: बंद'),
   soundVolume: 'आवाज़',
   soundVolumeLevels: ['धीमी', 'मध्यम', 'ऊँची'],
+  continueReading: 'पढ़ना जारी रखें',
 };
 
 // Interface text for the pothi reader.
@@ -35,4 +36,22 @@ export const pothiUi = {
   rotateTitle: 'फ़ोन घुमाइए',
   rotateBody: 'फ़ोन आड़ा करने पर पोथी पूरी खुलती है।',
   readAnyway: 'ऐसे ही पढ़ें',
+};
+
+// Reading comfort: the "Aa" panel.
+export const readingUi = {
+  button: 'Aa',
+  buttonLabel: 'पढ़ने की सेटिंग',
+  title: 'पढ़ने की सेटिंग',
+  close: 'बंद करें',
+  sizeLabel: 'अक्षर का आकार',
+  smaller: 'अक्षर छोटे करें',
+  larger: 'अक्षर बड़े करें',
+  fontLabel: 'अक्षर शैली',
+  fonts: { tiro: 'पोथी', eczar: 'दमदार', kalam: 'हस्तलिखित', mukta: 'सादा' },
+  leadingLabel: 'पंक्तियों की दूरी',
+  leadings: { compact: 'पास', normal: 'सामान्य', airy: 'खुली' },
+  themeLabel: 'पन्ना',
+  themes: { paper: 'कागज़', night: 'रात' },
+  sample: 'राजा विक्रम ने फिर पेड़ से शव उतारा और चुपचाप श्मशान की ओर चल पड़ा।',
 };

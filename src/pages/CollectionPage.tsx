@@ -1,8 +1,10 @@
+import { useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { StatusBadge } from '../components/StatusBadge';
 import { useDocumentTitle } from '../components/useDocumentTitle';
 import type { Collection, Story } from '../content';
 import { pothiUi, ui } from '../i18n/hi';
+import { latestUnfinished } from '../reader/progress';
 import { Shell } from '../pothi/Shell';
 import { useArrivalFocus } from '../pothi/useArrivalFocus';
 
@@ -10,6 +12,10 @@ import { useArrivalFocus } from '../pothi/useArrivalFocus';
 export function CollectionPage({ collection, stories }: { collection: Collection; stories: Story[] }) {
   useDocumentTitle(collection.title);
   const heading = useArrivalFocus<HTMLHeadingElement>();
+  const resume = useMemo(() => {
+    const slug = latestUnfinished(stories.map((story) => story.slug));
+    return stories.find((story) => story.slug === slug);
+  }, [stories]);
   return (
     <Shell>
       <main className="pothi-page">
@@ -18,6 +24,14 @@ export function CollectionPage({ collection, stories }: { collection: Collection
             {collection.title}
           </h1>
           <p className="pothi-contents-intro">{collection.intro}</p>
+          {resume && (
+            <p className="pothi-resume">
+              <Link to={`/kathaen/${resume.slug}`} className="pothi-open">
+                <span className="pothi-resume-label">{ui.continueReading}</span>
+                <span className="pothi-resume-title">{resume.title}</span>
+              </Link>
+            </p>
+          )}
           {stories.length === 0 ? (
             <div role="status">
               <p>{ui.emptyTitle}</p>
@@ -28,7 +42,9 @@ export function CollectionPage({ collection, stories }: { collection: Collection
               {stories.map((story) => (
                 <li key={story.slug}>
                   <Link to={`/kathaen/${story.slug}`}>
-                    <span className="pothi-contents-number">{story.number ? ui.storyNumber(story.number) : ui.frameLabel}</span>
+                    <span className="pothi-contents-number">
+                      {story.number ? ui.storyNumber(story.number) : ui.frameLabel}
+                    </span>
                     <span className="pothi-contents-title">
                       {story.title} <StatusBadge status={story.status} />
                     </span>

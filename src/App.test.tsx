@@ -1,4 +1,4 @@
-import { fireEvent, render, screen, within } from '@testing-library/react';
+import { act, fireEvent, render, screen, within } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
 import { afterEach, describe, expect, it, vi } from 'vitest';
 import { App } from './App';
@@ -6,7 +6,11 @@ import { scenes, stories as realStories } from './content';
 import { buildStories } from './content/stories';
 import type { Collection } from './content';
 
-const collection: Collection = { title: 'संग्रह', subtitle: 'उपशीर्षक', intro: 'परिचय' };
+const collection: Collection = {
+  title: 'संग्रह',
+  subtitle: 'उपशीर्षक',
+  intro: 'परिचय',
+};
 const story = (order: number, slug: string, title: string, status = 'placeholder') =>
   `---\norder: ${order}\nslug: ${slug}\ntitle: ${title}\nsummary: ${title} का सार\nstatus: ${status}\n${status === 'approved' ? 'approved_on: 2026-11-27\napproved_commit: 58d0060\n' : ''}---\n${title} का पहला अनुच्छेद\n\n${title} का दूसरा अनुच्छेद\n`;
 const stories = buildStories({
@@ -35,10 +39,12 @@ function screenIs(...features: string[]) {
 afterEach(() => {
   vi.unstubAllGlobals();
   window.sessionStorage.clear();
+  window.localStorage.clear();
 });
 
 const words = (text: string) => text.replace(/\s+/g, ' ').trim();
-const shownParagraphs = () => Array.from(document.querySelectorAll('.pothi-sheet .pothi-p'), (p) => words(p.textContent!));
+const shownParagraphs = () =>
+  Array.from(document.querySelectorAll('.pothi-sheet .pothi-p'), (p) => words(p.textContent!));
 
 describe('home and contents', () => {
   it('opens the closed pothi onto the list of tales', async () => {
@@ -47,7 +53,11 @@ describe('home and contents', () => {
     expect(screen.getByRole('heading', { level: 1, name: 'संग्रह' })).toBeInTheDocument();
     fireEvent.click(screen.getByRole('button', { name: 'पोथी खोलें' }));
     const links = within(await screen.findByRole('list')).getAllByRole('link');
-    expect(links.map((link) => link.getAttribute('href'))).toEqual(['/kathaen/pehli', '/kathaen/doosri', '/kathaen/teesri']);
+    expect(links.map((link) => link.getAttribute('href'))).toEqual([
+      '/kathaen/pehli',
+      '/kathaen/doosri',
+      '/kathaen/teesri',
+    ]);
     expect(screen.getByText('मसौदा')).toBeInTheDocument();
   });
 
@@ -71,7 +81,7 @@ describe('reader', () => {
     expect(screen.getByText('मसौदा')).toBeInTheDocument();
     expect(screen.getByRole('link', { name: 'अगली कथा: तीसरी' })).toHaveAttribute('href', '/kathaen/teesri');
     expect(screen.getByRole('main')).toHaveFocus();
-    expect(screen.getByRole('button', { name: 'ध्वनि चालू / बंद' })).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: 'ध्वनि: बंद' })).toBeInTheDocument();
   });
 
   it('gives approved text no label, ends on the contents, and closes to them', async () => {
@@ -108,6 +118,88 @@ describe('reader', () => {
     view.unmount();
     renderAt('/kuchh/aur');
     expect(screen.getByRole('heading', { name: 'यह पृष्ठ नहीं मिला' })).toBeInTheDocument();
+  });
+});
+
+describe('reading comfort', () => {
+  it('opens the Aa panel, changes size, font, spacing and page, and remembers them', async () => {
+    const view = renderAt('/kathaen/pehli');
+    const open = await screen.findByRole('button', { name: 'पढ़ने की सेटिंग' });
+    const root = () => document.querySelector<HTMLElement>('.pothi')!;
+    expect(root().style.getPropertyValue('--read-scale')).toBe('1');
+
+    fireEvent.click(open);
+    const dialog = screen.getByRole('dialog', { name: 'पढ़ने की सेटिंग' });
+    expect(dialog).toHaveAttribute('aria-modal', 'true');
+    expect(within(dialog).getByRole('button', { name: 'बंद करें' })).toHaveFocus();
+
+    fireEvent.click(within(dialog).getByRole('button', { name: 'अक्षर बड़े करें' }));
+    expect(root().style.getPropertyValue('--read-scale')).toBe('1.18');
+    fireEvent.click(within(dialog).getByRole('button', { name: 'अक्षर बड़े करें' }));
+    fireEvent.click(within(dialog).getByRole('button', { name: 'अक्षर बड़े करें' }));
+    expect(within(dialog).getByRole('button', { name: 'अक्षर बड़े करें' })).toBeDisabled();
+    fireEvent.click(within(dialog).getByRole('button', { name: 'सादा' }));
+    fireEvent.click(within(dialog).getByRole('button', { name: 'खुली' }));
+    fireEvent.click(within(dialog).getByRole('button', { name: 'रात' }));
+    expect(within(dialog).getByRole('button', { name: 'रात' })).toHaveAttribute('aria-pressed', 'true');
+    expect(within(dialog).getByRole('button', { name: 'कागज़' })).toHaveAttribute('aria-pressed', 'false');
+    expect(root()).toHaveAttribute('data-theme', 'night');
+    expect(root()).toHaveAttribute('data-font', 'mukta');
+    expect(root().style.getPropertyValue('--read-leading')).toBe('1.95');
+    expect(root().style.getPropertyValue('--read-face')).toContain('Mukta');
+    expect(JSON.parse(window.localStorage.getItem('betal-pachisi:reading')!)).toEqual({
+      size: 5,
+      font: 'mukta',
+      leading: 'airy',
+      theme: 'night',
+    });
+
+    fireEvent.keyDown(dialog, { key: 'Escape' });
+    expect(screen.queryByRole('dialog')).toBeNull();
+    expect(open).toHaveFocus();
+
+    // a new visit starts with the saved settings
+    view.unmount();
+    renderAt('/kathaen/doosri');
+    await screen.findByRole('heading', { level: 2, name: 'दूसरी' });
+    expect(document.querySelector('.pothi')).toHaveAttribute('data-theme', 'night');
+  });
+
+  it('closes the panel on a tap outside it', async () => {
+    renderAt('/kathaen/pehli');
+    fireEvent.click(await screen.findByRole('button', { name: 'पढ़ने की सेटिंग' }));
+    fireEvent.pointerDown(document.querySelector('.pothi-panel-backdrop')!);
+    expect(screen.queryByRole('dialog')).toBeNull();
+  });
+
+  it('offers to continue the latest unfinished tale on the contents page, and starts a finished one over', async () => {
+    window.localStorage.setItem(
+      'betal-pachisi:progress',
+      JSON.stringify({
+        pehli: { paragraph: 1, offset: 0, updated: 100, finished: false },
+        doosri: { paragraph: 1, offset: 0, updated: 200, finished: false },
+        teesri: { paragraph: 1, offset: 0, updated: 300, finished: true },
+      }),
+    );
+    const view = renderAt('/kathaen');
+    const link = screen.getByRole('link', { name: /पढ़ना जारी रखें/ });
+    expect(link).toHaveAttribute('href', '/kathaen/doosri');
+    expect(link).toHaveTextContent('दूसरी');
+    view.unmount();
+
+    // reading the second paragraph's tale from where it was left
+    renderAt('/kathaen/doosri');
+    await screen.findByRole('heading', { level: 2, name: 'दूसरी' });
+  });
+
+  it('remembers the place and the end of a tale', async () => {
+    const view = renderAt('/kathaen/pehli');
+    await screen.findByRole('heading', { level: 2, name: 'पहली' });
+    await act(async () => {});
+    // the whole tale is one leaf here, so its end is shown at once
+    expect(JSON.parse(window.localStorage.getItem('betal-pachisi:progress')!).pehli.finished).toBe(true);
+    view.unmount();
+    expect(screen.queryByRole('link', { name: /पढ़ना जारी रखें/ })).toBeNull();
   });
 });
 
