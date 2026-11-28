@@ -1,3 +1,4 @@
+import { parseMarks } from './marks';
 import { parseFrontMatter, toParagraphs } from './frontmatter';
 import { STORY_KINDS, STORY_STATUSES, type Neighbours, type Story, type StoryKind, type StoryStatus } from './types';
 
@@ -31,8 +32,10 @@ function parseStory(path: string, source: string): Story {
     if (!/^\d{4}-\d{2}-\d{2}$/.test(data.approved_on ?? '')) fail('"approved" needs "approved_on" as YYYY-MM-DD (D-083)');
     if (!/^[0-9a-f]{7,40}$/.test(data.approved_commit ?? '')) fail('"approved" needs "approved_commit" as a git commit SHA (D-083)');
   }
-  const paragraphs = toParagraphs(body);
-  if (paragraphs.length === 0) fail('the story has no text after the front matter');
+  const parsedParagraphs = toParagraphs(body).map(parseMarks);
+  if (parsedParagraphs.length === 0) fail('the story has no text after the front matter');
+  const paragraphs = parsedParagraphs.map((p) => p.text);
+  const marks = parsedParagraphs.map((p) => p.marks);
   return {
     order,
     kind,
@@ -41,6 +44,7 @@ function parseStory(path: string, source: string): Story {
     summary: data.summary,
     status: data.status as StoryStatus,
     paragraphs,
+    marks,
   };
 }
 

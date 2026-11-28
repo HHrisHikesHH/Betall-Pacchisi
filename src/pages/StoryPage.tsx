@@ -3,6 +3,7 @@ import { useNavigate, useParams } from 'react-router-dom';
 import { SoundControl } from '../audio/SoundControl';
 import { useDocumentTitle } from '../components/useDocumentTitle';
 import { findNeighbours, findStory, sceneAt, scenes as defaultScenes, type Scene, type Story } from '../content';
+import type { MarkKind } from '../content/marks';
 import { pothiUi, ui } from '../i18n/hi';
 import { matches, useFonts, useFullscreen, useMedia } from '../pothi/hooks';
 import { Icon } from '../pothi/Icons';
@@ -55,6 +56,11 @@ export default function StoryPage({ stories, collectionTitle, scenes = defaultSc
   );
 }
 
+/** The text carrying a kind of highlight, so its font can be loaded before measuring. */
+function markedText(tale: Tale, kind: MarkKind): string {
+  return tale.paragraphs.flatMap((text, i) => tale.marks[i].filter((m) => m.kind === kind).map((m) => text.slice(m.start, m.end))).join(' ');
+}
+
 interface ReaderProps {
   story: Story;
   next?: Story;
@@ -70,6 +76,7 @@ function Reader({ story, next, collectionTitle, scenes }: ReaderProps) {
     () => ({
       title: story.title,
       paragraphs: story.paragraphs,
+      marks: story.marks,
       scenes,
       review,
       next: next
@@ -86,7 +93,8 @@ function Reader({ story, next, collectionTitle, scenes }: ReaderProps) {
   const fonts = useFonts(
     [
       [`400 16px "${FONT_FAMILIES[prefs.font]}"`, bodyText],
-      ['400 32px "Rozha One"', tale.title],
+      ['400 32px "Rozha One"', `${tale.title} ${markedText(tale, 'k')}`],
+      ...(markedText(tale, 'b') ? [['400 16px "Kalam"', markedText(tale, 'b')] as const] : []),
     ],
     `${prefs.size}/${prefs.font}/${prefs.leading}`,
   );

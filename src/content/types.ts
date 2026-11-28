@@ -1,3 +1,5 @@
+import type { MarkRange } from './marks';
+
 export const STORY_STATUSES = ['placeholder', 'draft', 'approved'] as const;
 export type StoryStatus = (typeof STORY_STATUSES)[number];
 
@@ -15,7 +17,10 @@ export interface Story {
   title: string;
   summary: string;
   status: StoryStatus;
+  /** Plain text: marks are removed. Positions, pagination and scenes all work on this. */
   paragraphs: string[];
+  /** Highlight ranges over each paragraph's plain text; same length as `paragraphs`. */
+  marks: MarkRange[][];
 }
 
 export interface Scene {

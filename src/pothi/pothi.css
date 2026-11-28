@@ -355,6 +355,44 @@
   color: var(--danda);
 }
 
+/* Highlights in the story text (see content/marks.ts). Sparing: they help the eye, they do not decorate. */
+.pothi .pothi-mark--b {
+  color: #2f3d6b;
+  font-family: 'Kalam', var(--body-face);
+  font-size: 1.04em;
+}
+
+[data-font="kalam"] .pothi-mark--b {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+.pothi .pothi-mark--k {
+  color: var(--vermilion);
+  font-family: var(--title-face);
+}
+
+.pothi .pothi-mark--t {
+  color: var(--vermilion-deep);
+  font-size: 1.06em;
+  background: linear-gradient(to bottom, transparent 55%, rgba(244, 176, 56, 0.34) 55%);
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+.pothi[data-theme='night'] .pothi-mark--b {
+  color: #b4c2ee;
+}
+
+.pothi[data-theme='night'] .pothi-mark--k {
+  color: var(--heading);
+}
+
+.pothi[data-theme='night'] .pothi-mark--t {
+  color: #f1dc9e;
+  background: linear-gradient(to bottom, transparent 55%, rgba(214, 170, 70, 0.24) 55%);
+}
+
 .pothi .pothi-end {
   margin-top: 0.8em;
   color: var(--heading);

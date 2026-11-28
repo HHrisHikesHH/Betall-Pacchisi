@@ -76,7 +76,7 @@ export function ScrollText({ tale, pictures = false }: { tale: Tale; pictures?: 
             <p className="pothi-p">
               {splitSentences(text).map(({ start, end }) => (
                 <span key={start} data-paragraph={paragraph} data-start={start}>
-                  <Words text={text.slice(start, end)} />
+                  <Words text={text.slice(start, end)} from={start} marks={tale.marks[paragraph]} />
                 </span>
               ))}
             </p>

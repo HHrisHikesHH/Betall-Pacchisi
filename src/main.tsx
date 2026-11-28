@@ -6,6 +6,7 @@ import '@fontsource/noto-serif-devanagari/400.css';
 import '@fontsource/mukta/400.css';
 import '@fontsource/rozha-one/400.css';
 import '@fontsource/yatra-one/400.css';
+import '@fontsource/kalam/400.css';
 import './styles.css';
 import './pothi/pothi.css';
 import { App } from './App';

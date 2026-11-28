@@ -1,13 +1,16 @@
-import { createContext, useContext, useEffect, useRef, type Ref } from 'react';
+import { Fragment, createContext, useContext, useEffect, useRef, type Ref } from 'react';
 import { Link } from 'react-router-dom';
 import { sceneAt, type Scene } from '../content';
 import { SceneArt } from '../scene/SceneArt';
 import type { Leaf } from './paginate';
-import { aroundDandas } from './text';
+import type { MarkRange } from '../content/marks';
+import { aroundDandas, runsOf } from './text';
 
 export interface Tale {
   title: string;
   paragraphs: string[];
+  /** Highlight ranges over each paragraph's plain text. */
+  marks: MarkRange[][];
   scenes: Scene[];
   /** Show prompts and sound cues. */
   review: boolean;
@@ -17,14 +20,25 @@ export interface Tale {
   label?: string;
 }
 
-export function Words({ text }: { text: string }) {
-  return aroundDandas(text).map((part, index) =>
-    index % 2 ? (
-      <span key={index} className="pothi-danda">
-        {part}
+/** Plain text `text`, found at `from` in its paragraph, with the paragraph's highlight marks and dandas picked out. */
+export function Words({ text, from = 0, marks }: { text: string; from?: number; marks?: readonly MarkRange[] }) {
+  const dandas = (run: string) =>
+    aroundDandas(run).map((part, index) =>
+      index % 2 ? (
+        <span key={index} className="pothi-danda">
+          {part}
+        </span>
+      ) : (
+        part
+      ),
+    );
+  return runsOf(text, from, marks).map((run, index) =>
+    run.kind ? (
+      <span key={index} className={`pothi-mark--${run.kind}`}>
+        {dandas(run.text)}
       </span>
     ) : (
-      part
+      <Fragment key={index}>{dandas(run.text)}</Fragment>
     ),
   );
 }
@@ -97,7 +111,7 @@ export function LeafText({ tale, leaf, index }: { tale: Tale; leaf: Leaf; index:
       {index === 0 && <h2 className="pothi-tale">{tale.title}</h2>}
       {leaf.map((piece) => (
         <p key={`${piece.paragraph}:${piece.start}`} className="pothi-p">
-          <Words text={piece.text} />
+          <Words text={piece.text} from={piece.start} marks={tale.marks[piece.paragraph]} />
         </p>
       ))}
       {endsTale(tale, leaf) && <TaleEnd tale={tale} onLeaf />}

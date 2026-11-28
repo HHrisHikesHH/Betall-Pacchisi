@@ -4,7 +4,7 @@ import { matches } from './hooks';
 import { Icon } from './Icons';
 import { leafOf, paginate, type Leaf, type Position } from './paginate';
 import { endsTale, LeafText, Sheet, type Tale } from './Sheet';
-import { aroundDandas } from './text';
+import { aroundDandas, runsOf } from './text';
 
 const TURN_MS = 750;
 const MIN_LINES = 6;
@@ -21,14 +21,21 @@ function measure(box: HTMLElement, tale: Tale, leaf: Leaf, index: number): boole
   for (const piece of leaf) {
     const p = flow.appendChild(document.createElement('p'));
     p.className = 'pothi-p';
-    aroundDandas(piece.text).forEach((part, i) => {
-      if (i % 2 === 0) p.append(part);
-      else {
-        const danda = p.appendChild(document.createElement('span'));
-        danda.className = 'pothi-danda';
-        danda.textContent = part;
+    for (const run of runsOf(piece.text, piece.start, tale.marks[piece.paragraph])) {
+      let into: HTMLElement = p;
+      if (run.kind) {
+        into = p.appendChild(document.createElement('span'));
+        into.className = `pothi-mark--${run.kind}`;
       }
-    });
+      aroundDandas(run.text).forEach((part, i) => {
+        if (i % 2 === 0) into.append(part);
+        else {
+          const danda = into.appendChild(document.createElement('span'));
+          danda.className = 'pothi-danda';
+          danda.textContent = part;
+        }
+      });
+    }
   }
   if (endsTale(tale, leaf)) {
     const end = flow.appendChild(document.createElement('p'));
