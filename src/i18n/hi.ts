@@ -15,6 +15,11 @@ export const ui = {
   soundVolume: 'आवाज़',
   soundVolumeLevels: ['धीमी', 'मध्यम', 'ऊँची'],
   continueReading: 'पढ़ना जारी रखें',
+  readingTime: (minutes: number) => `लगभग ${minutes.toLocaleString('hi-IN-u-nu-deva')} मिनट`,
+  stateNew: 'नई',
+  stateInProgress: 'अधूरी',
+  stateFinished: 'पढ़ ली',
+  startHere: 'यहीं से शुरू करें',
 };
 
 // Interface text for the pothi reader.
