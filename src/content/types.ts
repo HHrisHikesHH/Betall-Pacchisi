@@ -18,14 +18,21 @@ export interface Story {
   paragraphs: string[];
 }
 
-export interface SceneCue {
-  /** 0-based paragraph index where this scene starts; it holds until the next cue. */
-  index: number;
-  art: string | null;
-  mood: import('../scenes/artIds').Mood;
+export interface Scene {
+  /** "<story slug or shared>/<scene id>": names the picture file. */
+  key: string;
+  /** 0-based paragraph index where this scene starts; it holds until the next scene. */
+  start: number;
+  mood: import('../scene/moods').Mood;
+  /** Short Hindi description for readers who cannot see the picture. */
   alt: string;
-  /** Optional sound override. "silence" holds the scene in deliberate silence whatever its mood (D-027). Absent: the mood's bed. */
-  sound?: 'silence';
+  /** English image prompt for this scene alone. */
+  prompt: string;
+  /** Style, composition, characters and the scene: what is pasted into an image tool. */
+  fullPrompt: string;
+  ambience: string;
+  music: string;
+  accent: string;
 }
 
 export interface Collection {

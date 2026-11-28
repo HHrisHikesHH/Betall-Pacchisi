@@ -1,0 +1,127 @@
+{
+  "scenes": [
+    {
+      "at": "बहुत पुरानी कहानी",
+      "id": "daily-fruit",
+      "mood": "day",
+      "alt": "भरे दरबार में राजा को एक साधारण फल देता तपस्वी",
+      "prompt": "A morning court with tall pillars and slanting sunlight; a long line of petitioners; Kshantishil places one ordinary wild fruit in the seated king's palm. Vikram wears royal day robes.",
+      "characters": [
+        "vikram",
+        "kshantishil"
+      ],
+      "ambience": "court",
+      "music": "court-strings",
+      "accent": "none"
+    },
+    {
+      "at": "ख़ैर। अब ख़ज़ांची",
+      "id": "locked-room",
+      "mood": "dusk",
+      "alt": "पुरानी कोठरी की ऊँची खिड़की से फल डालता ख़ज़ांची",
+      "prompt": "A treasurer on tiptoe drops a fruit through a small high window of a long-locked storeroom at the back of the treasury; dust, an old lock, evening light.",
+      "ambience": "indoors",
+      "music": "none",
+      "accent": "none"
+    },
+    {
+      "at": "ख़ैर। एक सुबह",
+      "id": "monkey-and-gem",
+      "mood": "day",
+      "alt": "फटे फल से निकला रत्न, पास बैठा बंदर, स्तब्ध दरबार",
+      "prompt": "In the court, a pet monkey beside the throne chews fruit while a brilliant red gem rolls on the marble floor; the king and courtiers frozen in astonishment.",
+      "characters": [
+        "vikram"
+      ],
+      "ambience": "court",
+      "music": "damru",
+      "accent": "gem-fall"
+    },
+    {
+      "at": "कोठरी खोली गई।",
+      "id": "rot-and-jewels",
+      "mood": "dusk",
+      "alt": "दीये की रोशनी में सड़े फलों के बीच चमकते रत्नों का ढेर",
+      "prompt": "The opened storeroom: black rotted soil with white mould, scattered gems glittering where a trembling lamp reaches; the treasurer holds the lamp, the king stands in the doorway.",
+      "characters": [
+        "vikram"
+      ],
+      "ambience": "silence",
+      "music": "night-drone",
+      "accent": "none"
+    },
+    {
+      "at": "क्षान्तिशील ने फल",
+      "id": "the-request",
+      "mood": "day",
+      "alt": "राजा के कान में धीमे से अपनी माँग कहता क्षान्तिशील",
+      "prompt": "Kshantishil leans close to speak softly to the king, the fruit back in his cloth bag; the hushed court watches.",
+      "characters": [
+        "vikram",
+        "kshantishil"
+      ],
+      "ambience": "court",
+      "music": "night-drone",
+      "accent": "none"
+    },
+    {
+      "at": "चतुर्दशी में अभी",
+      "id": "waning-moon",
+      "mood": "night",
+      "alt": "घटते चाँद के नीचे छत पर अकेले टहलते राजा",
+      "prompt": "The king walks alone on a palace terrace at night beneath a thin waning moon, restless.",
+      "characters": [
+        "vikram"
+      ],
+      "ambience": "indoors",
+      "music": "night-drone",
+      "accent": "none"
+    },
+    {
+      "at": "दिन में श्मशान",
+      "id": "cremation-ground",
+      "mood": "night",
+      "alt": "आधी रात के श्मशान में तलवार की मूठ थामे अकेले राजा",
+      "prompt": "The king enters a vast cremation ground: smouldering pyres throwing long shadows, jackals and an owl, ash underfoot; his hand tight on the sword hilt.",
+      "characters": [
+        "vikram"
+      ],
+      "ambience": "night",
+      "music": "night-drone",
+      "accent": "none"
+    },
+    {
+      "at": "बरगद दूर से",
+      "id": "banyan-circle",
+      "mood": "fire",
+      "alt": "बरगद के नीचे आग की रोशनी में घेरे बनाता क्षान्तिशील",
+      "prompt": "Under an immense banyan with hanging roots, Kshantishil bends by a small fire drawing exact lines and circles on the ground without looking up; the king arrives.",
+      "characters": [
+        "vikram",
+        "kshantishil"
+      ],
+      "ambience": "pyre",
+      "music": "night-drone",
+      "accent": "none"
+    },
+    {
+      "at": "बरगद की आग",
+      "use": "shinshapa-tree",
+      "accent": "betal-laugh"
+    },
+    {
+      "at": "राजा फिर चढ़ा।",
+      "use": "night-walk"
+    },
+    {
+      "at": "शब्द राजा के",
+      "use": "flight",
+      "accent": "betal-laugh"
+    },
+    {
+      "at": "\"रास्ता लंबा है,",
+      "use": "night-walk",
+      "music": "bansuri"
+    }
+  ]
+}

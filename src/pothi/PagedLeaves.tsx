@@ -33,7 +33,7 @@ function measure(box: HTMLElement, tale: Tale, leaf: Leaf, index: number): boole
   if (endsTale(tale, leaf)) {
     const end = flow.appendChild(document.createElement('p'));
     end.className = 'pothi-end';
-    end.textContent = pothiUi.end;
+    end.appendChild(document.createElement('a')).textContent = tale.next.label;
   }
   box.replaceChildren(flow);
   return flow.offsetHeight <= box.clientHeight;
@@ -47,6 +47,7 @@ interface PagedLeavesProps {
   /** Called when no sensible leaf can be cut at this size; the reader then scrolls. */
   onCannotFit: () => void;
   tools: ReactNode;
+  onShow: (paragraph: number) => void;
 }
 
 interface Turn {
@@ -55,7 +56,7 @@ interface Turn {
   key: number;
 }
 
-export function PagedLeaves({ tale, fonts, position, onPosition, onCannotFit, tools }: PagedLeavesProps) {
+export function PagedLeaves({ tale, fonts, position, onPosition, onCannotFit, tools, onShow }: PagedLeavesProps) {
   const wrapRef = useRef<HTMLDivElement>(null);
   const measureRef = useRef<HTMLDivElement>(null);
   const [leaves, setLeaves] = useState<Leaf[] | null>(null);
@@ -73,7 +74,8 @@ export function PagedLeaves({ tale, fonts, position, onPosition, onCannotFit, to
       size = next;
       const lineHeight = parseFloat(getComputedStyle(box).lineHeight) || 0;
       const tooSmall = box.clientHeight > 0 && box.clientHeight < MIN_LINES * lineHeight;
-      const result = tooSmall ? null : paginate(tale.paragraphs, (leaf, index) => measure(box, tale, leaf, index));
+      const breaks = new Set(tale.scenes.map((scene) => scene.start));
+      const result = tooSmall ? null : paginate(tale.paragraphs, (leaf, index) => measure(box, tale, leaf, index), breaks);
       box.replaceChildren();
       setTurn(null);
       if (result) setLeaves(result);
@@ -111,7 +113,8 @@ export function PagedLeaves({ tale, fonts, position, onPosition, onCannotFit, to
   useEffect(() => {
     const onKey = (event: KeyboardEvent) => {
       if (event.altKey || event.ctrlKey || event.metaKey) return;
-      const onButton = event.target instanceof Element && event.target.closest('button');
+      const onButton = event.target instanceof Element && event.target.closest('button, a, input, summary');
+      if (event.target instanceof HTMLInputElement) return;
       let step: 1 | -1;
       if (['ArrowRight', 'ArrowDown', 'PageDown'].includes(event.key)) step = 1;
       else if (['ArrowLeft', 'ArrowUp', 'PageUp'].includes(event.key)) step = -1;
@@ -127,6 +130,8 @@ export function PagedLeaves({ tale, fonts, position, onPosition, onCannotFit, to
   // Swipe left or up for the next leaf (a pothi leaf is lifted upwards); a tap turns by the side that was tapped.
   const down = useRef<{ x: number; y: number } | null>(null);
   const onPointerDown = (event: PointerEvent) => {
+    // Links, buttons and the review notes keep their own taps.
+    if (event.target instanceof Element && event.target.closest('a, button, .pothi-review')) return;
     down.current = event.isPrimary && event.button === 0 ? { x: event.clientX, y: event.clientY } : null;
   };
   const onPointerUp = (event: PointerEvent) => {
@@ -145,6 +150,13 @@ export function PagedLeaves({ tale, fonts, position, onPosition, onCannotFit, to
     }
   };
 
+  // The leaf on show decides the mood of the room.
+  const paragraph = leaves?.[index]?.[0].paragraph;
+  useEffect(() => {
+    if (paragraph !== undefined) onShow(paragraph);
+  }, [paragraph, onShow]);
+
+  const first = (i: number) => leaves?.[i]?.[0].paragraph ?? position.paragraph;
   const content = (i: number) => leaves?.[i] && <LeafText tale={tale} leaf={leaves[i]} index={i} />;
   // Going on, the old leaf lifts away above the new one; going back, the earlier leaf comes down over the current one.
   const forward = turn !== null && turn.to > turn.from;
@@ -160,7 +172,9 @@ export function PagedLeaves({ tale, fonts, position, onPosition, onCannotFit, to
         onPointerUp={onPointerUp}
         onPointerCancel={() => (down.current = null)}
       >
-        <Sheet tale={tale}>{content(under)}</Sheet>
+        <Sheet tale={tale} paragraph={first(under)}>
+          {content(under)}
+        </Sheet>
         {turn && lifted !== null && (
           <div
             key={turn.key}
@@ -168,7 +182,7 @@ export function PagedLeaves({ tale, fonts, position, onPosition, onCannotFit, to
             onAnimationEnd={() => setTurn(null)}
           >
             <div className="pothi-face">
-              <Sheet tale={tale} decorative>
+              <Sheet tale={tale} paragraph={first(lifted)} decorative>
                 {content(lifted)}
               </Sheet>
             </div>

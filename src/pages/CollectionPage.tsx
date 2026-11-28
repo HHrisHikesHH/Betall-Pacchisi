@@ -1,44 +1,50 @@
 import { Link } from 'react-router-dom';
-import type { Collection, Story } from '../content';
 import { StatusBadge } from '../components/StatusBadge';
 import { useDocumentTitle } from '../components/useDocumentTitle';
-import { ui } from '../i18n/hi';
+import type { Collection, Story } from '../content';
+import { pothiUi, ui } from '../i18n/hi';
+import { Shell } from '../pothi/Shell';
+import { useArrivalFocus } from '../pothi/useArrivalFocus';
 
+/** The contents leaf. */
 export function CollectionPage({ collection, stories }: { collection: Collection; stories: Story[] }) {
   useDocumentTitle(collection.title);
+  const heading = useArrivalFocus<HTMLHeadingElement>();
   return (
-    <div className="collection">
-      <section className="collection-intro">
-        <h1>{collection.title}</h1>
-        <p className="collection-subtitle">{collection.subtitle}</p>
-        <p className="collection-note">{collection.intro}</p>
-      </section>
-
-      <section aria-labelledby="stories-heading">
-        <h2 id="stories-heading" className="section-heading">
-          {ui.storiesHeading}
-        </h2>
-        {stories.length === 0 ? (
-          <div className="state-message" role="status">
-            <p className="state-title">{ui.emptyTitle}</p>
-            <p>{ui.emptyBody}</p>
-          </div>
-        ) : (
-          <ol className="story-list">
-            {stories.map((story) => (
-              <li key={story.slug}>
-                <Link to={`/kathaen/${story.slug}`} className="story-card">
-                  <span className="story-card-number">{story.number ? ui.storyNumber(story.number) : ui.frameLabel}</span>
-                  <span className="story-card-title">
-                    {story.title} <StatusBadge status={story.status} />
-                  </span>
-                  <span className="story-card-summary">{story.summary}</span>
-                </Link>
-              </li>
-            ))}
-          </ol>
-        )}
-      </section>
-    </div>
+    <Shell>
+      <main className="pothi-page">
+        <div className="pothi-contents">
+          <h1 ref={heading} tabIndex={-1}>
+            {collection.title}
+          </h1>
+          <p className="pothi-contents-intro">{collection.intro}</p>
+          {stories.length === 0 ? (
+            <div role="status">
+              <p>{ui.emptyTitle}</p>
+              <p>{ui.emptyBody}</p>
+            </div>
+          ) : (
+            <ol>
+              {stories.map((story) => (
+                <li key={story.slug}>
+                  <Link to={`/kathaen/${story.slug}`}>
+                    <span className="pothi-contents-number">{story.number ? ui.storyNumber(story.number) : ui.frameLabel}</span>
+                    <span className="pothi-contents-title">
+                      {story.title} <StatusBadge status={story.status} />
+                    </span>
+                    <span className="pothi-contents-summary">{story.summary}</span>
+                  </Link>
+                </li>
+              ))}
+            </ol>
+          )}
+          <p>
+            <Link to="/" className="pothi-contents-close">
+              {pothiUi.close}
+            </Link>
+          </p>
+        </div>
+      </main>
+    </Shell>
   );
 }

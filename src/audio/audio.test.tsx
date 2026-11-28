@@ -1,9 +1,7 @@
 import { act, fireEvent, render, screen, waitFor } from '@testing-library/react';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
-import { scenes } from '../content';
-import { parseSceneFile } from '../content/scenes';
-import { MOODS } from '../scenes/artIds';
-import { SceneContext } from '../scenes/SceneContext';
+import { MOODS } from '../scene/moods';
+import { SceneContext } from '../scene/SceneContext';
 import { BED_NAMES, bedFor } from './beds';
 import { createEngine, MASTER_CAP } from './engine';
 import { loadPrefs, savePrefs } from './prefs';
@@ -105,47 +103,6 @@ describe('bedFor', () => {
   });
 });
 
-describe('launch cues: deliberate silence (D-027)', () => {
-  const cues = scenes['kamal-ke-teen-ishare'];
-  /** The scene holding at a paragraph index, as the reader computes it. */
-  const holding = (i: number) => [...cues].reverse().find((c) => c.index <= i)!;
-  const bedAt = (i: number) => bedFor(holding(i));
-
-  // Paragraph indices of the Voice A text (2026-11-27): 81 paragraphs.
-  it('has sound "silence" on cues 0, 39 and 65', () => {
-    for (const i of [0, 39, 65]) expect(cues.find((c) => c.index === i)?.sound).toBe('silence');
-  });
-  it('plays no bed at the cover, the marking night (39 to 45) or the verdict and ending (65 to 80)', () => {
-    for (const i of [0, 39, 40, 41, 42, 43, 44, 45, 65, 70, 75, 80]) {
-      expect(bedAt(i), `paragraph ${i}`).toBeNull();
-    }
-  });
-  it('plays the beds of the story between', () => {
-    const expected: [number, string][] = [
-      [3, 'day'], [11, 'day'], [12, 'day'], [20, 'day'], [21, 'dusk'], [38, 'dusk'],
-      [46, 'fire'], [51, 'fire'], [52, 'day'], [55, 'day'], [56, 'dusk'], [58, 'dusk'], [59, 'forest'], [64, 'forest'],
-    ];
-    for (const [i, bed] of expected) expect(bedAt(i), `paragraph ${i}`).toBe(bed);
-  });
-});
-
-describe('scene cue "sound" field', () => {
-  const base = { art: null, mood: 'night', alt: '' };
-  it('accepts "silence" and keeps it', () => {
-    const [cue] = parseSceneFile('a.scenes.json', JSON.stringify({ 0: { ...base, sound: 'silence' } }), 2, []);
-    expect(cue.sound).toBe('silence');
-  });
-  it('is absent when not given', () => {
-    const [cue] = parseSceneFile('a.scenes.json', JSON.stringify({ 0: base }), 2, []);
-    expect('sound' in cue).toBe(false);
-  });
-  it.each(['loud', '', null, true])('rejects %j and names the file', (bad) => {
-    const src = JSON.stringify({ 0: { ...base, sound: bad } });
-    expect(() => parseSceneFile('a.scenes.json', src, 2, [])).toThrow(/a\.scenes\.json.*"sound" must be "silence"/);
-  });
-});
-
-// ---- preferences ------------------------------------------------------------------------------------------------
 describe('prefs', () => {
   it('defaults to off, volume 2', () => {
     expect(loadPrefs()).toEqual({ on: false, volume: 2 });
@@ -267,7 +224,7 @@ describe('engine', () => {
 // ---- the control ------------------------------------------------------------------------------------------------
 function withScene(mood: 'day' | 'neutral' | 'fire', sound?: 'silence') {
   return (
-    <SceneContext.Provider value={{ cueIndex: 1, art: null, mood, sound }}>
+    <SceneContext.Provider value={{ mood, sound }}>
       <SoundControl />
     </SceneContext.Provider>
   );

@@ -34,6 +34,8 @@ It has these sections:
 
 The draft is written from the brief, [NARRATOR_VOICE.md](NARRATOR_VOICE.md), the [Editorial Guide](EDITORIAL_GUIDE.md) and the charter. It goes to `stories/<ID>/hi/draft.md`. The narrator is Voice A (D-078).
 
+The draft comes with its scene file (`stories/<ID>/hi/scenes.json`, same format as the published one): a picture at least every 400 words and at every plot change, with prompt and sound cues (D-092, D-093). Recurring scenes use the shared ones (D-095).
+
 ## 3. Critique (Sonnet, separate context)
 
 There is one critique, in `stories/<ID>/hi/critique.md`. It checks:
@@ -61,7 +63,7 @@ The user reads the text on the live site or in the PR. If he rejects it, it gets
 
 ## 7. Publish
 
-The text goes to `content/stories/hi/<slug>.md`.
+The text goes to `content/stories/hi/<slug>.md` and its scene file beside it as `<slug>.scenes.json`. The build fails without one.
 
 - Before approval it is `status: draft`, labelled in the reader.
 - After the user approves: `status: approved`, `approved_on: YYYY-MM-DD`, `approved_commit: <sha>` (D-083).

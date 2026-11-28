@@ -1,6 +1,4 @@
-import type { Ref } from 'react';
 import { pothiUi } from '../i18n/hi';
-import { painting } from './Sheet';
 
 const GOLD = '#d9b45c';
 const GOLD_PALE = '#f0d894';
@@ -65,10 +63,9 @@ interface CoverProps {
   opening: boolean;
   onOpen: () => void;
   onOpened: () => void;
-  buttonRef: Ref<HTMLButtonElement>;
 }
 
-export function Cover({ title, subtitle, opening, onOpen, onOpened, buttonRef }: CoverProps) {
+export function Cover({ title, subtitle, opening, onOpen, onOpened }: CoverProps) {
   const Title = opening ? 'div' : 'h1';
   return (
     <div
@@ -81,7 +78,7 @@ export function Cover({ title, subtitle, opening, onOpen, onOpened, buttonRef }:
     >
       <div className="pothi-cover-column">
         <div className="pothi-bundle">
-          <img className="pothi-under" src={painting} alt="" />
+          <div className="pothi-under" />
           <div className="pothi-lid">
             <Board />
             <div className="pothi-board-words">
@@ -90,12 +87,7 @@ export function Cover({ title, subtitle, opening, onOpen, onOpened, buttonRef }:
             </div>
           </div>
         </div>
-        <p className="pothi-cover-note">
-          {pothiUi.sampleNote.map((line) => (
-            <span key={line}>{line} </span>
-          ))}
-        </p>
-        <button type="button" className="pothi-open" onClick={onOpen} ref={buttonRef}>
+        <button type="button" className="pothi-open" onClick={onOpen}>
           {pothiUi.open}
         </button>
       </div>

@@ -1,5 +1,5 @@
 // Which sound bed a scene gets. Pure and free of Web Audio, so it is cheap to test and costs nothing to load.
-import type { Mood } from '../scenes/artIds';
+import type { Mood } from '../scene/moods';
 
 export const BED_NAMES = ['day', 'dusk', 'night', 'fire', 'forest'] as const;
 export type BedName = (typeof BED_NAMES)[number];

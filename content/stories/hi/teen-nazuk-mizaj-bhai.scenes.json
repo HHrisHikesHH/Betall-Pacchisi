@@ -1,0 +1,170 @@
+{
+  "scenes": [
+    {
+      "at": "कुछ दूर तक",
+      "use": "night-walk"
+    },
+    {
+      "at": "\"अंग देश में,\"",
+      "id": "waiting-sacrifice",
+      "mood": "day",
+      "alt": "यज्ञ की आग के पास तीन बेटों को भेजता पिता",
+      "prompt": "A village courtyard with a lit sacrificial fire, neighbours carrying wood, ghee and water; the householder sends his three sons toward the road.",
+      "characters": [
+        "three-brothers"
+      ],
+      "ambience": "city",
+      "music": "court-strings",
+      "accent": "none"
+    },
+    {
+      "at": "तीनों चल पड़े।",
+      "id": "turtle-on-shore",
+      "mood": "day",
+      "alt": "समंदर किनारे धीरे सरकता कछुआ और ठिठके खड़े तीन भाई",
+      "prompt": "A grey restless sea; a large moss-backed turtle crawls on wet sand leaving a smooth trail; the three brothers stand around it, none touching it.",
+      "characters": [
+        "three-brothers"
+      ],
+      "ambience": "sea",
+      "music": "playful",
+      "accent": "none"
+    },
+    {
+      "at": "अब बड़े भाई",
+      "id": "quarrel-on-sand",
+      "mood": "day",
+      "alt": "झगड़ते तीन भाई, पीछे पानी की ओर जाता कछुआ",
+      "prompt": "The brothers argue with raised voices and pointing hands on the beach; behind their backs the turtle slides toward the water.",
+      "characters": [
+        "three-brothers"
+      ],
+      "ambience": "sea",
+      "music": "playful",
+      "accent": "none"
+    },
+    {
+      "at": "विटंकपुर में प्रसेनजित्",
+      "id": "before-prasenajit",
+      "mood": "day",
+      "alt": "दरबार में अपना अजीब झगड़ा सुनाते तीन भाई",
+      "prompt": "A full court; the three brothers present their dispute; the king rests his chin on his hand, studying them like odd gemstones; courtiers hide smiles.",
+      "characters": [
+        "three-brothers",
+        "prasenajit"
+      ],
+      "ambience": "court",
+      "music": "court-strings",
+      "accent": "none"
+    },
+    {
+      "at": "उस दोपहर प्रसेनजित्",
+      "id": "golden-plate",
+      "mood": "day",
+      "alt": "सोने की थाली में भात, जिसे दो उँगलियों से दूर सरकाता बड़ा भाई",
+      "prompt": "A feast: a golden plate with a mound of fine white rice; the eldest brother pushes it away with two fingers, pale; a proud cook gapes.",
+      "characters": [
+        "three-brothers",
+        "prasenajit"
+      ],
+      "ambience": "court",
+      "music": "playful",
+      "accent": "none"
+    },
+    {
+      "at": "किसान दरबार की",
+      "id": "farmer-in-court",
+      "mood": "dusk",
+      "alt": "दरबार में धान की बालियाँ लिए खड़ा बूढ़ा किसान, मुँह फेरता बड़ा भाई",
+      "prompt": "An old farmer with cracked hands and bent shoulders holds ears of paddy with dignity in the glittering court; the eldest brother turns his face away, cloth to nose; silence.",
+      "characters": [
+        "three-brothers",
+        "prasenajit"
+      ],
+      "ambience": "court",
+      "music": "grief-string",
+      "accent": "none"
+    },
+    {
+      "at": "महल का एक",
+      "id": "the-second-test",
+      "mood": "night",
+      "alt": "दीयों और मालाओं वाले कमरे में पीछे हटता मँझला भाई और हँसती गणिका",
+      "prompt": "A room with lamps and flower garlands; a celebrated courtesan, an elegant adult woman in silk, laughs openly with her head back, holding a water cup; the middle brother cowers at the far side, hand on nose. Dignified, not sensual.",
+      "characters": [
+        "three-brothers"
+      ],
+      "ambience": "indoors",
+      "music": "playful",
+      "accent": "none"
+    },
+    {
+      "at": "सुबह प्रसेनजित् ने",
+      "id": "goat-story",
+      "mood": "day",
+      "alt": "दरबार में सिर ऊँचा कर अपने बचपन की बकरी की बात बताती गणिका",
+      "prompt": "In the morning court the courtesan stands self-possessed, telling her story; a small painted inset shows an infant beside a gentle she-goat; the middle brother's ears red.",
+      "characters": [
+        "three-brothers",
+        "prasenajit"
+      ],
+      "ambience": "court",
+      "music": "bansuri",
+      "accent": "none"
+    },
+    {
+      "at": "प्रसेनजित् ने छोटे",
+      "id": "seven-mattresses",
+      "mood": "night",
+      "alt": "सात गद्दों वाले ऊँचे पलंग पर पसली पकड़कर रोता छोटा भाई",
+      "prompt": "A towering bed of seven plump mattresses with a footstool; the youngest brother sits up weeping, hand at his ribs; guards rush in with a lamp.",
+      "characters": [
+        "three-brothers"
+      ],
+      "ambience": "indoors",
+      "music": "playful",
+      "accent": "none"
+    },
+    {
+      "at": "बात प्रसेनजित् तक",
+      "id": "one-hair",
+      "mood": "night",
+      "alt": "दीये के पास दो उँगलियों में एक बाल उठाए राजा",
+      "prompt": "King Prasenajit holds one thin curved hair up to a lamp; seven mattresses piled on the floor; a faint red line on the youngest brother's side.",
+      "characters": [
+        "three-brothers",
+        "prasenajit"
+      ],
+      "ambience": "silence",
+      "music": "none",
+      "accent": "none"
+    },
+    {
+      "at": "उधर वृक्षघट में",
+      "id": "father-waits",
+      "mood": "dusk",
+      "alt": "बुझती साँझ में यज्ञ की आग के पास रास्ता ताकता पिता",
+      "prompt": "An old father at his courtyard door at dusk looks down the empty sea road; behind him the sacrificial fire he keeps alive.",
+      "ambience": "city",
+      "music": "grief-string",
+      "accent": "none"
+    },
+    {
+      "at": "\"तो राजा, बताओ।",
+      "use": "riddle"
+    },
+    {
+      "at": "विक्रम ने साँस",
+      "use": "verdict"
+    },
+    {
+      "at": "\"वाह, राजा। तो",
+      "use": "betal-argues"
+    },
+    {
+      "at": "कंधा हल्का हो",
+      "use": "flight",
+      "accent": "betal-laugh"
+    }
+  ]
+}

@@ -47,9 +47,14 @@ function splitWords(text: string, { start, end }: Span): Span[] {
 
 /**
  * Fills leaves greedily, breaking at sentence ends, and between words only when one sentence is larger than a
- * whole leaf. Returns null when even a single word does not fit on an empty leaf (the reader then scrolls).
+ * whole leaf. A paragraph listed in `breaks` always starts a new leaf (a new scene gets a new picture).
+ * Returns null when even a single word does not fit on an empty leaf (the reader then scrolls).
  */
-export function paginate(paragraphs: string[], fits: (leaf: Leaf, leafIndex: number) => boolean): Leaf[] | null {
+export function paginate(
+  paragraphs: string[],
+  fits: (leaf: Leaf, leafIndex: number) => boolean,
+  breaks: ReadonlySet<number> = new Set(),
+): Leaf[] | null {
   const leaves: Leaf[] = [];
   let leaf: Leaf = [];
 
@@ -70,6 +75,7 @@ export function paginate(paragraphs: string[], fits: (leaf: Leaf, leafIndex: num
 
   for (let paragraph = 0; paragraph < paragraphs.length; paragraph++) {
     const text = paragraphs[paragraph];
+    if (breaks.has(paragraph) && leaf.length > 0) turn();
     for (const sentence of splitSentences(text)) {
       if (tryAdd(paragraph, sentence)) continue;
       if (leaf.length > 0) {
