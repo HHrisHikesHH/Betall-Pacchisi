@@ -138,12 +138,13 @@ describe('reading comfort', () => {
     fireEvent.click(within(dialog).getByRole('button', { name: 'अक्षर बड़े करें' }));
     fireEvent.click(within(dialog).getByRole('button', { name: 'अक्षर बड़े करें' }));
     expect(within(dialog).getByRole('button', { name: 'अक्षर बड़े करें' })).toBeDisabled();
-    fireEvent.click(within(dialog).getByRole('button', { name: 'मुक्ता' }));
+    fireEvent.click(within(dialog).getByRole('button', { name: 'सादा' }));
     fireEvent.click(within(dialog).getByRole('button', { name: 'खुली' }));
     fireEvent.click(within(dialog).getByRole('button', { name: 'रात' }));
     expect(within(dialog).getByRole('button', { name: 'रात' })).toHaveAttribute('aria-pressed', 'true');
     expect(within(dialog).getByRole('button', { name: 'कागज़' })).toHaveAttribute('aria-pressed', 'false');
     expect(root()).toHaveAttribute('data-theme', 'night');
+    expect(root()).toHaveAttribute('data-font', 'mukta');
     expect(root().style.getPropertyValue('--read-leading')).toBe('1.95');
     expect(root().style.getPropertyValue('--read-face')).toContain('Mukta');
     expect(JSON.parse(window.localStorage.getItem('betal-pachisi:reading')!)).toEqual({

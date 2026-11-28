@@ -1,5 +1,5 @@
 import { afterEach, describe, expect, it, vi } from 'vitest';
-import { clampSize, DEFAULT_READING, loadReading, normalizeReading, saveReading } from './prefs';
+import { clampSize, DEFAULT_READING, FONTS, loadReading, normalizeReading, saveReading } from './prefs';
 
 afterEach(() => {
   vi.restoreAllMocks();
@@ -30,6 +30,14 @@ describe('reading prefs', () => {
     expect(normalizeReading(null)).toEqual(DEFAULT_READING);
     window.localStorage.setItem('betal-pachisi:reading', '{not json');
     expect(loadReading()).toEqual(DEFAULT_READING);
+  });
+
+  it('offers four distinct faces and moves saved "noto" to tiro', () => {
+    expect(FONTS).toEqual(['tiro', 'eczar', 'kalam', 'mukta']);
+    expect(normalizeReading({ font: 'noto' }).font).toBe('tiro');
+    window.localStorage.setItem('betal-pachisi:reading', JSON.stringify({ size: 4, font: 'noto', leading: 'airy', theme: 'night' }));
+    expect(loadReading()).toEqual({ size: 4, font: 'tiro', leading: 'airy', theme: 'night' });
+    expect(normalizeReading({ font: 'kalam' }).font).toBe('kalam');
   });
 
   it('round-trips a save', () => {

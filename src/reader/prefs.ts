@@ -1,7 +1,7 @@
 // The reader's comfort settings, kept on this device only. Every access is guarded: storage can be blocked or full.
 const KEY = 'betal-pachisi:reading';
 
-export type FontChoice = 'tiro' | 'noto' | 'mukta';
+export type FontChoice = 'tiro' | 'eczar' | 'kalam' | 'mukta';
 export type Leading = 'compact' | 'normal' | 'airy';
 export type Theme = 'paper' | 'night';
 
@@ -13,7 +13,7 @@ export interface ReadingPrefs {
   theme: Theme;
 }
 
-export const FONTS: readonly FontChoice[] = ['tiro', 'noto', 'mukta'];
+export const FONTS: readonly FontChoice[] = ['tiro', 'eczar', 'kalam', 'mukta'];
 export const LEADINGS: readonly Leading[] = ['compact', 'normal', 'airy'];
 export const THEMES: readonly Theme[] = ['paper', 'night'];
 export const MIN_SIZE = 1;
@@ -28,14 +28,16 @@ export const LEADING_VALUES: Record<Leading, number> = {
 };
 /** CSS font stacks for body text. Titles keep their own face. */
 export const FONT_STACKS: Record<FontChoice, string> = {
-  tiro: "'Tiro Devanagari Hindi', 'Noto Serif Devanagari', serif",
-  noto: "'Noto Serif Devanagari', 'Tiro Devanagari Hindi', serif",
-  mukta: "'Mukta', 'Noto Serif Devanagari', sans-serif",
+  tiro: "'Tiro Devanagari Hindi', serif",
+  eczar: "'Eczar', 'Tiro Devanagari Hindi', serif",
+  kalam: "'Kalam', 'Tiro Devanagari Hindi', cursive",
+  mukta: "'Mukta', sans-serif",
 };
 /** The family name to load for each choice. */
 export const FONT_FAMILIES: Record<FontChoice, string> = {
   tiro: 'Tiro Devanagari Hindi',
-  noto: 'Noto Serif Devanagari',
+  eczar: 'Eczar',
+  kalam: 'Kalam',
   mukta: 'Mukta',
 };
 
@@ -60,6 +62,7 @@ export function normalizeReading(data: unknown): ReadingPrefs {
   const d = (data && typeof data === 'object' ? data : {}) as Partial<Record<keyof ReadingPrefs, unknown>>;
   return {
     size: d.size === undefined || d.size === null ? DEFAULT_READING.size : clampSize(d.size),
+    // 'noto' was dropped: it looked like 'tiro'. Saved choices of it fall back to the default.
     font: oneOf(FONTS, d.font, DEFAULT_READING.font),
     leading: oneOf(LEADINGS, d.leading, DEFAULT_READING.leading),
     theme: oneOf(THEMES, d.theme, DEFAULT_READING.theme),

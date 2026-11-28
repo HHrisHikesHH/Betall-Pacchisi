@@ -48,7 +48,7 @@ export const readingUi = {
   smaller: 'अक्षर छोटे करें',
   larger: 'अक्षर बड़े करें',
   fontLabel: 'अक्षर शैली',
-  fonts: { tiro: 'तिरो', noto: 'नोटो सेरिफ़', mukta: 'मुक्ता' },
+  fonts: { tiro: 'पोथी', eczar: 'दमदार', kalam: 'हस्तलिखित', mukta: 'सादा' },
   leadingLabel: 'पंक्तियों की दूरी',
   leadings: { compact: 'पास', normal: 'सामान्य', airy: 'खुली' },
   themeLabel: 'पन्ना',

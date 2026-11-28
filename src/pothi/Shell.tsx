@@ -10,6 +10,7 @@ export function Shell({ mood = 'neutral', children }: { mood?: Mood; children: R
     <div
       className={yatra ? 'pothi pothi--yatra' : 'pothi'}
       data-mood={mood}
+      data-font={prefs.font}
       data-theme={prefs.theme === 'night' ? 'night' : undefined}
       style={readingStyle(prefs)}
       ref={setRoot}

@@ -9,7 +9,7 @@
   --room-1: #d9bd89;
   --room-2: #bd9d68;
   --room-3: #7d5d34;
-  --body-face: 'Tiro Devanagari Hindi', 'Noto Serif Devanagari', serif;
+  --body-face: 'Tiro Devanagari Hindi', serif;
   --title-face: 'Rozha One', 'Tiro Devanagari Hindi', serif;
   /* the reader's own settings (set on this element by the Shell) */
   --read-scale: 1;
@@ -328,7 +328,7 @@
   overflow: hidden;
   font-family: var(--read-face);
   font-size: calc(clamp(17px, 1.68cqw, 28px) * var(--read-scale));
-  line-height: var(--read-leading);
+  line-height: calc(var(--read-leading) + var(--lead-boost, 0));
 }
 
 .pothi-flow {
@@ -815,7 +815,7 @@
     max(22px, env(safe-area-inset-left));
   font-family: var(--read-face);
   font-size: calc(clamp(1.1rem, 1rem + 0.5vw, 1.25rem) * var(--read-scale));
-  line-height: var(--read-leading);
+  line-height: calc(var(--read-leading) + var(--lead-boost, 0));
 }
 
 /* ---------- Moods: the room and the paper follow the story (D-026). Ink stays dark on every paper. ---------- */
@@ -1200,6 +1200,11 @@
   color: #fff0c4;
 }
 
+.pothi[data-font='kalam'] {
+  /* Kalam's tall strokes need more room between lines */
+  --lead-boost: 0.12;
+}
+
 .pothi-sample {
   max-height: 6.5em;
   margin: 0;
@@ -1208,7 +1213,7 @@
   border-top: 1px solid var(--gold);
   font-family: var(--read-face);
   font-size: calc(1rem * var(--read-scale));
-  line-height: var(--read-leading);
+  line-height: calc(var(--read-leading) + var(--lead-boost, 0));
 }
 
 /* a sideways phone: two columns, so the panel needs no scrolling */
