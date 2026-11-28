@@ -1055,10 +1055,105 @@
   vertical-align: middle;
 }
 
+/* ---------- Motion over a finished painting (src/scene/AnimatedPainting.tsx) ----------
+   The stage has the painting's own proportions and is anchored where the painting is (top left), so effects
+   land on the same spot in the full leaf and in the cropped picture of the scroll view. Everything rests
+   invisible: with no animation running, readers see the untouched painting. */
+.pothi-motion {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.pothi-motion .pm-box {
+  position: absolute;
+  overflow: hidden;
+}
+
+.pothi-motion .pm-breeze {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 40%;
+  background: linear-gradient(
+    100deg,
+    transparent,
+    rgb(255 236 186 / 0.35) 40%,
+    rgb(255 248 222 / 0.5) 50%,
+    rgb(255 236 186 / 0.35) 60%,
+    transparent
+  );
+  mix-blend-mode: soft-light;
+  opacity: 0;
+}
+
+.pothi-motion .pm-glow,
+.pothi-motion .pm-glint,
+.pothi-motion .pm-spark {
+  position: absolute;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+}
+
+.pothi-motion .pm-glow {
+  background: radial-gradient(circle, rgb(255 222 150 / 0.7), rgb(255 205 125 / 0.28) 45%, transparent 70%);
+  mix-blend-mode: soft-light;
+}
+
+.pothi-motion .pm-glint {
+  background: radial-gradient(
+    circle,
+    rgb(255 246 205 / 0.45),
+    rgb(255 236 170 / 0.15) 42%,
+    rgb(255 244 200 / 0.5) 48%,
+    transparent 56%
+  );
+  mix-blend-mode: screen;
+}
+
+.pothi-motion .pm-spark {
+  border-radius: 0;
+  background:
+    linear-gradient(90deg, transparent 49%, rgb(255 250 225 / 0.6) 50%, transparent 51%),
+    linear-gradient(0deg, transparent 49%, rgb(255 250 225 / 0.6) 50%, transparent 51%);
+  mask-image: radial-gradient(circle, #000 5%, transparent 45%);
+  mix-blend-mode: screen;
+}
+
+.pothi-motion .pm-mote {
+  position: absolute;
+  width: 1.1%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgb(255 246 214 / 0.95), transparent 70%);
+  mix-blend-mode: screen;
+  opacity: 0;
+}
+
+.pothi-motion .pm-layer {
+  position: absolute;
+  max-width: none;
+  user-select: none;
+}
+
+.pothi-motion .pm-layer[data-motion='blink'] {
+  opacity: 0;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .pothi *,
   .pothi-cover--opening {
     animation: none !important;
     transition: none !important;
+  }
+  /* the painting stays; drawn light and dust go (AnimatedPainting also starts no animation) */
+  .pothi-motion > :not(.pm-layer) {
+    display: none;
   }
 }
